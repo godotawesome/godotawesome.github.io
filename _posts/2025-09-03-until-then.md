@@ -2,9 +2,9 @@
 layout: post
 title:  "Buckshot Roulette"
 author: alihan98ersoy
-categories: [showCase ]
+categories: [showCase]
 tags: [game]
-image: https://raw.githubusercontent.com/alihan98ersoy/markdown_files/refs/heads/master/godot_awesome/v001/assets/f30c31a5a26da5381ca3ff044b2d3948.png
+image: assets/images/11.jpg
 description: "Buckshot Roulette the game"
 featured: true
 hidden: false
