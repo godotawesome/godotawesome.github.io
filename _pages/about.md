@@ -1,35 +1,50 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: About Me
 permalink: /about
 comments: true
 ---
 
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+# About Me
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+👋 Hi there! Welcome to **Godot Awesome** – a community-driven space where we explore, share, and celebrate everything related to the **Godot Engine**.
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
+I’m passionate about game development and open-source technology. Over time, I realized how powerful Godot is as a free and flexible game engine, and I wanted to create a hub that makes it easier for developers to find **resources, plugins, tutorials, and inspiring projects**.
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+---
 
-<h4>Questions or bug reports?</h4>
+## 🎯 Mission
+My goal is simple:  
+To build a curated platform where developers can **discover awesome Godot content** and stay inspired while creating their own games.
 
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
 
-</div>
 
-<div class="col-md-4">
+---
 
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
+## 💡 What You’ll Find Here
+- 🔌 **Plugins & Tools** to speed up your workflow  
+- 📚 **Learning Resources** for beginners and experts  
+- 🎮 **Community Projects** to spark creativity  
+- 📰 **News & Updates** about the Godot ecosystem  
 
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
+---
 
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
+## 🚀 Why Godot?
+Because game development should be **accessible to everyone**.  
+Godot’s open-source philosophy, lightweight design, and ever-growing community make it the perfect place to start or grow as a developer.
 
-</div>
-</div>
-</div>
+---
+
+## 🤝 Get Involved
+This project is community-powered!  
+If you’d like to share your project, contribute, or just say hi, feel free to reach out. Together, we can make **Godot Awesome** truly awesome.  
+
+✨ Let’s build amazing things with Godot!
+
+---
+## Who am I?
+
+Hi, I’m **Alihan Ersoy**,  a software developer passionate about building useful tools, apps, and community projects.  
+I enjoy working with modern technologies and creating resources that help others in their development journey.  
+
+🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/alihan98ersoy/)
