@@ -1,22 +1,21 @@
 ---
 layout: post
-title:  "Buckshot Roulette"
+title:  "Until Then"
 author: alihan98ersoy
 categories: [showCase]
 tags: [game]
-image: assets/images/11.jpg
-description: "Buckshot Roulette the game"
+image: https://raw.githubusercontent.com/alihan98ersoy/markdown_files/refs/heads/master/godot_awesome/v001/assets/until_then_header.jpg
+description: "Until Then the game"
 featured: true
 hidden: false
 rating: 4.5
 ---
 
-# Until Then
-
 **Developer:** Polychroma Games  
 **Publisher:** Maximum Entertainment  
 **Engine:** Godot Engine  
-**Release Date:** June 25, 2024 (PC, PS5, Linux); Nintendo Switch release: June 26, 2025 :contentReference[oaicite:0]{index=0}
+**Release Date:** June 25, 2024 (PC, PS5, Linux); 
+			    Nintendo Switch release: June 26, 2025
 
 ---
 
