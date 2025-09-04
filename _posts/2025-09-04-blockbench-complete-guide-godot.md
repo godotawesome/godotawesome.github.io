@@ -8,7 +8,6 @@ image: assets/images/articles/blockbench-video.png
 description: "Master BlockBench, the free and powerful 3D modeling tool perfect for creating low-poly models for your Godot games. Complete tutorial from basics to advanced techniques."
 featured: true
 hidden: false
-rating: 5
 ---
 
 Are you looking for a **free, powerful, and user-friendly 3D modeling tool** for your Godot projects? Look no further than **BlockBench**! This incredible open-source editor has revolutionized the way developers create low-poly 3D models, and today we'll dive deep into everything you need to know about this amazing tool.
