@@ -6,7 +6,7 @@ categories: [showCase]
 tags: [game]
 image: https://raw.githubusercontent.com/alihan98ersoy/markdown_files/refs/heads/master/godot_awesome/v001/assets/f30c31a5a26da5381ca3ff044b2d3948.png
 description: "Buckshot Roulette the game"
-featured: true
+featured: false
 hidden: false
 ---
 

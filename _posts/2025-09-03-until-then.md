@@ -6,9 +6,8 @@ categories: [showCase]
 tags: [game]
 image: https://raw.githubusercontent.com/alihan98ersoy/markdown_files/refs/heads/master/godot_awesome/v001/assets/until_then_header.jpg
 description: "Until Then the game"
-featured: true
+featured: false
 hidden: false
-rating: 4.5
 ---
 
 **Developer:** Polychroma Games  

@@ -8,7 +8,6 @@ image: https://raw.githubusercontent.com/alihan98ersoy/markdown_files/refs/heads
 description: "Welcome to the latest Godot Awesome News & Updates!\nHere’s what’s been happening in the Godot Engine world and the wider indie game dev community this month. 🚀"
 featured: true
 hidden: false
-rating: 4.5
 ---
 
 ## 🔥 Godot 4.3 Beta Released
