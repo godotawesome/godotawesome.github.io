@@ -2,7 +2,6 @@
 layout: page
 title: Welcome
 permalink: /welcome
-comments: true
 ---
 
 # 👋 Welcome to Godot Awesome!
