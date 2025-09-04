@@ -1,7 +1,7 @@
 # Site
 name: "GodotAwesome"
 title: "GodotAwesome"
-description: "Godot game engine blog."
+description: "Godot is awesome."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
