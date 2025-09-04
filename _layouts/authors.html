@@ -1,0 +1,47 @@
+---
+title: "Authors"
+layout: default
+permalink: "/authors.html"
+---
+
+<div class="row listrecent">
+{% for author in site.authors %}
+<div class="section-title col-md-12 mt-4">
+<h2 id="{{ author[0] | replace: " ","-" }}">Author <span class="text-capitalize">{{ author[1].display_name }}</span></h2>
+<div class="author-meta">
+    <div class="author-avatar">
+        {% if author[1].avatar %}
+        <img src="{{ site.baseurl }}/{{ author[1].avatar }}" alt="{{ author[1].display_name }}" class="rounded-circle" width="70">
+        {% elsif author[1].gravatar %}
+        <img src="{{ site.baseurl }}/{{ author[1].gravatar }}" alt="{{ author[1].display_name }}" class="rounded-circle" width="70">
+        {% endif %}
+    </div>
+    <div class="author-info ml-3">
+        <h4>{{ author[1].name }}</h4>
+        <p>{{ author[1].description }}</p>
+        {% if author[1].web %}
+        <a target="_blank" href="{{ author[1].web }}" class="btn btn-outline-success btn-sm">Website</a>
+        {% endif %}
+        {% if author[1].twitter %}
+        <a target="_blank" href="{{ author[1].twitter }}" class="btn btn-outline-primary btn-sm">Twitter</a>
+        {% endif %}
+    </div>
+</div>
+</div>
+{% assign author_posts = site.posts | where: 'author', author[0] %}
+{% if author_posts.size > 0 %}
+<div class="col-md-12 mb-4">
+    <h5>Posts by {{ author[1].display_name }}:</h5>
+</div>
+{% for post in author_posts %}
+{% if post.title != null %}
+{% include postbox.html %}
+{% endif %}
+{% endfor %}
+{% else %}
+<div class="col-md-12 mb-4">
+    <p class="text-muted">No posts by this author yet.</p>
+</div>
+{% endif %}
+{% endfor %}
+</div>
