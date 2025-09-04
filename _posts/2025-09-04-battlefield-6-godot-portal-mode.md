@@ -2,8 +2,8 @@
 layout: post
 title: "Battlefield 6 Embraces Godot Engine for Portal Mode: A Game-Changing Move for Open Source"
 author: alihan98ersoy
-categories: [ Trending Topics, Game Development, Open Source ]
-tags: [Godot, Battlefield, Portal, Open Source, Game Development, EA]
+categories: [Trending Topics]
+tags: [Battlefield, Trends]
 image: assets/images/articles/battlefield-6-uses-godot-for-portal-v0-ungevhnca9gf1.webp
 description: "Electronic Arts surprises the gaming world by integrating Godot Engine into Battlefield 6's Portal mode, marking a significant step towards open-source adoption in AAA gaming."
 featured: true
