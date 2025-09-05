@@ -967,15 +967,6 @@ iframe {
     }
 }
 
-/* Hide main heading site title on home page to avoid duplication */
-.layout-default .mainheading {
-    display: none;
-}
-
-/* Show main heading on other pages */
-body:not(.layout-default) .mainheading {
-    display: block;
-}
 
 .navbar .dropdown .dropdown-menu {
     margin-top: 0;
