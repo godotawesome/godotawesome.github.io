@@ -904,15 +904,29 @@ iframe {
 .navbar .dropdown:hover .dropdown-menu {
     display: block !important;
     margin-top: 0;
+    opacity: 1;
+    visibility: visible;
 }
 
 .navbar .dropdown .dropdown-menu {
     display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
 }
 
 .navbar .dropdown:hover .dropdown-menu,
 .navbar .dropdown.show .dropdown-menu {
     display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Force hover behavior */
+.navbar .nav-item.dropdown:hover > .dropdown-menu {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
 .navbar .dropdown .dropdown-menu {

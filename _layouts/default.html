@@ -242,45 +242,91 @@
 <!-- Custom Categories Dropdown Script -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const dropdown = document.querySelector('.navbar .dropdown');
-    const dropdownToggle = document.querySelector('#categoriesDropdown');
-    const dropdownMenu = dropdown.querySelector('.dropdown-menu');
-    
-    // Hover functionality
-    dropdown.addEventListener('mouseenter', function() {
-        dropdownMenu.style.display = 'block';
-        dropdown.classList.add('show');
-        dropdownToggle.setAttribute('aria-expanded', 'true');
-    });
-    
-    dropdown.addEventListener('mouseleave', function() {
-        dropdownMenu.style.display = 'none';
-        dropdown.classList.remove('show');
-        dropdownToggle.setAttribute('aria-expanded', 'false');
-    });
-    
-    // Click functionality for main Categories link
-    dropdownToggle.addEventListener('click', function(e) {
-        // If dropdown is not visible, show it
-        if (dropdownMenu.style.display === 'none' || !dropdownMenu.style.display) {
-            e.preventDefault();
+    // Wait a bit more for all elements to be ready
+    setTimeout(function() {
+        const dropdown = document.querySelector('.navbar .dropdown');
+        const dropdownToggle = document.querySelector('#categoriesDropdown');
+        
+        if (!dropdown || !dropdownToggle) {
+            console.log('Dropdown elements not found, retrying...');
+            return;
+        }
+        
+        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+        
+        if (!dropdownMenu) {
+            console.log('Dropdown menu not found');
+            return;
+        }
+        
+        console.log('Categories dropdown initialized successfully');
+        
+        // Hover functionality
+        dropdown.addEventListener('mouseenter', function() {
             dropdownMenu.style.display = 'block';
             dropdown.classList.add('show');
             dropdownToggle.setAttribute('aria-expanded', 'true');
-        } else {
-            // If dropdown is visible, navigate to categories page
-            window.location.href = '{{ site.baseurl }}/categories';
-        }
-    });
-    
-    // Close dropdown when clicking outside
-    document.addEventListener('click', function(e) {
-        if (!dropdown.contains(e.target)) {
+        });
+        
+        dropdown.addEventListener('mouseleave', function() {
             dropdownMenu.style.display = 'none';
             dropdown.classList.remove('show');
             dropdownToggle.setAttribute('aria-expanded', 'false');
+        });
+        
+        // Click functionality for main Categories link
+        dropdownToggle.addEventListener('click', function(e) {
+            console.log('Categories link clicked');
+            // If dropdown is not visible, show it
+            if (dropdownMenu.style.display === 'none' || !dropdownMenu.style.display) {
+                e.preventDefault();
+                dropdownMenu.style.display = 'block';
+                dropdown.classList.add('show');
+                dropdownToggle.setAttribute('aria-expanded', 'true');
+            } else {
+                // If dropdown is visible, navigate to categories page
+                window.location.href = '{{ site.baseurl }}/categories';
+            }
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!dropdown.contains(e.target)) {
+                dropdownMenu.style.display = 'none';
+                dropdown.classList.remove('show');
+                dropdownToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+        
+    }, 100); // Small delay to ensure DOM is fully ready
+});
+
+// Fallback initialization
+window.addEventListener('load', function() {
+    const dropdown = document.querySelector('.navbar .dropdown');
+    const dropdownToggle = document.querySelector('#categoriesDropdown');
+    
+    if (dropdown && dropdownToggle && !dropdown.hasAttribute('data-initialized')) {
+        dropdown.setAttribute('data-initialized', 'true');
+        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+        
+        if (dropdownMenu) {
+            console.log('Fallback: Categories dropdown initialized');
+            
+            // Hover functionality
+            dropdown.addEventListener('mouseenter', function() {
+                dropdownMenu.style.display = 'block';
+                dropdown.classList.add('show');
+                dropdownToggle.setAttribute('aria-expanded', 'true');
+            });
+            
+            dropdown.addEventListener('mouseleave', function() {
+                dropdownMenu.style.display = 'none';
+                dropdown.classList.remove('show');
+                dropdownToggle.setAttribute('aria-expanded', 'false');
+            });
         }
-    });
+    }
 });
 </script>
 
