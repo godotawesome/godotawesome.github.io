@@ -106,7 +106,7 @@
                             {% assign category_icon = '📋' %}
                         {% elsif category_name contains 'Plugin' %}
                             {% assign category_icon = '🔌' %}
-                        {% elsif category_name contains 'Asset' %}
+                        {% elsif category_name contains 'Asset' or category_name contains 'Project' %}
                             {% assign category_icon = '📦' %}
                         {% else %}
                             {% assign category_icon = '📂' %}
@@ -121,8 +121,55 @@
                 </div>
                 </li>
 
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/tags">Tags</a>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/tags" id="tagsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tags
+                </a>
+                <div class="dropdown-menu" aria-labelledby="tagsDropdown">
+                    {% assign sorted_tags = site.tags | sort %}
+                    {% for tag in sorted_tags %}
+                        {% assign tag_name = tag[0] %}
+                        {% assign tag_posts = tag[1] %}
+                        {% assign tag_slug = tag_name | url_escape | strip | replace: ' ', '-' %}
+                        {% assign tag_icon = '' %}
+                        
+                        {% if tag_name contains 'Godot' or tag_name contains 'Engine' %}
+                            {% assign tag_icon = '🎮' %}
+                        {% elsif tag_name contains 'Tutorial' or tag_name contains 'Guide' %}
+                            {% assign tag_icon = '📖' %}
+                        {% elsif tag_name contains 'Indie' or tag_name contains 'Game' %}
+                            {% assign tag_icon = '🎯' %}
+                        {% elsif tag_name contains '3D' or tag_name contains 'Model' or tag_name contains 'Voxel' %}
+                            {% assign tag_icon = '🎨' %}
+                        {% elsif tag_name contains 'Pixel' or tag_name contains 'Art' %}
+                            {% assign tag_icon = '🖼️' %}
+                        {% elsif tag_name contains 'Block' or tag_name contains 'Tool' %}
+                            {% assign tag_icon = '🔧' %}
+                        {% elsif tag_name contains 'Visual' or tag_name contains 'Novel' %}
+                            {% assign tag_icon = '📚' %}
+                        {% elsif tag_name contains 'Steam' or tag_name contains 'Success' %}
+                            {% assign tag_icon = '🏆' %}
+                        {% elsif tag_name contains 'Multi' or tag_name contains 'Player' %}
+                            {% assign tag_icon = '👥' %}
+                        {% elsif tag_name contains 'News' or tag_name contains 'Update' %}
+                            {% assign tag_icon = '📰' %}
+                        {% elsif tag_name contains 'Trend' or tag_name contains 'Battle' %}
+                            {% assign tag_icon = '📈' %}
+                        {% elsif tag_name contains 'Low' or tag_name contains 'Poly' %}
+                            {% assign tag_icon = '🔻' %}
+                        {% elsif tag_name contains 'Development' %}
+                            {% assign tag_icon = '💻' %}
+                        {% else %}
+                            {% assign tag_icon = '🏷️' %}
+                        {% endif %}
+                        
+                        <a class="dropdown-item" href="{{ site.baseurl }}/tags#{{ tag_slug }}">
+                            {{ tag_icon }} {{ tag_name }} <span class="badge badge-light ml-auto">{{ tag_posts.size }}</span>
+                        </a>
+                    {% endfor %}
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/tags">🏷️ All Tags</a>
+                </div>
                 </li>
 
                 <li class="nav-item">
@@ -244,90 +291,125 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Wait a bit more for all elements to be ready
     setTimeout(function() {
-        const dropdown = document.querySelector('.navbar .dropdown');
-        const dropdownToggle = document.querySelector('#categoriesDropdown');
+        // Initialize Categories Dropdown
+        initializeDropdown('categoriesDropdown', '{{ site.baseurl }}/categories', 'Categories');
         
-        if (!dropdown || !dropdownToggle) {
-            console.log('Dropdown elements not found, retrying...');
-            return;
-        }
-        
-        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
-        
-        if (!dropdownMenu) {
-            console.log('Dropdown menu not found');
-            return;
-        }
-        
-        console.log('Categories dropdown initialized successfully');
-        
-        // Hover functionality
-        dropdown.addEventListener('mouseenter', function() {
-            dropdownMenu.style.display = 'block';
-            dropdown.classList.add('show');
-            dropdownToggle.setAttribute('aria-expanded', 'true');
-        });
-        
-        dropdown.addEventListener('mouseleave', function() {
-            dropdownMenu.style.display = 'none';
-            dropdown.classList.remove('show');
-            dropdownToggle.setAttribute('aria-expanded', 'false');
-        });
-        
-        // Click functionality for main Categories link
-        dropdownToggle.addEventListener('click', function(e) {
-            console.log('Categories link clicked');
-            // If dropdown is not visible, show it
-            if (dropdownMenu.style.display === 'none' || !dropdownMenu.style.display) {
-                e.preventDefault();
-                dropdownMenu.style.display = 'block';
-                dropdown.classList.add('show');
-                dropdownToggle.setAttribute('aria-expanded', 'true');
-            } else {
-                // If dropdown is visible, navigate to categories page
-                window.location.href = '{{ site.baseurl }}/categories';
-            }
-        });
-        
-        // Close dropdown when clicking outside
-        document.addEventListener('click', function(e) {
-            if (!dropdown.contains(e.target)) {
-                dropdownMenu.style.display = 'none';
-                dropdown.classList.remove('show');
-                dropdownToggle.setAttribute('aria-expanded', 'false');
-            }
-        });
+        // Initialize Tags Dropdown
+        initializeDropdown('tagsDropdown', '{{ site.baseurl }}/tags', 'Tags');
         
     }, 100); // Small delay to ensure DOM is fully ready
 });
 
+// Generic dropdown initialization function
+function initializeDropdown(dropdownId, navigationUrl, dropdownName) {
+    const dropdownToggle = document.querySelector('#' + dropdownId);
+    
+    if (!dropdownToggle) {
+        console.log(dropdownName + ' dropdown toggle not found');
+        return;
+    }
+    
+    const dropdown = dropdownToggle.closest('.dropdown');
+    
+    if (!dropdown) {
+        console.log(dropdownName + ' dropdown container not found');
+        return;
+    }
+    
+    const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+    
+    if (!dropdownMenu) {
+        console.log(dropdownName + ' dropdown menu not found');
+        return;
+    }
+    
+    console.log(dropdownName + ' dropdown initialized successfully');
+    
+    // Hover functionality
+    dropdown.addEventListener('mouseenter', function() {
+        dropdownMenu.style.display = 'block';
+        dropdown.classList.add('show');
+        dropdownToggle.setAttribute('aria-expanded', 'true');
+    });
+    
+    dropdown.addEventListener('mouseleave', function() {
+        dropdownMenu.style.display = 'none';
+        dropdown.classList.remove('show');
+        dropdownToggle.setAttribute('aria-expanded', 'false');
+    });
+    
+    // Click functionality for main link
+    dropdownToggle.addEventListener('click', function(e) {
+        console.log(dropdownName + ' link clicked');
+        // If dropdown is not visible, show it
+        if (dropdownMenu.style.display === 'none' || !dropdownMenu.style.display) {
+            e.preventDefault();
+            dropdownMenu.style.display = 'block';
+            dropdown.classList.add('show');
+            dropdownToggle.setAttribute('aria-expanded', 'true');
+        } else {
+            // If dropdown is visible, navigate to page
+            window.location.href = navigationUrl;
+        }
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!dropdown.contains(e.target)) {
+            dropdownMenu.style.display = 'none';
+            dropdown.classList.remove('show');
+            dropdownToggle.setAttribute('aria-expanded', 'false');
+        }
+    });
+}
+
 // Fallback initialization
 window.addEventListener('load', function() {
-    const dropdown = document.querySelector('.navbar .dropdown');
-    const dropdownToggle = document.querySelector('#categoriesDropdown');
+    // Fallback for Categories
+    const categoriesDropdown = document.querySelector('#categoriesDropdown');
+    if (categoriesDropdown) {
+        const dropdown = categoriesDropdown.closest('.dropdown');
+        if (dropdown && !dropdown.hasAttribute('data-initialized')) {
+            dropdown.setAttribute('data-initialized', 'true');
+            const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+            
+            if (dropdownMenu) {
+                console.log('Fallback: Categories dropdown initialized');
+                initializeFallbackHover(dropdown, dropdownMenu, categoriesDropdown);
+            }
+        }
+    }
     
-    if (dropdown && dropdownToggle && !dropdown.hasAttribute('data-initialized')) {
-        dropdown.setAttribute('data-initialized', 'true');
-        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
-        
-        if (dropdownMenu) {
-            console.log('Fallback: Categories dropdown initialized');
+    // Fallback for Tags
+    const tagsDropdown = document.querySelector('#tagsDropdown');
+    if (tagsDropdown) {
+        const dropdown = tagsDropdown.closest('.dropdown');
+        if (dropdown && !dropdown.hasAttribute('data-initialized')) {
+            dropdown.setAttribute('data-initialized', 'true');
+            const dropdownMenu = dropdown.querySelector('.dropdown-menu');
             
-            // Hover functionality
-            dropdown.addEventListener('mouseenter', function() {
-                dropdownMenu.style.display = 'block';
-                dropdown.classList.add('show');
-                dropdownToggle.setAttribute('aria-expanded', 'true');
-            });
-            
-            dropdown.addEventListener('mouseleave', function() {
-                dropdownMenu.style.display = 'none';
-                dropdown.classList.remove('show');
-                dropdownToggle.setAttribute('aria-expanded', 'false');
-            });
+            if (dropdownMenu) {
+                console.log('Fallback: Tags dropdown initialized');
+                initializeFallbackHover(dropdown, dropdownMenu, tagsDropdown);
+            }
         }
     }
 });
+
+// Helper function for fallback hover
+function initializeFallbackHover(dropdown, dropdownMenu, dropdownToggle) {
+    dropdown.addEventListener('mouseenter', function() {
+        dropdownMenu.style.display = 'block';
+        dropdown.classList.add('show');
+        dropdownToggle.setAttribute('aria-expanded', 'true');
+    });
+    
+    dropdown.addEventListener('mouseleave', function() {
+        dropdownMenu.style.display = 'none';
+        dropdown.classList.remove('show');
+        dropdownToggle.setAttribute('aria-expanded', 'false');
+    });
+}
 </script>
 
 {% if page.layout == 'post' %}
