@@ -239,6 +239,51 @@
 
 <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script> 
 
+<!-- Custom Categories Dropdown Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const dropdown = document.querySelector('.navbar .dropdown');
+    const dropdownToggle = document.querySelector('#categoriesDropdown');
+    const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+    
+    // Hover functionality
+    dropdown.addEventListener('mouseenter', function() {
+        dropdownMenu.style.display = 'block';
+        dropdown.classList.add('show');
+        dropdownToggle.setAttribute('aria-expanded', 'true');
+    });
+    
+    dropdown.addEventListener('mouseleave', function() {
+        dropdownMenu.style.display = 'none';
+        dropdown.classList.remove('show');
+        dropdownToggle.setAttribute('aria-expanded', 'false');
+    });
+    
+    // Click functionality for main Categories link
+    dropdownToggle.addEventListener('click', function(e) {
+        // If dropdown is not visible, show it
+        if (dropdownMenu.style.display === 'none' || !dropdownMenu.style.display) {
+            e.preventDefault();
+            dropdownMenu.style.display = 'block';
+            dropdown.classList.add('show');
+            dropdownToggle.setAttribute('aria-expanded', 'true');
+        } else {
+            // If dropdown is visible, navigate to categories page
+            window.location.href = '{{ site.baseurl }}/categories';
+        }
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!dropdown.contains(e.target)) {
+            dropdownMenu.style.display = 'none';
+            dropdown.classList.remove('show');
+            dropdownToggle.setAttribute('aria-expanded', 'false');
+        }
+    });
+});
+</script>
+
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}

@@ -902,8 +902,17 @@ iframe {
 
 /* Custom Dropdown Styles for Categories */
 .navbar .dropdown:hover .dropdown-menu {
-    display: block;
+    display: block !important;
     margin-top: 0;
+}
+
+.navbar .dropdown .dropdown-menu {
+    display: none;
+}
+
+.navbar .dropdown:hover .dropdown-menu,
+.navbar .dropdown.show .dropdown-menu {
+    display: block !important;
 }
 
 .navbar .dropdown .dropdown-menu {
