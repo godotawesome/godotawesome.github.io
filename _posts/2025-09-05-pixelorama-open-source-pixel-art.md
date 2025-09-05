@@ -96,8 +96,8 @@ The project exemplifies the best of open-source development: community collabora
 **Ready to start your pixel art journey?** Download Pixelorama today and join thousands of artists creating amazing pixel art with this incredible open-source tool!
 
 **Resources:**
-- [Pixelorama on GitHub](https://github.com/Orama-Interactive/Pixelorama)
-- [Download on Steam](https://store.steampowered.com/app/2779170/Pixelorama/)
-- [Try the Web Version](https://orama-interactive.github.io/Pixelorama/)
-- [Documentation](https://orama-interactive.github.io/Pixelorama-Docs/)
-- [Join Discord Community](https://discord.gg/GTMtr8s)
+- <a href="https://github.com/Orama-Interactive/Pixelorama" target="_blank">Pixelorama on GitHub</a>
+- <a href="https://store.steampowered.com/app/2779170/Pixelorama/" target="_blank">Download on Steam</a>
+- <a href="https://orama-interactive.github.io/Pixelorama/" target="_blank">Try the Web Version</a>
+- <a href="https://orama-interactive.github.io/Pixelorama-Docs/" target="_blank">Documentation</a>
+- <a href="https://discord.gg/GTMtr8s" target="_blank">Join Discord Community</a>
