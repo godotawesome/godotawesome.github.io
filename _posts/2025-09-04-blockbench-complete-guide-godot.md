@@ -6,7 +6,7 @@ categories: [ Tutorials, 3D Modeling]
 tags: [BlockBench, 3D Modeling, Tutorial, Game Development, Low Poly, Voxel]
 image: assets/images/articles/blockbench-video.png
 description: "Master BlockBench, the free and powerful 3D modeling tool perfect for creating low-poly models for your Godot games. Complete tutorial from basics to advanced techniques."
-featured: true
+featured: false
 hidden: false
 ---
 
