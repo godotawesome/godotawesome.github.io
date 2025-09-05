@@ -929,6 +929,54 @@ iframe {
     visibility: visible !important;
 }
 
+/* Logo and Site Name Styling */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.navbar-brand .sitetitle {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    line-height: 1;
+}
+
+.navbar-brand:hover .sitetitle {
+    color: #00ab6b;
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-brand .sitetitle {
+        font-size: 1.2rem;
+    }
+    
+    .navbar-brand img {
+        height: 32px;
+        margin-right: 8px;
+    }
+}
+
+/* Hide main heading site title on home page to avoid duplication */
+.layout-default .mainheading {
+    display: none;
+}
+
+/* Show main heading on other pages */
+body:not(.layout-default) .mainheading {
+    display: block;
+}
+
 .navbar .dropdown .dropdown-menu {
     margin-top: 0;
     border: none;
