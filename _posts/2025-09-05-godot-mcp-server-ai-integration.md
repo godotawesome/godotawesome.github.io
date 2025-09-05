@@ -22,9 +22,6 @@ For **Godot developers**, this means:
 - **Automated code generation** with immediate testing
 - **Intelligent error resolution** through live feedback loops
 
-<div style="text-align: center; margin: 2rem 0;">
-<img src="https://raw.githubusercontent.com/Coding-Solo/godot-mcp/main/assets/godot-mcp-logo.png" alt="Godot MCP Server Architecture" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
-</div>
 
 ## Core Features That Change Everything 🚀
 
