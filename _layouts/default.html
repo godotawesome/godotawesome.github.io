@@ -76,8 +76,49 @@
                 <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
                 </li>
 
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/categories">Categories</a>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/categories" id="categoriesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                </a>
+                <div class="dropdown-menu" aria-labelledby="categoriesDropdown">
+                    {% assign sorted_categories = site.categories | sort %}
+                    {% for category in sorted_categories %}
+                        {% assign category_name = category[0] %}
+                        {% assign category_posts = category[1] %}
+                        {% assign category_slug = category_name | url_escape | strip | replace: ' ', '-' %}
+                        {% assign category_icon = '' %}
+                        
+                        {% if category_name contains 'Game' or category_name contains 'Showcase' %}
+                            {% assign category_icon = '🎮' %}
+                        {% elsif category_name contains 'Tutorial' %}
+                            {% assign category_icon = '📖' %}
+                        {% elsif category_name contains 'Trending' or category_name contains 'Topic' %}
+                            {% assign category_icon = '📈' %}
+                        {% elsif category_name contains 'News' or category_name contains 'Update' %}
+                            {% assign category_icon = '📰' %}
+                        {% elsif category_name contains '3D' or category_name contains 'Model' %}
+                            {% assign category_icon = '🎨' %}
+                        {% elsif category_name contains 'Tool' or category_name contains 'Resource' %}
+                            {% assign category_icon = '🔧' %}
+                        {% elsif category_name contains 'Review' %}
+                            {% assign category_icon = '⭐' %}
+                        {% elsif category_name contains 'Guide' %}
+                            {% assign category_icon = '📋' %}
+                        {% elsif category_name contains 'Plugin' %}
+                            {% assign category_icon = '🔌' %}
+                        {% elsif category_name contains 'Asset' %}
+                            {% assign category_icon = '📦' %}
+                        {% else %}
+                            {% assign category_icon = '📂' %}
+                        {% endif %}
+                        
+                        <a class="dropdown-item" href="{{ site.baseurl }}/categories#{{ category_slug }}">
+                            {{ category_icon }} {{ category_name }} <span class="badge badge-light ml-auto">{{ category_posts.size }}</span>
+                        </a>
+                    {% endfor %}
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/categories">📂 All Categories</a>
+                </div>
                 </li>
 
                 <li class="nav-item">
