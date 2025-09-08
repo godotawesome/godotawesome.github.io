@@ -1,7 +1,7 @@
 # Site
 name: "GodotAwesome"
 title: "GodotAwesome"
-description: "Your ultimate hub for Godot Engine excellence. Discover game showcases, tutorials, trending topics, and resources for indie developers. Explore the power of open-source game development with curated content, inspiring projects, and community-driven insights."
+description: "Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
