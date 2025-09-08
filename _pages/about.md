@@ -141,6 +141,8 @@ From viral indie hits like **Buckshot Roulette** to culturally significant narra
 **🐛 Report Issues**: Help us improve by reporting bugs or suggesting enhancements  
 **💬 Spread the Word**: Share our content and help grow the Godot community  
 
+You can fill this [form](https://forms.gle/GATopxJpTBVecnrh7). Thank you
+
 ### 🌟 Community Values
 
 - **🤝 Inclusivity**: Everyone is welcome, regardless of skill level or background
