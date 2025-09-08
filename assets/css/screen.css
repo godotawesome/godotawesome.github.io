@@ -987,6 +987,8 @@ iframe {
     column-count: 3;
     column-gap: 1rem;
     column-fill: balance;
+    right: 0;
+    left: auto;
 }
 
 #tagsDropdown + .dropdown-menu .dropdown-item {
