@@ -22,6 +22,15 @@ authors:
     web: https://alihan98ersoy.com.tr
     twitter: https://x.com/alihan98ersoy
     description: "Author of GodotAwesome, a Godot game engine blog."
+  godotscribe:
+    name: GodotScribe 
+    display_name: GodotScribe
+    avatar: 'assets/images/godotscribe.png'
+    gravatar: 'assets/images/godotscribe.png'
+    email: 
+    web: 
+    twitter: 
+    description: "Author of GodotAwesome. She is creating valuable, reader-friendly content for the GodotAwesome community!."
   
 # Plugins
 plugins:
