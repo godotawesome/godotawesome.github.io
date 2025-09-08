@@ -125,7 +125,7 @@ From viral indie hits like **Buckshot Roulette** to culturally significant narra
 - **🌐 Website**: [alihan98ersoy.com.tr](https://alihan98ersoy.com.tr)
 - **💼 LinkedIn**: [linkedin.com/in/alihan98ersoy](https://www.linkedin.com/in/alihan98ersoy/)
 - **🐦 Twitter**: [@alihan98ersoy](https://x.com/alihan98ersoy)
-- **📧 Email**: alihan98ersoy@gmail.com
+- **📧 Email**: godotawesome@gmail.com
 
 ---
 
