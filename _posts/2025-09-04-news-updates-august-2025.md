@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "📰 News & Updates – August 2025"
-author: alihan98ersoy
+author: godotscribe
 categories: [News and Updates]
 tags: [news, updates]
 image: https://raw.githubusercontent.com/alihan98ersoy/markdown_files/refs/heads/master/godot_awesome/v001/assets/godot-showreel-2023.png

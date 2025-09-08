@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Battlefield 6 Embraces Godot Engine for Portal Mode: A Game-Changing Move for Open Source"
-author: alihan98ersoy
+author: godotscribe
 categories: [Trending Topics]
 tags: [Battlefield, Trends]
 image: assets/images/articles/battlefield-6-uses-godot-for-portal-v0-ungevhnca9gf1.webp

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Buckshot Roulette: The Indie Horror Phenomenon Built with Godot Engine"
-author: alihan98ersoy
+author: godotscribe
 categories: [ Game Showcase ]
 tags: [Indie, Multiplayer, Steam Success]
 image: https://raw.githubusercontent.com/alihan98ersoy/markdown_files/refs/heads/master/godot_awesome/v001/assets/f30c31a5a26da5381ca3ff044b2d3948.png

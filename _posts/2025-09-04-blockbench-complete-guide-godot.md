@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BlockBench Complete Guide: Creating 3D Models for Godot Engine"
-author: alihan98ersoy
+author: godotscribe
 categories: [ Tutorials, 3D Modeling]
 tags: [BlockBench, 3D Modeling, Tutorial, Game Development, Low Poly, Voxel]
 image: assets/images/articles/blockbench-video.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Godot Aseprite Wizard: Seamless Animation Import from Aseprite to Godot 4"
-author: alihan98ersoy
+author: godotscribe
 categories: [ Plugins ]
 tags: [Aseprite, Animation Import, 2D Animation, Pixel]
 image: https://raw.githubusercontent.com/viniciusgerevini/godot-aseprite-wizard/refs/heads/godot_4/screenshots/comparison.png

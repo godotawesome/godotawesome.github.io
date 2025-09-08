@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Until Then: A Filipino Visual Novel Masterpiece Built with Godot Engine"
-author: alihan98ersoy
+author: godotscribe
 categories: [ Game Showcase ]
 tags: [Visual Novel, Pixel Art]
 image: https://raw.githubusercontent.com/alihan98ersoy/markdown_files/refs/heads/master/godot_awesome/v001/assets/until_then_header.jpg

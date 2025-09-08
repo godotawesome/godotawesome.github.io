@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Godot MCP Server: Revolutionary AI Integration for Game Development"
-author: alihan98ersoy
+author: godotscribe
 categories: [ Development Tools ]
 tags: [AI Integration, MCP, Development Tools, Automation]
 image: assets/images/articles/godot-mcp-banner.png
