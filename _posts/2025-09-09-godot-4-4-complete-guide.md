@@ -4,7 +4,7 @@ title: "Godot 4.4 Released: Complete Guide to Revolutionary New Features & Perfo
 author: godotscribe
 categories: [ News and Updates ]
 tags: [Godot 4.4, Release, Performance, Update]
-image: https://godotengine.org/storage/blog/covers/godot-4-4-released.webp
+image: https://godotengine.org/storage/blog/covers/godot-4-4-a-unified-experience.webp
 description: "Godot 4.4 brings game-changing features: Jolt Physics integration, .NET 8 support, embedded game window, and massive performance improvements for developers."
 featured: false
 hidden: false
@@ -78,8 +78,9 @@ The **embedded game window** transforms your development experience:
 - 📱 **Better Mobile Testing** - Preview different screen sizes
 
 <div style="text-align: center; margin: 2rem 0;">
-<img src="https://godotengine.org/storage/blog/godot-4-4/embedded-game-window.webp" alt="Godot 4.4 Embedded Game Window" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
+<img src="https://godotengine.org/storage/blog/covers/godot-4-4-a-unified-experience.webp" alt="Godot 4.4 Embedded Game Window" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
 </div>
+
 
 ## ⚡ Performance Improvements That Matter
 

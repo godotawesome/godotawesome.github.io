@@ -4,7 +4,7 @@ title: "Best Godot Plugins 2025: Essential Tools Every Developer Needs"
 author: godotscribe
 categories: [ Plugins ]
 tags: [Plugin, Addons, Tools]
-image: assets/images/12.jpg
+image: https://is2-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/92/75/fc/9275fc66-82da-2e58-719b-2a86eb37ae3c/bacc9ebd-10b6-4c20-bfff-ccda05043451_3.jpg/1000x1000bb.jpg
 description: "Discover the top 15 must-have Godot plugins for 2025. Boost productivity, enhance workflows, and create better games with these essential developer tools."
 featured: false
 hidden: false
