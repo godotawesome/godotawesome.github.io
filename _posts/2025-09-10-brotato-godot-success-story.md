@@ -6,7 +6,7 @@ categories: [ Game Showcase ]
 tags: [ Indie , Steam Success, Roguelike]
 image: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/header.jpg
 description: "Discover how Brotato, built with Godot Engine, became a Steam sensation with 96% positive reviews and 100K+ sales. The ultimate indie success story."
-featured: true
+featured: false
 hidden: false
 ---
 
