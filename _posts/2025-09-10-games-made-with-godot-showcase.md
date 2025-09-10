@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "20 Amazing Games Made with Godot Engine"
-author: alihan98ersoy
+author: godotscribe
 categories: [ Game Showcase ]
 tags: [ Indie, Success Stories]
 image: assets/images/articles/20amazinggames.png
