@@ -208,7 +208,7 @@ class CookieConsent {
     loadConsentedScripts() {
         // Always load Microsoft Clarity (necessary for site performance)
         if (!window.clarity) {
-            this.loadMicrosoftClarity();
+           // this.loadMicrosoftClarity();
         }
         
         // Load Google Analytics only if consented
