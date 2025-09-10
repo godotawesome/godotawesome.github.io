@@ -31,7 +31,10 @@ class CookieConsent {
         
         // Always load Microsoft Clarity immediately (necessary for site performance)
         if (!window.clarity) {
+            console.log('Loading Microsoft Clarity immediately...');
             this.loadMicrosoftClarity();
+        } else {
+            console.log('Microsoft Clarity already loaded');
         }
         
         // Show banner if no consent given
