@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Godot Get Window Size & Screen Size: Quick Solution"
-author: godotscribe
-categories: [ Tutorials ]
-tags: [Tutorial]
+author: alihan98ersoy
+categories: [ Quick Code ]
+tags: [Code, Solution]
 image: assets/images/articles/viewportsize.png
 description: "Quick solution: How to get window size and screen size in Godot Engine. Copy-paste ready code for viewport dimensions."
 featured: false
