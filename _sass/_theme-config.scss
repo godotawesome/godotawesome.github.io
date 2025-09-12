@@ -71,6 +71,8 @@ $active-theme: 'dark' !default;
   $navbar-background: rgba(26, 26, 26, 0.97) !global;
   $navbar-text: #fff !global;
   $footer-background: #1a1a1a !global;
+  $footer-text: rgba(255, 255, 255, 0.8) !global;
+  $footer-border: rgba(255, 255, 255, 0.1) !global;
   $border-light: rgba(255, 255, 255, 0.1) !global;
   $border-medium: rgba(255, 255, 255, 0.2) !global;
 }
@@ -116,4 +118,20 @@ $active-theme: 'dark' !default;
   
   --footer-background: #{$footer-background};
   --footer-text: #{$footer-text};
+  --footer-border: #{$footer-border};
+  
+  // Tema değişkenlerini import et
+  --button-subscribe-bg: #{$button-subscribe-bg};
+  --button-subscribe-border: #{$button-subscribe-border};
+  --button-follow-border: #{$button-follow-border};
+  --button-follow-color: #{$button-follow-color};
+  --tag-background: #{$tag-background};
+  --tag-color: #{$tag-color};
+  --tag-hover-background: #{$tag-hover-background};
+  --blockquote-border: #{$blockquote-border};
+  --blockquote-color: #{$blockquote-color};
+  --border-code: #{$border-code};
+  --font-family-monospace: #{$font-family-monospace};
+  --transition-fast: #{$transition-fast};
+  --shadow-medium: #{$shadow-medium};
 }
