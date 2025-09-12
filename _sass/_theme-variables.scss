@@ -50,9 +50,11 @@ $font-family-monospace: monospace, sans-serif !default;
 // ================================
 $font-size-base: 1rem !default;
 $font-size-small: 0.85rem !default;
-$font-size-large: 1.1rem !default;
-$font-size-heading: 1.4rem !default;
-$font-size-brand: 1.5rem !default;
+$font-size-article: 0.95rem !default;        // Makale içerik boyutu
+$font-size-article-mobile: 0.9rem !default;  // Mobil makale boyutu
+$font-size-large: 1.05rem !default;          // Daha küçük large boyut
+$font-size-heading: 1.3rem !default;         // Daha küçük başlık
+$font-size-brand: 1.4rem !default;           // Daha küçük brand
 
 // Spacing (Boşluklar)
 // ================================
