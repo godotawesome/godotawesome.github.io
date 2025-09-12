@@ -8,7 +8,7 @@ favicon: 'assets/images/logo.png'
 baseurl: /
 google_analytics: 'G-BH9P4LY6E7'
 microsoft_clarity: 't4k6d20q9f'
-disqus: 'betaversion'
+disqus: 'godotawesome'
 mailchimp-list: ''
 include: ["_pages"]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
