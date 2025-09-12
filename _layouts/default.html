@@ -48,7 +48,18 @@
     })(window, document, "clarity", "script", "{{ site.microsoft_clarity}}");
 </script>
 
-<!-- Google Analytics (Head) - Conditional Loading -->
+<!-- change your GA id in _config.yml -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{site.google_analytics}}');
+</script>
+
+<!-- Google Analytics (Head) - Conditional Loading 
 <script>
 // Check if user has already consented to analytics
 function hasAnalyticsConsent() {
@@ -86,7 +97,7 @@ if (hasAnalyticsConsent()) {
         window.gtag = gtag;
     })();
 }
-</script>
+</script> -->
 
 </head>
 
@@ -336,9 +347,9 @@ if (hasAnalyticsConsent()) {
 
 <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script> 
 
-<!-- Cookie Consent System -->
+<!-- Cookie Consent System 
 {% include cookie-banner.html %}
-<script src="{{ site.baseurl }}/assets/js/cookie-consent.js"></script> 
+<script src="{{ site.baseurl }}/assets/js/cookie-consent.js"></script> -->
 
 <!-- Custom Categories Dropdown Script -->
 <script>
