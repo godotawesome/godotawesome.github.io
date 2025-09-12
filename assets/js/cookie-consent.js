@@ -1,10 +1,11 @@
+/**
 ---
 layout: null
 ---
-/**
+
  * Cookie Consent Management System
  * GodotAwesome - GDPR/KVKK Compliant
- */
+ 
 
 class CookieConsent {
     constructor() {
@@ -439,3 +440,6 @@ if (document.readyState === 'loading') {
 
 // Export for use in other scripts
 window.CookieConsent = CookieConsent;
+
+
+*/
