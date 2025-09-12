@@ -173,7 +173,7 @@ Ready to make your choice? Here's what to do:
 
 - <a href="https://docs.godotengine.org/" target="_blank">Official Godot Documentation</a>
 - <a href="https://discord.gg/godot/" target="_blank">Godot Community Discord</a>
-- <a href="{{site.url}}{{site.baseurl}}/categories#Tutorial" target="_blank">GodotAwesome Tutorials</a>
+- <a href="{{site.url}}{{site.baseurl}}/categories#Tutorials" target="_blank">GodotAwesome Tutorials</a>
 - <a href="https://reddit.com/r/godot" target="_blank">Reddit community</a>
 
 ---
