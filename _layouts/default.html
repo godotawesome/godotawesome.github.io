@@ -138,15 +138,7 @@ if (hasAnalyticsConsent()) {
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/privacy-policy">Privacy</a>
+                <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -244,6 +236,14 @@ if (hasAnalyticsConsent()) {
                     <a class="dropdown-item" href="{{ site.baseurl }}/tags">🏷️ All Tags</a>
                 </div>
                 </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                </li>
+
+                <!-- <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/privacy-policy">Privacy</a>
+                </li>-->
 
                 {% include search-lunr.html %}
 

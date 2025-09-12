@@ -167,4 +167,5 @@ Whether you're just starting your game development journey or you're a seasoned 
 
 ---
 
-*Thank you for being part of the GodotAwesome community. Together, we're making game development more accessible, more creative, and more awesome than ever before!* ✨
+*Thank you for being part of the GodotAwesome community. Together, we're making game development more accessible, more creative, and more awesome than ever before!* ✨ 
+[Privacy Policy]({{ site.url }}{{ site.baseurl }}/privacy-policy) - [Cookies Policy]({{ site.url }}{{ site.baseurl }}/cookie-policy)
