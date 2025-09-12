@@ -1,0 +1,119 @@
+// ================================
+// GodotAwesome Theme Configuration
+// ================================
+// Bu dosyayı düzenleyerek farklı temalar arasında geçiş yapabilirsiniz
+
+// Varsayılan Tema (Default Theme)
+// ================================
+// Bu değişkenleri değiştirerek sitenizin görünümünü özelleştirebilirsiniz
+
+// TEMA SEÇENEKLERİ:
+// 1. Default (Varsayılan) - Mevcut yeşil tema
+// 2. Blue (Mavi) - Mavi tonlarda tema
+// 3. Purple (Mor) - Mor tonlarda tema
+// 4. Orange (Turuncu) - Turuncu tonlarda tema
+// 5. Dark (Koyu) - Koyu tema
+
+// Aktif temayı seçmek için aşağıdaki satırı uncomment edin:
+$active-theme: 'default' !default;
+
+// DEFAULT THEME (Varsayılan Yeşil Tema)
+// ================================
+@if $active-theme == 'default' {
+  $primary-color: #00ab6b !global;
+  $primary-hover: #038252 !global;
+  $primary-dark: #1C9963 !global;
+  $secondary-color: #02B875 !global;
+}
+
+// BLUE THEME (Mavi Tema)
+// ================================
+@else if $active-theme == 'blue' {
+  $primary-color: #007bff !global;
+  $primary-hover: #0056b3 !global;
+  $primary-dark: #004085 !global;
+  $secondary-color: #17a2b8 !global;
+}
+
+// PURPLE THEME (Mor Tema)
+// ================================
+@else if $active-theme == 'purple' {
+  $primary-color: #6f42c1 !global;
+  $primary-hover: #59359a !global;
+  $primary-dark: #4e2a84 !global;
+  $secondary-color: #e83e8c !global;
+}
+
+// ORANGE THEME (Turuncu Tema)
+// ================================
+@else if $active-theme == 'orange' {
+  $primary-color: #fd7e14 !global;
+  $primary-hover: #e8650e !global;
+  $primary-dark: #d25508 !global;
+  $secondary-color: #ffc107 !global;
+}
+
+// DARK THEME (Koyu Tema)
+// ================================
+@else if $active-theme == 'dark' {
+  $primary-color: #bb86fc !global;
+  $primary-hover: #985eff !global;
+  $primary-dark: #7c4dff !global;
+  $secondary-color: #03dac6 !global;
+  
+  // Koyu tema için özel arka plan ve metin renkleri
+  $background-white: #1a1a1a !global;
+  $background-gray: #2d2d2d !global;
+  $background-light-gray: #404040 !global;
+  $text-primary: rgba(255, 255, 255, 0.9) !global;
+  $text-secondary: rgba(255, 255, 255, 0.6) !global;
+  $text-muted: rgba(255, 255, 255, 0.5) !global;
+  $navbar-background: rgba(26, 26, 26, 0.97) !global;
+  $navbar-text: #fff !global;
+  $footer-background: #1a1a1a !global;
+  $border-light: rgba(255, 255, 255, 0.1) !global;
+  $border-medium: rgba(255, 255, 255, 0.2) !global;
+}
+
+// CUSTOM THEME (Özel Tema)
+// ================================
+// Kendi renklerinizi tanımlamak için bu bölümü kullanın
+@else if $active-theme == 'custom' {
+  // Buraya kendi renklerinizi ekleyin
+  $primary-color: #ff6b6b !global;           // Kendi ana renginiz
+  $primary-hover: #ff5252 !global;           // Hover durumu
+  $primary-dark: #f44336 !global;            // Koyu ton
+  $secondary-color: #4ecdc4 !global;         // İkincil renk
+  
+  // İsteğe bağlı: Diğer renkleri de özelleştirebilirsiniz
+  // $background-white: #fff !global;
+  // $text-primary: rgba(0, 0, 0, 0.8) !global;
+  // ... diğer değişkenler
+}
+
+// Tema değişkenlerini global olarak kullanılabilir hale getir
+:root {
+  --primary-color: #{$primary-color};
+  --primary-hover: #{$primary-hover};
+  --primary-dark: #{$primary-dark};
+  --secondary-color: #{$secondary-color};
+  
+  --text-primary: #{$text-primary};
+  --text-secondary: #{$text-secondary};
+  --text-muted: #{$text-muted};
+  
+  --background-white: #{$background-white};
+  --background-gray: #{$background-gray};
+  --background-light-gray: #{$background-light-gray};
+  
+  --border-light: #{$border-light};
+  --border-medium: #{$border-medium};
+  --border-dark: #{$border-dark};
+  
+  --navbar-background: #{$navbar-background};
+  --navbar-text: #{$navbar-text};
+  --navbar-hover: #{$navbar-hover};
+  
+  --footer-background: #{$footer-background};
+  --footer-text: #{$footer-text};
+}

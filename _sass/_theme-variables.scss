@@ -1,0 +1,110 @@
+// ================================
+// GodotAwesome Theme Variables
+// ================================
+// Bu dosyayı düzenleyerek sitenizin renklerini ve fontlarını kolayca değiştirebilirsiniz
+
+// Ana Renkler
+// ================================
+$primary-color: #00ab6b !default;          // Ana yeşil renk (linkler, vurgular)
+$primary-hover: #038252 !default;          // Ana renk hover durumu
+$primary-dark: #1C9963 !default;           // Koyu yeşil (butonlar)
+$secondary-color: #02B875 !default;        // İkincil renk
+
+// Metin Renkleri
+// ================================
+$text-primary: rgba(0, 0, 0, 0.8) !default;      // Ana metin rengi
+$text-secondary: rgba(0, 0, 0, 0.44) !default;   // İkincil metin rengi
+$text-muted: rgba(0, 0, 0, 0.5) !default;        // Soluk metin rengi
+$text-light: rgba(0, 0, 0, 0.6) !default;        // Açık metin rengi
+
+// Arka Plan Renkleri
+// ================================
+$background-white: #fff !default;                 // Beyaz arka plan
+$background-gray: #fafafa !default;              // Gri arka plan
+$background-light-gray: #f2f2f2 !default;        // Açık gri arka plan
+$background-dark: #222 !default;                 // Koyu arka plan
+
+// Kenarlık Renkleri
+// ================================
+$border-light: rgba(0, 0, 0, 0.05) !default;     // Açık kenarlık
+$border-medium: rgba(0, 0, 0, 0.125) !default;   // Orta kenarlık
+$border-dark: rgba(0, 0, 0, 0.44) !default;      // Koyu kenarlık
+$border-input: #ddd !default;                    // Input kenarlığı
+$border-code: #E3EDF3 !default;                  // Kod bloğu kenarlığı
+
+// Gölge Renkleri
+// ================================
+$shadow-light: rgba(0, 0, 0, 0.05) !default;     // Açık gölge
+$shadow-medium: rgba(0, 0, 0, 0.15) !default;    // Orta gölge
+$shadow-dark: rgba(0, 0, 0, 0.75) !default;      // Koyu gölge
+
+// Font Aileleri
+// ================================
+$font-family-primary: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-heading: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-article: Merriweather !default;
+$font-family-brand: Righteous !default;
+$font-family-monospace: monospace, sans-serif !default;
+
+// Font Boyutları
+// ================================
+$font-size-base: 1rem !default;
+$font-size-small: 0.85rem !default;
+$font-size-large: 1.1rem !default;
+$font-size-heading: 1.4rem !default;
+$font-size-brand: 1.5rem !default;
+
+// Spacing (Boşluklar)
+// ================================
+$spacing-xs: 0.25rem !default;    // 4px
+$spacing-sm: 0.5rem !default;     // 8px
+$spacing-md: 1rem !default;       // 16px
+$spacing-lg: 1.5rem !default;     // 24px
+$spacing-xl: 2rem !default;       // 32px
+$spacing-xxl: 3rem !default;      // 48px
+
+// Özel Renkler (Butonlar, Etiketler vs.)
+// ================================
+$button-subscribe-bg: $primary-dark !default;
+$button-subscribe-border: $primary-dark !default;
+$button-follow-border: $secondary-color !default;
+$button-follow-color: $primary-dark !default;
+
+$tag-background: rgba(0, 0, 0, 0.05) !default;
+$tag-color: rgba(0, 0, 0, 0.6) !default;
+$tag-hover-background: rgba(0, 0, 0, 0.07) !default;
+
+// Blockquote Rengi
+$blockquote-border: $primary-color !default;
+$blockquote-color: $text-muted !default;
+
+// Navbar Renkleri
+// ================================
+$navbar-background: rgba(255, 255, 255, 0.97) !default;
+$navbar-shadow: rgba(0, 0, 0, 0.15) !default;
+$navbar-text: #333 !default;
+$navbar-hover: $primary-color !default;
+
+// Footer Renkleri
+// ================================
+$footer-border: rgba(0, 0, 0, 0.05) !default;
+$footer-background: $background-white !default;
+$footer-text: $text-secondary !default;
+
+// Responsive Font Sizes
+// ================================
+$font-size-responsive-large: 18px !default;      // Büyük ekranlar için
+$font-size-responsive-small: 1.2rem !default;    // Küçük ekranlar için
+
+// Border Radius
+// ================================
+$border-radius-small: 3px !default;
+$border-radius-medium: 8px !default;
+$border-radius-large: 30px !default;
+$border-radius-round: 50% !default;
+
+// Transition Süreleri
+// ================================
+$transition-fast: 0.2s !default;
+$transition-medium: 0.3s !default;
+$transition-slow: 0.4s !default;

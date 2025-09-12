@@ -8,6 +8,11 @@
 	display:inline;
 }
 
+// Import theme system first
+@import
+	"theme-variables",
+	"theme-config";
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax",
