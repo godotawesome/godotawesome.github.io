@@ -162,7 +162,7 @@ Whether you're just starting your game development journey or you're a seasoned 
 <div style="text-align: center; margin: 3rem 0; padding: 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 12px;">
 <h2>🚀 Ready to Start Your Godot Journey?</h2>
 <p style="font-size: 1.1em; margin: 1rem 0;">Download Godot Engine today and begin creating the games of your dreams!</p>
-<a href="https://godotengine.org/download" target="_blank" style="display: inline-block; padding: 12px 24px; background: white; color: #667eea; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 1rem;">Download Godot Engine</a>
+<a target="_blank" href="https://godotengine.org/download" target="_blank" style="display: inline-block; padding: 12px 24px; background: white; color: #667eea; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 1rem;">Download Godot Engine</a>
 </div>
 
 ---
