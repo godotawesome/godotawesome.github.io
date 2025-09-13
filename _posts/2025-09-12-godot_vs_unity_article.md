@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Godot vs Unity: Which Engine Should You Choose for Game Development in 2025?"
-author: godotscribe
+author: alihan98ersoy
 categories: [ Trending Topics ]
 tags: [ unity, comparison]
 image: assets/images/articles/godot-vs-unity-comparison.png
