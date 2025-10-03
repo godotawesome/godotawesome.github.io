@@ -6,7 +6,7 @@ categories: [News and Updates]
 tags: [Godot 4, Update]
 image: https://raw.githubusercontent.com/alihan98ersoy/markdown_files/refs/heads/master/godot_awesome/v001/assets/godot-showreel-2023.png
 description: "Welcome to the latest Godot Awesome News & Updates!\nHere’s what’s been happening in the Godot Engine world and the wider indie game dev community this month. 🚀"
-featured: true
+featured: false
 hidden: false
 ---
 
