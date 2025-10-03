@@ -20,7 +20,7 @@ From quirky roguelikes to emotional narrative adventures, **Godot-made games** h
 
 Below you'll find the most successful commercial games built with **Godot Engine**, ranked by estimated revenue. These games prove that indie developers can achieve massive success with the right combination of creativity, polish, and smart marketing.
 
-![tableImage](assets/images/articles/godot-games-table-image.png)
+![tableImage](https://raw.githubusercontent.com/godotawesome/godotawesome.github.io/refs/heads/main/assets/images/articles/godot-games-table-image.png)
 
 [Table:](https://docs.google.com/spreadsheets/d/1VZ_h91m8FuJxSVeJKQ6N8t1LCOcoRwnyPKqa3R-k7DQ/edit?usp=sharing) 
 
