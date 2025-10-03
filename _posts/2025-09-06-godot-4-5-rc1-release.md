@@ -6,7 +6,7 @@ categories: [ News and Updates ]
 tags: [Godot 4, Release, Update]
 image: https://godotengine.org/storage/blog/covers/release-candidate-godot-4-5-rc-1.webp
 description: "Godot 4.5 RC 1 brings Wayland support, shader baking, accessibility improvements, and visionOS platform support for enhanced game development."
-featured: true
+featured: false
 hidden: false
 ---
 
