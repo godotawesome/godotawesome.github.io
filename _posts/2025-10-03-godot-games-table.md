@@ -22,9 +22,9 @@ Below you'll find the most successful commercial games built with **Godot Engine
 
 ![tableImage](https://raw.githubusercontent.com/godotawesome/godotawesome.github.io/refs/heads/main/assets/images/articles/godot-games-table-image.png)
 
-<a href="https://godotawesome.com/games-made-with-godot-showcase/" target="_blank">Updated Table</a>
+<a href="https://docs.google.com/spreadsheets/d/1VZ_h91m8FuJxSVeJKQ6N8t1LCOcoRwnyPKqa3R-k7DQ/edit?usp=sharing" target="_blank">Updated Table</a>
 
-<a href="https://godotawesome.com/games-made-with-godot-showcase/" target="_blank">Article on Medium</a>
+<a href="https://medium.com/@alihan98ersoy/most-successful-games-made-with-godot-engine-revenue-sales-analysis-2025-9b69af569585" target="_blank">Article on Medium</a>
 
 ## 🏆 **Standout Success Stories**
 
