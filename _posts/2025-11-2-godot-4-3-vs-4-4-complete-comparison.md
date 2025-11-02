@@ -5,7 +5,7 @@ file: godot-4-3-vs-4-4-complete-comparison
 author: godotscribe
 categories: [ Tutorials ]
 tags: [Godot 4.3, Godot 4.4, Migration Guide, Performance, Features]
-image: assets/images/articles/godot-4-3-vs-4-4-complete-comparison.png
+image: assets/images/articles/%20godot-4-3-vs-4-4-complete-comparison.png
 imagePrompt: Split-screen comparison showing Godot 4.3 and 4.4 logos with modern UI elements, featuring performance graphs, code snippets, and colorful particle effects in the background
 description: "Comprehensive comparison between Godot 4.3 and 4.4 with migration tips, performance analysis, and new feature breakdown for developers."
 featured: false
