@@ -200,10 +200,19 @@ if (hasAnalyticsConsent()) {
                     Tags
                 </a>
                 <div class="dropdown-menu" aria-labelledby="tagsDropdown">
-                    {% assign sorted_tags = site.tags | sort %}
-                    {% for tag in sorted_tags %}
-                        {% assign tag_name = tag[0] %}
-                        {% assign tag_posts = tag[1] %}
+                    {% assign tag_names = "" %}
+					{% for tag in site.tags %}
+					  {% assign name = tag[0] %}
+					  {% if tag_names == "" %}
+					    {% assign tag_names = name %}
+					  {% else %}
+					    {% assign tag_names = tag_names | append: "," | append: name %}
+					  {% endif %}
+					{% endfor %}
+					
+					{% assign sorted_tags = tag_names | split: "," | sort %}
+                    {% for tag_name in sorted_tags %}
+                        {% assign tag_posts = site.tags[tag_name] %}
                         {% assign tag_slug = tag_name | url_escape | strip | replace: ' ', '-' %}
                         {% assign tag_icon = '' %}
                         
