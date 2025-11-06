@@ -97,7 +97,16 @@ post_class: post-template
             <!-- Post Categories -->
             <div class="after-post-cats">
                 <ul class="tags mb-4">
-                    {% assign sortedCategories = page.categories | sort %}
+                    {% assign category_strings = "" %}
+                    {% for category in page.categories %}
+                      {% assign cat_str = category | append: "" %}
+                      {% if category_strings == "" %}
+                        {% assign category_strings = cat_str %}
+                      {% else %}
+                        {% assign category_strings = category_strings | append: "," | append: cat_str %}
+                      {% endif %}
+                    {% endfor %}
+                    {% assign sortedCategories = category_strings | split: "," | sort %}
                     {% for category in sortedCategories %}
                     <li>
                         <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
@@ -110,7 +119,16 @@ post_class: post-template
             <!-- Post Tags -->
             <div class="after-post-tags">
                 <ul class="tags">
-                    {% assign sortedTags = page.tags | sort %}
+                    {% assign tag_strings = "" %}
+                    {% for tag in page.tags %}
+                      {% assign tag_str = tag | append: "" %}
+                      {% if tag_strings == "" %}
+                        {% assign tag_strings = tag_str %}
+                      {% else %}
+                        {% assign tag_strings = tag_strings | append: "," | append: tag_str %}
+                      {% endif %}
+                    {% endfor %}
+                    {% assign sortedTags = tag_strings | split: "," | sort %}
                     {% for tag in sortedTags %}
                     <li>
                         <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">#{{ tag }}</a>
