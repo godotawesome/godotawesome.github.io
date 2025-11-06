@@ -146,12 +146,11 @@ if (hasAnalyticsConsent()) {
                     Categories
                 </a>
                 <div class="dropdown-menu" aria-labelledby="categoriesDropdown">
-                    {% assign sorted_categories = site.categories | sort %}
-                    {% for category in sorted_categories %}
-                        {% assign category_name = category[0] %}
-                        {% assign category_posts = category[1] %}
-                        {% assign category_slug = category_name | url_escape | strip | replace: ' ', '-' %}
-                        {% assign category_icon = '' %}
+                    {% assign sorted_categories = site.categories | map: "first" | sort %}
+					{% for category_name in sorted_categories %}
+					    {% assign category_posts = site.categories[category_name] %}
+					    {% assign category_slug = category_name | url_escape | strip | replace: ' ', '-' %}
+					    {% assign category_icon = '' %}
                         
                         {% if category_name contains 'Game' or category_name contains 'Showcase' %}
                             {% assign category_icon = '🎮' %}
