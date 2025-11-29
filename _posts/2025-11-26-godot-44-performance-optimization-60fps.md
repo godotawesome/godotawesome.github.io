@@ -4,7 +4,7 @@ title: "Godot 4.4 Performance Optimization: Essential Tips for Smooth 60 FPS Gam
 file: godot-44-performance-optimization-60fps
 author: godotscribe
 categories: [ Tutorials ]
-tags: [ Performance, Optimization, Godot 4.4, FPS, Rendering, Memory Management ]
+tags: [ Performance, Optimization, Godot 4.4, Memory Management ]
 image: assets/images/articles/godot-44-performance-optimization-60fps.png
 imagePrompt: A sleek modern dashboard showing FPS counter at 60 FPS with Godot 4.4 logo, performance graphs, memory usage charts, and optimization icons in blue and white theme
 description: "Master Godot 4.4 performance optimization with proven techniques to achieve smooth 60 FPS gameplay. Essential tips for indie developers."
