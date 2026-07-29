@@ -1,6 +1,6 @@
 ---
 title: Cookie Policy
-description: Cookie and analytics choices on GodotAwesome: Umami, Google Analytics, Clarity, and advertising.
+description: "Cookie and analytics choices on GodotAwesome: Umami, Google Analytics, Clarity, and advertising."
 ---
 
 # Cookie Policy
