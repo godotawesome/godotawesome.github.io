@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { SearchModal } from "./SearchModal";
+import { SITE } from "@/lib/site";
 
 type NavItem = { name: string; slug: string; count: number };
 
@@ -35,8 +36,19 @@ export function Header({ categories, tags }: HeaderProps) {
         }`}
       >
         <div className="site-container flex items-center justify-between gap-4 py-3">
-          <Link href="/" className="font-brand text-xl text-primary no-underline hover:text-primary-hover">
-            GodotAwesome
+          <Link
+            href="/"
+            className="flex items-center gap-2 font-brand text-xl text-primary no-underline hover:text-primary-hover"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={SITE.logo}
+              alt=""
+              width={32}
+              height={32}
+              className="h-8 w-8 rounded-sm object-contain"
+            />
+            <span>{SITE.name}</span>
           </Link>
 
           <button
