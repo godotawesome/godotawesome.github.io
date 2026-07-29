@@ -79,8 +79,9 @@ export function CookieConsent() {
         {!settingsOpen ? (
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <p className="max-w-3xl text-sm text-black/70">
-              We use privacy-friendly Umami analytics without cookies. Google Analytics, Microsoft
-              Clarity, and ads only load if you opt in.{" "}
+              We use privacy-friendly Umami analytics without cookies. Ads may show as
+              non-personalized by default; opt in for personalized ads. Google Analytics and
+              Microsoft Clarity load only if you accept Analytics.{" "}
               <a href="/cookie-policy/" className="underline">
                 Cookie Policy
               </a>
@@ -143,7 +144,8 @@ export function CookieConsent() {
                 className="mt-1"
               />
               <span>
-                <strong>Advertising</strong> — Google AdSense personalized ads (optional).
+                <strong>Advertising</strong> — allow personalized Google AdSense ads (optional).
+                Non-personalized ads may still show when AdSense is enabled.
               </span>
             </label>
             <div className="flex flex-wrap gap-2">

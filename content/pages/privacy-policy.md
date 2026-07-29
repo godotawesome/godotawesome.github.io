@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-description: How GodotAwesome collects and uses data, including Umami, Google Analytics, Clarity, and optional advertising.
+description: How GodotAwesome collects and uses data, including Umami, Google Analytics, Clarity, and advertising.
 ---
 
 # Privacy Policy
@@ -24,9 +24,14 @@ These load **only if you opt in** via our cookie banner (Analytics category):
 - **Google Analytics** — anonymized traffic analysis
 - **Microsoft Clarity** — heat maps and session insights to improve UX
 
-### Advertising (optional)
+## Advertising
 
-Google AdSense may load on article pages **only if you opt in** to the Advertising category. See our Cookie Policy for details.
+When Google AdSense is enabled on article pages:
+
+- Ads may display even without Advertising opt-in, using **non-personalized** ads where supported.
+- **Personalized** ads and related advertising cookies require opt-in to the Advertising category in Cookie Settings.
+
+See our Cookie Policy for details.
 
 ## Information We Collect
 
@@ -35,6 +40,7 @@ Google AdSense may load on article pages **only if you opt in** to the Advertisi
 - Page URLs visited (Umami; and GA/Clarity if consented)
 - Approximate technical data (browser, device) as provided by analytics tools
 - With Clarity consent: interaction patterns (clicks, scrolls)
+- With AdSense: standard ad delivery / measurement data per Google’s policies; personalization only with Advertising consent
 
 ### Voluntarily provided
 
@@ -46,13 +52,14 @@ We do **not** operate a comment system and do not collect comment names/emails o
 
 - Improve website content and performance
 - Understand which articles are useful
-- Show ads only with advertising consent (when enabled)
+- Fund the site with advertising (non-personalized by default; personalized with consent)
 
 ## Your Choices
 
-- Use **Cookie Settings** (site footer/button) to enable or disable Analytics and Advertising cookies
+- Use **Cookie Settings** to enable or disable Analytics and Advertising personalization
 - Umami remains active because it does not rely on consent-gated tracking cookies in our configuration
 - Browser controls can block or delete cookies at any time
+- Ad blockers may still hide ads entirely
 
 ## Third-Party Policies
 

@@ -18,7 +18,8 @@ Cookies are small text files stored on your device by your browser. Some tools w
 | Necessary | Consent preference storage | Always on |
 | Privacy-friendly analytics | Umami Cloud (cookieless pageviews) | Always on |
 | Analytics cookies | Google Analytics, Microsoft Clarity | Off until you accept |
-| Advertising | Google AdSense | Off until you accept |
+| Advertising personalization | Google AdSense personalized ads | Off until you accept |
+| Ads (non-personalized) | Google AdSense NPA | May show when AdSense is enabled, without personalization consent |
 
 ## Necessary
 
@@ -35,9 +36,12 @@ If you enable **Analytics**:
 - Google Analytics may set cookies such as `_ga`, `_ga_*`, `_gid`
 - Microsoft Clarity may set cookies such as `_clck`, `_clsk`, `CLID`
 
-## Advertising (optional)
+## Advertising
 
-If you enable **Advertising** and AdSense is enabled on the site, Google may set advertising/personalization cookies as described in Google’s policies.
+When Google AdSense is enabled on the site:
+
+- **Without** Advertising opt-in: we request **non-personalized ads** (NPA). These are less tailored and use fewer advertising cookies for personalization.
+- **With** Advertising opt-in: personalized ads may be shown and Google may set advertising/personalization cookies as described in Google’s policies.
 
 ## Managing Preferences
 

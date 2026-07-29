@@ -10,9 +10,14 @@ type Props = {
   className?: string;
 };
 
+type AdsByGoogle = unknown[] & {
+  requestNonPersonalizedAds?: number;
+  push: (...args: unknown[]) => number;
+};
+
 declare global {
   interface Window {
-    adsbygoogle?: unknown[];
+    adsbygoogle?: AdsByGoogle;
   }
 }
 
@@ -26,40 +31,66 @@ function ensureAdSenseScript(client: string) {
   document.head.appendChild(script);
 }
 
+function getAdsByGoogle(): AdsByGoogle {
+  const existing = window.adsbygoogle;
+  if (existing) return existing;
+  const created = [] as unknown as AdsByGoogle;
+  window.adsbygoogle = created;
+  return created;
+}
+
+/**
+ * Model B: ads always render when AdSense is enabled.
+ * - No advertising consent → non-personalized ads (NPA)
+ * - Advertising consent → personalized ads
+ */
 export function AdSlot({ slot, format = "auto", className = "" }: Props) {
   const pushed = useRef(false);
+  const lastPersonalized = useRef<boolean | null>(null);
   const [consent, setConsent] = useState<ConsentState | null>(null);
+  const [ready, setReady] = useState(false);
 
   useEffect(() => {
     setConsent(readConsent());
+    setReady(true);
     const handler = (e: Event) => setConsent((e as CustomEvent<ConsentState>).detail);
     window.addEventListener("consent-updated", handler);
     return () => window.removeEventListener("consent-updated", handler);
   }, []);
 
+  const personalized = consent?.advertising === true;
+
   useEffect(() => {
+    if (!ready) return;
     if (!SITE.adsenseEnabled || !SITE.adsenseClient || !slot) return;
-    if (!consent?.advertising) return;
+
     ensureAdSenseScript(SITE.adsenseClient);
+    const ads = getAdsByGoogle();
+    ads.requestNonPersonalizedAds = personalized ? 0 : 1;
+
+    // Consent changed after an ad was already requested — reload so AdSense can switch mode.
+    if (
+      pushed.current &&
+      lastPersonalized.current !== null &&
+      lastPersonalized.current !== personalized
+    ) {
+      window.location.reload();
+      return;
+    }
+
+    lastPersonalized.current = personalized;
+
     if (pushed.current) return;
     try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
+      ads.push({});
       pushed.current = true;
     } catch {
       // ignore
     }
-  }, [consent, slot]);
+  }, [ready, consent, personalized, slot]);
 
   if (!SITE.adsenseEnabled || !SITE.adsenseClient || !slot) {
     return null;
-  }
-
-  if (!consent?.advertising) {
-    return (
-      <div className={`ad-slot ${className}`} aria-hidden="true">
-        <span className="text-xs text-black/30">Ad placeholder (consent required)</span>
-      </div>
-    );
   }
 
   return (
