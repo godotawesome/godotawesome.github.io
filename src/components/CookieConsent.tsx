@@ -30,13 +30,20 @@ export function writeConsent(state: ConsentState) {
 export function CookieConsent() {
   const [visible, setVisible] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
-  const [analytics, setAnalytics] = useState(false);
-  const [advertising, setAdvertising] = useState(false);
+  const [analytics, setAnalytics] = useState(true);
+  const [advertising, setAdvertising] = useState(true);
 
   useEffect(() => {
     const existing = readConsent();
     if (!existing) setVisible(true);
   }, []);
+
+  const openSettings = () => {
+    // Opt-out UX: options start checked; user unchecks what they don't want.
+    setAnalytics(true);
+    setAdvertising(true);
+    setSettingsOpen(true);
+  };
 
   const acceptAll = () => {
     writeConsent({ analytics: true, advertising: true, timestamp: Date.now() });
@@ -60,12 +67,7 @@ export function CookieConsent() {
     return (
       <button
         type="button"
-        onClick={() => {
-          const c = readConsent();
-          setAnalytics(c?.analytics ?? false);
-          setAdvertising(c?.advertising ?? false);
-          setSettingsOpen(true);
-        }}
+        onClick={openSettings}
         className="fixed bottom-4 left-4 z-50 rounded-full border border-black/10 bg-white px-3 py-2 text-xs font-medium shadow-md"
       >
         Cookie Settings
@@ -89,12 +91,7 @@ export function CookieConsent() {
             <div className="flex flex-wrap gap-2">
               <button
                 type="button"
-                onClick={() => {
-                  const c = readConsent();
-                  setAnalytics(c?.analytics ?? false);
-                  setAdvertising(c?.advertising ?? false);
-                  setSettingsOpen(true);
-                }}
+                onClick={openSettings}
                 className="rounded border border-black/15 px-3 py-2 text-sm"
               >
                 Settings
