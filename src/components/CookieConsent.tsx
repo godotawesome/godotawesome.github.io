@@ -118,7 +118,7 @@ export function CookieConsent() {
             <label className="flex items-start gap-3 text-sm">
               <input type="checkbox" checked disabled className="mt-1" />
               <span>
-                <strong>Necessary</strong> — required for basic site function. Always on.
+                <strong>Necessary</strong>: required for basic site function. Always on.
               </span>
             </label>
             <label className="flex items-start gap-3 text-sm">
@@ -129,7 +129,7 @@ export function CookieConsent() {
                 className="mt-1"
               />
               <span>
-                <strong>Analytics</strong> — Google Analytics and Microsoft Clarity (optional).
+                <strong>Analytics</strong>: Google Analytics and Microsoft Clarity (optional).
                 Umami runs without cookies regardless of this setting.
               </span>
             </label>
@@ -141,7 +141,7 @@ export function CookieConsent() {
                 className="mt-1"
               />
               <span>
-                <strong>Advertising</strong> — allow personalized Google AdSense ads (optional).
+                <strong>Advertising</strong>: allow personalized Google AdSense ads (optional).
                 Non-personalized ads may still show when AdSense is enabled.
               </span>
             </label>

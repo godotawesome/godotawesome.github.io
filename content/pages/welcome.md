@@ -1,6 +1,6 @@
 ---
 title: Welcome
-description: Welcome to GodotAwesome — tutorials, plugins, showcases, and news for Godot Engine developers.
+description: Welcome to GodotAwesome: tutorials, plugins, showcases, and news for Godot Engine developers.
 ---
 
 # Welcome to Godot Awesome!

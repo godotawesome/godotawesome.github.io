@@ -68,7 +68,7 @@ export function AdSlot({ slot, format = "auto", className = "" }: Props) {
     const ads = getAdsByGoogle();
     ads.requestNonPersonalizedAds = personalized ? 0 : 1;
 
-    // Consent changed after an ad was already requested — reload so AdSense can switch mode.
+    // Consent changed after an ad was already requested; reload so AdSense can switch mode.
     if (
       pushed.current &&
       lastPersonalized.current !== null &&

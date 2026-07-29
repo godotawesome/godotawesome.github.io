@@ -214,7 +214,7 @@ The game demonstrates **Godot Engine's** capabilities in:
 
 ## Final Thoughts: A Testament to Cultural Storytelling
 
-**Until Then** stands as a shining example of how **Godot Engine** can be used to tell deeply personal, culturally authentic stories that resonate globally. **Polychroma Games** has created something truly special—a game that:
+**Until Then** stands as a shining example of how **Godot Engine** can be used to tell deeply personal, culturally authentic stories that resonate globally. **Polychroma Games** has created something truly special: a game that:
 
 - **Celebrates Filipino culture** while speaking to universal human experiences
 - **Showcases Godot's potential** for sophisticated narrative design
@@ -231,6 +231,6 @@ This remarkable achievement shows that:
 
 ---
 
-*Until Then reminds us that the most powerful games are often the most personal ones. When developers use tools like Godot Engine to share their authentic experiences, they create something that transcends entertainment—they create connection, understanding, and art.*
+*Until Then reminds us that the most powerful games are often the most personal ones. When developers use tools like Godot Engine to share their authentic experiences, they create something that transcends entertainment. They create connection, understanding, and art.*
 
 **Ready to tell your own story?** Whether it's your cultural background, personal experiences, or unique perspective, **Godot Engine** provides the tools to bring your narrative vision to life. The engine is free, the community is supportive, and the world is waiting to hear your story.  

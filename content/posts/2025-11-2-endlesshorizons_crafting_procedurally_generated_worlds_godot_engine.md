@@ -38,7 +38,7 @@ At its heart, most PG relies on randomness. Godot provides excellent tools for t
 
 *   **`randi()` / `randf()`:** For integer and float random numbers.
 *   **`rand_range(from, to)`:** For a random float within a specified range.
-*   **`RandomNumberGenerator`:** For more control, including setting a specific seed. This is crucial for **determinism** – ensuring the same seed always produces the same "random" sequence, allowing you to recreate generated worlds.
+*   **`RandomNumberGenerator`:** For more control, including setting a specific seed. This is crucial for **determinism**: ensuring the same seed always produces the same "random" sequence, allowing you to recreate generated worlds.
 
     ```gdscript
     var rng = RandomNumberGenerator.new()

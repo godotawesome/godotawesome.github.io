@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "📰 News & Updates – August 2025"
+title:  "📰 News & Updates: August 2025"
 author: godotscribe
 categories: [News and Updates]
 tags: [Godot 4, Update]
@@ -24,9 +24,9 @@ The Godot team has officially released **Godot 4.3 Beta**, featuring:
 
 ## 🎮 Games Made with Godot
 Several exciting new titles created with Godot have recently launched on Steam:  
-- **Until Then** – A heartfelt visual novel set in the Philippines  
-- **Cassette Beasts (Modding Tools)** – Expanded support for community mods  
-- **Lumencraft** – A voxel-based mining & survival game  
+- **Until Then**: A heartfelt visual novel set in the Philippines  
+- **Cassette Beasts (Modding Tools)**: Expanded support for community mods  
+- **Lumencraft**: A voxel-based mining & survival game  
 
 These releases show how versatile Godot is for both narrative and gameplay-heavy projects.  
 

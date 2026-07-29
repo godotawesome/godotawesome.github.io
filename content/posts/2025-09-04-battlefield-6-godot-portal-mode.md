@@ -20,7 +20,7 @@ Battlefield 6's Portal mode builds upon the foundation established in Battlefiel
 
 ## Why Godot Makes Perfect Sense
 
-The decision to utilize **Godot Engine** for Portal mode isn't just surprising—it's brilliant. Here's why:
+The decision to utilize **Godot Engine** for Portal mode isn't just surprising. It's brilliant. Here's why:
 
 ### 1. **Accessibility First**
 Godot's user-friendly interface and intuitive design make it perfect for players who want to create content without the steep learning curve of more complex engines. This democratizes content creation, allowing a broader spectrum of players to contribute meaningfully to the game's ecosystem.
@@ -75,11 +75,11 @@ This move by EA could catalyze a broader industry trend towards:
 
 ## Conclusion
 
-EA's decision to integrate Godot Engine into Battlefield 6's Portal mode is more than just a technical choice—it's a statement about the future of game development. By embracing open-source tools, EA is not only enhancing their own product but also contributing to the growth and legitimacy of the entire open-source gaming ecosystem.
+EA's decision to integrate Godot Engine into Battlefield 6's Portal mode is more than just a technical choice. It's a statement about the future of game development. By embracing open-source tools, EA is not only enhancing their own product but also contributing to the growth and legitimacy of the entire open-source gaming ecosystem.
 
 This partnership between one of gaming's biggest publishers and one of its most promising open-source engines sets a precedent that could reshape how we think about game development. As we move forward, this collaboration may well be remembered as the moment when open-source truly entered the mainstream gaming consciousness.
 
-For Godot enthusiasts and game developers everywhere, this is more than just news—it's validation that the future of game development is more open, accessible, and collaborative than ever before.
+For Godot enthusiasts and game developers everywhere, this is more than just news. It's validation that the future of game development is more open, accessible, and collaborative than ever before.
 
 ---
 

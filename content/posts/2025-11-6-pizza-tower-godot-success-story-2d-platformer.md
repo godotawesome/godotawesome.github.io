@@ -12,7 +12,7 @@ featured: false
 hidden: false
 ---
 
-When **Pizza Tower** launched in January 2023, it didn't just become another indie success story—it became a testament to what's possible when creative vision meets the right development tools. This incredibly polished 2D platformer, developed by Tour De Pizza, showcases Godot's exceptional capabilities for creating fluid, high-performance 2D games that rival AAA productions.
+When **Pizza Tower** launched in January 2023, it didn't just become another indie success story. It became a testament to what's possible when creative vision meets the right development tools. This incredibly polished 2D platformer, developed by Tour De Pizza, showcases Godot's exceptional capabilities for creating fluid, high-performance 2D games that rival AAA productions.
 
 ## 🍕 **Pizza Tower: A Technical Marvel**
 
@@ -129,7 +129,7 @@ Despite its visual complexity, Pizza Tower maintains **consistent 60fps** perfor
 
 ### **Why the Team Chose Godot**
 
-Tour De Pizza's decision to use Godot wasn't accidental—it was strategic:
+Tour De Pizza's decision to use Godot wasn't accidental. It was strategic:
 
 **Key Factors:**
 ✅ **2D-first approach** with optimized rendering pipeline

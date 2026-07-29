@@ -32,7 +32,7 @@ In the world of indie game development, few success stories are as remarkable as
 
 **Buckshot Roulette** takes the deadly game of Russian roulette and elevates it with a 12-gauge pump-action shotgun, creating an experience that's both familiar and terrifyingly fresh. Set in a neon-soaked underground nightclub, players face off against "The Dealer" in a high-stakes game where every decision could be your last.
 
-What makes this game extraordinary isn't just its concept—it's how **Mike Klubnika** leveraged the **Godot Engine** to create something that feels both intimate and cinematic, proving that indie developers can compete with major studios when they have the right tools and vision.
+What makes this game extraordinary isn't just its concept. It's how **Mike Klubnika** leveraged the **Godot Engine** to create something that feels both intimate and cinematic, proving that indie developers can compete with major studios when they have the right tools and vision.
 
 ---
 
@@ -43,7 +43,7 @@ The genius of **Buckshot Roulette** lies in its deceptively simple mechanics. Pl
 
 🎯 **The Setup**: The Dealer loads a 12-gauge shotgun with a mix of live shells and blanks
 🤔 **The Choice**: Point the gun at yourself or your opponent and pull the trigger
-💀 **The Consequence**: Live shells deal damage, blanks are safe—but you never know which is which
+💀 **The Consequence**: Live shells deal damage, blanks are safe, but you never know which is which
 
 ### Progressive Difficulty System
 The game escalates tension through three increasingly challenging rounds:
@@ -68,7 +68,7 @@ What sets this apart from simple chance is the **strategic item system**. Player
 The core single-player experience where you battle through three rounds against The Dealer. Each victory unlocks new challenges and deeper psychological horror.
 
 ### 🎲 Double or Nothing Mode
-**Risk everything for greater rewards.** This post-game mode lets victorious players push their luck further—but failure means starting from absolute zero.
+**Risk everything for greater rewards.** This post-game mode lets victorious players push their luck further, but failure means starting from absolute zero.
 
 ### 👥 Multiplayer Mode *(Released October 31, 2024)*
 Up to **four players** can compete in chaotic, high-stakes matches featuring exclusive items:
@@ -119,7 +119,7 @@ The numbers tell an incredible story of indie success:
 | **Platform Success** | Top performer on both Itch.io and Steam |
 
 ### Cultural Impact
-**Buckshot Roulette** has become more than just a game—it's a cultural phenomenon:
+**Buckshot Roulette** has become more than just a game. It's a cultural phenomenon:
 
 🎬 **Content Creator Favorite**: Perfect for streaming and YouTube content
 🎪 **Meme Culture**: Spawned countless memes and viral moments
@@ -160,7 +160,7 @@ This success story highlights why **Godot Engine** is perfect for indie develope
 
 ## The Legacy Continues
 
-**Buckshot Roulette** has done more than just entertain millions—it has:
+**Buckshot Roulette** has done more than just entertain millions. It has:
 
 🎮 **Inspired Developers**: Shown what's possible with dedication and the right tools
 🚀 **Elevated Godot**: Demonstrated the engine's commercial viability
@@ -175,7 +175,7 @@ This success story highlights why **Godot Engine** is perfect for indie develope
 - **Simple concepts** with **masterful execution**
 - **Community engagement** with **authentic passion**
 
-In just two months, **Mike Klubnika** created something that will be remembered as a defining moment in indie gaming history. For **Godot Engine** developers everywhere, **Buckshot Roulette** isn't just a success story—it's proof that your dreams are achievable.
+In just two months, **Mike Klubnika** created something that will be remembered as a defining moment in indie gaming history. For **Godot Engine** developers everywhere, **Buckshot Roulette** isn't just a success story. It's proof that your dreams are achievable.
 
 ---
 

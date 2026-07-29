@@ -14,9 +14,9 @@ comments: true
 
 ## 🌟 Our Story
 
-Welcome to **GodotAwesome** – a passionate community-driven platform dedicated to celebrating and advancing the incredible **Godot Engine** ecosystem. Born from a love for open-source game development and a desire to make game creation accessible to everyone, this site serves as your comprehensive resource for everything Godot.
+Welcome to **GodotAwesome**: a passionate community-driven platform dedicated to celebrating and advancing the incredible **Godot Engine** ecosystem. Born from a love for open-source game development and a desire to make game creation accessible to everyone, this site serves as your comprehensive resource for everything Godot.
 
-In a world where game development can seem overwhelming and expensive, **Godot Engine** stands as a beacon of hope – completely free, incredibly powerful, and backed by an amazing community. **GodotAwesome** exists to amplify that community spirit and help developers at every level discover the magic of creating games with Godot.
+In a world where game development can seem overwhelming and expensive, **Godot Engine** stands as a beacon of hope: completely free, incredibly powerful, and backed by an amazing community. **GodotAwesome** exists to amplify that community spirit and help developers at every level discover the magic of creating games with Godot.
 
 ---
 
@@ -131,7 +131,7 @@ From viral indie hits like **Buckshot Roulette** to culturally significant narra
 
 ## 🤝 Join Our Community
 
-**GodotAwesome** is more than just a website – it's a community of passionate developers, artists, and dreamers who believe in the power of open-source game development.
+**GodotAwesome** is more than just a website. It's a community of passionate developers, artists, and dreamers who believe in the power of open-source game development.
 
 ### 🎯 How You Can Contribute
 

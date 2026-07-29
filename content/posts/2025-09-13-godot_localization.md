@@ -10,7 +10,7 @@ featured: false
 hidden: false
 ---
 
-Ready to take your **Godot game global**? 🌍 Localization isn't just about translating text—it's about creating experiences that resonate with players worldwide. Whether you're working with **Godot 4.x** or still on **Godot 3.x**, this comprehensive guide will walk you through every aspect of game internationalization.
+Ready to take your **Godot game global**? 🌍 Localization isn't just about translating text. It's about creating experiences that resonate with players worldwide. Whether you're working with **Godot 4.x** or still on **Godot 3.x**, this comprehensive guide will walk you through every aspect of game internationalization.
 
 ## 🎯 **Why Localization Matters**
 

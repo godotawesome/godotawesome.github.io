@@ -16,7 +16,7 @@ The game development landscape has dramatically shifted in 2025, with **Unity 6*
 
 ## 🆚 The State of Play in 2025
 
-**Unity 6** launched with promises of redemption—better performance, clearer pricing, and renewed focus on developers. Meanwhile, **Godot 4.4** has matured into a production-ready engine that's powering successful commercial games across all platforms.
+**Unity 6** launched with promises of redemption: better performance, clearer pricing, and renewed focus on developers. Meanwhile, **Godot 4.4** has matured into a production-ready engine that's powering successful commercial games across all platforms.
 
 ### 📊 Quick Comparison Table
 

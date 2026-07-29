@@ -25,6 +25,6 @@ npx serve out
 
 ## Content
 
-- Posts: `content/posts/` (filename `YYYY-MM-DD-slug.md` — slug must match live URLs)
+- Posts: `content/posts/` (filename `YYYY-MM-DD-slug.md` - slug must match live URLs)
 - Pages: `content/pages/`
 - Authors: `content/authors.json`

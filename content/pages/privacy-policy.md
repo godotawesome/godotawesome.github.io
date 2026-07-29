@@ -21,8 +21,8 @@ We use [Umami Cloud](https://umami.is/) for privacy-friendly, cookieless pagevie
 
 These load **only if you opt in** via our cookie banner (Analytics category):
 
-- **Google Analytics** — anonymized traffic analysis
-- **Microsoft Clarity** — heat maps and session insights to improve UX
+- **Google Analytics**: anonymized traffic analysis
+- **Microsoft Clarity**: heat maps and session insights to improve UX
 
 ## Advertising
 

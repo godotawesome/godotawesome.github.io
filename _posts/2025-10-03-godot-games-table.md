@@ -14,7 +14,7 @@ Think **Godot Engine** is just for hobby projects? Think again! 💰 The open-so
 
 ## 🎮 **The Godot Success Story**
 
-From quirky roguelikes to emotional narrative adventures, **Godot-made games** have conquered Steam charts, mobile stores, and players' hearts worldwide. These aren't just passion projects—they're **multi-million dollar success stories** that showcase the engine's incredible potential.
+From quirky roguelikes to emotional narrative adventures, **Godot-made games** have conquered Steam charts, mobile stores, and players' hearts worldwide. These aren't just passion projects. They're **multi-million dollar success stories** that showcase the engine's incredible potential.
 
 ## 💎 **Top-Grossing Godot Games: Complete Analysis**
 
@@ -84,7 +84,7 @@ These success stories prove that **Godot Engine** is a viable choice for commerc
 
 ---
 
-**Which Godot game surprised you the most?** 🤔 Share your thoughts in the comments below! And if you're working on a Godot project, let us know—maybe your game will be on next year's list!
+**Which Godot game surprised you the most?** 🤔 Share your thoughts in the comments below! And if you're working on a Godot project, let us know. Maybe your game will be on next year's list!
 
 *Remember: Every million-dollar game started with a single commit. Start building your Godot success story today!* ✨
 

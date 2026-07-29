@@ -39,7 +39,7 @@ hidden: false
 
 ## Built with Godot Engine
 
-**Pixelorama** demonstrates the incredible potential of **Godot Engine** for creating professional desktop applications. The project proves that Godot isn't limited to games—it's a versatile platform for any interactive application.
+**Pixelorama** demonstrates the incredible potential of **Godot Engine** for creating professional desktop applications. The project proves that Godot isn't limited to games. It's a versatile platform for any interactive application.
 
 ### Technical Highlights:
 - **Cross-Platform**: Available on Windows, Linux, macOS, and Web
@@ -65,7 +65,7 @@ With **8.5k+ stars** on GitHub and availability on multiple platforms including 
 
 ## Why Pixelorama Matters
 
-**Pixelorama** represents more than just a pixel art tool—it's a testament to the power of open-source development and the versatility of **Godot Engine**. It shows that:
+**Pixelorama** represents more than just a pixel art tool. It's a testament to the power of open-source development and the versatility of **Godot Engine**. It shows that:
 
 - **Open source can compete** with commercial software
 - **Godot Engine** is suitable for any type of application
@@ -89,7 +89,7 @@ The project uses **Godot 4.4** and is written primarily in **GDScript**, making 
 
 **Pixelorama** stands as one of the most successful open-source projects built with **Godot Engine**, proving that the engine's capabilities extend far beyond traditional game development. Whether you're a pixel artist, game developer, or simply someone who appreciates well-crafted software, Pixelorama offers a professional-grade solution that's completely free and continuously improving.
 
-The project exemplifies the best of open-source development: community collaboration, regular updates, cross-platform availability, and professional quality—all powered by the amazing **Godot Engine**.
+The project exemplifies the best of open-source development: community collaboration, regular updates, cross-platform availability, and professional quality, all powered by the amazing **Godot Engine**.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Cookie Policy
-description: Cookie and analytics choices on GodotAwesome — Umami, Google Analytics, Clarity, and advertising.
+description: Cookie and analytics choices on GodotAwesome: Umami, Google Analytics, Clarity, and advertising.
 ---
 
 # Cookie Policy
@@ -50,5 +50,5 @@ When Google AdSense is enabled on the site:
 
 ## Contact
 
-**MgonnacrushT Limited** — cookie / privacy questions: [legal@mgonnacrusht.co.uk](mailto:legal@mgonnacrusht.co.uk)  
+**MgonnacrushT Limited** (cookie / privacy questions): [legal@mgonnacrusht.co.uk](mailto:legal@mgonnacrusht.co.uk)  
 Site contact: [godotawesome@mgonnacrusht.co.uk](mailto:godotawesome@mgonnacrusht.co.uk)

@@ -347,7 +347,7 @@ An **innovative auto-battler** where **loot management** is the key to victory i
 
 ## Conclusion: Open Source Wins 🏆
 
-These **20 incredible games** prove that **Godot Engine** isn't just a free alternative—it's a **legitimate powerhouse** capable of creating **commercial hits**, **artistic masterpieces**, and **genre-defining experiences**.
+These **20 incredible games** prove that **Godot Engine** isn't just a free alternative. It's a **legitimate powerhouse** capable of creating **commercial hits**, **artistic masterpieces**, and **genre-defining experiences**.
 
 From **Brotato's Steam domination** to **Pixelorama's creative tools**, from **Halls of Torment's survival excellence** to **innovative RPGs** like **Cassette Beasts**, **Godot-made games** are **reshaping the industry**.
 
