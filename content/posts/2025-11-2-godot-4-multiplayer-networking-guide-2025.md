@@ -6,7 +6,6 @@ author: godotscribe
 categories: [ Tutorials ]
 tags: [Multiplayer, Networking, GameServer, Online Games, RPC, MultiplayerAPI]
 image: assets/images/articles/godot-4-multiplayer-networking-guide-2025.png
-imagePrompt: Modern network visualization with interconnected nodes, gaming controllers, server icons, and data packets flowing between devices, featuring Godot's blue and white color scheme with glowing connection lines
 description: "Master multiplayer game development in Godot 4 with this comprehensive networking guide covering RPC, synchronization, and server architecture."
 featured: false
 hidden: false

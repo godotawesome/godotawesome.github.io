@@ -4,7 +4,7 @@ title: "Complete Godot Localization Guide 2025: Internationalize Your Games for 
 author: godotscribe
 categories: [ Tutorials ]
 tags: [localization, Code]
-image: https://docs.godotengine.org/en/stable/_images/localization_remaps.png
+image: assets/images/articles/godot-localization-guide-cover.png
 description: "Master Godot localization in 4.x and 3.x. Complete guide to internationalize games with CSV, Gettext, and spreadsheets for global reach."
 featured: false
 hidden: false

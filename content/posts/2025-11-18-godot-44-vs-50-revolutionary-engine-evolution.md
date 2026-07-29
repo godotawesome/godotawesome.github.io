@@ -6,10 +6,9 @@ author: godotscribe
 categories: [ Trending Topics ]
 tags: [Godot 4.4, Godot 5.0, Engine Evolution, Performance, Features]
 image: assets/images/articles/godot-44-vs-50-revolutionary-engine-evolution.png
-imagePrompt: Split-screen comparison showing Godot 4.4 logo on left side with polished features, and futuristic Godot 5.0 concept on right with revolutionary improvements, modern tech aesthetic, blue and orange color scheme
 description: "Deep dive into Godot 4.4 vs 5.0 comparison. Explore revolutionary features, performance improvements, and what the future holds for game development."
 featured: false
-hidden: false
+hidden: true
 ---
 
 The Godot Engine ecosystem is buzzing with excitement as **Godot 4.4** reaches stability while the community eagerly anticipates the groundbreaking **Godot 5.0**. This comprehensive comparison will help you understand what's coming and how these versions will reshape indie game development.

@@ -6,7 +6,6 @@ author: godotscribe
 categories: [ Tutorials ]
 tags: [ Procedural Generation, World Generation, Algorithms, Noise Functions, Tilemaps, Level Design, Indie Games ]
 image: assets/images/articles/endlesshorizons_crafting_procedurally_generated_worlds_godot_engine.png
-imagePrompt: An abstract digital landscape, blending noise patterns into a fantastical world rendered with Godot's clean UI elements. Focus on a sense of endlessness and creation, perhaps with a subtle grid overlay hinting at generation, with vibrant, yet organic colors.
 description: Dive into procedural generation with Godot Engine! Learn to create infinite, unique worlds using noise, cellular automata, and GDScript. Enhance your indie games today!
 featured: false
 hidden: false

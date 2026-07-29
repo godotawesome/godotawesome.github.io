@@ -6,7 +6,6 @@ author: godotscribe
 categories: [ Trending Topics ]
 tags: [Unity, Comparison, Indie Development, Game Engines, 2025]
 image: assets/images/articles/godot-44-vs-unity-6-2025-comparison.png
-imagePrompt: Split-screen comparison image showing Godot 4.4 logo on the left side with indie developers working happily, and Unity 6 logo on the right side with corporate atmosphere, dark and light contrast, modern game development workspace
 description: "Complete comparison of Godot 4.4 vs Unity 6 for indie developers in 2025. Performance, pricing, features, and real-world insights."
 featured: false
 hidden: false

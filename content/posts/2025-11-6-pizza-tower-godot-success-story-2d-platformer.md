@@ -6,7 +6,6 @@ author: godotscribe
 categories: [ Game Showcase ]
 tags: [Pizza Tower, 2D Platformer, Indie Success, Animation, Game Design, Performance]
 image: assets/images/articles/pizza-tower-godot-success-story-2d-platformer.png
-imagePrompt: Colorful cartoon-style pizza character jumping through vibrant 2D platformer levels with smooth animations, featuring Pizza Tower's distinctive art style and energetic gameplay elements
 description: "Discover how Pizza Tower became a 2D platformer masterpiece using Godot, featuring technical insights and development lessons."
 featured: false
 hidden: false

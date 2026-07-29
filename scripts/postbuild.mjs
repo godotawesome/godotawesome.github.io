@@ -44,8 +44,16 @@ for (const legacy of ["analytics-test", "cookie-test", "THEME_GUIDE"]) {
 }
 
 // Slashless HTML aliases commonly indexed without trailing slash
-for (const page of ["about", "categories", "tags", "privacy-policy", "cookie-policy", "welcome"]) {
+for (const page of ["about", "contact", "categories", "tags", "privacy-policy", "cookie-policy"]) {
   writeRedirect(path.join(outDir, `${page}.html`), `/${page}/`, page);
+}
+
+// Legacy welcome → about
+writeRedirect(path.join(outDir, "welcome.html"), "/about/", "Welcome");
+{
+  const welcomeDir = path.join(outDir, "welcome");
+  fs.mkdirSync(welcomeDir, { recursive: true });
+  writeRedirect(path.join(welcomeDir, "index.html"), "/about/", "Welcome");
 }
 
 console.log("postbuild: wrote .nojekyll, authors.html and legacy redirect stubs");

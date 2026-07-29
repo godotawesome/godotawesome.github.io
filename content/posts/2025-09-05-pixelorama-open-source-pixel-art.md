@@ -4,7 +4,7 @@ title: "Pixelorama: The Ultimate Open Source Pixel Art Tool Built with Godot Eng
 author: godotscribe
 categories: [ Open Source Projects ]
 tags: [Pixel Art, Open Source]
-image: https://camo.githubusercontent.com/838e680705c43c335be092b2eb9ea27868fdbb428859b4a93a081a903853924b/68747470733a2f2f7368617265642e616b616d61692e737465616d7374617469632e636f6d2f73746f72655f6974656d5f6173736574732f737465616d2f617070732f323737393137302f73735f353433393530343063323562323433636238326133626436383737386531396530346234336164652e3139323078313038302e6a70673f743d31373139343234383938
+image: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2779170/header.jpg?t=1782513754
 description: "Discover Pixelorama, a powerful open-source pixel art editor built with Godot Engine. Create sprites, animations, and pixel art with professional-grade tools - completely free!"
 featured: false
 hidden: false

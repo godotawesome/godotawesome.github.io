@@ -6,7 +6,6 @@ author: godotscribe
 categories: [ Tutorials ]
 tags: [Mobile Development, Performance, Android, iOS, Optimization, Battery Life, Frame Rate]
 image: assets/images/articles/godot-mobile-game-optimization-android-ios-2025.png
-imagePrompt: Mobile devices showing performance graphs and optimization metrics, with Godot logo, battery icons, CPU/GPU usage charts, and colorful mobile game screenshots in the background
 description: "Master mobile game optimization in Godot with proven techniques for better performance, battery life, and user experience on Android and iOS."
 featured: false
 hidden: false

@@ -6,7 +6,6 @@ author: godotscribe
 categories: [ Tutorials ]
 tags: [Visual Scripting, Node Based Programming, Godot 4.5, Game Development, Beginner Friendly]
 image: assets/images/articles/godot-45-visual-scripting-node-based-programming.png
-imagePrompt: A futuristic digital workspace showing colorful connected nodes and flowcharts representing visual scripting in Godot, with glowing connections between logic blocks, dark blue background with bright cyan and purple accents, modern UI elements, high-tech programming interface
 description: "Discover Godot 4.5's enhanced visual scripting system and learn how node-based programming is making game development accessible to everyone."
 featured: false
 hidden: false

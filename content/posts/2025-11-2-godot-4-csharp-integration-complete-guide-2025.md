@@ -6,7 +6,6 @@ author: godotscribe
 categories: [ Tutorials ]
 tags: [CSharp, DotNet, Programming, Performance, Cross-Platform, MonoBinding]
 image: assets/images/articles/godot-4-csharp-integration-complete-guide-2025.png
-imagePrompt: Modern programming setup showing C# code on screen with Godot logo, featuring purple and blue coding syntax highlighting, .NET Core symbols, and interconnected nodes representing cross-platform development
 description: "Master Godot 4's enhanced C# support with this comprehensive guide covering setup, performance optimization, and advanced features."
 featured: false
 hidden: false

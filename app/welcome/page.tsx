@@ -1,7 +1,12 @@
-import { StaticMarkdownPage, pageMetadata } from "@/components/StaticMarkdownPage";
+import WelcomeRedirect from "./WelcomeRedirect";
 
-export const metadata = pageMetadata("welcome", "/welcome/");
+export const metadata = {
+  title: "Welcome | GodotAwesome",
+  robots: { index: false, follow: true },
+  alternates: { canonical: "https://godotawesome.com/about/" },
+};
 
+/** Legacy /welcome/ → About */
 export default function WelcomePage() {
-  return <StaticMarkdownPage slug="welcome" path="/welcome/" />;
+  return <WelcomeRedirect />;
 }
