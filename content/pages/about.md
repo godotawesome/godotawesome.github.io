@@ -1,34 +1,25 @@
 ---
 title: About GodotAwesome
-description: GodotAwesome is a community-driven hub for Godot Engine tutorials, showcases, plugins, and news.
+description: GodotAwesome is a Godot Engine blog with practical tutorials, plugin notes, and project write-ups.
 ---
 
-# Welcome to GodotAwesome
+GodotAwesome is a blog for people making games with the **Godot Engine**. Tutorials, plugin picks, project showcases, and selected updates.
 
-Your hub for Godot Engine tutorials, project showcases, plugins, and community insights.
+I'm **Alihan**. I write about things I run into in my own Godot work: plugins that help, problems I actually hit, and solutions worth sharing. Clear and useful beats long and generic.
 
-## Our Story
+## What you'll find here
 
-**GodotAwesome** is a community-driven platform dedicated to the **Godot Engine** ecosystem. We celebrate open-source game development and help creators discover practical tutorials, inspiring games, and useful tools.
+- Practical guides for Godot 4
+- Plugin and tool roundups with short evaluations
+- Indie and open-source project examples
+- Selected news from the Godot ecosystem
 
-## Our Mission
+## How I write
 
-Empower developers through knowledge, inspiration, and community:
-
-- Curate high-quality Godot content and tools
-- Publish tutorials and showcases that spark creativity
-- Highlight open-source projects and indie success stories
-- Keep an accessible, fast reading experience for developers
-
-## What You'll Find
-
-- In-depth tutorials and comparisons
-- Game showcases and success stories
-- Plugin and tool roundups
-- News and engine updates
+I rely on primary sources where I can: official docs, GitHub repos, release notes. If I tried a tool or workflow myself, I say so. I don't promise one-size-fits-all fixes or speculative engine roadmaps.
 
 ## Contact
 
-- General: [godotawesome@mgonnacrusht.co.uk](mailto:godotawesome@mgonnacrusht.co.uk)
-- Hello: [hello@mgonnacrusht.co.uk](mailto:hello@mgonnacrusht.co.uk)
-- Website: https://godotawesome.com
+Questions, corrections, or suggestions: [godotawesome@mgonnacrusht.co.uk](mailto:godotawesome@mgonnacrusht.co.uk)
+
+Site: [godotawesome.com](https://godotawesome.com)

@@ -28,22 +28,22 @@ export function Footer() {
       </section>
 
       <footer className="border-t border-black/5 bg-white py-8">
-        <div className="site-container flex flex-col gap-3 text-center text-sm text-black/55 md:flex-row md:justify-between md:text-left">
+        <div className="site-container flex flex-col gap-2 text-center text-sm text-black/55 md:text-left">
+          <span>© {year} {SITE.name}</span>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 md:justify-start">
-            <span>
-              Copyright © {year} {SITE.legalName}
-            </span>
-            <Link href="/" className="text-black/70">
-              {SITE.name}
+            <Link href="/about/" className="text-black/70">
+              About
+            </Link>
+            <Link href="/contact/" className="text-black/70">
+              Contact
             </Link>
             <Link href="/privacy-policy/" className="text-black/70">
-              Privacy Policy
+              Privacy
             </Link>
             <Link href="/cookie-policy/" className="text-black/70">
-              Cookie Policy
+              Cookies
             </Link>
           </div>
-          <p className="text-black/45">Godot Engine tutorials, showcases, and tools.</p>
         </div>
       </footer>
     </>
