@@ -9,7 +9,7 @@ Last updated: July 29, 2026
 
 ## General Information
 
-At **GodotAwesome**, protecting our visitors' privacy is extremely important to us. This privacy policy explains how information is collected, used, and protected when you visit our website.
+**GodotAwesome** (https://godotawesome.com) is operated by **MgonnacrushT Limited**. This privacy policy explains how information is collected, used, and protected when you visit this website.
 
 ## Analytics
 
@@ -44,7 +44,7 @@ See our Cookie Policy for details.
 
 ### Voluntarily provided
 
-- Information you send by email to godotawesome@gmail.com
+- Information you send by email to our contact addresses below
 
 We do **not** operate a comment system and do not collect comment names/emails on-site.
 
@@ -70,8 +70,11 @@ We do **not** operate a comment system and do not collect comment names/emails o
 
 ## Contact
 
-Email: godotawesome@gmail.com  
-Website: https://godotawesome.com
+**MgonnacrushT Limited** (operator of GodotAwesome)
+
+- Privacy / legal: [legal@mgonnacrusht.co.uk](mailto:legal@mgonnacrusht.co.uk)
+- Site: [godotawesome@mgonnacrusht.co.uk](mailto:godotawesome@mgonnacrusht.co.uk)
+- Website: https://godotawesome.com
 
 ## Policy Updates
 

@@ -4,7 +4,10 @@ export const SITE = {
   description:
     "Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.",
   url: "https://godotawesome.com",
-  contactEmail: "godotawesome@gmail.com",
+  legalName: "MgonnacrushT Limited",
+  contactEmail: "godotawesome@mgonnacrusht.co.uk",
+  helloEmail: "hello@mgonnacrusht.co.uk",
+  legalEmail: "legal@mgonnacrusht.co.uk",
   logo: "/assets/images/logo.png",
   postsPerPage: 6,
   googleAnalyticsId: process.env.NEXT_PUBLIC_GA_ID ?? "G-BH9P4LY6E7",

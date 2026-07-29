@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllCategories } from "@/lib/content";
+import { SITE } from "@/lib/site";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -30,11 +31,11 @@ export function Footer() {
         <div className="site-container flex flex-col gap-3 text-center text-sm text-black/55 md:flex-row md:justify-between md:text-left">
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 md:justify-start">
             <span>
-              Copyright © {year}{" "}
-              <Link href="/" className="text-black/70">
-                GodotAwesome
-              </Link>
+              Copyright © {year} {SITE.legalName}
             </span>
+            <Link href="/" className="text-black/70">
+              {SITE.name}
+            </Link>
             <Link href="/privacy-policy/" className="text-black/70">
               Privacy Policy
             </Link>

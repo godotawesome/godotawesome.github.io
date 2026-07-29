@@ -50,4 +50,5 @@ When Google AdSense is enabled on the site:
 
 ## Contact
 
-Email: godotawesome@gmail.com — subject: “Cookie Policy Question”
+**MgonnacrushT Limited** — cookie / privacy questions: [legal@mgonnacrusht.co.uk](mailto:legal@mgonnacrusht.co.uk)  
+Site contact: [godotawesome@mgonnacrusht.co.uk](mailto:godotawesome@mgonnacrusht.co.uk)

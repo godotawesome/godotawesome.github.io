@@ -29,5 +29,6 @@ Empower developers through knowledge, inspiration, and community:
 
 ## Contact
 
-Email: godotawesome@gmail.com  
-Website: https://godotawesome.com
+- General: [godotawesome@mgonnacrusht.co.uk](mailto:godotawesome@mgonnacrusht.co.uk)
+- Hello: [hello@mgonnacrusht.co.uk](mailto:hello@mgonnacrusht.co.uk)
+- Website: https://godotawesome.com
