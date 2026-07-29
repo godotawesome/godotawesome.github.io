@@ -56,4 +56,11 @@ writeRedirect(path.join(outDir, "welcome.html"), "/about/", "Welcome");
   writeRedirect(path.join(welcomeDir, "index.html"), "/about/", "Welcome");
 }
 
+// Hidden / unpublished posts → home (keep old URLs resolvable)
+for (const slug of ["godot-44-vs-50-revolutionary-engine-evolution"]) {
+  const dir = path.join(outDir, slug);
+  fs.mkdirSync(dir, { recursive: true });
+  writeRedirect(path.join(dir, "index.html"), "/", slug);
+}
+
 console.log("postbuild: wrote .nojekyll, authors.html and legacy redirect stubs");
