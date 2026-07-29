@@ -5,7 +5,8 @@ description: "Your place for Godot Engine content: tutorials, projects, and comm
 contact_email: "godotawesome@gmail.com"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /
+url: "https://godotawesome.com"
+baseurl: ""
 google_analytics: 'G-BH9P4LY6E7'
 microsoft_clarity: 't4k6d20q9f'
 disqus: 'godotawesome'

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Righteous&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #007bff;
+  --color-primary-hover: #0056b3;
+  --color-primary-dark: #004085;
+  --color-secondary: #17a2b8;
+  --color-text: rgba(0, 0, 0, 0.8);
+  --color-text-muted: rgba(0, 0, 0, 0.5);
+  --color-bg: #ffffff;
+  --color-bg-soft: #fafafa;
+  --color-border: rgba(0, 0, 0, 0.08);
+  --font-brand: "Righteous", system-ui, sans-serif;
+  --font-article: "Merriweather", Georgia, serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-[rgba(0,0,0,0.8)] font-sans antialiased;
+  background-image:
+    radial-gradient(ellipse at top, rgba(0, 123, 255, 0.04), transparent 50%),
+    linear-gradient(180deg, #fff 0%, #fafafa 100%);
+  min-height: 100vh;
+}
+
+a {
+  @apply text-primary transition-colors;
+}
+
+a:hover {
+  @apply text-primary-hover;
+}
+
+:focus-visible {
+  @apply outline outline-2 outline-offset-2 outline-primary;
+}
+
+.site-container {
+  @apply mx-auto w-full max-w-content px-4;
+}
+
+.section-title {
+  @apply relative mb-6 border-b border-black/10 pb-2 text-center text-sm font-bold uppercase tracking-[0.08em] text-black/55;
+}
+
+.section-title span {
+  @apply relative bg-transparent px-2;
+}
+
+.article-post {
+  @apply font-article text-[0.95rem] leading-7 text-[rgba(0,0,0,0.8)];
+}
+
+.article-post h2 {
+  @apply mb-3 mt-8 font-sans text-xl font-bold tracking-tight text-black/85;
+}
+
+.article-post h3 {
+  @apply mb-2 mt-6 font-sans text-lg font-semibold text-black/80;
+}
+
+.article-post p {
+  @apply mb-4;
+}
+
+.article-post ul {
+  @apply mb-4 list-disc pl-6;
+}
+
+.article-post ol {
+  @apply mb-4 list-decimal pl-6;
+}
+
+.article-post a {
+  @apply underline underline-offset-2;
+  text-decoration-color: color-mix(in srgb, var(--color-primary) 40%, transparent);
+}
+
+.article-post blockquote {
+  @apply my-4 border-l-4 border-primary bg-black/[0.02] px-4 py-2 italic text-black/70;
+}
+
+.article-post table {
+  @apply mb-6 w-full border-collapse text-sm;
+}
+
+.article-post th,
+.article-post td {
+  @apply border border-black/10 px-3 py-2 text-left;
+}
+
+.article-post th {
+  @apply bg-black/[0.03] font-semibold;
+}
+
+.article-post pre {
+  @apply mb-4 overflow-x-auto rounded-md border border-[#E3EDF3] bg-[#f6f8fa] p-4 text-sm;
+}
+
+.article-post code {
+  @apply rounded bg-black/[0.05] px-1 py-0.5 font-mono text-[0.85em];
+}
+
+.article-post pre code {
+  @apply bg-transparent p-0;
+}
+
+.article-post img {
+  @apply my-4 h-auto max-w-full rounded-md;
+}
+
+.tag-pill {
+  @apply inline-block rounded bg-black/[0.05] px-2.5 py-1 text-xs font-medium text-black/60 transition hover:bg-black/[0.08];
+}
+
+.card-lift {
+  @apply transition duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md;
+}
+
+.nav-link {
+  @apply px-2 py-1 text-sm font-medium text-black/70 transition hover:text-primary;
+}
+
+.jumbotron-fortags {
+  background: linear-gradient(120deg, #004085 0%, #007bff 45%, #17a2b8 100%);
+  @apply text-white;
+}
+
+.ad-slot {
+  @apply my-6 flex min-h-[90px] w-full items-center justify-center overflow-hidden rounded-md bg-black/[0.02];
+}

@@ -1,0 +1,47 @@
+name: Build and preview artifact
+
+on:
+  push:
+    branches: [main, development]
+  pull_request:
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        env:
+          NEXT_PUBLIC_UMAMI_WEBSITE_ID: ${{ secrets.NEXT_PUBLIC_UMAMI_WEBSITE_ID }}
+          NEXT_PUBLIC_UMAMI_SCRIPT_URL: https://cloud.umami.is/script.js
+          NEXT_PUBLIC_GA_ID: G-BH9P4LY6E7
+          NEXT_PUBLIC_CLARITY_ID: t4k6d20q9f
+          NEXT_PUBLIC_ADSENSE_ENABLED: ${{ vars.NEXT_PUBLIC_ADSENSE_ENABLED }}
+          NEXT_PUBLIC_ADSENSE_CLIENT: ${{ secrets.NEXT_PUBLIC_ADSENSE_CLIENT }}
+          NEXT_PUBLIC_ADSENSE_SLOT_UNDER_IMAGE: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_UNDER_IMAGE }}
+          NEXT_PUBLIC_ADSENSE_SLOT_MID: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_MID }}
+          NEXT_PUBLIC_ADSENSE_SLOT_END: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_END }}
+        run: npm run build
+
+      - name: URL diff check
+        run: npm run check-urls
+
+      - name: Upload out artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-out
+          path: out
+          retention-days: 14

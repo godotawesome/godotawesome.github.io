@@ -1,0 +1,60 @@
+name: Deploy production (manual cutover)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-production
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build
+        env:
+          NEXT_PUBLIC_UMAMI_WEBSITE_ID: ${{ secrets.NEXT_PUBLIC_UMAMI_WEBSITE_ID }}
+          NEXT_PUBLIC_UMAMI_SCRIPT_URL: https://cloud.umami.is/script.js
+          NEXT_PUBLIC_GA_ID: G-BH9P4LY6E7
+          NEXT_PUBLIC_CLARITY_ID: t4k6d20q9f
+          NEXT_PUBLIC_ADSENSE_ENABLED: ${{ vars.NEXT_PUBLIC_ADSENSE_ENABLED }}
+          NEXT_PUBLIC_ADSENSE_CLIENT: ${{ secrets.NEXT_PUBLIC_ADSENSE_CLIENT }}
+          NEXT_PUBLIC_ADSENSE_SLOT_UNDER_IMAGE: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_UNDER_IMAGE }}
+          NEXT_PUBLIC_ADSENSE_SLOT_MID: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_MID }}
+          NEXT_PUBLIC_ADSENSE_SLOT_END: ${{ secrets.NEXT_PUBLIC_ADSENSE_SLOT_END }}
+        run: npm run build
+
+      - name: URL diff check
+        run: npm run check-urls
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

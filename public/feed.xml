@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GodotAwesome</title>
+    <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
+    <link>https://godotawesome.com/</link>
+    <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Wed, 29 Jul 2026 08:25:44 GMT</lastBuildDate>
+      <item>
+        <title>Best Godot Plugins 2026: Must-Have Addons Worth Installing</title>
+        <description>Looking for the best Godot plugins in 2026 ? This list is built for people who want answers fast: what to install, why it matters, and where to get it. I skipped the filler. These are the addons that keep showing up in real Godot 4 projects, Asset Library searches, and &quot;must have&quot; threads. If you only have 10 minutes, skim the Quick picks table, then jump to the plugins that match your game type. Quick picks (start here) Need Plugin Best for Dialogue / VN / RPG talk Dialogic or Dialogue Manager </description>
+        <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/best-godot-plugins-2026/</link>
+        <guid isPermaLink="true">https://godotawesome.com/best-godot-plugins-2026/</guid>
+        <category>Plugin</category>
+        <category>Addons</category>
+        <category>Tools</category>
+        <category>Godot 4</category>
+        <category>Plugins</category>
+      </item>
+      <item>
+        <title>Godot 4.4 Performance Optimization: Essential Tips for Smooth 60 FPS Gaming</title>
+        <description>Performance optimization can make or break your game's success. With Godot 4.4's latest improvements, achieving buttery smooth 60 FPS gameplay is more attainable than ever. Let's dive into the essential optimization techniques that will transform your game from choppy to champion level smooth. 🚀 Why Performance Matters More Than Ever In today's competitive gaming landscape, players expect seamless experiences . A single frame drop can break immersion, especially in fast paced action games or pr</description>
+        <pubDate>Wed, 26 Nov 2025 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-44-performance-optimization-60fps/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-44-performance-optimization-60fps/</guid>
+        <category>Performance</category>
+        <category>Optimization</category>
+        <category>Godot 4.4</category>
+        <category>Memory Management</category>
+        <category>Tutorials</category>
+      </item>
+      <item>
+        <title>Godot 4.4 vs Godot 5.0: Breaking Down the Revolutionary Engine Evolution</title>
+        <description>The Godot Engine ecosystem is buzzing with excitement as Godot 4.4 reaches stability while the community eagerly anticipates the groundbreaking Godot 5.0 . This comprehensive comparison will help you understand what's coming and how these versions will reshape indie game development. 🚀 Current State: Godot 4.4 Achievements Godot 4.4 represents the mature evolution of the 4.x series, bringing stability and polish to features that were experimental in earlier releases. Key Godot 4.4 Highlights Fe</description>
+        <pubDate>Tue, 18 Nov 2025 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-44-vs-50-revolutionary-engine-evolution/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-44-vs-50-revolutionary-engine-evolution/</guid>
+        <category>Godot 4.4</category>
+        <category>Godot 5.0</category>
+        <category>Engine Evolution</category>
+        <category>Performance</category>
+        <category>Features</category>
+        <category>Trending Topics</category>
+      </item>
+      <item>
+        <title>Godot 4.5: Revolutionizing Visual Scripting with Node-Based Programming</title>
+        <description>The landscape of game development is evolving rapidly, and Godot Engine continues to lead the charge in making programming accessible to creators of all backgrounds. With the upcoming improvements in Godot 4.5 , visual scripting is getting a massive overhaul that promises to revolutionize how we think about game logic implementation. 🎯 What is Visual Scripting in Godot? Visual scripting transforms traditional code into interactive node graphs , where logic flows through connected visual element</description>
+        <pubDate>Sat, 08 Nov 2025 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-45-visual-scripting-node-based-programming/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-45-visual-scripting-node-based-programming/</guid>
+        <category>Visual Scripting</category>
+        <category>Node Based Programming</category>
+        <category>Godot 4.5</category>
+        <category>Game Development</category>
+        <category>Beginner Friendly</category>
+        <category>Tutorials</category>
+      </item>
+      <item>
+        <title>Pizza Tower Success Story: How Godot Powers Modern 2D Platformers</title>
+        <description>When Pizza Tower launched in January 2023, it didn't just become another indie success story—it became a testament to what's possible when creative vision meets the right development tools. This incredibly polished 2D platformer, developed by Tour De Pizza, showcases Godot's exceptional capabilities for creating fluid, high performance 2D games that rival AAA productions. 🍕 Pizza Tower: A Technical Marvel The Game That Changed Perceptions Pizza Tower isn't your typical indie platformer. With it</description>
+        <pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/pizza-tower-godot-success-story-2d-platformer/</link>
+        <guid isPermaLink="true">https://godotawesome.com/pizza-tower-godot-success-story-2d-platformer/</guid>
+        <category>Pizza Tower</category>
+        <category>2D Platformer</category>
+        <category>Indie Success</category>
+        <category>Animation</category>
+        <category>Game Design</category>
+        <category>Performance</category>
+        <category>Game Showcase</category>
+      </item>
+      <item>
+        <title>Godot 4.4 vs Unity 6: The Ultimate 2025 Comparison for Indie Developers</title>
+        <description>The game development landscape has dramatically shifted in 2025, with Unity 6 attempting to rebuild trust after their controversial pricing changes, while Godot 4.4 continues its meteoric rise as the indie developer's champion. If you're choosing between these powerhouses, this comprehensive comparison will help you make the right decision for your next project. 🆚 The State of Play in 2025 Unity 6 launched with promises of redemption—better performance, clearer pricing, and renewed focus on dev</description>
+        <pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-44-vs-unity-6-2025-comparison/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-44-vs-unity-6-2025-comparison/</guid>
+        <category>Unity</category>
+        <category>Comparison</category>
+        <category>Indie Development</category>
+        <category>Game Engines</category>
+        <category>2025</category>
+        <category>Trending Topics</category>
+      </item>
+      <item>
+        <title>Godot Mobile Game Optimization: Performance Tips for Android &amp; iOS 2025</title>
+        <description>Mobile gaming represents over 50% of the global gaming market , making mobile optimization crucial for indie developers. Godot 4's enhanced mobile support opens incredible opportunities, but achieving smooth 60fps gameplay while preserving battery life requires strategic optimization. Let's explore the essential techniques that will make your Godot mobile games shine. 📱 Understanding Mobile Performance Challenges Hardware Limitations Reality Check Mobile devices face unique constraints that des</description>
+        <pubDate>Mon, 03 Nov 2025 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-mobile-game-optimization-android-ios-2025/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-mobile-game-optimization-android-ios-2025/</guid>
+        <category>Mobile Development</category>
+        <category>Performance</category>
+        <category>Android</category>
+        <category>iOS</category>
+        <category>Optimization</category>
+        <category>Battery Life</category>
+        <category>Frame Rate</category>
+        <category>Tutorials</category>
+      </item>
+      <item>
+        <title>Building Multiplayer Games in Godot 4: Complete Networking Guide 2025</title>
+        <description>Creating multiplayer games has never been more accessible, and Godot 4's networking capabilities make it easier than ever to bring players together. Whether you're building a co op adventure or a competitive online arena, this comprehensive guide will walk you through everything you need to know about multiplayer development in Godot 4. 🌐 Understanding Godot 4's Networking Architecture MultiplayerAPI 2.0: The Foundation Godot 4 introduces a completely redesigned networking system that's more fl</description>
+        <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-4-multiplayer-networking-guide-2025/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-4-multiplayer-networking-guide-2025/</guid>
+        <category>Multiplayer</category>
+        <category>Networking</category>
+        <category>GameServer</category>
+        <category>Online Games</category>
+        <category>RPC</category>
+        <category>MultiplayerAPI</category>
+        <category>Tutorials</category>
+      </item>
+      <item>
+        <title>Mastering Godot 4's New C# Integration: Complete Developer Guide 2025</title>
+        <description>The relationship between Godot and C has evolved dramatically with Godot 4, offering developers unprecedented power and flexibility. Whether you're a Unity refugee or a seasoned .NET developer, Godot 4's enhanced C integration opens up exciting possibilities for game development. Let's dive into everything you need to know about leveraging C in your Godot projects. 🚀 Why Choose C for Godot Development? Performance Advantages C in Godot 4 brings significant performance improvements over GDScript</description>
+        <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-4-csharp-integration-complete-guide-2025/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-4-csharp-integration-complete-guide-2025/</guid>
+        <category>CSharp</category>
+        <category>DotNet</category>
+        <category>Programming</category>
+        <category>Performance</category>
+        <category>Cross-Platform</category>
+        <category>MonoBinding</category>
+        <category>Tutorials</category>
+      </item>
+      <item>
+        <title>Godot 4.3 vs 4.4: Complete Feature Breakdown and Migration Guide</title>
+        <description>The Godot Engine community has been buzzing with excitement since the release of Godot 4.4, and for good reason! This latest iteration brings significant improvements that could revolutionize your game development workflow. But should you migrate from 4.3? Let's dive deep into the differences and help you make an informed decision. 🚀 Performance Improvements: The Game Changer Rendering Pipeline Enhancements Godot 4.4 introduces substantial rendering optimizations that address many performance b</description>
+        <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-4-3-vs-4-4-complete-comparison/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-4-3-vs-4-4-complete-comparison/</guid>
+        <category>Godot 4.3</category>
+        <category>Godot 4.4</category>
+        <category>Migration Guide</category>
+        <category>Performance</category>
+        <category>Features</category>
+        <category>Tutorials</category>
+      </item>
+  </channel>
+</rss>
