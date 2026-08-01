@@ -23,6 +23,7 @@
 *.pem
 *.swp
 *~
+.cursor/
 
 # debug
 npm-debug.log*
