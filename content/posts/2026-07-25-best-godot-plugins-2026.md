@@ -6,7 +6,7 @@ categories: [ Plugins ]
 tags: [Plugin, Addons, Tools, Godot 4]
 image: assets/images/articles/best-godot-plugins-2026.png
 description: "Updated 2026 list of the best Godot plugins and addons. Quick picks for 2D, 3D, dialogue, Steam, terrain, and workflow, with install links."
-featured: true
+featured: false
 hidden: false
 ---
 
@@ -92,7 +92,7 @@ Prefer GitHub? Drop the addon folder into `res://addons/`, then enable it the sa
 
 **Use it when:** Your art pipeline is Aseprite → Godot and you are tired of exporting sprite sheets by hand.
 
-Related deep dive on this site: <a href="{{ site.baseurl }}/godot-aseprite-wizard-plugin/">Godot Aseprite Wizard guide</a>.
+Related deep dive on this site: <a href="/godot-aseprite-wizard-plugin/">Godot Aseprite Wizard guide</a>.
 
 **Get it:** <a href="https://godotengine.org/asset-library/asset/1572" target="_blank">Asset Library</a> · <a href="https://github.com/viniciusgerevini/godot-aseprite-wizard" target="_blank">GitHub</a>
 
@@ -105,7 +105,8 @@ Related deep dive on this site: <a href="{{ site.baseurl }}/godot-aseprite-wizar
 
 **Reality check:** Not every project needs it. Try default physics first. Switch to Jolt if you hit consistency or tunneling issues.
 
-**Get it:** <a href="https://github.com/godot-jolt/godot-jolt" target="_blank">godot-jolt on GitHub</a>
+**Guide:** <a href="/godot-jolt-physics-how-to-enable/">Godot Jolt Physics: how to enable</a>  
+**Get it:** built into Godot 4.6 (Project Settings). Older extension: <a href="https://github.com/godot-jolt/godot-jolt" target="_blank">godot-jolt on GitHub</a>
 
 ---
 
@@ -177,7 +178,7 @@ Even a small debug overlay (god mode, skip level, spawn enemy, time scale) pays 
 3. Dialogic or Dialogue Manager
 4. A debug menu addon
 
-Also useful if you model low-poly / voxel assets: our <a href="{{ site.baseurl }}/blockbench-complete-guide-godot/">Blockbench → Godot guide</a>.
+Also useful if you model low-poly / voxel assets: our <a href="/blockbench-complete-guide-godot/">Blockbench to Godot guide</a>.
 
 ### 3D / open world
 1. Terrain3D
@@ -250,4 +251,4 @@ Install two or three that match your current project. Learn them. Then expand.
 **Resources:**
 - <a href="https://godotengine.org/asset-library/" target="_blank">Godot Asset Library</a>
 - <a href="https://docs.godotengine.org/en/stable/tutorials/plugins/index.html" target="_blank">Official plugin docs</a>
-- <a href="{{ site.baseurl }}/best-godot-plugins-2025/">Previous list: Best Godot Plugins 2025</a>
+- <a href="/best-godot-plugins-2025/">Previous list: Best Godot Plugins 2025</a>
