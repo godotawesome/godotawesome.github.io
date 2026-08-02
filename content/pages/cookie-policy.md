@@ -41,7 +41,12 @@ If you enable **Analytics**:
 
 ### AADS (currently active)
 
-We embed AADS (Acceptable Ads) banners from `acceptable.a-ads.com` as an iframe on the home page and article pages. These ads are not sticky overlays and are not gated by the Advertising cookie category. AADS may set its own cookies or use similar storage in the iframe context according to its policies; we do not use the Advertising toggle to block AADS.
+We embed AADS (Acceptable Ads) banners from `acceptable.a-ads.com` as iframes:
+
+- In-content units on the home page and article pages
+- A dismissible sticky unit fixed to the bottom of the screen (site-wide)
+
+These ads are not gated by the Advertising cookie category. AADS may set its own cookies or use similar storage in the iframe context according to its policies; we do not use the Advertising toggle to block AADS.
 
 ### Google AdSense (not currently active)
 

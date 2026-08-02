@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
+import { AadsSticky } from "@/components/AadsSticky";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CookieConsent } from "@/components/CookieConsent";
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header categories={categories} tags={tags} />
         <main className="site-content min-h-[60vh] pt-6">{children}</main>
         <Footer />
+        <AadsSticky />
         <CookieConsent />
         <Analytics />
       </body>

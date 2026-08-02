@@ -7,7 +7,7 @@ type Props = {
 /**
  * AADS (Acceptable Ads) in-flow banner.
  * Not gated by advertising consent: contextual / privacy-oriented network.
- * Do not use sticky/fixed overlay placement.
+ * Sticky bottom unit lives in AadsSticky.tsx (separate ad unit id).
  */
 export function Aads({ className = "" }: Props) {
   if (!SITE.aadsEnabled || !SITE.aadsUnitId) return null;

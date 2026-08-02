@@ -28,7 +28,12 @@ These load **only if you opt in** via our cookie banner (Analytics category):
 
 ### AADS (currently active)
 
-We show in-content banner ads from **AADS** (Acceptable Ads / a-ads.com) via a third-party iframe (`acceptable.a-ads.com`). These ads are contextual and are **not** gated by the Advertising cookie category. They may appear on the home page and article pages. We do not place ads on privacy, cookie, about, or contact pages.
+We show banner ads from **AADS** (Acceptable Ads / a-ads.com) via third-party iframes (`acceptable.a-ads.com`):
+
+- **In-content** banners on the home page and article pages
+- A **dismissible sticky** banner fixed at the bottom of the viewport site-wide
+
+These ads are contextual and are **not** gated by the Advertising cookie category. We do not place in-content ads on privacy, cookie, about, or contact pages (the sticky unit may still appear site-wide until dismissed).
 
 AADS describes its network as privacy-oriented and not based on personal profiling. Delivery and any technical data processing by AADS are governed by AADS’s own policies.
 
