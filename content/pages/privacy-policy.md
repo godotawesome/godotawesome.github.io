@@ -31,7 +31,7 @@ These load **only if you opt in** via our cookie banner (Analytics category):
 We show banner ads from **AADS** (Acceptable Ads / a-ads.com) via third-party iframes (`acceptable.a-ads.com`):
 
 - **In-content** banners on the home page and article pages
-- A **dismissible sticky** banner fixed at the bottom of the viewport site-wide
+- A **dismissible sticky** banner fixed on the **right** side of the viewport (desktop; may be hidden on narrow screens)
 
 These ads are contextual and are **not** gated by the Advertising cookie category. We do not place in-content ads on privacy, cookie, about, or contact pages (the sticky unit may still appear site-wide until dismissed).
 

@@ -44,7 +44,7 @@ If you enable **Analytics**:
 We embed AADS (Acceptable Ads) banners from `acceptable.a-ads.com` as iframes:
 
 - In-content units on the home page and article pages
-- A dismissible sticky unit fixed to the bottom of the screen (site-wide)
+- A dismissible sticky unit fixed to the **right** side of the screen on wider viewports (site-wide)
 
 These ads are not gated by the Advertising cookie category. AADS may set its own cookies or use similar storage in the iframe context according to its policies; we do not use the Advertising toggle to block AADS.
 

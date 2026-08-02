@@ -1,22 +1,23 @@
 import { SITE } from "@/lib/site";
 
-/** Hardcoded sticky AADS unit (bottom bar, dismissible). */
-const STICKY_UNIT_ID = "2450392";
-const CLOSE_ID = "aadsstickymsc6vwey";
+/** Hardcoded sticky AADS unit (right rail, dismissible). */
+const STICKY_UNIT_ID = "2450395";
+const CLOSE_ID = "aadsstickymsc7do6o";
 
 /**
- * AADS sticky bottom banner. Not consent-gated.
- * z-index stays below CookieConsent (z-50) so the banner is never covered.
+ * AADS sticky right-side banner. Not consent-gated.
+ * z-index stays below CookieConsent (z-50) so consent UI is never covered.
+ * Right placement avoids the bottom cookie bar / Cookie Settings overlap.
  */
 export function AadsSticky() {
   if (!SITE.aadsEnabled) return null;
 
   return (
     <aside aria-label="Advertisement" className="aads-sticky">
-      {/* BEGIN AADS AD UNIT 2450392 */}
+      {/* BEGIN AADS AD UNIT 2450395 */}
       <input autoComplete="off" type="checkbox" id={CLOSE_ID} hidden />
       <div className="aads-sticky-panel">
-        <div className="aads-sticky-bar">
+        <div className="aads-sticky-rail">
           <label htmlFor={CLOSE_ID} className="aads-sticky-close" aria-label="Close advertisement">
             <svg
               fill="#000000"
@@ -38,9 +39,9 @@ export function AadsSticky() {
                 border: 0,
                 padding: 0,
                 width: "70%",
-                height: "auto",
+                height: "70%",
                 overflow: "hidden",
-                margin: "auto",
+                margin: "0 auto",
                 display: "block",
               }}
             />
@@ -52,23 +53,23 @@ export function AadsSticky() {
           position: absolute;
           z-index: 40;
         }
-        .aads-sticky-bar {
-          width: 100%;
-          height: auto;
+        .aads-sticky-rail {
+          width: 15%;
+          height: 100%;
+          min-width: 100px;
           position: fixed;
           text-align: center;
           font-size: 0;
-          bottom: 0;
-          left: 0;
+          top: 50%;
           right: 0;
-          margin: auto;
-          background: rgba(255, 255, 255, 0.92);
-          box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.08);
+          transform: translateY(-50%);
         }
         .aads-sticky-close {
-          top: 50%;
-          transform: translateY(-50%);
-          right: 24px;
+          bottom: 24px;
+          margin: 0 auto;
+          right: 0;
+          left: 0;
+          max-width: 24px;
           position: absolute;
           border-radius: 4px;
           background: rgba(248, 248, 249, 0.7);
@@ -79,15 +80,24 @@ export function AadsSticky() {
         }
         .aads-sticky-frame {
           width: 100%;
+          height: 100%;
           margin: auto;
           position: relative;
           z-index: 40;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
         }
         #${CLOSE_ID}:checked + .aads-sticky-panel {
           display: none;
         }
+        @media (max-width: 900px) {
+          .aads-sticky {
+            display: none;
+          }
+        }
       `}</style>
-      {/* END AADS AD UNIT 2450392 */}
+      {/* END AADS AD UNIT 2450395 */}
     </aside>
   );
 }
