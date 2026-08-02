@@ -41,3 +41,4 @@ next-env.d.ts
 # jekyll
 _site
 .sass-cache
+.env.example
