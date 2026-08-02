@@ -15,6 +15,10 @@ export const SITE = {
   umamiScriptUrl:
     process.env.NEXT_PUBLIC_UMAMI_SCRIPT_URL ?? "https://cloud.umami.is/script.js",
   umamiWebsiteId: process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID ?? "",
+  // Primary ads: AADS (Acceptable Ads). Not consent-gated.
+  aadsEnabled: process.env.NEXT_PUBLIC_AADS_ENABLED !== "false",
+  aadsUnitId: process.env.NEXT_PUBLIC_AADS_UNIT_ID ?? "2450355",
+  // AdSense kept for later; leave ENABLED=false while AADS is primary.
   adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "",
   adsenseSlotUnderImage: process.env.NEXT_PUBLIC_ADSENSE_SLOT_UNDER_IMAGE ?? "",
   adsenseSlotMid: process.env.NEXT_PUBLIC_ADSENSE_SLOT_MID ?? "",

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { AdSlot } from "@/components/AdSlot";
+import { Aads } from "@/components/Aads";
+// import { AdSlot } from "@/components/AdSlot"; // AdSense later
 import { Share } from "@/components/Share";
 import {
   getAdjacentPosts,
@@ -11,7 +12,8 @@ import {
   renderMarkdown,
 } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
-import { SITE, absoluteUrl } from "@/lib/site";
+import { absoluteUrl } from "@/lib/site";
+// import { SITE } from "@/lib/site"; // AdSense later
 import { slugify } from "@/lib/slugify";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -41,13 +43,14 @@ export default async function PostPage({ params }: Props) {
   const author = getAuthor(post.author);
   const { prev, next } = getAdjacentPosts(slug);
   let html = await renderMarkdown(post.content);
+  // Mid ad after 3rd h2 so it sits lower in longer posts
   html = insertAfterNthHeading(
     html,
-    2,
+    3,
     `<div data-ad-mid="true"></div>`,
   );
 
-  // Split on mid-ad marker for React AdSlot insertion
+  // Split on mid-ad marker for React ad insertion
   const [beforeMid, afterMid = ""] = html.split('<div data-ad-mid="true"></div>');
 
   const jsonLd = {
@@ -110,7 +113,8 @@ export default async function PostPage({ params }: Props) {
             />
           )}
 
-          <AdSlot slot={SITE.adsenseSlotUnderImage} />
+          <Aads />
+          {/* AdSense later: <AdSlot slot={SITE.adsenseSlotUnderImage} /> */}
 
           <div className="md:hidden mb-6">
             <Share title={post.title} url={absoluteUrl(`/${post.slug}/`)} />
@@ -120,7 +124,8 @@ export default async function PostPage({ params }: Props) {
             className="article-post"
             dangerouslySetInnerHTML={{ __html: beforeMid }}
           />
-          <AdSlot slot={SITE.adsenseSlotMid} />
+          <Aads />
+          {/* AdSense later: <AdSlot slot={SITE.adsenseSlotMid} /> */}
           {afterMid && (
             <div
               className="article-post"
@@ -128,7 +133,8 @@ export default async function PostPage({ params }: Props) {
             />
           )}
 
-          <AdSlot slot={SITE.adsenseSlotEnd} />
+          <Aads />
+          {/* AdSense later: <AdSlot slot={SITE.adsenseSlotEnd} /> */}
 
           <p className="mt-8 text-sm text-black/50">
             <time dateTime={post.date}>

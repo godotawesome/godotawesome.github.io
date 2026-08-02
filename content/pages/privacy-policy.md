@@ -5,7 +5,7 @@ description: How GodotAwesome collects and uses data, including Umami, Google An
 
 # Privacy Policy
 
-Last updated: July 29, 2026
+Last updated: August 2, 2026
 
 ## General Information
 
@@ -26,10 +26,18 @@ These load **only if you opt in** via our cookie banner (Analytics category):
 
 ## Advertising
 
-When Google AdSense is enabled on article pages:
+### AADS (currently active)
+
+We show in-content banner ads from **AADS** (Acceptable Ads / a-ads.com) via a third-party iframe (`acceptable.a-ads.com`). These ads are contextual and are **not** gated by the Advertising cookie category. They may appear on the home page and article pages. We do not place ads on privacy, cookie, about, or contact pages.
+
+AADS describes its network as privacy-oriented and not based on personal profiling. Delivery and any technical data processing by AADS are governed by AADS’s own policies.
+
+### Google AdSense (not currently active)
+
+Google AdSense is **not enabled** on the site right now. If we enable it later:
 
 - Ads may display even without Advertising opt-in, using **non-personalized** ads where supported.
-- **Personalized** ads and related advertising cookies require opt-in to the Advertising category in Cookie Settings.
+- **Personalized** ads and related advertising cookies would require opt-in to the Advertising category in Cookie Settings.
 
 See our Cookie Policy for details.
 
@@ -40,7 +48,8 @@ See our Cookie Policy for details.
 - Page URLs visited (Umami; and GA/Clarity if consented)
 - Approximate technical data (browser, device) as provided by analytics tools
 - With Clarity consent: interaction patterns (clicks, scrolls)
-- With AdSense: standard ad delivery / measurement data per Google’s policies; personalization only with Advertising consent
+- With AADS: ad delivery via third-party iframe as described by AADS
+- If AdSense is enabled later: standard ad delivery / measurement data per Google’s policies; personalization only with Advertising consent
 
 ### Voluntarily provided
 
@@ -52,11 +61,12 @@ We do **not** operate a comment system and do not collect comment names/emails o
 
 - Improve website content and performance
 - Understand which articles are useful
-- Fund the site with advertising (non-personalized by default; personalized with consent)
+- Fund the site with advertising (currently AADS; AdSense may return later)
 
 ## Your Choices
 
-- Use **Cookie Settings** to enable or disable Analytics and Advertising personalization
+- Use **Cookie Settings** to enable or disable Analytics and (for a future AdSense setup) Advertising personalization
+- AADS in-content ads are not controlled by the Advertising toggle
 - Umami remains active because it does not rely on consent-gated tracking cookies in our configuration
 - Browser controls can block or delete cookies at any time
 - Ad blockers may still hide ads entirely
@@ -66,7 +76,8 @@ We do **not** operate a comment system and do not collect comment names/emails o
 - [Umami Privacy](https://umami.is/privacy)
 - [Google Analytics / Google Privacy](https://policies.google.com/privacy)
 - [Microsoft Clarity Privacy](https://privacy.microsoft.com/)
-- [Google AdSense / Advertising](https://policies.google.com/technologies/ads) (when enabled)
+- [AADS](https://aads.com/) (current advertising network)
+- [Google AdSense / Advertising](https://policies.google.com/technologies/ads) (if re-enabled later)
 
 ## Contact
 

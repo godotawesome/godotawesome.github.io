@@ -5,7 +5,7 @@ description: "Cookie and analytics choices on GodotAwesome: Umami, Google Analyt
 
 # Cookie Policy
 
-Last updated: July 29, 2026
+Last updated: August 2, 2026
 
 ## What are Cookies?
 
@@ -18,8 +18,9 @@ Cookies are small text files stored on your device by your browser. Some tools w
 | Necessary | Consent preference storage | Always on |
 | Privacy-friendly analytics | Umami Cloud (cookieless pageviews) | Always on |
 | Analytics cookies | Google Analytics, Microsoft Clarity | Off until you accept |
-| Advertising personalization | Google AdSense personalized ads | Off until you accept |
-| Ads (non-personalized) | Google AdSense NPA | May show when AdSense is enabled, without personalization consent |
+| Advertising (AADS) | AADS in-content banners via third-party iframe | May show without Advertising opt-in |
+| Advertising personalization | Google AdSense personalized ads | Off until you accept (AdSense not currently active) |
+| Ads (AdSense NPA) | Google AdSense non-personalized | Not currently active; may return later |
 
 ## Necessary
 
@@ -38,15 +39,22 @@ If you enable **Analytics**:
 
 ## Advertising
 
-When Google AdSense is enabled on the site:
+### AADS (currently active)
 
-- **Without** Advertising opt-in: we request **non-personalized ads** (NPA). These are less tailored and use fewer advertising cookies for personalization.
+We embed AADS (Acceptable Ads) banners from `acceptable.a-ads.com` as an iframe on the home page and article pages. These ads are not sticky overlays and are not gated by the Advertising cookie category. AADS may set its own cookies or use similar storage in the iframe context according to its policies; we do not use the Advertising toggle to block AADS.
+
+### Google AdSense (not currently active)
+
+Google AdSense is disabled. If we enable it later:
+
+- **Without** Advertising opt-in: we would request **non-personalized ads** (NPA).
 - **With** Advertising opt-in: personalized ads may be shown and Google may set advertising/personalization cookies as described in Google’s policies.
 
 ## Managing Preferences
 
 - Use the **Cookie Settings** control on the site
 - Or change cookies via your browser settings
+- Ad blockers may hide third-party ads including AADS
 
 ## Contact
 
