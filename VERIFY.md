@@ -24,6 +24,6 @@
 - [ ] Download CI `site-out` artifact and spot-check locally
 - [ ] Set GitHub secret `NEXT_PUBLIC_UMAMI_WEBSITE_ID`
 - [ ] Repo Settings → Pages → Source: GitHub Actions
-- [ ] Create Environment `production` (optional required reviewers)
-- [ ] Run **Deploy production (manual cutover)** workflow
+- [ ] Create Environment `production` (no required reviewers if you want push-to-deploy)
+- [ ] Push to `main` (or run **Deploy production**) and confirm Pages updates
 - [ ] GSC: resubmit sitemap; watch Coverage for 404 spikes

@@ -2,7 +2,7 @@ name: Build and preview artifact
 
 on:
   push:
-    branches: [main, development]
+    branches: [development]
   pull_request:
 
 concurrency:

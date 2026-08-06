@@ -1,9 +1,9 @@
-name: Deploy production (manual cutover)
+name: Deploy production
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: "0 6 * * *"
 
 permissions:
   contents: read
@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: pages-production
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
