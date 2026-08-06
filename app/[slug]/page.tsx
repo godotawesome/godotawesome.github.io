@@ -1,19 +1,18 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Aads } from "@/components/Aads";
-// import { AdSlot } from "@/components/AdSlot"; // AdSense later
+// Ads off. Before remounting AdSlot: update privacy-policy.md + cookie-policy.md,
+// CookieConsent Advertising toggle, layout meta, and SITE ad fields in site.ts.
+// import { AdSlot } from "@/components/AdSlot";
 import { Share } from "@/components/Share";
 import {
   getAdjacentPosts,
   getAllPosts,
   getAuthor,
   getPostBySlug,
-  insertAfterNthHeading,
   renderMarkdown,
 } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 import { absoluteUrl } from "@/lib/site";
-// import { SITE } from "@/lib/site"; // AdSense later
 import { slugify } from "@/lib/slugify";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -42,16 +41,7 @@ export default async function PostPage({ params }: Props) {
 
   const author = getAuthor(post.author);
   const { prev, next } = getAdjacentPosts(slug);
-  let html = await renderMarkdown(post.content);
-  // Mid ad after 3rd h2 so it sits lower in longer posts
-  html = insertAfterNthHeading(
-    html,
-    3,
-    `<div data-ad-mid="true"></div>`,
-  );
-
-  // Split on mid-ad marker for React ad insertion
-  const [beforeMid, afterMid = ""] = html.split('<div data-ad-mid="true"></div>');
+  const html = await renderMarkdown(post.content);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -113,8 +103,7 @@ export default async function PostPage({ params }: Props) {
             />
           )}
 
-          <Aads />
-          {/* AdSense later: <AdSlot slot={SITE.adsenseSlotUnderImage} /> */}
+          {/* Ads off: <AdSlot slot={SITE.adsenseSlotUnderImage} /> */}
 
           <div className="md:hidden mb-6">
             <Share title={post.title} url={absoluteUrl(`/${post.slug}/`)} />
@@ -122,19 +111,10 @@ export default async function PostPage({ params }: Props) {
 
           <div
             className="article-post"
-            dangerouslySetInnerHTML={{ __html: beforeMid }}
+            dangerouslySetInnerHTML={{ __html: html }}
           />
-          <Aads />
-          {/* AdSense later: <AdSlot slot={SITE.adsenseSlotMid} /> */}
-          {afterMid && (
-            <div
-              className="article-post"
-              dangerouslySetInnerHTML={{ __html: afterMid }}
-            />
-          )}
 
-          <Aads />
-          {/* AdSense later: <AdSlot slot={SITE.adsenseSlotEnd} /> */}
+          {/* Ads off: mid + end AdSlot placements */}
 
           <p className="mt-8 text-sm text-black/50">
             <time dateTime={post.date}>

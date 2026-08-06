@@ -1,4 +1,3 @@
-import { Aads } from "@/components/Aads";
 import { FeaturedCard } from "@/components/FeaturedCard";
 import { HomeStories } from "@/components/HomeStories";
 import { getFeaturedPosts } from "@/lib/content";
@@ -26,7 +25,6 @@ export default function HomePage() {
           </div>
         </section>
       )}
-      <Aads />
       <HomeStories page={1} />
     </div>
   );

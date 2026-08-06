@@ -5,7 +5,7 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 02 Aug 2026 19:36:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 09:42:34 GMT</lastBuildDate>
       <item>
         <title>Godot Jolt Physics: How to Enable &amp; Use It in Godot 4.6</title>
         <description>Need Godot Jolt Physics set up fast? Here is the short version. In Godot 4.6 , Jolt is the default 3D physics engine for new projects . It is built into the engine (not a separate plugin for most people). Older projects keep their previous physics until you switch them. 30 second answer: enable Jolt 1. Open Project → Project Settings 2. Go to Physics → 3D 3. Set Physics Engine to Jolt Physics 4. Click Save &amp; Restart When the editor reloads, 3D physics uses Jolt. That is the whole enable step. Ne</description>

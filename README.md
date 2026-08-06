@@ -21,7 +21,7 @@ npx serve out
 
 - Every push/PR: `.github/workflows/build.yml` builds and uploads the `out/` artifact (preview locally via artifact download).
 - Production cutover: run **Deploy production (manual cutover)** workflow (`workflow_dispatch`) with the `production` environment. Configure GitHub Pages to deploy via GitHub Actions.
-- Set repository secret `NEXT_PUBLIC_UMAMI_WEBSITE_ID` (and optional AdSense secrets).
+- Set repository secret `NEXT_PUBLIC_UMAMI_WEBSITE_ID`.
 
 ## Content
 

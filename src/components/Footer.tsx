@@ -29,7 +29,18 @@ export function Footer() {
 
       <footer className="border-t border-black/5 bg-white py-8">
         <div className="site-container flex flex-col gap-2 text-center text-sm text-black/55 md:text-left">
-          <span>© {year} {SITE.name}</span>
+          <span>
+            © {year} Built by{" "}
+            <a
+              href={SITE.companyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black/70 hover:text-primary"
+            >
+              {SITE.legalName}
+            </a>
+            . All rights reserved.
+          </span>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 md:justify-start">
             <Link href="/about/" className="text-black/70">
               About

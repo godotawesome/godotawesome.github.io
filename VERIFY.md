@@ -16,9 +16,9 @@
 - [ ] Mobile nav + dropdowns usable; keyboard focus visible
 
 ## Consent / analytics
-- [ ] Reject optional → no GA/Clarity/AdSense scripts; Umami loads if `NEXT_PUBLIC_UMAMI_WEBSITE_ID` set
+- [ ] Reject optional → no GA/Clarity scripts; Umami loads if `NEXT_PUBLIC_UMAMI_WEBSITE_ID` set
 - [ ] Accept analytics → GA + Clarity load
-- [ ] Accept advertising → AdSense slots activate when enabled via env
+- [ ] No third-party ad scripts (ads are off)
 
 ## Cutover
 - [ ] Download CI `site-out` artifact and spot-check locally

@@ -1,8 +1,14 @@
-"use client";
-
-import { useEffect, useRef, useState } from "react";
-import { SITE } from "@/lib/site";
-import { readConsent, type ConsentState } from "./CookieConsent";
+/**
+ * DORMANT ad component. Not mounted anywhere while ads are off.
+ *
+ * Before re-enabling:
+ * 1. Update content/pages/privacy-policy.md + cookie-policy.md
+ * 2. Restore Advertising toggle in CookieConsent.tsx
+ * 3. Uncomment google-adsense-account meta in app/layout.tsx
+ * 4. Uncomment SITE ad fields in src/lib/site.ts
+ * 5. Set ADSENSE_LIVE = true and restore the implementation below
+ * 6. Mount this component in app/[slug]/page.tsx (and home if needed)
+ */
 
 type Props = {
   slot: string;
@@ -10,99 +16,27 @@ type Props = {
   className?: string;
 };
 
-type AdsByGoogle = unknown[] & {
-  requestNonPersonalizedAds?: number;
-  push: (...args: unknown[]) => number;
-};
+// Ads are off site-wide. Do not set to true without the policy checklist above.
+const ADSENSE_LIVE = false;
 
-declare global {
-  interface Window {
-    adsbygoogle?: AdsByGoogle;
-  }
+export function AdSlot(_props: Props) {
+  if (!ADSENSE_LIVE) return null;
+  return null;
 }
 
-function ensureAdSenseScript(client: string) {
-  if (document.querySelector(`script[data-ad-client="${client}"]`)) return;
-  const script = document.createElement("script");
-  script.async = true;
-  script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}`;
-  script.crossOrigin = "anonymous";
-  script.dataset.adClient = client;
-  document.head.appendChild(script);
-}
-
-function getAdsByGoogle(): AdsByGoogle {
-  const existing = window.adsbygoogle;
-  if (existing) return existing;
-  const created = [] as unknown as AdsByGoogle;
-  window.adsbygoogle = created;
-  return created;
-}
-
-/**
- * Model B: ads always render when AdSense is enabled.
+/*
+ * Previous live implementation (restore when ads return):
+ *
+ * "use client";
+ * import { useEffect, useRef, useState } from "react";
+ * import { SITE } from "@/lib/site";
+ * import { readConsent, type ConsentState } from "./CookieConsent";
+ *
+ * Model B: ads render when SITE.adsenseEnabled.
  * - No advertising consent → non-personalized ads (NPA)
  * - Advertising consent → personalized ads
+ *
+ * ensureAdSenseScript(client) loads pagead2.googlesyndication.com
+ * Uses window.adsbygoogle push + requestNonPersonalizedAds
+ * Reloads page if consent personalization mode changes after a push
  */
-export function AdSlot({ slot, format = "auto", className = "" }: Props) {
-  const pushed = useRef(false);
-  const lastPersonalized = useRef<boolean | null>(null);
-  const [consent, setConsent] = useState<ConsentState | null>(null);
-  const [ready, setReady] = useState(false);
-
-  useEffect(() => {
-    setConsent(readConsent());
-    setReady(true);
-    const handler = (e: Event) => setConsent((e as CustomEvent<ConsentState>).detail);
-    window.addEventListener("consent-updated", handler);
-    return () => window.removeEventListener("consent-updated", handler);
-  }, []);
-
-  const personalized = consent?.advertising === true;
-
-  useEffect(() => {
-    if (!ready) return;
-    if (!SITE.adsenseEnabled || !SITE.adsenseClient || !slot) return;
-
-    ensureAdSenseScript(SITE.adsenseClient);
-    const ads = getAdsByGoogle();
-    ads.requestNonPersonalizedAds = personalized ? 0 : 1;
-
-    // Consent changed after an ad was already requested; reload so AdSense can switch mode.
-    if (
-      pushed.current &&
-      lastPersonalized.current !== null &&
-      lastPersonalized.current !== personalized
-    ) {
-      window.location.reload();
-      return;
-    }
-
-    lastPersonalized.current = personalized;
-
-    if (pushed.current) return;
-    try {
-      ads.push({});
-      pushed.current = true;
-    } catch {
-      // ignore
-    }
-  }, [ready, consent, personalized, slot]);
-
-  if (!SITE.adsenseEnabled || !SITE.adsenseClient || !slot) {
-    return null;
-  }
-
-  return (
-    <div className={`ad-slot ${className}`}>
-      <ins
-        className="adsbygoogle"
-        style={{ display: "block", width: "100%" }}
-        data-ad-client={SITE.adsenseClient}
-        data-ad-slot={slot}
-        data-ad-format={format}
-        data-full-width-responsive="true"
-      />
-    </div>
-  );
-}

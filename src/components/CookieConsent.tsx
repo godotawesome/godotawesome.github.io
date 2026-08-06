@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 export type ConsentState = {
   analytics: boolean;
+  /** Kept for dormant AdSlot.tsx; always false while ads are off. */
   advertising: boolean;
   timestamp: number;
 };
@@ -15,7 +16,9 @@ export function readConsent(): ConsentState | null {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
-    return JSON.parse(raw) as ConsentState;
+    const parsed = JSON.parse(raw) as ConsentState;
+    // Ads are off: never treat advertising as granted from old consent records.
+    return { ...parsed, advertising: false };
   } catch {
     return null;
   }
@@ -31,7 +34,6 @@ export function CookieConsent() {
   const [visible, setVisible] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [analytics, setAnalytics] = useState(true);
-  const [advertising, setAdvertising] = useState(true);
 
   useEffect(() => {
     const existing = readConsent();
@@ -39,14 +41,13 @@ export function CookieConsent() {
   }, []);
 
   const openSettings = () => {
-    // Opt-out UX: options start checked; user unchecks what they don't want.
+    // Opt-out UX: Analytics starts checked; user unchecks if they don't want it.
     setAnalytics(true);
-    setAdvertising(true);
     setSettingsOpen(true);
   };
 
   const acceptAll = () => {
-    writeConsent({ analytics: true, advertising: true, timestamp: Date.now() });
+    writeConsent({ analytics: true, advertising: false, timestamp: Date.now() });
     setVisible(false);
     setSettingsOpen(false);
   };
@@ -58,7 +59,7 @@ export function CookieConsent() {
   };
 
   const saveSettings = () => {
-    writeConsent({ analytics, advertising, timestamp: Date.now() });
+    writeConsent({ analytics, advertising: false, timestamp: Date.now() });
     setVisible(false);
     setSettingsOpen(false);
   };
@@ -81,9 +82,8 @@ export function CookieConsent() {
         {!settingsOpen ? (
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <p className="max-w-3xl text-sm text-black/70">
-              We use privacy-friendly Umami analytics without cookies. In-content AADS ads may
-              show without opt-in. Google Analytics and Microsoft Clarity load only if you accept
-              Analytics.{" "}
+              We use privacy-friendly Umami analytics without cookies. Google Analytics and
+              Microsoft Clarity load only if you accept Analytics.{" "}
               <a href="/cookie-policy/" className="underline">
                 Cookie Policy
               </a>
@@ -133,19 +133,7 @@ export function CookieConsent() {
                 Umami runs without cookies regardless of this setting.
               </span>
             </label>
-            <label className="flex items-start gap-3 text-sm">
-              <input
-                type="checkbox"
-                checked={advertising}
-                onChange={(e) => setAdvertising(e.target.checked)}
-                className="mt-1"
-              />
-              <span>
-                <strong>Advertising</strong>: reserved for personalized Google AdSense if we
-                re-enable it later (optional). Current AADS banners are not controlled by this
-                toggle.
-              </span>
-            </label>
+            {/* Advertising toggle removed while ads are off. Restore with AdSlot + policy updates. */}
             <div className="flex flex-wrap gap-2">
               <button
                 type="button"
