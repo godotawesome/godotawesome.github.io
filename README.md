@@ -20,6 +20,7 @@ npx serve out
 ## Deploy
 
 - Push to `main`: **Deploy production** builds, then deploys to GitHub Pages automatically.
+- Every Saturday 09:00 Turkey (`cron: 0 6 * * 6` UTC): same production deploy, so future-dated posts go live.
 - Push to `development` / PRs: **Build and preview artifact** only (download `site-out` to preview).
 - Manual re-deploy: Actions → **Deploy production** → Run workflow.
 - Repo Settings → Pages → Source: GitHub Actions.

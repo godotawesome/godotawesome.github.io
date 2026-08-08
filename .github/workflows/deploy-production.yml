@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Saturdays 09:00 Turkey (UTC+3) = 06:00 UTC
+  # Rebuilds the static site so future-dated posts in content/posts/ go live.
+  schedule:
+    - cron: "0 6 * * 6"
 
 permissions:
   contents: read
