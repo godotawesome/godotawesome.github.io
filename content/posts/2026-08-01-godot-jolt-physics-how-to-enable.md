@@ -6,7 +6,7 @@ categories: [ Quick Code ]
 tags: [Jolt, Physics, Godot 4.6, 3D]
 image: assets/images/articles/godot-jolt-physics-guide.png
 description: "Enable Godot Jolt Physics in Godot 4.6 in under a minute. New project defaults, existing project migration, key settings, and when to switch."
-featured: true
+featured: false
 hidden: false
 ---
 

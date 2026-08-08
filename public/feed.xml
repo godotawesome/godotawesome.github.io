@@ -5,7 +5,22 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 06 Aug 2026 09:42:34 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 07:26:15 GMT</lastBuildDate>
+      <item>
+        <title>Use Claude, ChatGPT &amp; Grok with Godot (MCP Guide for Cursor &amp; More)</title>
+        <description>Want to use AI with Godot ? Claude, ChatGPT, Grok, and Cursor do not control the editor by themselves. You connect them with MCP (Model Context Protocol). This guide is the short path: what MCP is, how to wire it up, and what usually breaks. For a broader overview of Godot MCP ideas, see &lt;a href=&quot;/godot mcp server ai integration/&quot; Godot MCP Server: AI integration&lt;/a . 30 second answer 1. Install a Godot MCP server or plugin 2. Keep Godot open on your project (many setups need the editor running)</description>
+        <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/use-ai-claude-chatgpt-grok-godot-mcp/</link>
+        <guid isPermaLink="true">https://godotawesome.com/use-ai-claude-chatgpt-grok-godot-mcp/</guid>
+        <category>AI</category>
+        <category>MCP</category>
+        <category>Claude</category>
+        <category>ChatGPT</category>
+        <category>Grok</category>
+        <category>Cursor</category>
+        <category>Godot</category>
+        <category>Development Tools</category>
+      </item>
       <item>
         <title>Godot Jolt Physics: How to Enable &amp; Use It in Godot 4.6</title>
         <description>Need Godot Jolt Physics set up fast? Here is the short version. In Godot 4.6 , Jolt is the default 3D physics engine for new projects . It is built into the engine (not a separate plugin for most people). Older projects keep their previous physics until you switch them. 30 second answer: enable Jolt 1. Open Project → Project Settings 2. Go to Physics → 3D 3. Set Physics Engine to Jolt Physics 4. Click Save &amp; Restart When the editor reloads, 3D physics uses Jolt. That is the whole enable step. Ne</description>
@@ -123,19 +138,6 @@
         <category>Performance</category>
         <category>Cross-Platform</category>
         <category>MonoBinding</category>
-        <category>Tutorials</category>
-      </item>
-      <item>
-        <title>Godot 4.3 vs 4.4: Complete Feature Breakdown and Migration Guide</title>
-        <description>The Godot Engine community has been buzzing with excitement since the release of Godot 4.4, and for good reason! This latest iteration brings significant improvements that could revolutionize your game development workflow. But should you migrate from 4.3? Let's dive deep into the differences and help you make an informed decision. 🚀 Performance Improvements: The Game Changer Rendering Pipeline Enhancements Godot 4.4 introduces substantial rendering optimizations that address many performance b</description>
-        <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/godot-4-3-vs-4-4-complete-comparison/</link>
-        <guid isPermaLink="true">https://godotawesome.com/godot-4-3-vs-4-4-complete-comparison/</guid>
-        <category>Godot 4.3</category>
-        <category>Godot 4.4</category>
-        <category>Migration Guide</category>
-        <category>Performance</category>
-        <category>Features</category>
         <category>Tutorials</category>
       </item>
   </channel>
