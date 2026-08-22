@@ -5,7 +5,33 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 08 Aug 2026 07:26:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 15:07:00 GMT</lastBuildDate>
+      <item>
+        <title>Games Made with Godot in 2026: Steam Hits Over 1,000 Peak Players</title>
+        <description>Looking for games made with Godot that actually move the needle in 2026? This list is filtered hard. Only titles that: released in 2026 (including Early Access that went live this year) hit 1,000+ peak concurrent players on Steam That cutoff kills the usual &quot;here are 40 demos nobody played&quot; roundup. What remains is a snapshot of Godot games people were actually sitting in. Numbers come from a public Steam tracker pull (peak CCU, rating, follows, price). They move over time. Treat them as a snaps</description>
+        <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/games-made-with-godot-2026/</link>
+        <guid isPermaLink="true">https://godotawesome.com/games-made-with-godot-2026/</guid>
+        <category>Games Made with Godot</category>
+        <category>Godot 2026</category>
+        <category>Steam</category>
+        <category>Indie</category>
+        <category>Game Showcase</category>
+      </item>
+      <item>
+        <title>Slay the Spire 2 on Godot: Millions of Players After the Unity Switch</title>
+        <description>Slay the Spire 2 is one of the clearest commercial signals Godot has had in years. Mega Crit rebuilt the sequel on Godot after the Unity runtime fee mess, shipped into Steam Early Access, and the third party trackers now put the game in multi million player territory. That is not a hobby project story. That is a franchise sequel running on an open source engine at Steam scale. Numbers below are estimates from public trackers (mainly Gamalytic and SteamDB snapshots). Treat ranges as ranges. Quick</description>
+        <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/slay-the-spire-2-godot-success-story/</link>
+        <guid isPermaLink="true">https://godotawesome.com/slay-the-spire-2-godot-success-story/</guid>
+        <category>Slay the Spire 2</category>
+        <category>Godot</category>
+        <category>Steam</category>
+        <category>Success Story</category>
+        <category>C#</category>
+        <category>Early Access</category>
+        <category>Game Showcase</category>
+      </item>
       <item>
         <title>Use Claude, ChatGPT &amp; Grok with Godot (MCP Guide for Cursor &amp; More)</title>
         <description>Want to use AI with Godot ? Claude, ChatGPT, Grok, and Cursor do not control the editor by themselves. You connect them with MCP (Model Context Protocol). This guide is the short path: what MCP is, how to wire it up, and what usually breaks. For a broader overview of Godot MCP ideas, see &lt;a href=&quot;/godot mcp server ai integration/&quot; Godot MCP Server: AI integration&lt;/a . 30 second answer 1. Install a Godot MCP server or plugin 2. Keep Godot open on your project (many setups need the editor running)</description>
@@ -110,34 +136,6 @@
         <category>Optimization</category>
         <category>Battery Life</category>
         <category>Frame Rate</category>
-        <category>Tutorials</category>
-      </item>
-      <item>
-        <title>Building Multiplayer Games in Godot 4: Complete Networking Guide 2025</title>
-        <description>Creating multiplayer games has never been more accessible, and Godot 4's networking capabilities make it easier than ever to bring players together. Whether you're building a co op adventure or a competitive online arena, this comprehensive guide will walk you through everything you need to know about multiplayer development in Godot 4. 🌐 Understanding Godot 4's Networking Architecture MultiplayerAPI 2.0: The Foundation Godot 4 introduces a completely redesigned networking system that's more fl</description>
-        <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/godot-4-multiplayer-networking-guide-2025/</link>
-        <guid isPermaLink="true">https://godotawesome.com/godot-4-multiplayer-networking-guide-2025/</guid>
-        <category>Multiplayer</category>
-        <category>Networking</category>
-        <category>GameServer</category>
-        <category>Online Games</category>
-        <category>RPC</category>
-        <category>MultiplayerAPI</category>
-        <category>Tutorials</category>
-      </item>
-      <item>
-        <title>Mastering Godot 4's New C# Integration: Complete Developer Guide 2025</title>
-        <description>The relationship between Godot and C has evolved dramatically with Godot 4, offering developers unprecedented power and flexibility. Whether you're a Unity refugee or a seasoned .NET developer, Godot 4's enhanced C integration opens up exciting possibilities for game development. Let's dive into everything you need to know about leveraging C in your Godot projects. 🚀 Why Choose C for Godot Development? Performance Advantages C in Godot 4 brings significant performance improvements over GDScript</description>
-        <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/godot-4-csharp-integration-complete-guide-2025/</link>
-        <guid isPermaLink="true">https://godotawesome.com/godot-4-csharp-integration-complete-guide-2025/</guid>
-        <category>CSharp</category>
-        <category>DotNet</category>
-        <category>Programming</category>
-        <category>Performance</category>
-        <category>Cross-Platform</category>
-        <category>MonoBinding</category>
         <category>Tutorials</category>
       </item>
   </channel>

@@ -6,7 +6,7 @@ categories: [ Development Tools ]
 tags: [AI, MCP, Claude, ChatGPT, Grok, Cursor, Godot]
 image: assets/images/articles/use-ai-claude-chatgpt-grok-godot-mcp.png
 description: "Use AI with Godot via MCP. Connect Claude, ChatGPT, Grok, and Cursor to your Godot project: setup steps, config examples, and common fixes."
-featured: true
+featured: false
 hidden: false
 ---
 

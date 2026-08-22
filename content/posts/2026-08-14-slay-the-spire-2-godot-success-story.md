@@ -6,7 +6,7 @@ categories: [ Game Showcase ]
 tags: [Slay the Spire 2, Godot, Steam, Success Story, C#, Early Access]
 image: assets/images/articles/slay-the-spire-2-godot-success-story.png
 description: "Slay the Spire 2 Godot success story: Mega Crit left Unity for Godot, then hit millions of players in Early Access. Sales estimates, reviews, and what developers can learn."
-featured: true
+featured: false
 hidden: false
 ---
 
