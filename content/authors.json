@@ -16,5 +16,14 @@
     "web": "",
     "twitter": "",
     "description": "Author of GodotAwesome. She is creating valuable, reader-friendly content for the GodotAwesome community!."
+  },
+  "allofthecheeses": {
+    "name": "allofthecheeses",
+    "display_name": "allofthecheeses",
+    "avatar": "/assets/images/allofthecheeses.png",
+    "email": "",
+    "web": "https://shipth.is",
+    "twitter": "",
+    "description": "Works on ShipThis, an open-source CLI for building and publishing Godot mobile games."
   }
 }
