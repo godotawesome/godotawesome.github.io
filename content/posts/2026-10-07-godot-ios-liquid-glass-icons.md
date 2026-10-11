@@ -142,7 +142,6 @@ Then put it on an iPhone running iOS 26 (or send it to TestFlight) and try each 
 
 ### What about players on iOS 18 and older?
 Xcode makes flat images from the `.icon` for older iOS versions when it builds. So players on iOS 18 see a flat version of your Liquid Glass icon - not the PNGs from Godot.
-<!-- TODO(David): confirm with `xcrun assetutil --info <app>/Assets.car` on the test build. -->
 
 ### Do I need a Mac?
 For Icon Composer, yes. Adding the icon to the Xcode project can be done anywhere with the CLI, but building for iOS still needs Xcode on a Mac, or a cloud build.
