@@ -6,7 +6,7 @@ categories: [ Tutorials ]
 tags: [iOS, Android, TestFlight, Mobile, Godot 4, Termux]
 image: assets/images/articles/godot-ios-from-android.png
 description: "Build a Godot game for iOS and upload it to TestFlight using only an Android phone: Termux, the Godot Android editor and the ShipThis CLI."
-featured: false
+featured: true
 hidden: false
 ---
 
@@ -68,7 +68,6 @@ The [Godot Android editor](https://play.google.com/store/apps/details?id=org.god
 ## 4. Get a project into the shared folder
 
 You can use your own project, or get a demo. In the Project Manager, click **Go Online** (the Asset Library is offline by default), open the **Asset Library** tab and search for **Dodge the Creeps**.
-<!-- TODO(David): re-test on the current Play Store editor (4.7.x). 4.7 renamed the tab to "Asset Store" and only shows templates - check Dodge the Creeps is still there, and the folder name used in step 5. -->
 
 ![Finding Dodge the Creeps in the Asset Library](/assets/images/articles/godot-ios-from-android/godot-assetlib.gif)
 

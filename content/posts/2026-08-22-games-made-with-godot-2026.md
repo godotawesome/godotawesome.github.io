@@ -6,7 +6,7 @@ categories: [ Game Showcase ]
 tags: [Games Made with Godot, Godot 2026, Steam, Indie]
 image: assets/images/articles/games-made-with-godot-2026.png
 description: "Games made with Godot in 2026 that passed 1,000 peak concurrent players on Steam. Machine Party, Road to Vostok, Hearth and Hamlet, and a full tracker list."
-featured: true
+featured: false
 hidden: false
 ---
 

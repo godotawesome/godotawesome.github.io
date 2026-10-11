@@ -5,7 +5,37 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 22 Aug 2026 15:07:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 06:59:38 GMT</lastBuildDate>
+      <item>
+        <title>Ship a Godot iOS Game From an Android Phone (No Mac, No Laptop)</title>
+        <description>Godot on iOS without a Mac Godot's iOS export gives you an Xcode project, and Xcode only runs on macOS. So most guides say you need a Mac to put a Godot game on iOS. I wanted to see how far that could go, so this guide builds a Godot game for iOS and puts it in TestFlight using only an Android phone. The iOS build still happens on a Mac a cloud one but you do not need to own a Mac, or even a laptop. Disclosure: I work on , the command line tool used in this guide. 30 second answer 1. Install Ter</description>
+        <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/ship-godot-ios-game-from-android-phone/</link>
+        <guid isPermaLink="true">https://godotawesome.com/ship-godot-ios-game-from-android-phone/</guid>
+        <category>iOS</category>
+        <category>Android</category>
+        <category>TestFlight</category>
+        <category>Mobile</category>
+        <category>Godot 4</category>
+        <category>Termux</category>
+        <category>Tutorials</category>
+      </item>
+      <item>
+        <title>Liquid Glass Icons for Godot iOS Games (iOS 26+ App Icon Guide)</title>
+        <description>Liquid Glass icons and Godot Godot's iOS export does not support the new Liquid Glass icons from iOS 26 yet you can only give it images like PNGs. The macOS export got , but there is nothing for iOS so far. This post covers what the new icons do, and how to add one to your game's Xcode project after you export. While I was researching this I found the icons are a lot more customisable than I thought. Players can switch their home screen to dark, clear or tinted (in any colour they like), and the</description>
+        <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-ios-liquid-glass-icons/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-ios-liquid-glass-icons/</guid>
+        <category>iOS</category>
+        <category>iOS 26</category>
+        <category>Liquid Glass</category>
+        <category>App Icon</category>
+        <category>Icon Composer</category>
+        <category>Xcode</category>
+        <category>Mobile</category>
+        <category>Godot 4</category>
+        <category>Tutorials</category>
+      </item>
       <item>
         <title>Games Made with Godot in 2026: Steam Hits Over 1,000 Peak Players</title>
         <description>Looking for games made with Godot that actually move the needle in 2026? This list is filtered hard. Only titles that: released in 2026 (including Early Access that went live this year) hit 1,000+ peak concurrent players on Steam That cutoff kills the usual &quot;here are 40 demos nobody played&quot; roundup. What remains is a snapshot of Godot games people were actually sitting in. Numbers come from a public Steam tracker pull (peak CCU, rating, follows, price). They move over time. Treat them as a snaps</description>
@@ -109,34 +139,6 @@
         <category>Game Design</category>
         <category>Performance</category>
         <category>Game Showcase</category>
-      </item>
-      <item>
-        <title>Godot 4.4 vs Unity 6: The Ultimate 2025 Comparison for Indie Developers</title>
-        <description>The game development landscape has dramatically shifted in 2025, with Unity 6 attempting to rebuild trust after their controversial pricing changes, while Godot 4.4 continues its meteoric rise as the indie developer's champion. If you're choosing between these powerhouses, this comprehensive comparison will help you make the right decision for your next project. 🆚 The State of Play in 2025 Unity 6 launched with promises of redemption: better performance, clearer pricing, and renewed focus on de</description>
-        <pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/godot-44-vs-unity-6-2025-comparison/</link>
-        <guid isPermaLink="true">https://godotawesome.com/godot-44-vs-unity-6-2025-comparison/</guid>
-        <category>Unity</category>
-        <category>Comparison</category>
-        <category>Indie Development</category>
-        <category>Game Engines</category>
-        <category>2025</category>
-        <category>Trending Topics</category>
-      </item>
-      <item>
-        <title>Godot Mobile Game Optimization: Performance Tips for Android &amp; iOS 2025</title>
-        <description>Mobile gaming represents over 50% of the global gaming market , making mobile optimization crucial for indie developers. Godot 4's enhanced mobile support opens incredible opportunities, but achieving smooth 60fps gameplay while preserving battery life requires strategic optimization. Let's explore the essential techniques that will make your Godot mobile games shine. 📱 Understanding Mobile Performance Challenges Hardware Limitations Reality Check Mobile devices face unique constraints that des</description>
-        <pubDate>Mon, 03 Nov 2025 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/godot-mobile-game-optimization-android-ios-2025/</link>
-        <guid isPermaLink="true">https://godotawesome.com/godot-mobile-game-optimization-android-ios-2025/</guid>
-        <category>Mobile Development</category>
-        <category>Performance</category>
-        <category>Android</category>
-        <category>iOS</category>
-        <category>Optimization</category>
-        <category>Battery Life</category>
-        <category>Frame Rate</category>
-        <category>Tutorials</category>
       </item>
   </channel>
 </rss>
