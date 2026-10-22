@@ -5,7 +5,20 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 11 Oct 2026 06:59:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 15:18:51 GMT</lastBuildDate>
+      <item>
+        <title>Godot MCP Setup with Claude Code: Step-by-Step Guide (2026)</title>
+        <description>Want Claude Code to run your Godot project, read the errors and fix them? A Godot MCP server gives it exactly that ability, and setup takes about five minutes. This guide uses the open source Coding Solo godot mcp server. It works with Godot closed and only needs Node.js. 30 second answer 1. Install Node.js 18+ , Godot 4.x and Claude Code 2. Open a terminal in your project folder (the one with ) 3. Run this command: 4. Start and ask: &quot;Use the godot MCP server to get the Godot version.&quot; If Godot </description>
+        <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-mcp-claude-code-setup/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-mcp-claude-code-setup/</guid>
+        <category>MCP</category>
+        <category>Claude Code</category>
+        <category>AI Integration</category>
+        <category>Godot 4</category>
+        <category>Tutorial</category>
+        <category>Development Tools</category>
+      </item>
       <item>
         <title>Ship a Godot iOS Game From an Android Phone (No Mac, No Laptop)</title>
         <description>Godot on iOS without a Mac Godot's iOS export gives you an Xcode project, and Xcode only runs on macOS. So most guides say you need a Mac to put a Godot game on iOS. I wanted to see how far that could go, so this guide builds a Godot game for iOS and puts it in TestFlight using only an Android phone. The iOS build still happens on a Mac a cloud one but you do not need to own a Mac, or even a laptop. Disclosure: I work on , the command line tool used in this guide. 30 second answer 1. Install Ter</description>
@@ -125,20 +138,6 @@
         <category>Game Development</category>
         <category>Beginner Friendly</category>
         <category>Tutorials</category>
-      </item>
-      <item>
-        <title>Pizza Tower Success Story: How Godot Powers Modern 2D Platformers</title>
-        <description>When Pizza Tower launched in January 2023, it didn't just become another indie success story. It became a testament to what's possible when creative vision meets the right development tools. This incredibly polished 2D platformer, developed by Tour De Pizza, showcases Godot's exceptional capabilities for creating fluid, high performance 2D games that rival AAA productions. 🍕 Pizza Tower: A Technical Marvel The Game That Changed Perceptions Pizza Tower isn't your typical indie platformer. With i</description>
-        <pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/pizza-tower-godot-success-story-2d-platformer/</link>
-        <guid isPermaLink="true">https://godotawesome.com/pizza-tower-godot-success-story-2d-platformer/</guid>
-        <category>Pizza Tower</category>
-        <category>2D Platformer</category>
-        <category>Indie Success</category>
-        <category>Animation</category>
-        <category>Game Design</category>
-        <category>Performance</category>
-        <category>Game Showcase</category>
       </item>
   </channel>
 </rss>

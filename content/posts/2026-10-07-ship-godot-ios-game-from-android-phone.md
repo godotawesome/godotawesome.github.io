@@ -6,7 +6,7 @@ categories: [ Tutorials ]
 tags: [iOS, Android, TestFlight, Mobile, Godot 4, Termux]
 image: assets/images/articles/godot-ios-from-android.png
 description: "Build a Godot game for iOS and upload it to TestFlight using only an Android phone: Termux, the Godot Android editor and the ShipThis CLI."
-featured: true
+featured: false
 hidden: false
 ---
 

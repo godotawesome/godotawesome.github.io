@@ -10,6 +10,8 @@ featured: false
 hidden: false
 ---
 
+> **Updated 2026:** Looking for a step-by-step setup? See our [Godot MCP Setup with Claude Code guide](/godot-mcp-claude-code-setup/). The install commands below are from 2025, and `claude mcp add godot -- npx @coding-solo/godot-mcp` is now the quicker route.
+
 The intersection of **AI** and **game development** has reached a new milestone with the introduction of **Godot MCP Server** - a groundbreaking tool that creates a direct bridge between AI assistants and the **Godot Engine**. This revolutionary project transforms how developers interact with their game projects, bringing intelligent automation to every aspect of Godot development.
 
 ## What is MCP and Why Does It Matter? 🤖

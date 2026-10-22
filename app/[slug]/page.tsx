@@ -67,7 +67,7 @@ export default async function PostPage({ params }: Props) {
           <Share title={post.title} url={absoluteUrl(`/${post.slug}/`)} />
         </div>
 
-        <div>
+        <div className="min-w-0">
           {author && (
             <div className="mb-6 flex flex-col items-center gap-3 sm:flex-row sm:items-start">
               {author.avatar && (
