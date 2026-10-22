@@ -87,7 +87,7 @@ const items = posts
       .join("\n");
     return `      <item>
         <title>${xmlEscape(p.title)}</title>
-        <description>${xmlEscape(stripMd(p.content).slice(0, 500))}</description>
+        <description>${xmlEscape(p.description)}</description>
         <pubDate>${rfc822(p.date)}</pubDate>
         <link>${SITE_URL}/${p.slug}/</link>
         <guid isPermaLink="true">${SITE_URL}/${p.slug}/</guid>
