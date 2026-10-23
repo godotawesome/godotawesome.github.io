@@ -9,13 +9,14 @@
     "description": "Author of GodotAwesome, a Godot game engine blog."
   },
   "godotscribe": {
-    "name": "GodotScribe",
-    "display_name": "GodotScribe",
+    "name": "GodotAwesome Team",
+    "display_name": "GodotAwesome Team",
+    "type": "Organization",
     "avatar": "/assets/images/godotscribe.png",
     "email": "",
     "web": "",
     "twitter": "",
-    "description": "Author of GodotAwesome. She is creating valuable, reader-friendly content for the GodotAwesome community!."
+    "description": "Practical Godot guides from the GodotAwesome team, checked against official docs and release notes."
   },
   "allofthecheeses": {
     "name": "allofthecheeses",

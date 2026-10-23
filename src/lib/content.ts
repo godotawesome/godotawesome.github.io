@@ -16,6 +16,8 @@ const pagesDirectory = path.join(process.cwd(), "content/pages");
 export type Author = {
   name: string;
   display_name: string;
+  /** schema.org type for the byline; defaults to Person. */
+  type?: "Person" | "Organization";
   avatar: string;
   email?: string;
   web?: string;

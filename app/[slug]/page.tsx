@@ -52,7 +52,7 @@ export default async function PostPage({ params }: Props) {
     description: post.description,
     image: post.image ? [post.image] : undefined,
     author: author
-      ? { "@type": "Person", name: author.display_name }
+      ? { "@type": author.type ?? "Person", name: author.display_name }
       : undefined,
     mainEntityOfPage: absoluteUrl(`/${post.slug}/`),
   };
