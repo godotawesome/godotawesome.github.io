@@ -23,7 +23,9 @@ export function buildMetadata({
   const ogImage = image || absoluteUrl(SITE.logo);
 
   return {
-    title: title === SITE.title ? title : `${title} | ${SITE.name}`,
+    // app/layout.tsx adds the "| GodotAwesome" suffix through its title template,
+    // but that template does not apply to the root page itself.
+    title: path === "/" ? { absolute: title === SITE.title ? title : `${title} | ${SITE.name}` } : title,
     description: desc,
     alternates: { canonical: url },
     robots: noIndex ? { index: false, follow: false } : { index: true, follow: true },
