@@ -34,12 +34,14 @@ export type PostFrontmatter = {
   hidden?: boolean;
   draft?: boolean;
   date?: string;
+  updated?: string | Date;
 };
 
 export type Post = {
   slug: string;
   title: string;
   date: string;
+  updated?: string;
   author?: string;
   categories: string[];
   tags: string[];
@@ -95,6 +97,13 @@ function normalizeImage(src?: string): string | undefined {
   return src.startsWith("/") ? src : `/${src}`;
 }
 
+/** YAML dates arrive as Date objects; normalise to YYYY-MM-DD. */
+function toDateString(value: unknown): string | undefined {
+  if (!value) return undefined;
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  return String(value).slice(0, 10);
+}
+
 function stripMarkdown(text: string): string {
   return text
     .replace(/```[\s\S]*?```/g, " ")
@@ -138,6 +147,7 @@ export function getAllPosts(): Post[] {
       slug: parsed.slug,
       title: fm.title || parsed.slug,
       date,
+      updated: toDateString(fm.updated),
       author: fm.author,
       categories: toStringArray(fm.categories),
       tags: toStringArray(fm.tags),

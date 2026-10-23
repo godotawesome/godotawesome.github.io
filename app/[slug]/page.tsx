@@ -48,6 +48,7 @@ export default async function PostPage({ params }: Props) {
     "@type": "Article",
     headline: post.title,
     datePublished: post.date,
+    dateModified: post.updated ?? post.date,
     description: post.description,
     image: post.image ? [post.image] : undefined,
     author: author
@@ -124,6 +125,19 @@ export default async function PostPage({ params }: Props) {
                 day: "numeric",
               })}
             </time>
+            {post.updated && post.updated !== post.date && (
+              <>
+                {" "}
+                · Updated{" "}
+                <time dateTime={post.updated}>
+                  {new Date(post.updated).toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "short",
+                    day: "numeric",
+                  })}
+                </time>
+              </>
+            )}
           </p>
 
           {post.categories.length > 0 && (
