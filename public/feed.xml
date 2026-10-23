@@ -5,7 +5,7 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 23 Oct 2026 10:59:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 11:12:24 GMT</lastBuildDate>
       <item>
         <title>Godot MCP Setup with Claude Code: Step-by-Step Guide (2026)</title>
         <description>Connect Claude Code to Godot with an MCP server in about 5 minutes. Exact commands for Windows, macOS and Linux, how to verify it, and how to fix common errors.</description>
