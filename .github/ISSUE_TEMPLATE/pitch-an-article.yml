@@ -1,0 +1,68 @@
+name: Pitch an article
+description: Want to write for GodotAwesome? Tell us your idea before you start.
+title: "Pitch: "
+labels: ["pitch"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for offering to write. Please read [CONTRIBUTING.md](https://github.com/godotawesome/godotawesome.github.io/blob/main/CONTRIBUTING.md) first. Guest articles are unpaid and get a byline and author page.
+  - type: input
+    id: title
+    attributes:
+      label: Working title
+    validations:
+      required: true
+  - type: textarea
+    id: reader
+    attributes:
+      label: Who is it for and what problem does it solve?
+      description: One short paragraph.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Godot version(s) you will test with
+      placeholder: "4.7"
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Outline
+      description: A few bullet points for the main sections.
+    validations:
+      required: true
+  - type: dropdown
+    id: proof
+    attributes:
+      label: What will you include?
+      multiple: true
+      options: [Tested code, Screenshots from the editor, Short GIF or video, Links to official docs, Sample project]
+  - type: dropdown
+    id: ai
+    attributes:
+      label: AI assistance
+      options: [None, Editing or grammar only, Drafted parts of the text or code]
+    validations:
+      required: true
+  - type: input
+    id: disclosure
+    attributes:
+      label: Affiliation with anything you will write about (or "none")
+    validations:
+      required: true
+  - type: input
+    id: links
+    attributes:
+      label: Link to your previous writing or projects (optional)
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: The article will be my own original work.
+          required: true
+        - label: I have read CONTRIBUTING.md.
+          required: true

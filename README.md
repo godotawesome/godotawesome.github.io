@@ -32,3 +32,7 @@ npx serve out
 - Posts: `content/posts/` (filename `YYYY-MM-DD-slug.md` - slug must match live URLs)
 - Pages: `content/pages/`
 - Authors: `content/authors.json`
+
+## Contributing
+
+Want to fix a mistake or write a guest article? See [CONTRIBUTING.md](CONTRIBUTING.md). You can also use the **Pitch an article** and **Report a correction** issue forms.
