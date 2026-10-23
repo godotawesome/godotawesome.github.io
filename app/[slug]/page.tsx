@@ -95,6 +95,19 @@ export default async function PostPage({ params }: Props) {
             {post.title}
           </h1>
 
+          {post.updated && post.updated !== post.date && (
+            <p className="mb-3 text-sm text-black/55">
+              Updated{" "}
+              <time dateTime={post.updated}>
+                {new Date(post.updated).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </time>
+            </p>
+          )}
+
           {post.image && (
             // eslint-disable-next-line @next/next/no-img-element
             <img
