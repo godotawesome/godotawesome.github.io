@@ -24,6 +24,8 @@
 *.swp
 *~
 .cursor/
+# Local agent files and analysis live in the private claude_memory repo (sibling folder ../claude_memory), not here.
+.claude/
 
 # debug
 npm-debug.log*
