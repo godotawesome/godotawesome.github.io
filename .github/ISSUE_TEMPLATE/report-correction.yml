@@ -1,0 +1,29 @@
+name: Report a correction
+description: Found a wrong command, outdated Godot version or broken link? Tell us.
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://godotawesome.com/...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Quote the line or code and say what you expected.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Godot version you tested with
+      placeholder: "4.7.2"
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix or source
+      description: A link to the official docs or release notes helps most.
