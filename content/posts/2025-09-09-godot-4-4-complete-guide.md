@@ -1,260 +1,112 @@
 ---
 layout: post
-title: "Godot 4.4 Released: Complete Guide to Revolutionary New Features & Performance Boost"
+title: "Godot 4.4 Features: Jolt, Typed Dictionaries, .NET 8 and Upgrade Notes"
 author: godotscribe
 categories: [ News and Updates ]
-tags: [Godot 4.4, Release, Performance, Update]
+tags: [Godot 4.4, Release, Update, Jolt, Migration]
 image: https://godotengine.org/storage/blog/covers/godot-4-4-a-unified-experience.webp
-description: "Godot 4.4 brings game-changing features: Jolt Physics integration, .NET 8 support, embedded game window, and massive performance improvements for developers."
+description: "What Godot 4.4 added: experimental Jolt Physics, typed dictionaries, .NET 8, embedded game window, Metal backend and more, plus upgrade notes."
 featured: false
 hidden: false
+updated: 2026-10-23
 ---
 
-**Game development just got a massive upgrade!** 🚀 **Godot 4.4** has officially launched with revolutionary features that will transform how you create games. From **Jolt Physics integration** to **embedded game windows** and **performance optimizations**, this release is packed with improvements every developer needs to know about.
+**Godot 4.4** added experimental **Jolt Physics**, **typed dictionaries**, a **.NET 8** minimum for C#, an **embedded game window** in the editor and a new **Metal** backend for Apple platforms. This page summarizes the official release notes and what to check when upgrading.
 
-## What Makes Godot 4.4 Special? ⭐
+Godot 4.4 is now an older release. The current stable line is 4.7 (4.7.2 was released on 18 August 2026), and 4.8 is in beta. If you are starting a new project, use a newer version.
 
-**Godot 4.4** represents the biggest leap forward in the engine's evolution, focusing on **developer experience**, **performance optimization**, and **cutting-edge technology integration**. This isn't just an update. It's a **game development revolution**.
+## 30-second summary
 
-### **🎯 Key Highlights:**
-- ⚡ **Jolt Physics Engine** - Industry-leading 3D physics
-- 💻 **.NET 8 Support** - Modern C# development
-- 🎮 **Embedded Game Window** - Seamless editor experience  
-- 🚀 **Performance Boosts** - Up to 40% faster rendering
-- 🛠️ **Developer Tools** - Enhanced debugging and profiling
+| Area | Headline change |
+|---|---|
+| Physics | **Jolt Physics** as a built-in alternative to Godot Physics (experimental), 3D physics interpolation |
+| GDScript | **Typed dictionaries**, hover tooltips, expression evaluator at breakpoints |
+| C# | **.NET 8.0** minimum, Android .NET support |
+| Editor | **Embedded game window**, interactive in-game editing, universal UID support |
+| Rendering | Ubershaders, AgX tone mapping, **Metal** backend, driver fallback |
+| Animation | `LookAtModifier3D`, `SpringBoneSimulator3D`, animation markers |
 
-## 🔥 Revolutionary New Features
+## What is new in Godot 4.4
 
-### **1. Jolt Physics Integration - The Game Changer**
+### Physics
 
-**Jolt Physics** is now fully integrated into **Godot 4.4**, bringing **professional-grade 3D physics** to your projects:
+- **Jolt Physics** can be enabled in the project settings as an alternative 3D physics engine. The release page labels it **experimental**, so check the docs for supported use cases first. See [Godot Jolt Physics: How to Enable Jolt](/godot-jolt-physics-how-to-enable/) for the current state
+- **3D physics interpolation** smooths motion between physics ticks. It is opt-in in the project settings
 
-#### **Why Jolt Physics Matters:**
-- ✅ **2x Faster Performance** compared to previous physics engine
-- ✅ **More Accurate Simulations** for complex interactions
-- ✅ **Better Stability** in multi-body scenarios
-- ✅ **Industry Standard** used by AAA games
+### GDScript
 
-#### **Real-World Impact:**
-```gdscript
-# Before Godot 4.4: Limited physics performance
-# Complex simulations caused frame drops
+- **Typed dictionaries** enforce key and value types in the engine, in GDScript and in other languages, with Inspector support
+- **Tooltips** show documentation on hover, including your own notes
+- An **expression evaluator** tab lets you evaluate expressions against local state at a breakpoint
 
-# After Godot 4.4: Jolt Physics power
-# Smooth 60fps even with 100+ physics bodies
-```
+### C# and .NET
 
-### **2. .NET 8 Support - C# Developer Paradise**
+- **.NET 8.0** is the minimum. Projects are upgraded automatically when you open them in 4.4
+- **Android .NET support** now covers all Android ABIs and BCL APIs
 
-**C# developers** get a massive upgrade with full **.NET 8 support**:
+### Editor
 
-#### **New Capabilities:**
-- 🎯 **Latest C# Features** - Pattern matching, records, nullable references
-- ⚡ **Better Performance** - Improved garbage collection and JIT compilation
-- 🛠️ **Enhanced Tooling** - Better IntelliSense and debugging
-- 📦 **NuGet Integration** - Access to modern .NET packages
+- **Embedded game window** runs the game inside the editor while keeping separate processes. It is available on Linux, Windows and Android, not on macOS
+- **Interactive in-game editing**: select scene elements and move the camera while the game runs or is paused
+- **Universal UID support** and a UID upgrade tool for 4.3 projects
+- Persistent window state, favorite inspector items, `Camera3D` preview, 3D object snapping, autostart profilers and an error-free first import
+- Early **OpenXR** support in the Android editor for Meta Quest 3, Quest 3S and Quest Pro
 
-#### **Code Example:**
-```csharp
-// New C# 12 features now available in Godot 4.4
-public partial class Player : CharacterBody3D
-{
-    [Export] public required float Speed { get; set; }
-    
-    // Primary constructors and collection expressions
-    public void MovePlayer(Vector3 direction) =>
-        Velocity = direction * Speed;
-}
-```
+### Rendering
 
-### **3. Embedded Game Window - Workflow Revolution**
+- **Ubershaders** are precompiled fallback shaders that reduce shader stutter. Some shaders may need workarounds from the docs
+- **AgX tone mapping** as an alternative to ACES
+- Lightmap improvements: bicubic sampling, transparent object baking and `LightmapGI` shadowmasks
+- Vertex shading for PSX-style or low-end targets, and a Shadow Caster Mask per `Light3D`
+- **Rendering driver fallback** to Compatibility when Vulkan, D3D12 or Metal is not supported
+- **Metal backend** for macOS and iOS (replacing MoltenVK). Apple Silicon only, with MetalFX upscaling available
 
-The **embedded game window** transforms your development experience:
+### Animation, 2D and 3D
 
-#### **Benefits:**
-- 🖥️ **Single Monitor Friendly** - No more window juggling
-- ⚡ **Instant Testing** - Play/pause without switching windows
-- 🎮 **Live Debugging** - Debug while playing
-- 📱 **Better Mobile Testing** - Preview different screen sizes
+- `LookAtModifier3D` for procedural aiming, `SpringBoneSimulator3D` for jiggle physics and **animation markers**
+- **2D batching** on all renderers and **2D shader instance uniforms**
+- **Manifold CSG** replaces the old CSG implementation
+- 3D particle emission shape visualization
 
-<div style="text-align: center; margin: 2rem 0;">
-<img src="https://godotengine.org/storage/blog/covers/godot-4-4-a-unified-experience.webp" alt="Godot 4.4 Embedded Game Window" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
-</div>
+### Platforms
 
+- Android: export templates can be downloaded on the device, Swappy frame pacing, themed monochrome icons and a native file picker
+- Linux: camera support
+- macOS and iOS: Metal backend and controller improvements
 
-## ⚡ Performance Improvements That Matter
+## Upgrade notes
 
-### **Rendering Optimizations:**
-- 🚀 **40% Faster** 2D rendering performance
-- 📈 **25% Improvement** in 3D scene loading
-- 🎨 **Optimized Shaders** with better compilation
-- 🔧 **Memory Usage** reduced by 15%
+1. **Back up the project** or commit it to Git, then open it with the official migration guide at hand
+2. **Run the UID upgrade tool** on projects coming from 4.3
+3. **C# projects** are upgraded to .NET 8 automatically on open. Older releases stay on .NET 6
+4. **Check CSG geometry** after upgrading, because CSG now uses Manifold
+5. **Test shaders and lightmaps**, since Ubershaders and lightmap changes can affect results
+6. **Jolt and physics interpolation are opt-in.** Test Jolt on a copy before switching
+7. Keep the `.godot` folder out of version control. The engine regenerates it
 
-### **Editor Performance:**
-- ⚡ **Faster Project Loading** - 50% reduction in startup time
-- 🛠️ **Smoother Inspector** - No more UI lag
-- 📁 **Better File System** - Instant asset imports
-- 🔄 **Optimized Scene Tree** - Handle larger projects easily
+## Should you still use Godot 4.4?
 
-## 🛠️ Developer Experience Enhancements
+For an existing project that works, there is no need to rush. For anything new, start on a current stable release. To see what changed in newer lines, read the official release pages on godotengine.org.
 
-### **Enhanced Debugging Tools:**
-```gdscript
-# New debugging features in Godot 4.4
-@export var debug_mode: bool = true
+## FAQ
 
-func _ready():
-    if debug_mode:
-        # New profiler integration
-        Engine.get_profiler().start_capture()
-        
-    # Enhanced error reporting
-    push_error("Custom error with stack trace")
-```
+### Is Jolt the default physics engine in Godot 4.4?
+No. In 4.4 Jolt is an experimental option you enable in the project settings.
 
-### **Improved Asset Pipeline:**
-- 📦 **Faster Import Times** - 60% faster texture imports
-- 🎨 **Better Texture Compression** - Smaller file sizes
-- 🔊 **Audio Improvements** - Support for more formats
-- 📱 **Mobile Optimization** - Better platform-specific builds
+### Does Godot 4.4 need .NET 8?
+Yes. The .NET build uses .NET 8.0 as its minimum, and projects upgrade automatically when opened.
 
-## 🎮 Real-World Use Cases
+### Does the embedded game window work on macOS?
+No. According to the release notes it is available on Linux, Windows and Android.
 
-### **For Indie Developers:**
-```yaml
-Benefits:
-  - Faster iteration cycles with embedded window
-  - Better physics for platformers and puzzlers
-  - Modern C# for complex game logic
-  - Reduced development time by 30%
-```
+### Is Godot 4.4 still supported?
+It is an older release. Newer stable versions exist, so plan to move to a current one for new work.
 
-### **For Game Studios:**
-```yaml
-Benefits:
-  - Professional physics for AAA-quality games
-  - Better team collaboration with improved tools
-  - Scalable architecture with .NET 8
-  - Reduced QA time with better debugging
-```
+## Update log
 
-### **For Mobile Developers:**
-```yaml
-Benefits:
-  - Optimized performance for mobile devices
-  - Better battery life with efficient rendering
-  - Improved touch input handling
-  - Faster build times for testing
-```
+- **23 October 2026:** rewritten against the official Godot 4.4 release notes. Earlier versions of this article included performance figures that are not in the official release notes.
 
-## 📊 Performance Benchmarks
+## Sources
 
-| **Feature** | **Godot 4.3** | **Godot 4.4** | **Improvement** |
-|---|---|---|---|
-| 3D Physics (1000 bodies) | 45 FPS | 72 FPS | **+60%** |
-| 2D Particle Systems | 30 FPS | 50 FPS | **+67%** |
-| Project Loading Time | 12 seconds | 6 seconds | **-50%** |
-| Memory Usage (Large Scene) | 2.1 GB | 1.8 GB | **-15%** |
-| Shader Compilation | 8 seconds | 3 seconds | **-62%** |
-
-## 🚀 Migration Guide: Upgrading to 4.4
-
-### **Step 1: Backup Your Project**
-```bash
-# Always backup before upgrading
-cp -r my_game_project my_game_project_backup
-```
-
-### **Step 2: Download Godot 4.4**
-- Visit <a href="https://godotengine.org/download/" target="_blank">official download page</a>
-- Choose your platform (Windows, Linux, macOS)
-- Download the latest 4.4 release
-
-### **Step 3: Project Conversion**
-```gdscript
-# Most projects upgrade automatically
-# Check for deprecated features:
-# - Old physics API calls
-# - Outdated shader syntax
-# - Legacy input handling
-```
-
-### **Step 4: Enable New Features**
-```gdscript
-# Enable Jolt Physics in Project Settings
-Project > Project Settings > Physics > 3D > Physics Engine: "Jolt"
-
-# Enable embedded game window
-Editor > Editor Settings > Interface > Editor > Play in Window: true
-```
-
-## 🔧 Troubleshooting Common Issues
-
-### **Physics Migration:**
-- ✅ Test all physics interactions after enabling Jolt
-- ✅ Adjust collision shapes if needed
-- ✅ Update physics material properties
-- ✅ Check character controller behavior
-
-### **.NET 8 Upgrade:**
-- ✅ Update project files to target .NET 8
-- ✅ Check for deprecated API usage
-- ✅ Test NuGet package compatibility
-- ✅ Verify build configurations
-
-## 🌟 Community Response & Success Stories
-
-### **📈 Adoption Stats:**
-- **500K+ Downloads** in first week
-- **95% Positive Reviews** from developers
-- **40+ AAA Studios** evaluating for production
-- **Growing Market Share** against Unity and Unreal
-
-## 🔮 What's Next for Godot?
-
-### **Upcoming Features (Roadmap):**
-- 🎮 **Console Support** - PlayStation, Xbox, Nintendo Switch
-- 🤖 **AI Integration** - Built-in machine learning tools
-- 🌐 **Web 3.0 Features** - Blockchain and NFT support
-- 📱 **AR/VR Enhancements** - Better XR development tools
-
-### **Community Contributions:**
-- 🔧 **Plugin Ecosystem** - Growing third-party tools
-- 📚 **Documentation** - Improved tutorials and guides
-- 🎓 **Education** - University adoption increasing
-- 🌍 **Localization** - More language support
-
-## 💻 Getting Started Today
-
-### **Quick Start Checklist:**
-1. ✅ **Download Godot 4.4** from official site
-2. ✅ **Backup existing projects** before upgrading
-3. ✅ **Enable Jolt Physics** for new 3D projects
-4. ✅ **Try embedded game window** for faster iteration
-5. ✅ **Explore .NET 8 features** if using C#
-
-### **Learning Resources:**
-- 📖 **Official Documentation** - Updated for 4.4 features
-- 🎥 **Video Tutorials** - Step-by-step guides
-- 💬 **Community Discord** - Get help from experts
-- 🛠️ **Sample Projects** - Learn by example
-
-## Conclusion: The Future is Here 🌟
-
-**Godot 4.4** isn't just an update. It's a **paradigm shift** that positions Godot as a serious competitor to industry giants. With **Jolt Physics**, **.NET 8 support**, and **massive performance improvements**, this release proves that **open-source game engines** can deliver **professional-grade tools**.
-
-Whether you're an **indie developer** creating your first game, a **mobile studio** optimizing for performance, or a **AAA team** evaluating alternatives, **Godot 4.4** offers the **features**, **performance**, and **flexibility** you need to create amazing games.
-
-The **game development landscape** has changed forever. **Godot 4.4** is here, and it's ready to power the next generation of incredible games.
-
----
-
-**Ready to experience the future of game development?** Download **Godot 4.4** today and discover what **professional-grade**, **open-source** game development looks like!
-
-**Resources:**
-- <a href="https://godotengine.org/article/godot-4-4-released/" target="_blank">🔗 Official Release Notes</a>
-- <a href="https://godotengine.org/download/" target="_blank">🔗 Download Godot 4.4</a>
-- <a href="https://docs.godotengine.org/en/4.4/" target="_blank">🔗 Godot 4.4 Documentation</a>
-- <a href="https://github.com/godotengine/godot/releases/tag/4.4-stable" target="_blank">🔗 GitHub Release</a>
-
-*Join millions of developers worldwide who are already creating the future with **Godot Engine**!* 🚀
+- [Godot 4.4 release page (official)](https://godotengine.org/releases/4.4/)
+- [Godot download archive](https://godotengine.org/download/archive/)
