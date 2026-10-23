@@ -159,11 +159,6 @@ With **844+ stars** and **86 forks** on GitHub, the Godot MCP Server has already
 - **Cross-Platform**: Works on all major operating systems
 - **AI Assistant Support**: Compatible with Cursor, Cline, and other MCP-enabled tools
 
-### 💬 **Developer Testimonials:**
-*"This changes everything about how I approach Godot development. Having AI that can actually run and test my code in real-time is game-changing."* - Indie Developer
-
-*"The debugging capabilities alone make this worth using. AI can now see exactly what's happening in my project."* - Game Studio Lead
-
 ## Advanced Features for Power Users ⚡
 
 ### Scene Management Automation

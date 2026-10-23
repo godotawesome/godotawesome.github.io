@@ -5,7 +5,7 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 22 Oct 2026 15:21:07 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 07:53:23 GMT</lastBuildDate>
       <item>
         <title>Godot MCP Setup with Claude Code: Step-by-Step Guide (2026)</title>
         <description>Connect Claude Code to Godot with an MCP server in about 5 minutes. Exact commands for Windows, macOS and Linux, how to verify it, and how to fix common errors.</description>
@@ -91,8 +91,8 @@
         <category>Development Tools</category>
       </item>
       <item>
-        <title>Godot Jolt Physics: How to Enable &amp; Use It in Godot 4.6</title>
-        <description>Enable Godot Jolt Physics in Godot 4.6 in under a minute. New project defaults, existing project migration, key settings, and when to switch.</description>
+        <title>Godot Jolt Physics: How to Enable Jolt (Godot 4.6+)</title>
+        <description>Enable Godot Jolt Physics in under a minute: Project Settings, Physics, 3D, Jolt. Default in new Godot 4.6+ projects. Migration steps, key settings and fixes.</description>
         <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
         <link>https://godotawesome.com/godot-jolt-physics-how-to-enable/</link>
         <guid isPermaLink="true">https://godotawesome.com/godot-jolt-physics-how-to-enable/</guid>
@@ -103,8 +103,8 @@
         <category>Quick Code</category>
       </item>
       <item>
-        <title>Best Godot Plugins 2026: Must-Have Addons Worth Installing</title>
-        <description>Updated 2026 list of the best Godot plugins and addons. Quick picks for 2D, 3D, dialogue, Steam, terrain, and workflow, with install links.</description>
+        <title>Best Godot Plugins &amp; Addons 2026: What to Install First</title>
+        <description>The best Godot plugins and addons for 2026: quick picks for dialogue, camera, terrain, Steam, physics and workflow, with install links for Godot 4.</description>
         <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
         <link>https://godotawesome.com/best-godot-plugins-2026/</link>
         <guid isPermaLink="true">https://godotawesome.com/best-godot-plugins-2026/</guid>

@@ -1,16 +1,17 @@
 ---
 layout: post
-title: "20 Amazing Games Made with Godot Engine"
+title: "Games Made with Godot: 20 Famous, Popular & Best Examples"
 author: godotscribe
 categories: [ Game Showcase ]
 tags: [ Indie, Success Stories]
 image: assets/images/articles/20amazinggames.png
-description: "Discover 20 incredible games made with Godot Engine, from Steam hits like Brotato to indie masterpieces. See why developers choose Godot for their projects."
+description: "20 of the best-known games made with Godot, from Brotato and Buckshot Roulette to Pizza Tower: developer, genre and why each one matters."
 featured: false
 hidden: false
+updated: 2026-10-23
 ---
 
-**Open source is conquering the gaming world!** 🎮✨ These **20 incredible games made with Godot Engine** prove that you don't need expensive tools to create **Steam sensations**, **award-winning indies**, and **commercial successes**. From **million-selling hits** to **artistic masterpieces**, here's the ultimate showcase of **Godot's gaming power**.
+These are 20 of the best-known **games made with Godot Engine**, from Steam hits like Brotato to indie favorites. Each entry lists the developer, the genre and why the game is worth a look.
 
 ## Why Games Made with Godot Matter 🌟
 

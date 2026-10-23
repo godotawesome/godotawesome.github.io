@@ -204,14 +204,6 @@ Editor > Editor Settings > Interface > Editor > Play in Window: true
 
 ## 🌟 Community Response & Success Stories
 
-### **Developer Testimonials:**
-
-> *"Godot 4.4's Jolt Physics transformed my racing game. The car physics feel incredibly realistic now, and performance doubled!"* - Sarah Chen, Indie Developer
-
-> *"The embedded game window alone saved us hours of development time. Our team productivity increased by 40%."* - Mark Rodriguez, Game Studio Lead
-
-> *".NET 8 support means we can use modern C# patterns. Our codebase is cleaner and more maintainable."* - Alex Thompson, Technical Director
-
 ### **📈 Adoption Stats:**
 - **500K+ Downloads** in first week
 - **95% Positive Reviews** from developers

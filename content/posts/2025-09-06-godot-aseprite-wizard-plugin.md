@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Godot Aseprite Wizard: Seamless Animation Import from Aseprite to Godot 4"
+title: "Godot Aseprite Wizard: Import Aseprite Animations into Godot 4"
 author: godotscribe
 categories: [ Plugins ]
 tags: [Aseprite, Animation Import, 2D Animation, Pixel]
 image: https://raw.githubusercontent.com/viniciusgerevini/godot-aseprite-wizard/refs/heads/godot_4/screenshots/comparison.png
-description: "Transform your 2D animation workflow with Godot Aseprite Wizard - the ultimate plugin for importing Aseprite animations directly into Godot 4 projects."
+description: "Godot Aseprite Wizard imports Aseprite animations into Godot 4 as SpriteFrames, AnimationPlayer tracks and atlases. Install, setup and tips."
 featured: false
 hidden: false
+updated: 2026-10-23
 ---
 
 **2D animation workflow** just got a major upgrade! 🎨 **Godot Aseprite Wizard** is the game-changing plugin that bridges the gap between **Aseprite's powerful animation tools** and **Godot Engine's** robust game development environment. Say goodbye to tedious manual imports and hello to seamless animation integration.
@@ -133,13 +134,6 @@ Result: All animations imported with one click! 🚀
 - **🔧 Active Development** since 2021
 - **🌍 Global Community** of 2D developers
 - **📖 Comprehensive Documentation**
-
-### **🏆 Why Developers Love It:**
-> *"This plugin saved me literally hours per week. My animation workflow went from tedious to effortless!"* - Indie Developer
-
-> *"Essential plugin for any 2D game in Godot. The time savings are incredible."* - Game Studio Artist
-
-> *"Perfect integration between Aseprite and Godot. Couldn't imagine working without it now."* - Pixel Art Enthusiast
 
 ## Comparison: Before vs After 📈
 

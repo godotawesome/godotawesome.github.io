@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Best Godot Plugins 2026: Must-Have Addons Worth Installing"
+title: "Best Godot Plugins & Addons 2026: What to Install First"
 author: godotscribe
 categories: [ Plugins ]
 tags: [Plugin, Addons, Tools, Godot 4]
 image: assets/images/articles/best-godot-plugins-2026.png
-description: "Updated 2026 list of the best Godot plugins and addons. Quick picks for 2D, 3D, dialogue, Steam, terrain, and workflow, with install links."
+description: "The best Godot plugins and addons for 2026: quick picks for dialogue, camera, terrain, Steam, physics and workflow, with install links for Godot 4."
 featured: false
 hidden: false
+updated: 2026-10-23
 ---
 
 Looking for the **best Godot plugins in 2026**? This list is built for people who want answers fast: what to install, why it matters, and where to get it.

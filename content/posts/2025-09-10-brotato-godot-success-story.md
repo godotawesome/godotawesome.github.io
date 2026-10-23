@@ -83,13 +83,6 @@ The numbers speak for themselves - **Brotato** is a **certified hit**:
 
 **Brotato's success** has made waves in the **indie game community**:
 
-### **Player Testimonials:**
-> *"This little potato game is incredibly addictive! Can't believe it's only $5."* - Steam Review
-
-> *"Perfect example of how simple concepts can be executed brilliantly."* - Gaming Influencer
-
-> *"Godot Engine proving it can create Steam hits!"* - Game Developer
-
 ### **Industry Recognition:**
 - ✅ **Steam Deck Verified** status
 - ✅ **Featured in Steam sales** multiple times

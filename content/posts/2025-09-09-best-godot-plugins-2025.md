@@ -8,7 +8,10 @@ image: https://is2-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/92/75/fc/9275
 description: "Discover the top 15 must-have Godot plugins for 2025. Boost productivity, enhance workflows, and create better games with these essential developer tools."
 featured: false
 hidden: false
+updated: 2026-10-23
 ---
+
+> **Looking for the current list?** See [Best Godot Plugins & Addons 2026](/best-godot-plugins-2026/). This 2025 list is kept for reference.
 
 **Transform your Godot development experience!** 🚀 The **Godot Asset Library** is packed with incredible plugins that can **supercharge your workflow**, **save development time**, and **unlock new possibilities** for your games. Here are the **15 essential Godot plugins** every developer should know about in 2025.
 

@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Complete Godot Localization Guide 2025: Internationalize Your Games for Global Success"
+title: "Godot Localization Guide: i18n, CSV & Gettext Translation"
 author: godotscribe
 categories: [ Tutorials ]
 tags: [localization, Code]
 image: assets/images/articles/godot-localization-guide-cover.png
-description: "Master Godot localization in 4.x and 3.x. Complete guide to internationalize games with CSV, Gettext, and spreadsheets for global reach."
+description: "Localize your Godot game with CSV or gettext: i18n setup, TranslationServer, language switching and plural forms for Godot 4 and 3."
 featured: false
 hidden: false
+updated: 2026-10-23
 ---
 
 Ready to take your **Godot game global**? 🌍 Localization isn't just about translating text. It's about creating experiences that resonate with players worldwide. Whether you're working with **Godot 4.x** or still on **Godot 3.x**, this comprehensive guide will walk you through every aspect of game internationalization.
@@ -16,10 +17,9 @@ Ready to take your **Godot game global**? 🌍 Localization isn't just about tra
 
 Before diving into the technical details, let's address the elephant in the room: **why should you care about localization?**
 
-- **70% of mobile gamers** prefer games in their native language
-- Localized games see **3x higher engagement** rates
-- **Steam's top markets** include non-English speaking regions
-- **Google Play** favors localized apps in regional searches
+- Players buy and keep playing games more readily in their own language
+- Many of the biggest store markets are not English-speaking
+- Translated store pages and menus remove a common reason to skip a game
 
 Simply put: **localization can make or break your game's success** in international markets.
 
@@ -307,13 +307,6 @@ CLOSE,"Close","Cerrar","button"
 CLOSE#window,"Close","Cerrar ventana","window_title"
 CLOSE#intimate,"Close","Íntimo","relationship"
 ```
-
-## 🌟 **Success Stories**
-
-Games that nailed localization with Godot:
-- **Cassette Beasts**: Full localization in 8 languages
-- **Sonic Colors: Ultimate**: Mobile version with regional text
-- **Pizza Tower**: Community-driven translations
 
 ## 📊 **Testing Your Localization**
 

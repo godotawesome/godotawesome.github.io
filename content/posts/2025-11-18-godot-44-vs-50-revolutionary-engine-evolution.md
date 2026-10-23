@@ -139,10 +139,6 @@ func _physics_process(delta: float):
 </ul>
 </div>
 
-### **Community Feedback**
-
-> *"Godot 4.4 finally gave us the stability we needed for our commercial release. The C# integration is fantastic!"* - **Sarah Chen, Lead Developer at PixelForge Studios**
-
 ## 🔧 Technical Deep Dive: Engine Architecture
 
 ### **Godot 4.4: Current Foundation**
