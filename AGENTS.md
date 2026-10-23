@@ -9,7 +9,7 @@ Before you plan or write anything, read `../claude_memory/CLAUDE.md` and `../cla
 
 ## Working rules
 - Live site is **Next.js static export**. Posts live in `content/posts/YYYY-MM-DD-slug.md`. `_posts/` is legacy and does not appear on the site.
-- Thumbnails and images go in `public/assets/images/articles/`.
+- Thumbnails and images go in `public/assets/images/articles/`. Thumbnails are generated locally with the maintainer's private tooling (in `../claude_memory/helpers/`) and committed as PNG files. CI never generates images.
 - After adding a post run `node scripts/generate-search-and-feed.mjs` (or `npm run dev`) so `feed.xml` and `search-index.json` update.
 - Writing style: quick answer first, short sections, tables and copy-paste code. No em dashes or en dashes, no AI filler.
 - Do not commit or push. The maintainer does that. Suggest a commit title in its own code block instead.

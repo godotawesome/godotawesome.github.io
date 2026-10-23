@@ -5,7 +5,19 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 23 Oct 2026 11:12:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 12:10:09 GMT</lastBuildDate>
+      <item>
+        <title>Godot 4.8 Beta: What's New and What Breaks</title>
+        <description>Godot 4.8 beta 1 is out: new editor docks, Trail3D, rendering upgrades, a .NET 10 requirement and breaking changes. What to know before you test or upgrade.</description>
+        <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-4-8/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-4-8/</guid>
+        <category>Godot 4.8</category>
+        <category>Beta</category>
+        <category>Release</category>
+        <category>Update</category>
+        <category>News and Updates</category>
+      </item>
       <item>
         <title>Godot MCP Setup with Claude Code: Step-by-Step Guide (2026)</title>
         <description>Connect Claude Code to Godot with an MCP server in about 5 minutes. Exact commands for Windows, macOS and Linux, how to verify it, and how to fix common errors.</description>
@@ -124,19 +136,6 @@
         <category>Optimization</category>
         <category>Godot 4.4</category>
         <category>Memory Management</category>
-        <category>Tutorials</category>
-      </item>
-      <item>
-        <title>Godot Visual Scripting: What Exists in Godot 4 (2026)</title>
-        <description>Does Godot 4 have visual scripting? Not built in. See why VisualScript was removed, and what to use instead: GDScript, the Orchestrator add-on, VisualShader and AnimationTree.</description>
-        <pubDate>Sat, 08 Nov 2025 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/godot-45-visual-scripting-node-based-programming/</link>
-        <guid isPermaLink="true">https://godotawesome.com/godot-45-visual-scripting-node-based-programming/</guid>
-        <category>Visual Scripting</category>
-        <category>Orchestrator</category>
-        <category>VisualShader</category>
-        <category>Godot 4</category>
-        <category>Beginner Friendly</category>
         <category>Tutorials</category>
       </item>
   </channel>
