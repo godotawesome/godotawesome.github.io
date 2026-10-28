@@ -45,6 +45,9 @@ export function Footer() {
             <Link href="/about/" className="text-black/70">
               About
             </Link>
+            <Link href="/how-we-work/" className="text-black/70">
+              How we work
+            </Link>
             <Link href="/contact/" className="text-black/70">
               Contact
             </Link>
