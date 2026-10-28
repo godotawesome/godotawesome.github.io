@@ -5,7 +5,46 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 23 Oct 2026 12:10:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 07:22:54 GMT</lastBuildDate>
+      <item>
+        <title>Godot Versions: Release Dates, Support Status and What Changed</title>
+        <description>Every Godot 4 release with dates and support status. Latest stable is 4.7.2, 4.8 is in beta. What each version added and which one to use.</description>
+        <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-versions/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-versions/</guid>
+        <category>Godot Versions</category>
+        <category>Release</category>
+        <category>Godot 4.7</category>
+        <category>Godot 4.8</category>
+        <category>Support</category>
+        <category>News and Updates</category>
+      </item>
+      <item>
+        <title>Godot 4.7 Features: AreaLight3D, HDR Output and the New Asset Store</title>
+        <description>What Godot 4.7 added: AreaLight3D, HDR output, the new Asset Store, VirtualJoystick, Android XR support and more. Highlights and upgrade notes.</description>
+        <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-4-7-features/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-4-7-features/</guid>
+        <category>Godot 4.7</category>
+        <category>Release</category>
+        <category>AreaLight3D</category>
+        <category>HDR</category>
+        <category>Asset Store</category>
+        <category>News and Updates</category>
+      </item>
+      <item>
+        <title>Godot 4.6 to 4.7 Migration Guide: Breaking Changes and Fixes</title>
+        <description>Upgrading a project from Godot 4.6 to 4.7? The breaking changes, behavior changes and changed defaults, with a checklist and the fixes you need.</description>
+        <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-4-6-to-4-7-migration/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-4-6-to-4-7-migration/</guid>
+        <category>Godot 4.7</category>
+        <category>Migration</category>
+        <category>Breaking Changes</category>
+        <category>Jolt</category>
+        <category>GDScript</category>
+        <category>Quick Code</category>
+      </item>
       <item>
         <title>Godot 4.8 Beta: What's New and What Breaks</title>
         <description>Godot 4.8 beta 1 is out: new editor docks, Trail3D, rendering upgrades, a .NET 10 requirement and breaking changes. What to know before you test or upgrade.</description>
@@ -101,42 +140,6 @@
         <category>Cursor</category>
         <category>Godot</category>
         <category>Development Tools</category>
-      </item>
-      <item>
-        <title>Godot Jolt Physics: How to Enable Jolt (Godot 4.6+)</title>
-        <description>Enable Godot Jolt Physics in under a minute: Project Settings, Physics, 3D, Jolt. Default in new Godot 4.6+ projects. Migration steps, key settings and fixes.</description>
-        <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/godot-jolt-physics-how-to-enable/</link>
-        <guid isPermaLink="true">https://godotawesome.com/godot-jolt-physics-how-to-enable/</guid>
-        <category>Jolt</category>
-        <category>Physics</category>
-        <category>Godot 4.6</category>
-        <category>3D</category>
-        <category>Quick Code</category>
-      </item>
-      <item>
-        <title>Best Godot Plugins &amp; Addons 2026: What to Install First</title>
-        <description>The best Godot plugins and addons for 2026: quick picks for dialogue, camera, terrain, Steam, physics and workflow, with install links for Godot 4.</description>
-        <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/best-godot-plugins-2026/</link>
-        <guid isPermaLink="true">https://godotawesome.com/best-godot-plugins-2026/</guid>
-        <category>Plugin</category>
-        <category>Addons</category>
-        <category>Tools</category>
-        <category>Godot 4</category>
-        <category>Plugins</category>
-      </item>
-      <item>
-        <title>Godot 4.4 Performance Optimization: Essential Tips for Smooth 60 FPS Gaming</title>
-        <description>Master Godot 4.4 performance optimization with proven techniques to achieve smooth 60 FPS gameplay. Essential tips for indie developers.</description>
-        <pubDate>Wed, 26 Nov 2025 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/godot-44-performance-optimization-60fps/</link>
-        <guid isPermaLink="true">https://godotawesome.com/godot-44-performance-optimization-60fps/</guid>
-        <category>Performance</category>
-        <category>Optimization</category>
-        <category>Godot 4.4</category>
-        <category>Memory Management</category>
-        <category>Tutorials</category>
       </item>
   </channel>
 </rss>
