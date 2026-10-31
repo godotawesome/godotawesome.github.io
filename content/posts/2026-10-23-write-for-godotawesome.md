@@ -8,12 +8,8 @@ image: assets/images/articles/write-for-godotawesome.png
 description: "Want to write about Godot? Here is how to pitch and submit a guest article to GodotAwesome with a GitHub pull request, plus our writing rules."
 featured: false
 hidden: false
-draft: true
-updated: 2026-10-23
+updated: 2026-10-31
 ---
-
-<!-- Ready to publish, kept as draft on purpose (traffic work comes first). To publish: remove `draft: true`, then add a "Contribute" link to the top bar pointing to /write-for-godotawesome/. -->
-
 
 **You can write for GodotAwesome.** Pitch your idea, write the article as a Markdown file, and open a pull request on GitHub. The whole site is open source, so your article, your byline and your changes are all public.
 

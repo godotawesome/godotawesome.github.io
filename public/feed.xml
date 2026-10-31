@@ -5,7 +5,7 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 28 Oct 2026 07:22:54 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 07:49:55 GMT</lastBuildDate>
       <item>
         <title>Godot Versions: Release Dates, Support Status and What Changed</title>
         <description>Every Godot 4 release with dates and support status. Latest stable is 4.7.2, 4.8 is in beta. What each version added and which one to use.</description>
@@ -44,6 +44,18 @@
         <category>Jolt</category>
         <category>GDScript</category>
         <category>Quick Code</category>
+      </item>
+      <item>
+        <title>Write for GodotAwesome: How to Submit a Guest Article</title>
+        <description>Want to write about Godot? Here is how to pitch and submit a guest article to GodotAwesome with a GitHub pull request, plus our writing rules.</description>
+        <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/write-for-godotawesome/</link>
+        <guid isPermaLink="true">https://godotawesome.com/write-for-godotawesome/</guid>
+        <category>Contributing</category>
+        <category>Guest Post</category>
+        <category>GitHub</category>
+        <category>Write for Us</category>
+        <category>Community</category>
       </item>
       <item>
         <title>Godot 4.8 Beta: What's New and What Breaks</title>
@@ -125,21 +137,6 @@
         <category>C#</category>
         <category>Early Access</category>
         <category>Game Showcase</category>
-      </item>
-      <item>
-        <title>Use Claude, ChatGPT &amp; Grok with Godot (MCP Guide for Cursor &amp; More)</title>
-        <description>Use AI with Godot via MCP. Connect Claude, ChatGPT, Grok, and Cursor to your Godot project: setup steps, config examples, and common fixes.</description>
-        <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/use-ai-claude-chatgpt-grok-godot-mcp/</link>
-        <guid isPermaLink="true">https://godotawesome.com/use-ai-claude-chatgpt-grok-godot-mcp/</guid>
-        <category>AI</category>
-        <category>MCP</category>
-        <category>Claude</category>
-        <category>ChatGPT</category>
-        <category>Grok</category>
-        <category>Cursor</category>
-        <category>Godot</category>
-        <category>Development Tools</category>
       </item>
   </channel>
 </rss>

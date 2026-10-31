@@ -147,6 +147,10 @@ export function Header({ categories, tags }: HeaderProps) {
               About
             </Link>
 
+            <Link href="/write-for-godotawesome/" className="nav-link" onClick={() => setOpen(false)}>
+              Contribute
+            </Link>
+
             <button
               type="button"
               className="nav-link text-left"
