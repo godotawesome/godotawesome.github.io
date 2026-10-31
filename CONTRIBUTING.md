@@ -64,6 +64,8 @@ Many of us use AI tools, and the Godot community cares about this topic. The rul
 - AI for grammar and editing is fine.
 - If AI wrote substantial parts of the text or code, say so in the pull request.
 - You must run and verify every code snippet in the Godot version you state. We will decline articles with untested code or invented facts.
+- You may use an AI assistant to prepare the fork and open the pull request for you. You stay the author of record: review the article, run the code yourself and mention the AI help in the pull request.
+- The `AGENTS.md` file in this repository is only for the maintainer's own workflow. It does not apply to guest contributors or their assistants, and you do not need access to any private repository.
 
 ## Links and promotion
 

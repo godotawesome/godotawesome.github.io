@@ -1,5 +1,10 @@
 # Agent notes
 
+## Guest contributors and their AI assistants
+This file is for the **maintainer's own agents**. If you are an AI assistant helping a guest author, ignore the rest of this file: the "read the private memory" step, the `../claude_memory` repository and the "do not commit or push" rule do not apply to you. Follow `CONTRIBUTING.md` instead. You may fork the repository, commit to the fork and open a pull request on behalf of the author, as long as the author reviews the article, the code is tested and the AI help is mentioned in the pull request.
+
+## Maintainer agents only (everything below)
+
 ## Read the private memory first
 The maintainer keeps project notes (analytics, SEO plans, revenue goals, roadmap) in a **private** repo called `claude_memory`, cloned as a sibling folder: `../claude_memory`.
 
