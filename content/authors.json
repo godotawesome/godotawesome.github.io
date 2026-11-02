@@ -30,7 +30,7 @@
   "tejesh-vaish": {
     "name": "Tejesh Vaish",
     "display_name": "Tejesh Vaish",
-    "avatar": "https://lumian-statics.s3.us-east-2.amazonaws.com/profile_images/Tejesh%20Vaish.png",
+    "avatar": "/assets/images/tejesh-vaish.png",
     "web": "https://tejeshvaish.com",
     "description": "Lead Engineer at Lumian.ai and an IIT Kanpur CSE graduate. Works on AI agents and backend systems."
   }
