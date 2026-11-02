@@ -4,6 +4,7 @@ title: "Interrupted scene-edit tools in Godot: inspect before retrying"
 author: tejesh-vaish
 categories: [ Development Tools ]
 tags: [Godot 4, GDScript, MCP, Failure Handling]
+image: assets/images/articles/interrupted-scene-edit-tools.png
 description: "Recover an interrupted Godot scene edit with fresh readback. A tested Godot 4.7.2 lab shows when to retry, skip the write, or return unknown."
 featured: false
 hidden: false
