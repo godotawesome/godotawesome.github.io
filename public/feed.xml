@@ -5,7 +5,33 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 02 Nov 2026 10:30:50 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 15:06:23 GMT</lastBuildDate>
+      <item>
+        <title>Godot Web Export (HTML5): Quick Guide for Godot 4</title>
+        <description>Export a Godot 4 game to the web: settings, a local test server, the headers threads need, file size tips and a GDScript snippet for browser quirks.</description>
+        <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-web-export-html5-quick-guide/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-web-export-html5-quick-guide/</guid>
+        <category>Code</category>
+        <category>Godot 4</category>
+        <category>Web Export</category>
+        <category>HTML5</category>
+        <category>GDScript</category>
+        <category>Quick Code</category>
+      </item>
+      <item>
+        <title>Godot AI Code Policy 2026: What It Means for Contributors and Game Developers</title>
+        <description>Godot's 2026 contribution policy bans AI-written engine code and vibe coding. What it covers, what it does not, and why you can still use AI for your own game.</description>
+        <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-ai-code-policy/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-ai-code-policy/</guid>
+        <category>Godot</category>
+        <category>AI</category>
+        <category>Contributing</category>
+        <category>Policy</category>
+        <category>Open Source</category>
+        <category>News and Updates</category>
+      </item>
       <item>
         <title>Interrupted scene-edit tools in Godot: inspect before retrying</title>
         <description>Recover an interrupted Godot scene edit with fresh readback. A tested Godot 4.7.2 lab shows when to retry, skip the write, or return unknown.</description>
@@ -107,34 +133,6 @@
         <category>Godot 4</category>
         <category>Termux</category>
         <category>Tutorials</category>
-      </item>
-      <item>
-        <title>Liquid Glass Icons for Godot iOS Games (iOS 26+ App Icon Guide)</title>
-        <description>How to add a Liquid Glass app icon to a Godot iOS game for iOS 26: what a .icon file is, making one in Icon Composer, and adding it to the exported Xcode project.</description>
-        <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/godot-ios-liquid-glass-icons/</link>
-        <guid isPermaLink="true">https://godotawesome.com/godot-ios-liquid-glass-icons/</guid>
-        <category>iOS</category>
-        <category>iOS 26</category>
-        <category>Liquid Glass</category>
-        <category>App Icon</category>
-        <category>Icon Composer</category>
-        <category>Xcode</category>
-        <category>Mobile</category>
-        <category>Godot 4</category>
-        <category>Tutorials</category>
-      </item>
-      <item>
-        <title>Games Made with Godot in 2026: Steam Hits Over 1,000 Peak Players</title>
-        <description>Games made with Godot in 2026 that passed 1,000 peak concurrent players on Steam. Machine Party, Road to Vostok, Hearth and Hamlet, and a full tracker list.</description>
-        <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/games-made-with-godot-2026/</link>
-        <guid isPermaLink="true">https://godotawesome.com/games-made-with-godot-2026/</guid>
-        <category>Games Made with Godot</category>
-        <category>Godot 2026</category>
-        <category>Steam</category>
-        <category>Indie</category>
-        <category>Game Showcase</category>
       </item>
   </channel>
 </rss>
