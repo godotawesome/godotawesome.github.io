@@ -8,10 +8,10 @@ image: assets/images/articles/best-godot-plugins-2026.png
 description: "The best Godot plugins and addons for 2026: quick picks for dialogue, camera, terrain, Steam, physics and workflow, with install links for Godot 4."
 featured: false
 hidden: false
-updated: 2026-10-23
+updated: 2026-11-07
 ---
 
-Looking for the **best Godot plugins in 2026**? This list is built for people who want answers fast: what to install, why it matters, and where to get it.
+Looking for the **best Godot plugins in 2026**? This list is built for people who want answers fast: what to install, why it matters, and where to get it. It replaces our older "Best Godot Plugins 2025" list, which now redirects here.
 
 I skipped the filler. These are the addons that keep showing up in real Godot 4 projects, Asset Library searches, and "must-have" threads. If you only have 10 minutes, skim the **Quick picks** table, then jump to the plugins that match your game type.
 
@@ -252,4 +252,4 @@ Install two or three that match your current project. Learn them. Then expand.
 **Resources:**
 - <a href="https://godotengine.org/asset-library/" target="_blank">Godot Asset Library</a>
 - <a href="https://docs.godotengine.org/en/stable/tutorials/plugins/index.html" target="_blank">Official plugin docs</a>
-- <a href="/best-godot-plugins-2025/">Previous list: Best Godot Plugins 2025</a>
+- <a href="/godot-versions/">Godot versions and support status</a>
