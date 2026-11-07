@@ -63,4 +63,16 @@ for (const slug of ["godot-44-vs-50-revolutionary-engine-evolution"]) {
   writeRedirect(path.join(dir, "index.html"), "/", slug);
 }
 
+// Merged posts → the single page that replaced them (stub keeps old URLs resolvable)
+const mergedPosts = {
+  "godot_vs_unity_article": "/godot-vs-unity-2025/",
+  "godot-44-vs-unity-6-2025-comparison": "/godot-vs-unity-2025/",
+  "best-godot-plugins-2025": "/best-godot-plugins-2026/",
+};
+for (const [slug, target] of Object.entries(mergedPosts)) {
+  const dir = path.join(outDir, slug);
+  fs.mkdirSync(dir, { recursive: true });
+  writeRedirect(path.join(dir, "index.html"), target, slug);
+}
+
 console.log("postbuild: wrote .nojekyll, authors.html and legacy redirect stubs");

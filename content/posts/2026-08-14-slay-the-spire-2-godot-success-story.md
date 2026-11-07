@@ -103,8 +103,7 @@ For indie and mid-size teams watching engine risk, STS2 is the case study people
 
 More engine-choice context on this site:
 
-- <a href="/godot-vs-unity-2025/">Godot vs Unity 2025</a>
-- <a href="/godot-44-vs-unity-6-2025-comparison/">Godot 4.4 vs Unity 6</a>
+- <a href="/godot-vs-unity-2025/">Godot vs Unity in 2026</a>
 
 ## What STS2 says about Godot technically
 
