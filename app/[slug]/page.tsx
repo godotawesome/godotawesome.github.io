@@ -113,7 +113,7 @@ export default async function PostPage({ params }: Props) {
             <img
               src={post.image}
               alt={post.title}
-              className="mb-2 w-full rounded-lg object-cover"
+              className="mb-2 h-auto w-full rounded-lg"
             />
           )}
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Post } from "@/lib/content";
+import { CoverImage } from "@/components/CoverImage";
 
 export function FeaturedCard({ post }: { post: Post }) {
   return (
@@ -7,12 +8,7 @@ export function FeaturedCard({ post }: { post: Post }) {
       <div className="grid md:grid-cols-2">
         {post.image && (
           <Link href={`/${post.slug}/`} className="block overflow-hidden">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={post.image}
-              alt={post.title}
-              className="h-full min-h-[220px] w-full object-cover transition duration-300 hover:scale-[1.02]"
-            />
+            <CoverImage src={post.image} alt={post.title} lazy={false} />
           </Link>
         )}
         <div className="flex flex-col justify-center p-6">

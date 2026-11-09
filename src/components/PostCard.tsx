@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Post } from "@/lib/content";
 import { getAuthor } from "@/lib/content";
+import { CoverImage } from "@/components/CoverImage";
 
 export function PostCard({ post }: { post: Post }) {
   const author = getAuthor(post.author);
@@ -9,13 +10,7 @@ export function PostCard({ post }: { post: Post }) {
     <article className="card-lift flex h-full flex-col overflow-hidden rounded-lg border border-black/5 bg-white shadow-sm">
       {post.image && (
         <Link href={`/${post.slug}/`} className="block overflow-hidden">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={post.image}
-            alt={post.title}
-            className="aspect-[16/10] w-full object-cover transition duration-300 hover:scale-[1.02]"
-            loading="lazy"
-          />
+          <CoverImage src={post.image} alt={post.title} />
         </Link>
       )}
       <div className="flex flex-1 flex-col p-4">
