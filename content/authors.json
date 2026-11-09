@@ -1,5 +1,6 @@
 {
   "alihan98ersoy": {
+    "order": 1,
     "name": "Alihan",
     "display_name": "alihan98ersoy",
     "avatar": "/assets/images/alihan.jpg",
@@ -9,6 +10,7 @@
     "description": "Author of GodotAwesome, a Godot game engine blog."
   },
   "godotscribe": {
+    "order": 99,
     "name": "GodotAwesome Team",
     "display_name": "GodotAwesome Team",
     "type": "Organization",
@@ -19,6 +21,7 @@
     "description": "Practical Godot guides from the GodotAwesome team, checked against official docs and release notes."
   },
   "allofthecheeses": {
+    "order": 2,
     "name": "allofthecheeses",
     "display_name": "allofthecheeses",
     "avatar": "/assets/images/allofthecheeses.png",
@@ -28,6 +31,7 @@
     "description": "Works on ShipThis, an open-source CLI for building and publishing Godot mobile games."
   },
   "tejesh-vaish": {
+    "order": 3,
     "name": "Tejesh Vaish",
     "display_name": "Tejesh Vaish",
     "avatar": "/assets/images/tejesh-vaish.png",

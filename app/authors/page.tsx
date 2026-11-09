@@ -9,15 +9,17 @@ export const metadata = buildMetadata({
 });
 
 export default function AuthorsPage() {
-  const authors = getAuthors();
+  // Order comes from `order` in content/authors.json (missing = 50; the Team is 99, so it stays last).
+  const entries = Object.entries(getAuthors())
+    .map(([id, author]) => ({ id, author, posts: getPostsByAuthor(id) }))
+    .sort((a, b) => (a.author.order ?? 50) - (b.author.order ?? 50));
 
   return (
     <div className="site-container">
       <div className="section-title">
         <span>Authors</span>
       </div>
-      {Object.entries(authors).map(([id, author]) => {
-        const posts = getPostsByAuthor(id);
+      {entries.map(({ id, author, posts }) => {
         return (
           <section key={id} id={id} className="mb-14 scroll-mt-24">
             <div className="mb-6 flex flex-col items-center gap-4 sm:flex-row sm:items-start">

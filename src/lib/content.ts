@@ -16,6 +16,8 @@ const pagesDirectory = path.join(process.cwd(), "content/pages");
 export type Author = {
   name: string;
   display_name: string;
+  /** Position on /authors/. Lower first. Missing = 50 (after the numbered guests, before the Team at 99). */
+  order?: number;
   /** schema.org type for the byline; defaults to Person. */
   type?: "Person" | "Organization";
   avatar: string;
