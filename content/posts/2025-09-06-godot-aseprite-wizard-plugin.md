@@ -8,10 +8,10 @@ image: https://raw.githubusercontent.com/viniciusgerevini/godot-aseprite-wizard/
 description: "Godot Aseprite Wizard imports Aseprite animations into Godot 4 as SpriteFrames, AnimationPlayer tracks and atlases. Install, setup and tips."
 featured: false
 hidden: false
-updated: 2026-10-23
+updated: 2026-11-13
 ---
 
-**2D animation workflow** just got a major upgrade! 🎨 **Godot Aseprite Wizard** is the game-changing plugin that bridges the gap between **Aseprite's powerful animation tools** and **Godot Engine's** robust game development environment. Say goodbye to tedious manual imports and hello to seamless animation integration.
+**Godot Aseprite Wizard** is a free Godot 4 plugin that imports Aseprite animations as SpriteFrames, AnimationPlayer tracks or atlases, so you do not export sprite sheets by hand. Install it from the AssetLib tab (or clone the GitHub repository), enable it under **Project Settings > Plugins**, then import your `.aseprite` files from the editor.
 
 ## What is Godot Aseprite Wizard? 🧙‍♂️
 

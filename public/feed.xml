@@ -5,7 +5,7 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 09 Nov 2026 10:07:43 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:09:07 GMT</lastBuildDate>
       <item>
         <title>Godot Web Export (HTML5): Quick Guide for Godot 4</title>
         <description>Export a Godot 4 game to the web: settings, a local test server, the headers threads need, file size tips and a GDScript snippet for browser quirks.</description>
@@ -45,8 +45,8 @@
         <category>Development Tools</category>
       </item>
       <item>
-        <title>Godot Versions: Release Dates, Support Status and What Changed</title>
-        <description>Every Godot 4 release with dates and support status. Latest stable is 4.7.2, 4.8 is in beta. What each version added and which one to use.</description>
+        <title>Godot Versions: Latest Stable, Release Dates and Support Status</title>
+        <description>Latest stable Godot is 4.7.2 and 4.8 is in beta 3. Every Godot 4 release with date, support status and what changed, so you know which version to use.</description>
         <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
         <link>https://godotawesome.com/godot-versions/</link>
         <guid isPermaLink="true">https://godotawesome.com/godot-versions/</guid>
@@ -96,8 +96,8 @@
         <category>Community</category>
       </item>
       <item>
-        <title>Godot 4.8 Beta: What's New and What Breaks</title>
-        <description>Godot 4.8 beta 1 is out: new editor docks, Trail3D, rendering upgrades, a .NET 10 requirement and breaking changes. What to know before you test or upgrade.</description>
+        <title>Godot 4.8 Beta: What's New, Release Date and What Breaks</title>
+        <description>Godot 4.8 beta 3 is out (9 Nov 2026). New editor docks, Trail3D, .NET 10 requirement, breaking changes and the release date status. Read before you upgrade.</description>
         <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
         <link>https://godotawesome.com/godot-4-8/</link>
         <guid isPermaLink="true">https://godotawesome.com/godot-4-8/</guid>

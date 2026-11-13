@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Godot Jolt Physics: How to Enable Jolt (Godot 4.6+)"
+title: "Godot Jolt Physics: How to Enable It in Godot 4.6+"
 author: godotscribe
 categories: [ Quick Code ]
 tags: [Jolt, Physics, Godot 4.6, 3D]
 image: assets/images/articles/godot-jolt-physics-guide.png
-description: "Enable Godot Jolt Physics in under a minute: Project Settings, Physics, 3D, Jolt. Default in new Godot 4.6+ projects. Migration steps, key settings and fixes."
+description: "How to enable Jolt Physics in Godot 4.6+ in under a minute: Project Settings, Physics, 3D. Jolt is the default for new projects. Switch old projects and fix common issues."
 featured: false
 hidden: false
-updated: 2026-10-23
+updated: 2026-11-13
 ---
 
 Need **Godot Jolt Physics** set up fast? Here is the short version.

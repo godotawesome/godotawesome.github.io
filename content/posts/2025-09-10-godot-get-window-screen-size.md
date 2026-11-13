@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Godot Get Window Size & Screen Size (Godot 4 Code)"
+title: "Godot Get Viewport, Window & Screen Size (Godot 4 Code)"
 author: alihan98ersoy
 categories: [ Quick Code ]
 tags: [Code, Solution, Godot 4, GDScript, Viewport]
 image: assets/images/articles/viewportsize.png
-description: "Get window size, viewport size and screen size in Godot 4 with copy-paste GDScript: get_window().size, get_viewport_rect(), DisplayServer and the resize signal."
+description: "Get the viewport size, window size and screen size in Godot 4 with copy-paste GDScript: get_viewport_rect().size, get_window().size, DisplayServer and the resize signal."
 featured: false
 hidden: false
-updated: 2026-10-23
+updated: 2026-11-13
 ---
 
 Need the **window size, viewport size or screen size** in Godot 4? Copy the line that matches what you need.

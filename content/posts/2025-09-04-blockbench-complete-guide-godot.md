@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "BlockBench Complete Guide: Creating 3D Models for Godot Engine"
+title: "Blockbench for Godot: What It Is and How to Export Models"
 author: godotscribe
 categories: [ Tutorials, 3D Modeling]
 tags: [BlockBench, 3D Modeling, Tutorial, Game Development, Low Poly, Voxel]
 image: assets/images/articles/blockbench-video.png
-description: "Master BlockBench, the free and powerful 3D modeling tool perfect for creating low-poly models for your Godot games. Complete tutorial from basics to advanced techniques."
+description: "What is Blockbench? A free low-poly 3D model editor. Learn the basics and how to export glTF models into Godot, with a step-by-step beginner tutorial."
 featured: false
 hidden: false
 ---
 
-Are you looking for a **free, powerful, and user-friendly 3D modeling tool** for your Godot projects? Look no further than **BlockBench**! This incredible open-source editor has revolutionized the way developers create low-poly 3D models, and today we'll dive deep into everything you need to know about this amazing tool.
+**Blockbench** is a free, open-source 3D model editor made for low-poly and blocky models. For Godot, build your model in Blockbench, export it as **glTF 2.0**, and drag the `.gltf` file into the FileSystem dock. This guide covers the basics and the export settings.
 
 ## What is BlockBench?
 

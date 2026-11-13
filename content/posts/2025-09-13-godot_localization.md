@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Godot Localization Guide: i18n, CSV & Gettext Translation"
+title: "Godot Localization: How to Translate Your Game (CSV & Gettext)"
 author: godotscribe
 categories: [ Tutorials ]
 tags: [localization, Code]
 image: assets/images/articles/godot-localization-guide-cover.png
-description: "Localize your Godot game with CSV or gettext: i18n setup, TranslationServer, language switching and plural forms for Godot 4 and 3."
+description: "How to translate and localize a Godot game with CSV or gettext: i18n setup, TranslationServer, language switching and plural forms for Godot 4 and 3."
 featured: false
 hidden: false
-updated: 2026-10-23
+updated: 2026-11-13
 ---
 
-Ready to take your **Godot game global**? 🌍 Localization isn't just about translating text. It's about creating experiences that resonate with players worldwide. Whether you're working with **Godot 4.x** or still on **Godot 3.x**, this comprehensive guide will walk you through every aspect of game internationalization.
+To localize a Godot game, put your text in a **CSV spreadsheet** (best for small and medium projects) or **gettext .po files** (better for large projects and professional translators), import it, and switch languages with `TranslationServer`. This guide covers both methods for Godot 4 and 3.
 
 ## 🎯 **Why Localization Matters**
 
