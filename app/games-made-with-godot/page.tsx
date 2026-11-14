@@ -124,7 +124,7 @@ export default function GamesPage() {
         </dl>
         <a
           href="#suggest"
-          className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-[#25384a] no-underline shadow-sm transition hover:bg-white/90 hover:text-[#25384a]"
+          className="mt-6 inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2.5 sm:rounded-full sm:py-2 text-sm font-semibold text-[#25384a] no-underline shadow-sm transition hover:bg-white/90 hover:text-[#25384a]"
         >
           Spotted a mistake or want to add a game?
           <span aria-hidden>&darr;</span>
