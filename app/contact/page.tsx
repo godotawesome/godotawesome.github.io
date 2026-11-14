@@ -12,9 +12,10 @@ export default async function ContactPage() {
 
   return (
     <div className="site-container max-w-3xl">
-      <div className="section-title">
+      {/* The page heading; contact.md has no "# Contact" line so it is not shown twice. */}
+      <h1 className="section-title">
         <span>{page.title}</span>
-      </div>
+      </h1>
       <div className="article-post" dangerouslySetInnerHTML={{ __html: html }} />
       <section aria-label="Contact form" className="mt-8 rounded-2xl border border-black/[0.08] bg-white p-5 shadow-sm sm:p-8">
         <ContactForm />
