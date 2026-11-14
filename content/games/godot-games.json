@@ -7,21 +7,80 @@
   },
   "games": [
     {
-      "id": "dolor-sit-arena",
-      "name": "Dolor Sit Arena",
-      "steam_appid": null,
-      "release_date": "2022-06-08",
-      "status": "released",
+      "id": "slay-the-spire-2",
+      "name": "Slay the Spire 2",
+      "steam_appid": 2868840,
+      "release_date": "2026-03-05",
+      "status": "early_access",
       "developers": [
         {
-          "name": "Dolor Games",
-          "url": "https://example.com/developer"
+          "name": "Mega Crit",
+          "url": "https://store.steampowered.com/search/?developer=Mega%20Crit"
         }
       ],
       "publishers": [
         {
-          "name": "Ipsum Publishing",
-          "url": "https://example.com/publisher"
+          "name": "Mega Crit",
+          "url": "https://store.steampowered.com/search/?publisher=Mega%20Crit"
+        }
+      ],
+      "genres": [
+        "roguelike",
+        "deckbuilder"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 190744,
+        "positive_pct": 62,
+        "url": "https://steamdb.info/app/2868840/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 155300000,
+        "url": "https://app.sensortower.com/vgi/game/slay-the-spire-2",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2868840/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/slay-the-spire-2/",
+        "type": "official_showcase"
+      },
+      "article": "/slay-the-spire-2-godot-success-story/",
+      "description": "The sequel to the genre-defining deckbuilder: climb a spire, build a deck from cards found along the way and pick relics that change how runs play out.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2868840/",
+        "https://godotengine.org/showcase/slay-the-spire-2/"
+      ]
+    },
+    {
+      "id": "buckshot-roulette",
+      "name": "Buckshot Roulette",
+      "steam_appid": 2835570,
+      "release_date": "2024-04-04",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Mike Klubnika",
+          "url": "https://store.steampowered.com/search/?developer=Mike%20Klubnika"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "CRITICAL REFLEX",
+          "url": "https://store.steampowered.com/search/?publisher=CRITICAL%20REFLEX"
         }
       ],
       "genres": [
@@ -29,110 +88,57 @@
         "strategy"
       ],
       "platforms": [
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "reviews": {
-        "total": 77345,
-        "positive_pct": 94.33,
-        "url": "https://example.com/reviews"
+        "total": 112655,
+        "positive_pct": 95,
+        "url": "https://steamdb.info/app/2835570/charts/"
       },
       "time_to_beat": {
         "hours_min": 1,
         "hours_max": 3,
-        "url": "https://example.com/time-to-beat",
+        "url": "https://www.igdb.com/games/buckshot-roulette",
         "source": "igdb"
       },
       "revenue": {
-        "usd": 7937000,
-        "url": "https://example.com/revenue",
+        "usd": 21000000,
+        "url": "https://app.sensortower.com/vgi/game/buckshot-roulette",
         "source": "sensortower"
       },
       "stores": {
-        "steam": "https://example.com/steam/dolor-sit-arena",
-        "itch": "https://example.com/itch/dolor-sit-arena"
+        "steam": "https://store.steampowered.com/app/2835570/"
       },
       "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "developer_statement"
+        "url": "https://godotengine.org/showcase/buckshot-roulette/",
+        "type": "official_showcase"
       },
-      "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "article": "/buckshot-roulette/",
+      "description": "A tense tabletop horror game where you and a dealer take turns with a shotgun loaded with live and blank shells, using items to tilt the odds.",
       "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
+      "notes": "Time to beat from Alihan's Nov 2025 table, not re-checked (HowLongToBeat blocks automated access). Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2835570/",
+        "https://godotengine.org/showcase/buckshot-roulette/"
+      ]
     },
     {
-      "id": "amet-keeper",
-      "name": "Amet Keeper",
-      "steam_appid": null,
-      "release_date": "2023-11-15",
+      "id": "brotato",
+      "name": "Brotato",
+      "steam_appid": 1942280,
+      "release_date": "2023-06-23",
       "status": "released",
       "developers": [
         {
-          "name": "Ipsum Interactive",
-          "url": "https://example.com/developer"
+          "name": "Blobfish",
+          "url": "https://store.steampowered.com/search/?developer=Blobfish"
         }
       ],
       "publishers": [
         {
-          "name": "Raw Lorem",
-          "url": "https://example.com/publisher"
-        }
-      ],
-      "genres": [
-        "mining",
-        "tower defense"
-      ],
-      "platforms": [
-        "Windows",
-        "Linux",
-        "Switch"
-      ],
-      "reviews": {
-        "total": 65531,
-        "positive_pct": 94.71,
-        "url": "https://example.com/reviews"
-      },
-      "time_to_beat": {
-        "hours_min": 4.5,
-        "hours_max": null,
-        "url": "https://example.com/time-to-beat",
-        "source": "howlongtobeat"
-      },
-      "revenue": {
-        "usd": 7890000,
-        "url": "https://example.com/revenue",
-        "source": "sensortower"
-      },
-      "stores": {
-        "steam": "https://example.com/steam/amet-keeper",
-        "gog": "https://example.com/gog/amet-keeper",
-        "nintendo": "https://example.com/nintendo/amet-keeper"
-      },
-      "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "postmortem"
-      },
-      "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
-    },
-    {
-      "id": "lorem-ipsum-quest",
-      "name": "Lorem Ipsum Quest",
-      "steam_appid": null,
-      "release_date": "2021-01-01",
-      "status": "released",
-      "developers": [
-        {
-          "name": "Lorem Studio",
-          "url": "https://example.com/developer"
-        }
-      ],
-      "publishers": [
-        {
-          "name": "Lorem Studio",
-          "url": "https://example.com/publisher"
+          "name": "Blobfish",
+          "url": "https://store.steampowered.com/search/?publisher=Blobfish"
         }
       ],
       "genres": [
@@ -145,76 +151,188 @@
         "Linux"
       ],
       "reviews": {
-        "total": 84004,
-        "positive_pct": 97.56,
-        "url": "https://example.com/reviews"
+        "total": 113748,
+        "positive_pct": 95,
+        "url": "https://steamdb.info/app/1942280/charts/"
       },
       "time_to_beat": {
         "hours_min": 5,
         "hours_max": null,
-        "url": "https://example.com/time-to-beat",
+        "url": "https://howlongtobeat.com/game/114144",
         "source": "howlongtobeat"
       },
       "revenue": {
-        "usd": 6984000,
-        "url": "https://example.com/revenue",
+        "usd": 12600000,
+        "url": "https://app.sensortower.com/vgi/game/brotato",
         "source": "sensortower"
       },
       "stores": {
-        "steam": "https://example.com/steam/lorem-ipsum-quest",
-        "epic": "https://example.com/epic/lorem-ipsum-quest",
-        "xbox": "https://example.com/xbox/lorem-ipsum-quest",
-        "playstation": "https://example.com/playstation/lorem-ipsum-quest",
-        "nintendo": "https://example.com/nintendo/lorem-ipsum-quest",
-        "app_store": "https://example.com/app_store/lorem-ipsum-quest",
-        "google_play": "https://example.com/google_play/lorem-ipsum-quest"
+        "steam": "https://store.steampowered.com/app/1942280/"
       },
       "godot_proof": {
-        "url": "https://example.com/proof",
+        "url": "https://godotengine.org/showcase/brotato/",
         "type": "official_showcase"
       },
       "article": "/brotato-godot-success-story/",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "An arena shooter where a potato carries up to six weapons at once and survives waves of aliens by stacking items and traits into a build.",
       "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
+      "notes": "Early access start: 2022-09-27. Release date shows the 1.0 date. Time to beat from Alihan's Nov 2025 table, not re-checked (HowLongToBeat blocks automated access). Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1942280/",
+        "https://godotengine.org/showcase/brotato/"
+      ]
     },
     {
-      "id": "consectetur-tactics",
-      "name": "Consectetur Tactics",
-      "steam_appid": null,
-      "release_date": "2024-04-22",
-      "status": "early_access",
+      "id": "cruelty-squad",
+      "name": "Cruelty Squad",
+      "steam_appid": 1388770,
+      "release_date": "2021-06-16",
+      "status": "released",
       "developers": [
         {
-          "name": "Sit Amet Works",
-          "url": "https://example.com/developer"
+          "name": "Consumer Softproducts",
+          "url": "https://store.steampowered.com/search/?developer=Consumer%20Softproducts"
         }
       ],
       "publishers": [
         {
-          "name": "Ipsum Publishing",
-          "url": "https://example.com/publisher"
-        },
-        {
-          "name": "Lorem (Japan)",
-          "url": "https://example.com/publisher"
+          "name": "Consumer Softproducts",
+          "url": "https://store.steampowered.com/search/?publisher=Consumer%20Softproducts"
         }
       ],
       "genres": [
-        "creature collector",
-        "rpg"
+        "fps",
+        "immersive sim"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 23509,
+        "positive_pct": 96,
+        "url": "https://steamdb.info/app/1388770/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": 6.5,
+        "hours_max": null,
+        "url": "https://howlongtobeat.com/game/89506",
+        "source": "howlongtobeat"
+      },
+      "revenue": {
+        "usd": 9800000,
+        "url": "https://app.sensortower.com/vgi/game/cruelty-squad",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/1388770/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/cruelty-squad/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A deliberately garish immersive sim shooter about corporate assassination, with open levels, stealth options and a strange in-game economy.",
+      "last_checked": "2026-11-14",
+      "notes": "Early access start: 2021-01-04. Release date shows the 1.0 date. Time to beat from Alihan's Nov 2025 table, not re-checked (HowLongToBeat blocks automated access). Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1388770/",
+        "https://godotengine.org/showcase/cruelty-squad/"
+      ]
+    },
+    {
+      "id": "dome-keeper",
+      "name": "Dome Keeper",
+      "steam_appid": 1637320,
+      "release_date": "2022-09-27",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Bippinbits",
+          "url": "https://store.steampowered.com/search/?developer=Bippinbits"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Raw Fury",
+          "url": "https://store.steampowered.com/search/?publisher=Raw%20Fury"
+        }
+      ],
+      "genres": [
+        "roguelite",
+        "mining",
+        "tower defense"
       ],
       "platforms": [
         "Windows",
         "macOS",
-        "Switch",
-        "PlayStation",
-        "Xbox"
+        "Linux"
       ],
       "reviews": {
-        "total": 58410,
-        "positive_pct": 93.57,
-        "url": "https://example.com/reviews"
+        "total": 19340,
+        "positive_pct": 92,
+        "url": "https://steamdb.info/app/1637320/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": 4.5,
+        "hours_max": null,
+        "url": "https://howlongtobeat.com/game/109776",
+        "source": "howlongtobeat"
+      },
+      "revenue": {
+        "usd": 7700000,
+        "url": "https://app.sensortower.com/vgi/game/dome-keeper",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/1637320/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/dome-keeper/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "Dig under your dome for resources between attack waves, then rush back to defend it with the upgrades you bought.",
+      "last_checked": "2026-11-14",
+      "notes": "Time to beat from Alihan's Nov 2025 table, not re-checked (HowLongToBeat blocks automated access). Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1637320/",
+        "https://godotengine.org/showcase/dome-keeper/"
+      ]
+    },
+    {
+      "id": "backpack-battles",
+      "name": "Backpack Battles",
+      "steam_appid": 2427700,
+      "release_date": "2025-06-13",
+      "status": "released",
+      "developers": [
+        {
+          "name": "PlayWithFurcifer",
+          "url": "https://store.steampowered.com/search/?developer=PlayWithFurcifer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "IndieArk",
+          "url": "https://store.steampowered.com/search/?publisher=IndieArk"
+        },
+        {
+          "name": "Shochiku (Japan)",
+          "url": "https://store.steampowered.com/search/?publisher=Shochiku%20(Japan)"
+        }
+      ],
+      "genres": [
+        "auto battler",
+        "inventory"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 19121,
+        "positive_pct": 91,
+        "url": "https://steamdb.info/app/2427700/charts/"
       },
       "time_to_beat": {
         "hours_min": null,
@@ -223,161 +341,219 @@
         "source": ""
       },
       "revenue": {
-        "usd": 6476000,
-        "url": "https://example.com/revenue",
+        "usd": 5200000,
+        "url": "https://app.sensortower.com/vgi/game/backpack-battles",
         "source": "sensortower"
       },
       "stores": {
-        "steam": "https://example.com/steam/consectetur-tactics",
-        "epic": "https://example.com/epic/consectetur-tactics",
-        "gog": "https://example.com/gog/consectetur-tactics",
-        "xbox": "https://example.com/xbox/consectetur-tactics",
-        "playstation": "https://example.com/playstation/consectetur-tactics",
-        "nintendo": "https://example.com/nintendo/consectetur-tactics"
+        "steam": "https://store.steampowered.com/app/2427700/",
+        "itch": "https://playwithfurcifer.itch.io/backpack-battles"
       },
       "godot_proof": {
-        "url": "https://example.com/proof",
+        "url": "https://www.gamingonlinux.com/2025/06/challenging-inventory-management-auto-battler-backpack-battles-1-0-is-out-now",
         "type": "press"
       },
       "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "A PvP auto battler where you buy and craft items and arrange them in a grid backpack before each fight against another player's build.",
       "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
+      "notes": "Early access start: 2024-03-08. Release date shows the 1.0 date. Revenue from Alihan's Nov 2025 table, not refreshed (Sensor Tower rate limit on 2026-11-14). Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2427700/",
+        "https://www.gamingonlinux.com/2025/06/challenging-inventory-management-auto-battler-backpack-battles-1-0-is-out-now",
+        "https://playwithfurcifer.itch.io/backpack-battles"
+      ]
     },
     {
-      "id": "adipiscing-roulette",
-      "name": "Adipiscing Roulette",
-      "steam_appid": null,
-      "release_date": "2025-09-01",
+      "id": "cassette-beasts",
+      "name": "Cassette Beasts",
+      "steam_appid": 1321440,
+      "release_date": "2023-04-26",
       "status": "released",
       "developers": [
         {
-          "name": "Consectetur Labs",
-          "url": "https://example.com/developer"
+          "name": "Bytten Studio",
+          "url": "https://store.steampowered.com/search/?developer=Bytten%20Studio"
         }
       ],
       "publishers": [
         {
-          "name": "Dolor Entertainment",
-          "url": "https://example.com/publisher"
+          "name": "Raw Fury",
+          "url": "https://store.steampowered.com/search/?publisher=Raw%20Fury"
         }
       ],
       "genres": [
-        "deckbuilder",
-        "auto battler"
+        "creature collector",
+        "rpg"
       ],
       "platforms": [
         "Windows",
-        "Android",
-        "iOS"
+        "Linux"
       ],
       "reviews": {
-        "total": 52860,
-        "positive_pct": 86.09,
-        "url": "https://example.com/reviews"
+        "total": 9094,
+        "positive_pct": 94,
+        "url": "https://steamdb.info/app/1321440/charts/"
       },
       "time_to_beat": {
-        "hours_min": 6.5,
+        "hours_min": 20,
         "hours_max": null,
-        "url": "https://example.com/time-to-beat",
-        "source": "igdb"
+        "url": "https://howlongtobeat.com/game/78097",
+        "source": "howlongtobeat"
       },
       "revenue": {
-        "usd": 4754000,
-        "url": "https://example.com/revenue",
-        "source": "gamalytic"
+        "usd": 4600000,
+        "url": "https://app.sensortower.com/vgi/game/cassette-beasts",
+        "source": "sensortower"
       },
       "stores": {
-        "steam": "https://example.com/steam/adipiscing-roulette"
+        "steam": "https://store.steampowered.com/app/1321440/"
       },
       "godot_proof": {
-        "url": "https://example.com/proof",
+        "url": "https://godotengine.org/showcase/cassette-beasts/",
         "type": "official_showcase"
       },
-      "article": "/buckshot-roulette/",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "article": "",
+      "description": "An open world monster collecting RPG where you record creatures on cassettes and fuse any two forms into new ones during turn-based battles.",
       "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
+      "notes": "Time to beat from Alihan's Nov 2025 table, not re-checked (HowLongToBeat blocks automated access). Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1321440/",
+        "https://godotengine.org/showcase/cassette-beasts/"
+      ]
     },
     {
-      "id": "sed-do-battles",
-      "name": "Sed Do Battles",
-      "steam_appid": null,
-      "release_date": "2022-07-15",
+      "id": "the-case-of-the-golden-idol",
+      "name": "The Case of the Golden Idol",
+      "steam_appid": 1677770,
+      "release_date": "2022-10-13",
       "status": "released",
       "developers": [
         {
-          "name": "Lorem Studio",
-          "url": "https://example.com/developer"
+          "name": "Color Gray Games",
+          "url": "https://store.steampowered.com/search/?developer=Color%20Gray%20Games"
         }
       ],
       "publishers": [
         {
-          "name": "Lorem Studio",
-          "url": "https://example.com/publisher"
+          "name": "Playstack",
+          "url": "https://store.steampowered.com/search/?publisher=Playstack"
+        }
+      ],
+      "genres": [
+        "detective",
+        "puzzle"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 9962,
+        "positive_pct": 97,
+        "url": "https://steamdb.info/app/1677770/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 4300000,
+        "url": "https://app.sensortower.com/vgi/game/the-case-of-the-golden-idol",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/1677770/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/case-of-the-golden-idol/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A detective puzzle game where you examine frozen crime scenes and fill in names, motives and methods to explain a series of deaths.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1677770/",
+        "https://godotengine.org/showcase/case-of-the-golden-idol/"
+      ]
+    },
+    {
+      "id": "halls-of-torment",
+      "name": "Halls of Torment",
+      "steam_appid": 2218750,
+      "release_date": "2024-09-24",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Chasing Carrots",
+          "url": "https://store.steampowered.com/search/?developer=Chasing%20Carrots"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Chasing Carrots",
+          "url": "https://store.steampowered.com/search/?publisher=Chasing%20Carrots"
         }
       ],
       "genres": [
         "survivors-like",
-        "action"
+        "action rpg"
       ],
       "platforms": [
-        "Windows"
+        "Windows",
+        "Linux"
       ],
       "reviews": {
-        "total": 30006,
-        "positive_pct": 89.91,
-        "url": "https://example.com/reviews"
+        "total": 31064,
+        "positive_pct": 95,
+        "url": "https://steamdb.info/app/2218750/charts/"
       },
       "time_to_beat": {
-        "hours_min": 7,
+        "hours_min": 11.5,
         "hours_max": null,
-        "url": "https://example.com/time-to-beat",
+        "url": "https://howlongtobeat.com/game/125603",
         "source": "howlongtobeat"
       },
       "revenue": {
-        "usd": 4015000,
-        "url": "https://example.com/revenue",
+        "usd": 3700000,
+        "url": "https://app.sensortower.com/vgi/game/halls-of-torment",
         "source": "sensortower"
       },
       "stores": {
-        "steam": "https://example.com/steam/sed-do-battles",
-        "epic": "https://example.com/epic/sed-do-battles",
-        "xbox": "https://example.com/xbox/sed-do-battles",
-        "playstation": "https://example.com/playstation/sed-do-battles",
-        "nintendo": "https://example.com/nintendo/sed-do-battles",
-        "app_store": "https://example.com/app_store/sed-do-battles",
-        "google_play": "https://example.com/google_play/sed-do-battles"
+        "steam": "https://store.steampowered.com/app/2218750/"
       },
       "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "postmortem"
+        "url": "https://godotengine.org/showcase/halls-of-torment/",
+        "type": "official_showcase"
       },
       "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "A horde survival game styled after late 90s action RPGs: pick a hero, gather gear and traits, and last as long as possible against waves of monsters.",
       "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
+      "notes": "Early access start: 2023-05-24. Release date shows the 1.0 date. Time to beat from Alihan's Nov 2025 table, not re-checked (HowLongToBeat blocks automated access). Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2218750/",
+        "https://godotengine.org/showcase/halls-of-torment/"
+      ]
     },
     {
-      "id": "eiusmod-torment",
-      "name": "Eiusmod Torment",
-      "steam_appid": null,
-      "release_date": "2023-12-22",
+      "id": "until-then",
+      "name": "Until Then",
+      "steam_appid": 1574820,
+      "release_date": "2024-06-25",
       "status": "released",
       "developers": [
         {
-          "name": "Dolor Games",
-          "url": "https://example.com/developer"
+          "name": "Polychroma Games",
+          "url": "https://store.steampowered.com/search/?developer=Polychroma%20Games"
         }
       ],
       "publishers": [
         {
-          "name": "Ipsum Publishing",
-          "url": "https://example.com/publisher"
-        },
-        {
-          "name": "Lorem (Japan)",
-          "url": "https://example.com/publisher"
+          "name": "Maximum Entertainment",
+          "url": "https://store.steampowered.com/search/?publisher=Maximum%20Entertainment"
         }
       ],
       "genres": [
@@ -386,596 +562,309 @@
       ],
       "platforms": [
         "Windows",
-        "Linux",
-        "Switch"
-      ],
-      "reviews": {
-        "total": 24967,
-        "positive_pct": 84.08,
-        "url": "https://example.com/reviews"
-      },
-      "time_to_beat": {
-        "hours_min": 20,
-        "hours_max": null,
-        "url": "https://example.com/time-to-beat",
-        "source": "igdb"
-      },
-      "revenue": {
-        "usd": 2523000,
-        "url": "https://example.com/revenue",
-        "source": "sensortower"
-      },
-      "stores": {
-        "steam": "https://example.com/steam/eiusmod-torment",
-        "itch": "https://example.com/itch/eiusmod-torment"
-      },
-      "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "press"
-      },
-      "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
-    },
-    {
-      "id": "elit-beasts",
-      "name": "Elit Beasts",
-      "steam_appid": null,
-      "release_date": "2021-02-08",
-      "status": "released",
-      "developers": [
-        {
-          "name": "Elit Softworks",
-          "url": "https://example.com/developer"
-        }
-      ],
-      "publishers": [
-        {
-          "name": "Self-published",
-          "url": "https://example.com/publisher"
-        }
-      ],
-      "genres": [
-        "puzzle"
-      ],
-      "platforms": [
-        "Windows",
-        "macOS",
         "Linux"
       ],
       "reviews": {
-        "total": 38968,
-        "positive_pct": 93.8,
-        "url": "https://example.com/reviews"
+        "total": 16275,
+        "positive_pct": 96,
+        "url": "https://steamdb.info/app/1574820/charts/"
       },
       "time_to_beat": {
         "hours_min": 16,
         "hours_max": 18,
-        "url": "https://example.com/time-to-beat",
-        "source": "howlongtobeat"
+        "url": "https://www.igdb.com/games/until-then",
+        "source": "igdb"
       },
       "revenue": {
-        "usd": 2506000,
-        "url": "https://example.com/revenue",
+        "usd": 3600000,
+        "url": "https://app.sensortower.com/vgi/game/until-then",
         "source": "sensortower"
       },
       "stores": {
-        "steam": "https://example.com/steam/elit-beasts",
-        "itch": "https://example.com/itch/elit-beasts",
-        "nintendo": "https://example.com/nintendo/elit-beasts"
+        "steam": "https://store.steampowered.com/app/1574820/"
       },
       "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "developer_statement"
+        "url": "https://godotengine.org/showcase/until-then/",
+        "type": "official_showcase"
       },
-      "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "article": "/until-then/",
+      "description": "A narrative adventure set in the Philippines that follows a high school student whose life unravels after a chance meeting and a string of odd events.",
       "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
+      "notes": "Time to beat from Alihan's Nov 2025 table, not re-checked (HowLongToBeat blocks automated access). Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1574820/",
+        "https://godotengine.org/showcase/until-then/"
+      ]
     },
     {
-      "id": "tempor-labs",
-      "name": "Tempor Labs",
-      "steam_appid": null,
-      "release_date": "2024-05-01",
+      "id": "tiny-pasture",
+      "name": "Tiny Pasture",
+      "steam_appid": 3167550,
+      "release_date": "2025-02-18",
       "status": "released",
       "developers": [
         {
-          "name": "Ipsum Interactive",
-          "url": "https://example.com/developer"
+          "name": "CaveLiquid",
+          "url": "https://store.steampowered.com/search/?developer=CaveLiquid"
         }
       ],
       "publishers": [
         {
-          "name": "Magna Ark",
-          "url": "https://example.com/publisher"
+          "name": "Gamersky Games",
+          "url": "https://store.steampowered.com/search/?publisher=Gamersky%20Games"
         }
       ],
       "genres": [
-        "simulation",
-        "farming"
+        "idle",
+        "simulation"
       ],
       "platforms": [
         "Windows",
-        "macOS",
-        "Switch",
-        "PlayStation",
-        "Xbox"
+        "macOS"
       ],
       "reviews": {
-        "total": 20616,
-        "positive_pct": 93.64,
-        "url": "https://example.com/reviews"
-      },
-      "time_to_beat": {
-        "hours_min": 11,
-        "hours_max": null,
-        "url": "https://example.com/time-to-beat",
-        "source": "howlongtobeat"
-      },
-      "revenue": {
-        "usd": 2299000,
-        "url": "https://example.com/revenue",
-        "source": "sensortower"
-      },
-      "stores": {
-        "steam": "https://example.com/steam/tempor-labs",
-        "gog": "https://example.com/gog/tempor-labs",
-        "nintendo": "https://example.com/nintendo/tempor-labs"
-      },
-      "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "official_showcase"
-      },
-      "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
-    },
-    {
-      "id": "incididunt-pasture",
-      "name": "Incididunt Pasture",
-      "steam_appid": null,
-      "release_date": "2025-10-08",
-      "status": "early_access",
-      "developers": [
-        {
-          "name": "Sit Amet Works",
-          "url": "https://example.com/developer"
-        }
-      ],
-      "publishers": [
-        {
-          "name": "Sit Amet Works",
-          "url": "https://example.com/publisher"
-        }
-      ],
-      "genres": [
-        "fps",
-        "immersive sim"
-      ],
-      "platforms": [
-        "Windows",
-        "Android",
-        "iOS"
-      ],
-      "reviews": {
-        "total": 13420,
-        "positive_pct": 97.41,
-        "url": "https://example.com/reviews"
+        "total": 7132,
+        "positive_pct": 92,
+        "url": "https://steamdb.info/app/3167550/charts/"
       },
       "time_to_beat": {
         "hours_min": 11.5,
         "hours_max": null,
-        "url": "https://example.com/time-to-beat",
+        "url": "https://howlongtobeat.com/game/164311",
         "source": "howlongtobeat"
       },
       "revenue": {
-        "usd": 1780000,
-        "url": "https://example.com/revenue",
-        "source": "gamalytic"
+        "usd": 2700000,
+        "url": "https://app.sensortower.com/vgi/game/tiny-pasture",
+        "source": "sensortower"
       },
       "stores": {
-        "steam": "https://example.com/steam/incididunt-pasture",
-        "epic": "https://example.com/epic/incididunt-pasture",
-        "gog": "https://example.com/gog/incididunt-pasture",
-        "xbox": "https://example.com/xbox/incididunt-pasture",
-        "playstation": "https://example.com/playstation/incididunt-pasture",
-        "nintendo": "https://example.com/nintendo/incididunt-pasture"
+        "steam": "https://store.steampowered.com/app/3167550/"
       },
       "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "developer_statement"
+        "url": "https://godotengine.org/showcase/tiny-pasture/",
+        "type": "official_showcase"
       },
       "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "A small desktop companion game where animals live along the bottom of your screen while you work, and you collect new kinds over time.",
       "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
+      "notes": "Time to beat from Alihan's Nov 2025 table, not re-checked (HowLongToBeat blocks automated access). Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3167550/",
+        "https://godotengine.org/showcase/tiny-pasture/"
+      ]
     },
     {
-      "id": "enim-minim-then",
-      "name": "Enim Minim Then",
-      "steam_appid": null,
-      "release_date": "2024-06-08",
+      "id": "luck-be-a-landlord",
+      "name": "Luck be a Landlord",
+      "steam_appid": 1404850,
+      "release_date": "2023-01-06",
       "status": "released",
       "developers": [
         {
-          "name": "Dolor Games",
-          "url": "https://example.com/developer"
+          "name": "TrampolineTales",
+          "url": "https://store.steampowered.com/search/?developer=TrampolineTales"
         }
       ],
       "publishers": [
         {
-          "name": "Magna Ark",
-          "url": "https://example.com/publisher"
+          "name": "TrampolineTales",
+          "url": "https://store.steampowered.com/search/?publisher=TrampolineTales"
+        }
+      ],
+      "genres": [
+        "roguelike",
+        "deckbuilder"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "reviews": {
+        "total": 10267,
+        "positive_pct": 93,
+        "url": "https://steamdb.info/app/1404850/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 2300000,
+        "url": "https://app.sensortower.com/vgi/game/luck-be-a-landlord",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/1404850/",
+        "app_store": "https://apps.apple.com/us/app/luck-be-a-landlord/id6450724928",
+        "google_play": "https://play.google.com/store/apps/details?id=com.trampolinetales.lbal"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/luck-be-a-landlord/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A roguelike deckbuilder played on a slot machine: add symbols that combo with each other and earn enough coins to pay rising rent.",
+      "last_checked": "2026-11-14",
+      "notes": "Early access start: 2021-01-08. Release date shows the 1.0 date. Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1404850/",
+        "https://godotengine.org/showcase/luck-be-a-landlord/"
+      ]
+    },
+    {
+      "id": "windowkill",
+      "name": "Windowkill",
+      "steam_appid": 2726450,
+      "release_date": "2024-02-23",
+      "status": "released",
+      "developers": [
+        {
+          "name": "torcado",
+          "url": "https://store.steampowered.com/search/?developer=torcado"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "torcado",
+          "url": "https://store.steampowered.com/search/?publisher=torcado"
+        }
+      ],
+      "genres": [
+        "twin-stick shooter",
+        "action"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 3436,
+        "positive_pct": 95,
+        "url": "https://steamdb.info/app/2726450/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 410000,
+        "url": "https://app.sensortower.com/vgi/game/windowkill",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2726450/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/windowkill/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A twin-stick shooter where the game window keeps shrinking and you shoot its edges to push it around your desktop.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2726450/",
+        "https://godotengine.org/showcase/windowkill/"
+      ]
+    },
+    {
+      "id": "kinitopet",
+      "name": "KinitoPET",
+      "steam_appid": 2075070,
+      "release_date": "2024-01-09",
+      "status": "released",
+      "developers": [
+        {
+          "name": "troy_en",
+          "url": "https://store.steampowered.com/search/?developer=troy_en"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "troy_en",
+          "url": "https://store.steampowered.com/search/?publisher=troy_en"
+        },
+        {
+          "name": "veil",
+          "url": "https://store.steampowered.com/search/?publisher=veil"
         }
       ],
       "genres": [
         "horror",
-        "strategy"
+        "psychological"
       ],
       "platforms": [
-        "Windows",
-        "macOS",
-        "Switch",
-        "PlayStation",
-        "Xbox"
+        "Windows"
       ],
       "reviews": {
-        "total": 5992,
-        "positive_pct": 91.42,
-        "url": "https://example.com/reviews"
+        "total": 13650,
+        "positive_pct": 92,
+        "url": "https://steamdb.info/app/2075070/charts/"
       },
       "time_to_beat": {
-        "hours_min": 11.5,
+        "hours_min": null,
         "hours_max": null,
-        "url": "https://example.com/time-to-beat",
-        "source": "igdb"
+        "url": "",
+        "source": ""
       },
       "revenue": {
-        "usd": 709000,
-        "url": "https://example.com/revenue",
-        "source": "sensortower"
+        "usd": null,
+        "url": "",
+        "source": ""
       },
       "stores": {
-        "steam": "https://example.com/steam/enim-minim-then",
-        "itch": "https://example.com/itch/enim-minim-then"
+        "steam": "https://store.steampowered.com/app/2075070/"
       },
       "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "developer_statement"
+        "url": "https://godotengine.org/showcase/kinitopet/",
+        "type": "official_showcase"
       },
-      "article": "/until-then/",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "article": "",
+      "description": "A psychological horror game built around a friendly early 2000s desktop assistant that gradually learns too much about you.",
       "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2075070/",
+        "https://godotengine.org/showcase/kinitopet/"
+      ]
     },
     {
-      "id": "magna-squad",
-      "name": "Magna Squad",
-      "steam_appid": null,
-      "release_date": "2022-08-22",
+      "id": "20-small-mazes",
+      "name": "20 Small Mazes",
+      "steam_appid": 2570630,
+      "release_date": "2024-02-16",
       "status": "released",
       "developers": [
         {
-          "name": "Elit Softworks",
-          "url": "https://example.com/developer"
+          "name": "FLEB",
+          "url": "https://store.steampowered.com/search/?developer=FLEB"
         }
       ],
       "publishers": [
         {
-          "name": "Ipsum Publishing",
-          "url": "https://example.com/publisher"
-        },
-        {
-          "name": "Lorem (Japan)",
-          "url": "https://example.com/publisher"
+          "name": "FLEB",
+          "url": "https://store.steampowered.com/search/?publisher=FLEB"
         }
       ],
       "genres": [
-        "programming",
         "puzzle"
       ],
       "platforms": [
-        "Windows"
-      ],
-      "reviews": {
-        "total": 9381,
-        "positive_pct": 87.62,
-        "url": "https://example.com/reviews"
-      },
-      "time_to_beat": {
-        "hours_min": 16,
-        "hours_max": null,
-        "url": "https://example.com/time-to-beat",
-        "source": "howlongtobeat"
-      },
-      "revenue": {
-        "usd": 677000,
-        "url": "https://example.com/revenue",
-        "source": "sensortower"
-      },
-      "stores": {
-        "steam": "https://example.com/steam/magna-squad",
-        "itch": "https://example.com/itch/magna-squad",
-        "nintendo": "https://example.com/nintendo/magna-squad"
-      },
-      "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "press"
-      },
-      "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
-    },
-    {
-      "id": "aliqua-kings",
-      "name": "Aliqua Kings",
-      "steam_appid": null,
-      "release_date": "2023-01-01",
-      "status": "released",
-      "developers": [
-        {
-          "name": "Lorem Studio",
-          "url": "https://example.com/developer"
-        }
-      ],
-      "publishers": [
-        {
-          "name": "Lorem Studio",
-          "url": "https://example.com/publisher"
-        }
-      ],
-      "genres": [
-        "roguelite",
-        "arena shooter"
-      ],
-      "platforms": [
         "Windows",
-        "Linux",
-        "Switch"
+        "macOS"
       ],
       "reviews": {
-        "total": 5347,
-        "positive_pct": 89.24,
-        "url": "https://example.com/reviews"
-      },
-      "time_to_beat": {
-        "hours_min": null,
-        "hours_max": null,
-        "url": "",
-        "source": ""
-      },
-      "revenue": {
-        "usd": 447000,
-        "url": "https://example.com/revenue",
-        "source": "sensortower"
-      },
-      "stores": {
-        "steam": "https://example.com/steam/aliqua-kings",
-        "epic": "https://example.com/epic/aliqua-kings",
-        "xbox": "https://example.com/xbox/aliqua-kings",
-        "playstation": "https://example.com/playstation/aliqua-kings",
-        "nintendo": "https://example.com/nintendo/aliqua-kings",
-        "app_store": "https://example.com/app_store/aliqua-kings",
-        "google_play": "https://example.com/google_play/aliqua-kings"
-      },
-      "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "official_showcase"
-      },
-      "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
-    },
-    {
-      "id": "veniam-complete",
-      "name": "Veniam Complete",
-      "steam_appid": null,
-      "release_date": "2025-11-15",
-      "status": "released",
-      "developers": [
-        {
-          "name": "Ipsum Interactive",
-          "url": "https://example.com/developer"
-        }
-      ],
-      "publishers": [
-        {
-          "name": "Dolor Entertainment",
-          "url": "https://example.com/publisher"
-        }
-      ],
-      "genres": [
-        "mining",
-        "tower defense"
-      ],
-      "platforms": [
-        "Windows",
-        "Android",
-        "iOS"
-      ],
-      "reviews": {
-        "total": 4542,
-        "positive_pct": 82.99,
-        "url": "https://example.com/reviews"
-      },
-      "time_to_beat": {
-        "hours_min": null,
-        "hours_max": null,
-        "url": "",
-        "source": ""
-      },
-      "revenue": {
-        "usd": 372000,
-        "url": "https://example.com/revenue",
-        "source": "gamalytic"
-      },
-      "stores": {
-        "steam": "https://example.com/steam/veniam-complete",
-        "gog": "https://example.com/gog/veniam-complete",
-        "nintendo": "https://example.com/nintendo/veniam-complete"
-      },
-      "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "postmortem"
-      },
-      "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
-    },
-    {
-      "id": "quis-nostrud-cups",
-      "name": "Quis Nostrud Cups",
-      "steam_appid": null,
-      "release_date": "2021-04-22",
-      "status": "early_access",
-      "developers": [
-        {
-          "name": "Sit Amet Works",
-          "url": "https://example.com/developer"
-        }
-      ],
-      "publishers": [
-        {
-          "name": "Ipsum Publishing",
-          "url": "https://example.com/publisher"
-        },
-        {
-          "name": "Lorem (Japan)",
-          "url": "https://example.com/publisher"
-        }
-      ],
-      "genres": [
-        "creature collector",
-        "rpg"
-      ],
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ],
-      "reviews": {
-        "total": 2993,
-        "positive_pct": 31.96,
-        "url": "https://example.com/reviews"
-      },
-      "time_to_beat": {
-        "hours_min": null,
-        "hours_max": null,
-        "url": "",
-        "source": ""
-      },
-      "revenue": {
-        "usd": 301000,
-        "url": "https://example.com/revenue",
-        "source": "sensortower"
-      },
-      "stores": {
-        "steam": "https://example.com/steam/quis-nostrud-cups",
-        "epic": "https://example.com/epic/quis-nostrud-cups",
-        "gog": "https://example.com/gog/quis-nostrud-cups",
-        "xbox": "https://example.com/xbox/quis-nostrud-cups",
-        "playstation": "https://example.com/playstation/quis-nostrud-cups",
-        "nintendo": "https://example.com/nintendo/quis-nostrud-cups"
-      },
-      "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "press"
-      },
-      "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
-    },
-    {
-      "id": "exercitation-move",
-      "name": "Exercitation Move",
-      "steam_appid": null,
-      "release_date": "2022-09-01",
-      "status": "released",
-      "developers": [
-        {
-          "name": "Consectetur Labs",
-          "url": "https://example.com/developer"
-        }
-      ],
-      "publishers": [
-        {
-          "name": "Ipsum Publishing",
-          "url": "https://example.com/publisher"
-        }
-      ],
-      "genres": [
-        "deckbuilder",
-        "auto battler"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "reviews": {
-        "total": 2146,
-        "positive_pct": 85.26,
-        "url": "https://example.com/reviews"
-      },
-      "time_to_beat": {
-        "hours_min": 2,
-        "hours_max": null,
-        "url": "https://example.com/time-to-beat",
-        "source": "igdb"
-      },
-      "revenue": {
-        "usd": 285000,
-        "url": "https://example.com/revenue",
-        "source": "sensortower"
-      },
-      "stores": {
-        "steam": "https://example.com/steam/exercitation-move"
-      },
-      "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "official_showcase"
-      },
-      "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
-    },
-    {
-      "id": "ut-labore-mazes",
-      "name": "Ut Labore Mazes",
-      "steam_appid": null,
-      "release_date": "2021-03-15",
-      "status": "released",
-      "developers": [
-        {
-          "name": "Consectetur Labs",
-          "url": "https://example.com/developer"
-        }
-      ],
-      "publishers": [
-        {
-          "name": "Self-published",
-          "url": "https://example.com/publisher"
-        }
-      ],
-      "genres": [
-        "fighting",
-        "turn based"
-      ],
-      "platforms": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ],
-      "reviews": {
-        "total": 9236,
-        "positive_pct": 87.67,
-        "url": "https://example.com/reviews"
+        "total": 9728,
+        "positive_pct": 98,
+        "url": "https://steamdb.info/app/2570630/charts/"
       },
       "time_to_beat": {
         "hours_min": null,
@@ -990,53 +879,57 @@
         "source": ""
       },
       "stores": {
-        "steam": "https://example.com/steam/ut-labore-mazes"
+        "steam": "https://store.steampowered.com/app/2570630/",
+        "itch": "https://fleb.itch.io/20-small-mazes"
       },
       "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "postmortem"
+        "url": "https://fleb.itch.io/20-small-mazes",
+        "type": "store_page"
       },
       "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "A free puzzle game of twenty small mazes, each one built around its own rule that you have to figure out.",
       "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
+      "notes": "Proof is the Godot tag on the developer's itch.io page. A developer statement would be stronger. Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2570630/",
+        "https://fleb.itch.io/20-small-mazes"
+      ]
     },
     {
-      "id": "ullamco-word-game",
-      "name": "Ullamco Word Game",
-      "steam_appid": null,
-      "release_date": "2023-02-08",
-      "status": "upcoming",
+      "id": "road-to-vostok",
+      "name": "Road to Vostok",
+      "steam_appid": 1963610,
+      "release_date": "2026-04-07",
+      "status": "early_access",
       "developers": [
         {
-          "name": "Elit Softworks",
-          "url": "https://example.com/developer"
+          "name": "Road to Vostok Ltd.",
+          "url": "https://store.steampowered.com/search/?developer=Road%20to%20Vostok%20Ltd."
         }
       ],
       "publishers": [
         {
-          "name": "Raw Lorem",
-          "url": "https://example.com/publisher"
+          "name": "Road to Vostok Ltd.",
+          "url": "https://store.steampowered.com/search/?publisher=Road%20to%20Vostok%20Ltd."
         }
       ],
       "genres": [
-        "puzzle"
+        "survival",
+        "fps"
       ],
       "platforms": [
-        "Windows",
-        "Linux",
-        "Switch"
+        "Windows"
       ],
       "reviews": {
-        "total": null,
-        "positive_pct": null,
-        "url": ""
+        "total": 9252,
+        "positive_pct": 83,
+        "url": "https://steamdb.info/app/1963610/charts/"
       },
       "time_to_beat": {
-        "hours_min": 7,
+        "hours_min": null,
         "hours_max": null,
-        "url": "https://example.com/time-to-beat",
-        "source": "howlongtobeat"
+        "url": "",
+        "source": ""
       },
       "revenue": {
         "usd": null,
@@ -1044,18 +937,1228 @@
         "source": ""
       },
       "stores": {
-        "steam": "https://example.com/steam/ullamco-word-game",
-        "itch": "https://example.com/itch/ullamco-word-game",
-        "nintendo": "https://example.com/nintendo/ullamco-word-game"
+        "steam": "https://store.steampowered.com/app/1963610/"
       },
       "godot_proof": {
-        "url": "https://example.com/proof",
-        "type": "developer_statement"
+        "url": "https://pcgamer.com/hardcore-survival-shooter-road-to-vostok-is-looking-really-good-after-switching-engines-from-unity-to-godot",
+        "type": "press"
       },
       "article": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "A hardcore single player survival shooter set on the Finland and Russia border, where you scavenge and prepare before entering a permadeath zone.",
       "last_checked": "2026-11-14",
-      "notes": "MOCK DATA"
+      "notes": "Moved from Unity to Godot in 2023. Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1963610/",
+        "https://pcgamer.com/hardcore-survival-shooter-road-to-vostok-is-looking-really-good-after-switching-engines-from-unity-to-godot"
+      ]
+    },
+    {
+      "id": "pathogenic",
+      "name": "Pathogenic",
+      "steam_appid": 3808690,
+      "release_date": "2026-07-16",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Aberrant Labs",
+          "url": "https://store.steampowered.com/search/?developer=Aberrant%20Labs"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Slug Disco",
+          "url": "https://store.steampowered.com/search/?publisher=Slug%20Disco"
+        }
+      ],
+      "genres": [
+        "roguelike",
+        "shooter"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 5173,
+        "positive_pct": 93,
+        "url": "https://steamdb.info/app/3808690/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3808690/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/pathogenic/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A cellular roguelike shooter where you play a pathogen spreading through a procedurally generated body and evolving against its immune system.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3808690/",
+        "https://godotengine.org/showcase/pathogenic/"
+      ]
+    },
+    {
+      "id": "sovereign-tower",
+      "name": "Sovereign Tower",
+      "steam_appid": 4113940,
+      "release_date": "2026-08-06",
+      "status": "released",
+      "developers": [
+        {
+          "name": "WILD WITS GAMES",
+          "url": "https://store.steampowered.com/search/?developer=WILD%20WITS%20GAMES"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Curve Games",
+          "url": "https://store.steampowered.com/search/?publisher=Curve%20Games"
+        }
+      ],
+      "genres": [
+        "management",
+        "rpg"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 4206,
+        "positive_pct": 93,
+        "url": "https://steamdb.info/app/4113940/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/4113940/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/sovereign-tower/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A story focused management RPG where you rule a magical tower, send knights on quests and rewind time to change outcomes.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/4113940/",
+        "https://godotengine.org/showcase/sovereign-tower/"
+      ]
+    },
+    {
+      "id": "megaloot",
+      "name": "Megaloot",
+      "steam_appid": 2440380,
+      "release_date": "2024-08-30",
+      "status": "released",
+      "developers": [
+        {
+          "name": "axilirate",
+          "url": "https://store.steampowered.com/search/?developer=axilirate"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Ravenage Games",
+          "url": "https://store.steampowered.com/search/?publisher=Ravenage%20Games"
+        },
+        {
+          "name": "Sidekick Publishing",
+          "url": "https://store.steampowered.com/search/?publisher=Sidekick%20Publishing"
+        }
+      ],
+      "genres": [
+        "roguelike",
+        "inventory"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 3813,
+        "positive_pct": 71,
+        "url": "https://steamdb.info/app/2440380/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2440380/",
+        "itch": "https://axilirate.itch.io/megaloot"
+      },
+      "godot_proof": {
+        "url": "https://axilirate.itch.io/megaloot",
+        "type": "store_page"
+      },
+      "article": "",
+      "description": "An inventory management roguelike RPG where each run starts from nothing and you shape a build entirely from the loot you choose to keep.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2440380/",
+        "https://axilirate.itch.io/megaloot"
+      ]
+    },
+    {
+      "id": "pratfall",
+      "name": "Pratfall",
+      "steam_appid": 4244510,
+      "release_date": "2026-04-20",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Quad Head",
+          "url": "https://store.steampowered.com/search/?developer=Quad%20Head"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Quad Head",
+          "url": "https://store.steampowered.com/search/?publisher=Quad%20Head"
+        }
+      ],
+      "genres": [
+        "co-op",
+        "platformer"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 3138,
+        "positive_pct": 89,
+        "url": "https://steamdb.info/app/4244510/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/4244510/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/pratfall/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A co-op game for groups where players fall, dig and blow their way down a trap filled cave to find a lost dog.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/4244510/",
+        "https://godotengine.org/showcase/pratfall/"
+      ]
+    },
+    {
+      "id": "dogwalk",
+      "name": "DOGWALK",
+      "steam_appid": 3775050,
+      "release_date": "2025-07-11",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Blender Studio",
+          "url": "https://store.steampowered.com/search/?developer=Blender%20Studio"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Blender Studio",
+          "url": "https://store.steampowered.com/search/?publisher=Blender%20Studio"
+        }
+      ],
+      "genres": [
+        "adventure",
+        "exploration"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 3008,
+        "positive_pct": 98,
+        "url": "https://steamdb.info/app/3775050/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "free": true,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3775050/",
+        "itch": "https://blenderstudio.itch.io/dogwalk"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/dogwalk/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A short free game from Blender Studio where you play a big dog leading a small child through a snowy forest.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3775050/",
+        "https://godotengine.org/showcase/dogwalk/"
+      ]
+    },
+    {
+      "id": "endoparasitic",
+      "name": "Endoparasitic",
+      "steam_appid": 2124780,
+      "release_date": "2022-10-24",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Miziziziz",
+          "url": "https://store.steampowered.com/search/?developer=Miziziziz"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Deep Root Interactive",
+          "url": "https://store.steampowered.com/search/?publisher=Deep%20Root%20Interactive"
+        }
+      ],
+      "genres": [
+        "horror",
+        "action"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 2972,
+        "positive_pct": 93,
+        "url": "https://steamdb.info/app/2124780/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2124780/",
+        "itch": "https://nartier.itch.io/endoparasitic"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/endoparasitic/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A horror action game where a badly injured scientist drags himself through an infested research lab, using syringes to stay alive.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2124780/",
+        "https://godotengine.org/showcase/endoparasitic/"
+      ]
+    },
+    {
+      "id": "delta-v-rings-of-saturn",
+      "name": "ΔV: Rings of Saturn",
+      "steam_appid": 846030,
+      "release_date": "2023-07-21",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Kodera Software",
+          "url": "https://store.steampowered.com/search/?developer=Kodera%20Software"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Kodera Software",
+          "url": "https://store.steampowered.com/search/?publisher=Kodera%20Software"
+        },
+        {
+          "name": "Kurki.games",
+          "url": "https://store.steampowered.com/search/?publisher=Kurki.games"
+        }
+      ],
+      "genres": [
+        "simulation",
+        "space"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 2905,
+        "positive_pct": 92,
+        "url": "https://steamdb.info/app/846030/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/846030/",
+        "itch": "https://koder.itch.io/dv-rings-of-saturn/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/delta-v-rings-of-saturn/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A physics driven space mining sim set in the rings of Saturn, where you manage your ship, crew and equipment while chasing profit.",
+      "last_checked": "2026-11-14",
+      "notes": "Early access start: 2019-08-12. Release date shows the 1.0 date. Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/846030/",
+        "https://godotengine.org/showcase/delta-v-rings-of-saturn/"
+      ]
+    },
+    {
+      "id": "organized-inside",
+      "name": "Organized Inside",
+      "steam_appid": 3609750,
+      "release_date": "2025-11-20",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Meox Studio",
+          "url": "https://store.steampowered.com/search/?developer=Meox%20Studio"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Meox Studio",
+          "url": "https://store.steampowered.com/search/?publisher=Meox%20Studio"
+        }
+      ],
+      "genres": [
+        "puzzle",
+        "cozy"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "reviews": {
+        "total": 2097,
+        "positive_pct": 94,
+        "url": "https://steamdb.info/app/3609750/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3609750/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/organized-inside/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A calm tidying game about a cat, where sorting household items into their places also tells a story about growing up.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3609750/",
+        "https://godotengine.org/showcase/organized-inside/"
+      ]
+    },
+    {
+      "id": "gourdlets",
+      "name": "Gourdlets",
+      "steam_appid": 2013730,
+      "release_date": "2024-08-15",
+      "status": "released",
+      "developers": [
+        {
+          "name": "AuntyGames",
+          "url": "https://store.steampowered.com/search/?developer=AuntyGames"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Future Friends Games",
+          "url": "https://store.steampowered.com/search/?publisher=Future%20Friends%20Games"
+        },
+        {
+          "name": "AuntyGames",
+          "url": "https://store.steampowered.com/search/?publisher=AuntyGames"
+        }
+      ],
+      "genres": [
+        "sandbox",
+        "cozy"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 1972,
+        "positive_pct": 92,
+        "url": "https://steamdb.info/app/2013730/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2013730/",
+        "itch": "https://aunty-games.itch.io/gourdlets"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/gourdlets/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A relaxed town building sandbox for small vegetable people, with no goals or score, playable full screen or along the bottom of your screen.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2013730/",
+        "https://godotengine.org/showcase/gourdlets/"
+      ]
+    },
+    {
+      "id": "city-game-studio",
+      "name": "City Game Studio: Your Game Dev Adventure Begins",
+      "steam_appid": 726840,
+      "release_date": "2021-08-24",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Binogure Studio 🐺",
+          "url": "https://store.steampowered.com/search/?developer=Binogure%20Studio%20%F0%9F%90%BA"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Binogure Studio 🐺",
+          "url": "https://store.steampowered.com/search/?publisher=Binogure%20Studio%20%F0%9F%90%BA"
+        }
+      ],
+      "genres": [
+        "management",
+        "simulation"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 1816,
+        "positive_pct": 91,
+        "url": "https://steamdb.info/app/726840/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/726840/",
+        "itch": "https://binogure.itch.io/city-game-studio",
+        "gog": "https://www.gog.com/en/game/city_game_studio_your_game_dev_adventure_begins"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/city-game-studio/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A business sim where you run a game studio from 1976 onward, designing games and consoles and growing the company over decades.",
+      "last_checked": "2026-11-14",
+      "notes": "Early access start: 2019-02-21. Release date shows the 1.0 date. Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/726840/",
+        "https://godotengine.org/showcase/city-game-studio/"
+      ]
+    },
+    {
+      "id": "funi-raccoon-game",
+      "name": "Funi Raccoon Game",
+      "steam_appid": 3599690,
+      "release_date": "2026-03-13",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Crayon",
+          "url": "https://store.steampowered.com/search/?developer=Crayon"
+        },
+        {
+          "name": "Kit",
+          "url": "https://store.steampowered.com/search/?developer=Kit"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "The Crayon Eating Company",
+          "url": "https://store.steampowered.com/search/?publisher=The%20Crayon%20Eating%20Company"
+        }
+      ],
+      "genres": [
+        "platformer",
+        "adventure"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 1758,
+        "positive_pct": 99,
+        "url": "https://steamdb.info/app/3599690/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3599690/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/funi-raccoon-game/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A playful 3D adventure where a raccoon explores small connected worlds and steals anything that is not nailed down.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3599690/",
+        "https://godotengine.org/showcase/funi-raccoon-game/"
+      ]
+    },
+    {
+      "id": "antivirus-survivors-2003-professional",
+      "name": "Antivirus Survivors 2003 Professional",
+      "steam_appid": 3832490,
+      "release_date": "2026-09-28",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Shaun Hammond Business Solutions Limited",
+          "url": "https://store.steampowered.com/search/?developer=Shaun%20Hammond%20Business%20Solutions%20Limited"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Shaun Hammond Business Solutions Limited",
+          "url": "https://store.steampowered.com/search/?publisher=Shaun%20Hammond%20Business%20Solutions%20Limited"
+        }
+      ],
+      "genres": [
+        "survivors-like",
+        "action"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 1558,
+        "positive_pct": 97,
+        "url": "https://steamdb.info/app/3832490/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3832490/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/antivirus-survivors-2003-professional/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A survivors-like auto shooter set inside an early 2000s family PC, fighting viruses with weapons themed around old desktop software.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3832490/",
+        "https://godotengine.org/showcase/antivirus-survivors-2003-professional/"
+      ]
+    },
+    {
+      "id": "pronoun-palace",
+      "name": "Pronoun Palace",
+      "steam_appid": 3618850,
+      "release_date": "2026-06-04",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Cadence Petersen",
+          "url": "https://store.steampowered.com/search/?developer=Cadence%20Petersen"
+        },
+        {
+          "name": "Hazel Fackler",
+          "url": "https://store.steampowered.com/search/?developer=Hazel%20Fackler"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Cadence Petersen",
+          "url": "https://store.steampowered.com/search/?publisher=Cadence%20Petersen"
+        },
+        {
+          "name": "Hazel Fackler",
+          "url": "https://store.steampowered.com/search/?publisher=Hazel%20Fackler"
+        }
+      ],
+      "genres": [
+        "roguelike",
+        "word game"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 1462,
+        "positive_pct": 98,
+        "url": "https://steamdb.info/app/3618850/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3618850/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/pronoun-palace/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A word spelling roguelike where you build words from letter tiles and use spells to modify them while fighting a dystopian government.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3618850/",
+        "https://godotengine.org/showcase/pronoun-palace/"
+      ]
+    },
+    {
+      "id": "ambidextro",
+      "name": "Ambidextro",
+      "steam_appid": 3445580,
+      "release_date": "2025-03-28",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Majorariatto",
+          "url": "https://store.steampowered.com/search/?developer=Majorariatto"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Majorariatto",
+          "url": "https://store.steampowered.com/search/?publisher=Majorariatto"
+        }
+      ],
+      "genres": [
+        "puzzle",
+        "platformer"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 1361,
+        "positive_pct": 98,
+        "url": "https://steamdb.info/app/3445580/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3445580/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/ambidextro/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A puzzle platformer where you steer two characters at the same time, one with each hand, through levels built for both.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3445580/",
+        "https://godotengine.org/showcase/ambidextro/"
+      ]
+    },
+    {
+      "id": "my-card-is-better-than-your-card",
+      "name": "My Card Is Better Than Your Card!",
+      "steam_appid": 3617620,
+      "release_date": "2025-10-06",
+      "status": "early_access",
+      "developers": [
+        {
+          "name": "Utu Studios",
+          "url": "https://store.steampowered.com/search/?developer=Utu%20Studios"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Utu Studios",
+          "url": "https://store.steampowered.com/search/?publisher=Utu%20Studios"
+        }
+      ],
+      "genres": [
+        "roguelike",
+        "deckbuilder"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "reviews": {
+        "total": 1274,
+        "positive_pct": 94,
+        "url": "https://steamdb.info/app/3617620/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3617620/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/my-card-is-better-than-your-card/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A roguelike deckbuilder set on a playground where you design your own cards with stickers and win tug of war battles.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3617620/",
+        "https://godotengine.org/showcase/my-card-is-better-than-your-card/"
+      ]
+    },
+    {
+      "id": "lumencraft",
+      "name": "Lumencraft",
+      "steam_appid": 1713810,
+      "release_date": "2023-02-28",
+      "status": "released",
+      "developers": [
+        {
+          "name": "2Dynamic Games",
+          "url": "https://store.steampowered.com/search/?developer=2Dynamic%20Games"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Star Drifters",
+          "url": "https://store.steampowered.com/search/?publisher=Star%20Drifters"
+        },
+        {
+          "name": "Surefire.Games",
+          "url": "https://store.steampowered.com/search/?publisher=Surefire.Games"
+        }
+      ],
+      "genres": [
+        "roguelike",
+        "shooter",
+        "tower defense"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 1088,
+        "positive_pct": 75,
+        "url": "https://steamdb.info/app/1713810/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/1713810/",
+        "gog": "https://www.gog.com/pl/game/lumencraft"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/lumencraft/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A top-down shooter with base building and tower defense, set in destructible caves you dig through to find a valuable resource.",
+      "last_checked": "2026-11-14",
+      "notes": "Early access start: 2022-04-13. Release date shows the 1.0 date. Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1713810/",
+        "https://godotengine.org/showcase/lumencraft/"
+      ]
+    },
+    {
+      "id": "swords-and-sandals-immortals",
+      "name": "Swords and Sandals Immortals",
+      "steam_appid": 1707650,
+      "release_date": "2023-03-09",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Whiskeybarrel Studios",
+          "url": "https://store.steampowered.com/search/?developer=Whiskeybarrel%20Studios"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "eGames.com",
+          "url": "https://store.steampowered.com/search/?publisher=eGames.com"
+        }
+      ],
+      "genres": [
+        "rpg",
+        "turn based"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 1058,
+        "positive_pct": 83,
+        "url": "https://steamdb.info/app/1707650/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/1707650/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/swords-and-sandals-immortals/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A turn-based gladiator RPG with character building, absurd humor and online multiplayer arena fights.",
+      "last_checked": "2026-11-14",
+      "notes": "Early access start: 2022-05-27. Release date shows the 1.0 date. Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1707650/",
+        "https://godotengine.org/showcase/swords-and-sandals-immortals/"
+      ]
+    },
+    {
+      "id": "kingdoms-of-the-dump",
+      "name": "Kingdoms of the Dump",
+      "steam_appid": 2159270,
+      "release_date": "2025-11-18",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Roach Games",
+          "url": "https://store.steampowered.com/search/?developer=Roach%20Games"
+        },
+        {
+          "name": "Dream Sloth Games",
+          "url": "https://store.steampowered.com/search/?developer=Dream%20Sloth%20Games"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Roach Games",
+          "url": "https://store.steampowered.com/search/?publisher=Roach%20Games"
+        }
+      ],
+      "genres": [
+        "jrpg",
+        "rpg"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 1044,
+        "positive_pct": 93,
+        "url": "https://steamdb.info/app/2159270/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2159270/"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/kingdoms-of-the-dump/",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "A 16-bit style JRPG set in a fantasy world made of garbage, led by a knight who is also a trash can.",
+      "last_checked": "2026-11-14",
+      "notes": "Other stores (consoles, Epic, mobile) not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2159270/",
+        "https://godotengine.org/showcase/kingdoms-of-the-dump/"
+      ]
+    },
+    {
+      "steam_appid": null,
+      "status": "released",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "reviews": {
+        "total": null,
+        "positive_pct": null,
+        "url": ""
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "article": "",
+      "last_checked": "2026-11-14",
+      "id": "usagi-shima",
+      "name": "Usagi Shima",
+      "release_date": "2023-09-01",
+      "developers": [
+        {
+          "name": "pank0"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "studio rabbiko G.K."
+        }
+      ],
+      "genres": [
+        "idle",
+        "cozy"
+      ],
+      "stores": {
+        "app_store": "https://apps.apple.com/us/app/usagi-shima/id1632728038",
+        "google_play": "https://play.google.com/store/apps/details?id=com.pank0.usagishima"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/usagi-shima/",
+        "type": "official_showcase"
+      },
+      "description": "An idle mobile game where you decorate an abandoned island and photograph the bunnies that visit based on what you build.",
+      "notes": "Mobile only. Release date is the App Store date. No Steam reviews; mobile revenue needs the signed-in Sensor Tower app.",
+      "sources": [
+        "https://itunes.apple.com/lookup?id=1632728038&country=us",
+        "https://godotengine.org/showcase/usagi-shima/"
+      ]
+    },
+    {
+      "steam_appid": null,
+      "status": "released",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "reviews": {
+        "total": null,
+        "positive_pct": null,
+        "url": ""
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "article": "",
+      "last_checked": "2026-11-14",
+      "id": "callbreak",
+      "name": "Callbreak: Card Game",
+      "release_date": "2015-11-20",
+      "developers": [
+        {
+          "name": "Teslatech"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Teslatech"
+        }
+      ],
+      "genres": [
+        "card game"
+      ],
+      "stores": {
+        "app_store": "https://apps.apple.com/us/app/callbreak-card-game/id1046460939",
+        "google_play": "https://play.google.com/store/apps/details?id=io.teslatech.callbreak"
+      },
+      "godot_proof": {
+        "url": "https://godotengine.org/showcase/callbreak/",
+        "type": "official_showcase"
+      },
+      "description": "A mobile version of the trick taking card game popular in Nepal and India, with online, offline and private table modes.",
+      "notes": "Mobile only. Release date is the App Store date; it may not be the date the game moved to Godot. No Steam reviews.",
+      "sources": [
+        "https://itunes.apple.com/lookup?id=1046460939&country=us",
+        "https://godotengine.org/showcase/callbreak/"
+      ]
     }
   ]
 }

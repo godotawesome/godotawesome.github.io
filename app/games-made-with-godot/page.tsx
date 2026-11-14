@@ -87,8 +87,8 @@ export default function GamesPage() {
     <div className="mx-auto w-full max-w-[1400px] px-4 pb-16">
       {!meta.mock ? null : (
         <div role="note" className="mb-6 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
-          <strong>Preview:</strong> this table shows placeholder data. Real, checked data replaces it before the page
-          is indexed.
+          <strong>Preview:</strong> we are still checking this data. Some values may change before the page is
+          final.
         </div>
       )}
 

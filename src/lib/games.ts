@@ -46,6 +46,7 @@ export type Game = {
   description: string;
   last_checked: string;
   notes?: string;
+  sources?: string[];
 };
 
 export type GamesData = {

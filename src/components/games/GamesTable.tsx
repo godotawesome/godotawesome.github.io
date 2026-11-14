@@ -142,7 +142,7 @@ function Positive({ pct, url }: { pct: number | null; url?: string }) {
   if (pct == null) return <span className="text-black/35">N/A</span>;
   return (
     <MaybeLink href={url} className="block min-w-[4.5rem] text-black/80">
-      <span className="font-semibold tabular-nums">{pct.toFixed(2)}%</span>
+      <span className="font-semibold tabular-nums">{Number.isInteger(pct) ? pct : pct.toFixed(2)}%</span>
       <span className="mt-1 block h-1 w-full overflow-hidden rounded-full bg-black/10">
         <span className={`block h-full ${scoreColor(pct)}`} style={{ width: `${pct}%` }} />
       </span>
