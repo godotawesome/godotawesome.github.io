@@ -1,0 +1,1061 @@
+{
+  "meta": {
+    "schema_version": 1,
+    "mock": true,
+    "last_checked": "2026-11-14",
+    "currency": "USD"
+  },
+  "games": [
+    {
+      "id": "dolor-sit-arena",
+      "name": "Dolor Sit Arena",
+      "steam_appid": null,
+      "release_date": "2022-06-08",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Dolor Games",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Ipsum Publishing",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "horror",
+        "strategy"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 77345,
+        "positive_pct": 94.33,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 1,
+        "hours_max": 3,
+        "url": "https://example.com/time-to-beat",
+        "source": "igdb"
+      },
+      "revenue": {
+        "usd": 7937000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/dolor-sit-arena",
+        "itch": "https://example.com/itch/dolor-sit-arena"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "developer_statement"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "amet-keeper",
+      "name": "Amet Keeper",
+      "steam_appid": null,
+      "release_date": "2023-11-15",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Ipsum Interactive",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Raw Lorem",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "mining",
+        "tower defense"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Switch"
+      ],
+      "reviews": {
+        "total": 65531,
+        "positive_pct": 94.71,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 4.5,
+        "hours_max": null,
+        "url": "https://example.com/time-to-beat",
+        "source": "howlongtobeat"
+      },
+      "revenue": {
+        "usd": 7890000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/amet-keeper",
+        "gog": "https://example.com/gog/amet-keeper",
+        "nintendo": "https://example.com/nintendo/amet-keeper"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "postmortem"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "lorem-ipsum-quest",
+      "name": "Lorem Ipsum Quest",
+      "steam_appid": null,
+      "release_date": "2021-01-01",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Lorem Studio",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Lorem Studio",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "roguelite",
+        "arena shooter"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 84004,
+        "positive_pct": 97.56,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 5,
+        "hours_max": null,
+        "url": "https://example.com/time-to-beat",
+        "source": "howlongtobeat"
+      },
+      "revenue": {
+        "usd": 6984000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/lorem-ipsum-quest",
+        "epic": "https://example.com/epic/lorem-ipsum-quest",
+        "xbox": "https://example.com/xbox/lorem-ipsum-quest",
+        "playstation": "https://example.com/playstation/lorem-ipsum-quest",
+        "nintendo": "https://example.com/nintendo/lorem-ipsum-quest",
+        "app_store": "https://example.com/app_store/lorem-ipsum-quest",
+        "google_play": "https://example.com/google_play/lorem-ipsum-quest"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "official_showcase"
+      },
+      "article": "/brotato-godot-success-story/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "consectetur-tactics",
+      "name": "Consectetur Tactics",
+      "steam_appid": null,
+      "release_date": "2024-04-22",
+      "status": "early_access",
+      "developers": [
+        {
+          "name": "Sit Amet Works",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Ipsum Publishing",
+          "url": "https://example.com/publisher"
+        },
+        {
+          "name": "Lorem (Japan)",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "creature collector",
+        "rpg"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "reviews": {
+        "total": 58410,
+        "positive_pct": 93.57,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 6476000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/consectetur-tactics",
+        "epic": "https://example.com/epic/consectetur-tactics",
+        "gog": "https://example.com/gog/consectetur-tactics",
+        "xbox": "https://example.com/xbox/consectetur-tactics",
+        "playstation": "https://example.com/playstation/consectetur-tactics",
+        "nintendo": "https://example.com/nintendo/consectetur-tactics"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "press"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "adipiscing-roulette",
+      "name": "Adipiscing Roulette",
+      "steam_appid": null,
+      "release_date": "2025-09-01",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Consectetur Labs",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Dolor Entertainment",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "deckbuilder",
+        "auto battler"
+      ],
+      "platforms": [
+        "Windows",
+        "Android",
+        "iOS"
+      ],
+      "reviews": {
+        "total": 52860,
+        "positive_pct": 86.09,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 6.5,
+        "hours_max": null,
+        "url": "https://example.com/time-to-beat",
+        "source": "igdb"
+      },
+      "revenue": {
+        "usd": 4754000,
+        "url": "https://example.com/revenue",
+        "source": "gamalytic"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/adipiscing-roulette"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "official_showcase"
+      },
+      "article": "/buckshot-roulette/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "sed-do-battles",
+      "name": "Sed Do Battles",
+      "steam_appid": null,
+      "release_date": "2022-07-15",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Lorem Studio",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Lorem Studio",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "survivors-like",
+        "action"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 30006,
+        "positive_pct": 89.91,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 7,
+        "hours_max": null,
+        "url": "https://example.com/time-to-beat",
+        "source": "howlongtobeat"
+      },
+      "revenue": {
+        "usd": 4015000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/sed-do-battles",
+        "epic": "https://example.com/epic/sed-do-battles",
+        "xbox": "https://example.com/xbox/sed-do-battles",
+        "playstation": "https://example.com/playstation/sed-do-battles",
+        "nintendo": "https://example.com/nintendo/sed-do-battles",
+        "app_store": "https://example.com/app_store/sed-do-battles",
+        "google_play": "https://example.com/google_play/sed-do-battles"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "postmortem"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "eiusmod-torment",
+      "name": "Eiusmod Torment",
+      "steam_appid": null,
+      "release_date": "2023-12-22",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Dolor Games",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Ipsum Publishing",
+          "url": "https://example.com/publisher"
+        },
+        {
+          "name": "Lorem (Japan)",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "visual novel",
+        "adventure"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Switch"
+      ],
+      "reviews": {
+        "total": 24967,
+        "positive_pct": 84.08,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 20,
+        "hours_max": null,
+        "url": "https://example.com/time-to-beat",
+        "source": "igdb"
+      },
+      "revenue": {
+        "usd": 2523000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/eiusmod-torment",
+        "itch": "https://example.com/itch/eiusmod-torment"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "press"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "elit-beasts",
+      "name": "Elit Beasts",
+      "steam_appid": null,
+      "release_date": "2021-02-08",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Elit Softworks",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Self-published",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "puzzle"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 38968,
+        "positive_pct": 93.8,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 16,
+        "hours_max": 18,
+        "url": "https://example.com/time-to-beat",
+        "source": "howlongtobeat"
+      },
+      "revenue": {
+        "usd": 2506000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/elit-beasts",
+        "itch": "https://example.com/itch/elit-beasts",
+        "nintendo": "https://example.com/nintendo/elit-beasts"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "developer_statement"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "tempor-labs",
+      "name": "Tempor Labs",
+      "steam_appid": null,
+      "release_date": "2024-05-01",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Ipsum Interactive",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Magna Ark",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "simulation",
+        "farming"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "reviews": {
+        "total": 20616,
+        "positive_pct": 93.64,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 11,
+        "hours_max": null,
+        "url": "https://example.com/time-to-beat",
+        "source": "howlongtobeat"
+      },
+      "revenue": {
+        "usd": 2299000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/tempor-labs",
+        "gog": "https://example.com/gog/tempor-labs",
+        "nintendo": "https://example.com/nintendo/tempor-labs"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "incididunt-pasture",
+      "name": "Incididunt Pasture",
+      "steam_appid": null,
+      "release_date": "2025-10-08",
+      "status": "early_access",
+      "developers": [
+        {
+          "name": "Sit Amet Works",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Sit Amet Works",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "fps",
+        "immersive sim"
+      ],
+      "platforms": [
+        "Windows",
+        "Android",
+        "iOS"
+      ],
+      "reviews": {
+        "total": 13420,
+        "positive_pct": 97.41,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 11.5,
+        "hours_max": null,
+        "url": "https://example.com/time-to-beat",
+        "source": "howlongtobeat"
+      },
+      "revenue": {
+        "usd": 1780000,
+        "url": "https://example.com/revenue",
+        "source": "gamalytic"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/incididunt-pasture",
+        "epic": "https://example.com/epic/incididunt-pasture",
+        "gog": "https://example.com/gog/incididunt-pasture",
+        "xbox": "https://example.com/xbox/incididunt-pasture",
+        "playstation": "https://example.com/playstation/incididunt-pasture",
+        "nintendo": "https://example.com/nintendo/incididunt-pasture"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "developer_statement"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "enim-minim-then",
+      "name": "Enim Minim Then",
+      "steam_appid": null,
+      "release_date": "2024-06-08",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Dolor Games",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Magna Ark",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "horror",
+        "strategy"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "reviews": {
+        "total": 5992,
+        "positive_pct": 91.42,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 11.5,
+        "hours_max": null,
+        "url": "https://example.com/time-to-beat",
+        "source": "igdb"
+      },
+      "revenue": {
+        "usd": 709000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/enim-minim-then",
+        "itch": "https://example.com/itch/enim-minim-then"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "developer_statement"
+      },
+      "article": "/until-then/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "magna-squad",
+      "name": "Magna Squad",
+      "steam_appid": null,
+      "release_date": "2022-08-22",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Elit Softworks",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Ipsum Publishing",
+          "url": "https://example.com/publisher"
+        },
+        {
+          "name": "Lorem (Japan)",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "programming",
+        "puzzle"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 9381,
+        "positive_pct": 87.62,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 16,
+        "hours_max": null,
+        "url": "https://example.com/time-to-beat",
+        "source": "howlongtobeat"
+      },
+      "revenue": {
+        "usd": 677000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/magna-squad",
+        "itch": "https://example.com/itch/magna-squad",
+        "nintendo": "https://example.com/nintendo/magna-squad"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "press"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "aliqua-kings",
+      "name": "Aliqua Kings",
+      "steam_appid": null,
+      "release_date": "2023-01-01",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Lorem Studio",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Lorem Studio",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "roguelite",
+        "arena shooter"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Switch"
+      ],
+      "reviews": {
+        "total": 5347,
+        "positive_pct": 89.24,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 447000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/aliqua-kings",
+        "epic": "https://example.com/epic/aliqua-kings",
+        "xbox": "https://example.com/xbox/aliqua-kings",
+        "playstation": "https://example.com/playstation/aliqua-kings",
+        "nintendo": "https://example.com/nintendo/aliqua-kings",
+        "app_store": "https://example.com/app_store/aliqua-kings",
+        "google_play": "https://example.com/google_play/aliqua-kings"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "veniam-complete",
+      "name": "Veniam Complete",
+      "steam_appid": null,
+      "release_date": "2025-11-15",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Ipsum Interactive",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Dolor Entertainment",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "mining",
+        "tower defense"
+      ],
+      "platforms": [
+        "Windows",
+        "Android",
+        "iOS"
+      ],
+      "reviews": {
+        "total": 4542,
+        "positive_pct": 82.99,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 372000,
+        "url": "https://example.com/revenue",
+        "source": "gamalytic"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/veniam-complete",
+        "gog": "https://example.com/gog/veniam-complete",
+        "nintendo": "https://example.com/nintendo/veniam-complete"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "postmortem"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "quis-nostrud-cups",
+      "name": "Quis Nostrud Cups",
+      "steam_appid": null,
+      "release_date": "2021-04-22",
+      "status": "early_access",
+      "developers": [
+        {
+          "name": "Sit Amet Works",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Ipsum Publishing",
+          "url": "https://example.com/publisher"
+        },
+        {
+          "name": "Lorem (Japan)",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "creature collector",
+        "rpg"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 2993,
+        "positive_pct": 31.96,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 301000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/quis-nostrud-cups",
+        "epic": "https://example.com/epic/quis-nostrud-cups",
+        "gog": "https://example.com/gog/quis-nostrud-cups",
+        "xbox": "https://example.com/xbox/quis-nostrud-cups",
+        "playstation": "https://example.com/playstation/quis-nostrud-cups",
+        "nintendo": "https://example.com/nintendo/quis-nostrud-cups"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "press"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "exercitation-move",
+      "name": "Exercitation Move",
+      "steam_appid": null,
+      "release_date": "2022-09-01",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Consectetur Labs",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Ipsum Publishing",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "deckbuilder",
+        "auto battler"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 2146,
+        "positive_pct": 85.26,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": 2,
+        "hours_max": null,
+        "url": "https://example.com/time-to-beat",
+        "source": "igdb"
+      },
+      "revenue": {
+        "usd": 285000,
+        "url": "https://example.com/revenue",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://example.com/steam/exercitation-move"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "official_showcase"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "ut-labore-mazes",
+      "name": "Ut Labore Mazes",
+      "steam_appid": null,
+      "release_date": "2021-03-15",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Consectetur Labs",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Self-published",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "fighting",
+        "turn based"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 9236,
+        "positive_pct": 87.67,
+        "url": "https://example.com/reviews"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "free": true,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://example.com/steam/ut-labore-mazes"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "postmortem"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    },
+    {
+      "id": "ullamco-word-game",
+      "name": "Ullamco Word Game",
+      "steam_appid": null,
+      "release_date": "2023-02-08",
+      "status": "upcoming",
+      "developers": [
+        {
+          "name": "Elit Softworks",
+          "url": "https://example.com/developer"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Raw Lorem",
+          "url": "https://example.com/publisher"
+        }
+      ],
+      "genres": [
+        "puzzle"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Switch"
+      ],
+      "reviews": {
+        "total": null,
+        "positive_pct": null,
+        "url": ""
+      },
+      "time_to_beat": {
+        "hours_min": 7,
+        "hours_max": null,
+        "url": "https://example.com/time-to-beat",
+        "source": "howlongtobeat"
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://example.com/steam/ullamco-word-game",
+        "itch": "https://example.com/itch/ullamco-word-game",
+        "nintendo": "https://example.com/nintendo/ullamco-word-game"
+      },
+      "godot_proof": {
+        "url": "https://example.com/proof",
+        "type": "developer_statement"
+      },
+      "article": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "last_checked": "2026-11-14",
+      "notes": "MOCK DATA"
+    }
+  ]
+}

@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "check-urls": "node scripts/check-url-diff.mjs",
+    "validate-games": "node scripts/validate-games.mjs",
     "test:slugify": "tsx --test src/lib/slugify.test.ts"
   },
   "dependencies": {
