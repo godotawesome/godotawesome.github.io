@@ -38,7 +38,7 @@ If you enable **Analytics**:
 
 ## Managing Preferences
 
-- Use the **Cookie Settings** control on the site
+- Use the **Cookie settings** link in the site footer
 - Or change cookies via your browser settings
 
 ## Contact

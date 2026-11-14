@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getAllCategories } from "@/lib/content";
 import { SITE } from "@/lib/site";
+import { CookieSettingsLink } from "./CookieSettingsLink";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -63,6 +64,7 @@ export function Footer() {
             <Link href="/cookie-policy/" className="text-black/70">
               Cookies
             </Link>
+            <CookieSettingsLink className="text-black/70 hover:text-primary" />
           </div>
         </div>
       </footer>

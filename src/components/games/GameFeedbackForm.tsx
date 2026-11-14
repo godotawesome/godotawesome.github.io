@@ -2,15 +2,12 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { inputCls, labelCls, submitCls } from "@/lib/form-styles";
 
 // Formspree form for "wrong data" reports and game suggestions on /games-made-with-godot/.
 const FORMSPREE_URL = "https://formspree.io/f/xaeoqlpp";
 
 type Status = "idle" | "sending" | "sent" | "error";
-
-const inputCls =
-  "mt-1 block min-h-11 w-full rounded-md border border-black/10 bg-white px-3 py-2 text-base shadow-sm sm:min-h-0 sm:text-sm placeholder:text-black/30 focus:border-primary focus:outline-none";
-const labelCls = "block text-sm font-semibold text-black/75";
 
 export function GameFeedbackForm() {
   const [type, setType] = useState("wrong_info");
@@ -110,7 +107,7 @@ export function GameFeedbackForm() {
         <button
           type="submit"
           disabled={status === "sending"}
-          className="h-11 rounded-md bg-primary px-5 text-base sm:h-10 sm:text-sm font-semibold text-white shadow-sm transition hover:bg-primary-hover disabled:opacity-60"
+          className={submitCls}
         >
           {status === "sending" ? "Sending..." : "Send"}
         </button>

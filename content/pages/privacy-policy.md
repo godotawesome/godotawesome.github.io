@@ -39,18 +39,18 @@ We do **not** currently show third-party advertisements on this website.
 ### Voluntarily provided
 
 - Information you send by email to our contact addresses below
-- Information you send through the feedback form on our [Games Made with Godot](/games-made-with-godot/) page (see below)
+- Information you send through the forms on our [Contact](/contact/) and [Games Made with Godot](/games-made-with-godot/) pages (see below)
 
 We do **not** operate a comment system and do not collect comment names/emails on-site.
 
-## Feedback Form
+## Forms
 
-The form on the [Games Made with Godot](/games-made-with-godot/) page lets you report wrong information or suggest a game. It collects:
+We have two forms. Both are processed by [Formspree](https://formspree.io/), which stores submissions on servers in the United States and forwards them to us by email.
 
-- The topic, game name, store link, Godot proof link and your message
-- Your email address, only if you choose to give it
+- **Contact form** ([Contact](/contact/) page): your email address, your name if you give it, the topic and your message. We use them to read and answer your message.
+- **Games table form** ([Games Made with Godot](/games-made-with-godot/) page): the topic, game name, store link, Godot proof link, your message and your email address only if you choose to give it. We use them to check and update the table and, if you left an email address, to reply.
 
-The form is processed by [Formspree](https://formspree.io/), which stores submissions on servers in the United States and forwards them to us. We use what you send only to check and update the games table and, if you left an email address, to reply to you. We do not use it for marketing. Please do not include personal details that are not needed. To ask us to delete a message you sent, email the privacy address below.
+We do not use form messages for marketing. Please do not include personal details that are not needed. To ask us to delete a message you sent, email the privacy address below.
 
 ## How We Use Information
 
@@ -59,7 +59,7 @@ The form is processed by [Formspree](https://formspree.io/), which stores submis
 
 ## Your Choices
 
-- Use **Cookie Settings** to enable or disable Analytics
+- Use the **Cookie settings** link in the site footer to enable or disable Analytics
 - Umami remains active because it does not rely on consent-gated tracking cookies in our configuration
 - Browser controls can block or delete cookies at any time
 

@@ -10,6 +10,7 @@ export type ConsentState = {
 };
 
 const STORAGE_KEY = "godotawesome_cookie_consent";
+export const OPEN_SETTINGS_EVENT = "open-cookie-settings";
 
 export function readConsent(): ConsentState | null {
   if (typeof window === "undefined") return null;
@@ -35,16 +36,19 @@ export function CookieConsent() {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [analytics, setAnalytics] = useState(true);
 
+  const openSettings = () => {
+    // Show the saved choice; with no saved choice, Analytics starts checked (opt-out UX).
+    setAnalytics(readConsent()?.analytics ?? true);
+    setSettingsOpen(true);
+  };
+
   useEffect(() => {
     const existing = readConsent();
     if (!existing) setVisible(true);
+    // The "Cookie settings" link in the footer (CookieSettingsLink) opens this panel.
+    window.addEventListener(OPEN_SETTINGS_EVENT, openSettings);
+    return () => window.removeEventListener(OPEN_SETTINGS_EVENT, openSettings);
   }, []);
-
-  const openSettings = () => {
-    // Opt-out UX: Analytics starts checked; user unchecks if they don't want it.
-    setAnalytics(true);
-    setSettingsOpen(true);
-  };
 
   const acceptAll = () => {
     writeConsent({ analytics: true, advertising: false, timestamp: Date.now() });
@@ -64,17 +68,8 @@ export function CookieConsent() {
     setSettingsOpen(false);
   };
 
-  if (!visible && !settingsOpen) {
-    return (
-      <button
-        type="button"
-        onClick={openSettings}
-        className="fixed bottom-4 left-4 z-50 rounded-full border border-black/10 bg-white px-3 py-2 text-xs font-medium shadow-md"
-      >
-        Cookie Settings
-      </button>
-    );
-  }
+  // No floating button: it covered page content on small screens. Settings open from the footer link.
+  if (!visible && !settingsOpen) return null;
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-50 border-t border-black/10 bg-white p-4 shadow-[0_-8px_30px_rgba(0,0,0,0.08)]">
