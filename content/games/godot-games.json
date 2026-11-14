@@ -10,6 +10,7 @@
       "id": "slay-the-spire-2",
       "name": "Slay the Spire 2",
       "steam_appid": 2868840,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_231x87.jpg?t=1787169309",
       "release_date": "2026-03-05",
       "status": "early_access",
       "developers": [
@@ -69,6 +70,7 @@
       "id": "buckshot-roulette",
       "name": "Buckshot Roulette",
       "steam_appid": 2835570,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2835570/capsule_231x87.jpg?t=1783085442",
       "release_date": "2024-04-04",
       "status": "released",
       "developers": [
@@ -127,6 +129,7 @@
       "id": "brotato",
       "name": "Brotato",
       "steam_appid": 1942280,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/09947fd735e89f74581eeed42167403f68235208/capsule_231x87_alt_assets_4.jpg?t=1793641955",
       "release_date": "2023-06-23",
       "status": "released",
       "developers": [
@@ -186,6 +189,7 @@
       "id": "cruelty-squad",
       "name": "Cruelty Squad",
       "steam_appid": 1388770,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388770/capsule_231x87.jpg?t=1740330233",
       "release_date": "2021-06-16",
       "status": "released",
       "developers": [
@@ -243,6 +247,7 @@
       "id": "dome-keeper",
       "name": "Dome Keeper",
       "steam_appid": 1637320,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1637320/a5c61ad9d7ce869e67256043cf9ca0874f1f3388/capsule_231x87.jpg?t=1793963388",
       "release_date": "2022-09-27",
       "status": "released",
       "developers": [
@@ -303,6 +308,7 @@
       "id": "backpack-battles",
       "name": "Backpack Battles",
       "steam_appid": 2427700,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2427700/b086db34224db49b92af4cecb15a64fc4a4b34fb/capsule_231x87.jpg?t=1793194385",
       "release_date": "2025-06-13",
       "status": "released",
       "developers": [
@@ -367,6 +373,7 @@
       "id": "cassette-beasts",
       "name": "Cassette Beasts",
       "steam_appid": 1321440,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1321440/capsule_231x87.jpg?t=1789482081",
       "release_date": "2023-04-26",
       "status": "released",
       "developers": [
@@ -425,6 +432,7 @@
       "id": "the-case-of-the-golden-idol",
       "name": "The Case of the Golden Idol",
       "steam_appid": 1677770,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677770/2dcd55f8da5c86769acbf39a25ddc50423046df9/capsule_231x87.jpg?t=1793622874",
       "release_date": "2022-10-13",
       "status": "released",
       "developers": [
@@ -484,6 +492,7 @@
       "id": "halls-of-torment",
       "name": "Halls of Torment",
       "steam_appid": 2218750,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218750/de862be4dbf80a39e1e3f5e08479461ac2f2789b/capsule_231x87.jpg?t=1792677093",
       "release_date": "2024-09-24",
       "status": "released",
       "developers": [
@@ -542,6 +551,7 @@
       "id": "until-then",
       "name": "Until Then",
       "steam_appid": 1574820,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574820/capsule_231x87.jpg?t=1792006715",
       "release_date": "2024-06-25",
       "status": "released",
       "developers": [
@@ -600,6 +610,7 @@
       "id": "tiny-pasture",
       "name": "Tiny Pasture",
       "steam_appid": 3167550,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3167550/2f6c7e85bcc108efead4eb9f7e1ae0b029111fe9/capsule_231x87.jpg?t=1794483984",
       "release_date": "2025-02-18",
       "status": "released",
       "developers": [
@@ -658,6 +669,7 @@
       "id": "luck-be-a-landlord",
       "name": "Luck be a Landlord",
       "steam_appid": 1404850,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1404850/capsule_231x87.jpg?t=1793287779",
       "release_date": "2023-01-06",
       "status": "released",
       "developers": [
@@ -721,6 +733,7 @@
       "id": "windowkill",
       "name": "Windowkill",
       "steam_appid": 2726450,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2726450/capsule_231x87.jpg?t=1775524232",
       "release_date": "2024-02-23",
       "status": "released",
       "developers": [
@@ -779,6 +792,7 @@
       "id": "kinitopet",
       "name": "KinitoPET",
       "steam_appid": 2075070,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075070/capsule_231x87.jpg?t=1776480908",
       "release_date": "2024-01-09",
       "status": "released",
       "developers": [
@@ -840,6 +854,7 @@
       "id": "20-small-mazes",
       "name": "20 Small Mazes",
       "steam_appid": 2570630,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2570630/de8311445a64ccf8bc2fbdabe4bbe603b3e5413d/capsule_231x87.jpg?t=1773335949",
       "release_date": "2024-02-16",
       "status": "released",
       "developers": [
@@ -899,6 +914,7 @@
       "id": "road-to-vostok",
       "name": "Road to Vostok",
       "steam_appid": 1963610,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1963610/28148123f92e62b6a2911eb2f4bab8d8539528de/capsule_231x87.jpg?t=1788519893",
       "release_date": "2026-04-07",
       "status": "early_access",
       "developers": [
@@ -956,6 +972,7 @@
       "id": "pathogenic",
       "name": "Pathogenic",
       "steam_appid": 3808690,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/9bd6c9c12a0b5053331b8a3c3998fe06e7ca08e6/capsule_231x87.jpg?t=1794309066",
       "release_date": "2026-07-16",
       "status": "released",
       "developers": [
@@ -1015,6 +1032,7 @@
       "id": "sovereign-tower",
       "name": "Sovereign Tower",
       "steam_appid": 4113940,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/08f713104c04740bb30f585787db8ae39b8372fe/capsule_231x87.jpg?t=1792401439",
       "release_date": "2026-08-06",
       "status": "released",
       "developers": [
@@ -1073,6 +1091,7 @@
       "id": "megaloot",
       "name": "Megaloot",
       "steam_appid": 2440380,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440380/85b1a84ce7148e63efb4ecdc48de6db2705f0150/capsule_231x87.jpg?t=1794244858",
       "release_date": "2024-08-30",
       "status": "released",
       "developers": [
@@ -1135,6 +1154,7 @@
       "id": "pratfall",
       "name": "Pratfall",
       "steam_appid": 4244510,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4244510/e50e78b2fa42aae2370ac4162668387a1e434013/capsule_231x87.jpg?t=1793009009",
       "release_date": "2026-04-20",
       "status": "released",
       "developers": [
@@ -1192,6 +1212,7 @@
       "id": "dogwalk",
       "name": "DOGWALK",
       "steam_appid": 3775050,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3775050/ddb297f80379fd829a412167c780fa5e95c7e540/capsule_231x87.jpg?t=1763644375",
       "release_date": "2025-07-11",
       "status": "released",
       "developers": [
@@ -1253,6 +1274,7 @@
       "id": "endoparasitic",
       "name": "Endoparasitic",
       "steam_appid": 2124780,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124780/capsule_231x87.jpg?t=1794281617",
       "release_date": "2022-10-24",
       "status": "released",
       "developers": [
@@ -1313,6 +1335,7 @@
       "id": "delta-v-rings-of-saturn",
       "name": "ΔV: Rings of Saturn",
       "steam_appid": 846030,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/846030/capsule_231x87.jpg?t=1772017493",
       "release_date": "2023-07-21",
       "status": "released",
       "developers": [
@@ -1377,6 +1400,7 @@
       "id": "organized-inside",
       "name": "Organized Inside",
       "steam_appid": 3609750,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3609750/1b365dd036c8603b55c1b9d5a82e2e8cf86379e9/capsule_231x87.jpg?t=1766574795",
       "release_date": "2025-11-20",
       "status": "released",
       "developers": [
@@ -1435,6 +1459,7 @@
       "id": "gourdlets",
       "name": "Gourdlets",
       "steam_appid": 2013730,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2013730/capsule_231x87.jpg?t=1793279288",
       "release_date": "2024-08-15",
       "status": "released",
       "developers": [
@@ -1499,6 +1524,7 @@
       "id": "city-game-studio",
       "name": "City Game Studio: Your Game Dev Adventure Begins",
       "steam_appid": 726840,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/8d974e36218e7826fa9754381a339e93306c717c/capsule_231x87_alt_assets_18.jpg?t=1789984751",
       "release_date": "2021-08-24",
       "status": "released",
       "developers": [
@@ -1560,6 +1586,7 @@
       "id": "funi-raccoon-game",
       "name": "Funi Raccoon Game",
       "steam_appid": 3599690,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3599690/1c66aeafc9af8b1ef972b5cca77e9bbf408b4783/capsule_231x87.jpg?t=1793445708",
       "release_date": "2026-03-13",
       "status": "released",
       "developers": [
@@ -1623,6 +1650,7 @@
       "id": "antivirus-survivors-2003-professional",
       "name": "Antivirus Survivors 2003 Professional",
       "steam_appid": 3832490,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/320c5c297cc1c4b3369ecd89d4f8c50411fac8e2/capsule_231x87.jpg?t=1794075659",
       "release_date": "2026-09-28",
       "status": "released",
       "developers": [
@@ -1682,6 +1710,7 @@
       "id": "pronoun-palace",
       "name": "Pronoun Palace",
       "steam_appid": 3618850,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3618850/2d39346926587661409d6d6ba6c2b984a4f9a843/capsule_231x87.jpg?t=1785370136",
       "release_date": "2026-06-04",
       "status": "released",
       "developers": [
@@ -1749,6 +1778,7 @@
       "id": "ambidextro",
       "name": "Ambidextro",
       "steam_appid": 3445580,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3445580/6db738c0cd17ded70f0706f4c3b8e24e23158f0e/capsule_231x87.jpg?t=1788986304",
       "release_date": "2025-03-28",
       "status": "released",
       "developers": [
@@ -1808,6 +1838,7 @@
       "id": "my-card-is-better-than-your-card",
       "name": "My Card Is Better Than Your Card!",
       "steam_appid": 3617620,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3617620/d52a89be864d43e54655f21c8c892b7d3e524f5b/capsule_231x87.jpg?t=1792684010",
       "release_date": "2025-10-06",
       "status": "early_access",
       "developers": [
@@ -1866,6 +1897,7 @@
       "id": "lumencraft",
       "name": "Lumencraft",
       "steam_appid": 1713810,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1713810/8c5654594d7868096507d4d82ccc27aa3b677cad/capsule_231x87.jpg?t=1792076440",
       "release_date": "2023-02-28",
       "status": "released",
       "developers": [
@@ -1931,6 +1963,7 @@
       "id": "swords-and-sandals-immortals",
       "name": "Swords and Sandals Immortals",
       "steam_appid": 1707650,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1707650/capsule_231x87.jpg?t=1762827047",
       "release_date": "2023-03-09",
       "status": "released",
       "developers": [
@@ -1988,6 +2021,7 @@
       "id": "kingdoms-of-the-dump",
       "name": "Kingdoms of the Dump",
       "steam_appid": 2159270,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2159270/capsule_231x87.jpg?t=1780240751",
       "release_date": "2025-11-18",
       "status": "released",
       "developers": [
@@ -2049,6 +2083,7 @@
     },
     {
       "steam_appid": null,
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/88/0f/bd880fad-f622-c8c7-3979-74bfded7e829/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
       "status": "released",
       "platforms": [
         "iOS",
@@ -2106,6 +2141,7 @@
     },
     {
       "steam_appid": null,
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/32/97/eb3297f7-2514-a346-624a-0e7cfaf97a40/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
       "status": "released",
       "platforms": [
         "iOS",

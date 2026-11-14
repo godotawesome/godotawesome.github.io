@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GameFeedbackForm } from "@/components/games/GameFeedbackForm";
 import { GamesTable, StoreBadges } from "@/components/games/GamesTable";
 import { formatDate, withUtm } from "@/lib/games";
 import { getGamesData } from "@/lib/games-data";
@@ -9,10 +10,10 @@ const { meta, games } = getGamesData();
 
 const PATH = "/games-made-with-godot/";
 const YEAR = meta.last_checked.slice(0, 4);
-// Head keyword "games made with godot" first; the year follows the weekly data check.
+// Head keyword "games made with godot" first; the year follows meta.last_checked.
 const TITLE = `Games Made with Godot (${YEAR}): Full List with Steam Data`;
 const DESCRIPTION =
-  "Every notable game made with the Godot Engine in one sortable list: release date, Steam reviews, time to beat, estimated revenue and store links. Updated weekly.";
+  "Notable games made with the Godot Engine in one sortable list, with release dates, Steam reviews, time to beat, estimated revenue and store links.";
 
 export const metadata = buildMetadata({
   title: TITLE,
@@ -29,19 +30,19 @@ const FAQ = [
   },
   {
     q: "Where do the review numbers come from?",
-    a: "Review counts and the positive share come from each game's Steam store page and include reviews in all languages.",
+    a: "Review counts and the positive share come from Steam and include reviews in all languages. Mobile only games have no Steam reviews.",
   },
   {
     q: "How accurate is the estimated revenue?",
     a: "It is a third party estimate, not a number from the developer. Use it to compare games, not as exact sales. Each figure links to the estimate it comes from.",
   },
   {
-    q: "How often is the table updated?",
-    a: "Every Monday. The date at the top of the page shows the last check.",
+    q: "How current are the numbers?",
+    a: "Reviews and revenue estimates change over time. The date at the top of the page shows when the data was last checked.",
   },
   {
     q: "My game is made with Godot. Can I add it?",
-    a: "Yes. Send us the store link and a public link that shows the game uses Godot through the contact page.",
+    a: "Yes. Use the form at the bottom of this page and add the store link and a public link that shows the game uses Godot.",
   },
 ];
 
@@ -106,7 +107,7 @@ export default function GamesPage() {
           This is a list of games made with Godot, the free and open source game engine, from solo hits to studio
           releases. For each
           game you can see the release date, Steam reviews and positive share, how long it takes to beat, an estimated
-          revenue and links to every store that sells it. Sort any column, filter by genre or store, and open a row
+          revenue and store links. Sort any column, filter by genre or store, and open a row
           for a short summary and the proof that the game uses Godot.
         </p>
         <dl className="mt-6 grid max-w-xl grid-cols-3 gap-3">
@@ -121,14 +122,21 @@ export default function GamesPage() {
             </div>
           ))}
         </dl>
+        <a
+          href="#suggest"
+          className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-[#25384a] no-underline shadow-sm transition hover:bg-white/90 hover:text-[#25384a]"
+        >
+          Spotted a mistake or want to add a game?
+          <span aria-hidden>&darr;</span>
+        </a>
       </header>
 
       <GamesTable games={games} />
 
       <p className="mt-3 text-xs leading-5 text-black/45">
         Reviews: Steam, all languages. Time to beat: main story from HowLongToBeat or IGDB. Estimated revenue: third
-        party estimate (Sensor Tower or Gamalytic), gross, in US dollars. Every number links to its source. Last
-        checked {lastChecked}.
+        party estimate from Sensor Tower, gross, in US dollars. N/A means we have no reliable value yet. Every
+        number links to its source. Last checked {lastChecked}.
       </p>
 
       {/* Per game summaries */}
@@ -170,7 +178,7 @@ export default function GamesPage() {
           </h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 font-article text-[14px] leading-6 text-black/70">
             <li>A game is added only when a public source shows it was made with Godot.</li>
-            <li>We check every game by hand each Monday and update the numbers and links.</li>
+            <li>Numbers come from public sources and are checked by hand before they go into the table.</li>
             <li>Summaries are written by us, not copied from store pages.</li>
             <li>
               Want more context? Read{" "}
@@ -190,18 +198,23 @@ export default function GamesPage() {
                     +
                   </span>
                 </summary>
-                <p className="mt-2 text-sm leading-6 text-black/65">
-                  {f.a}
-                  {f.q.startsWith("My game") && (
-                    <>
-                      {" "}
-                      <Link href="/contact/">Contact us</Link>.
-                    </>
-                  )}
-                </p>
+                <p className="mt-2 text-sm leading-6 text-black/65">{f.a}</p>
               </details>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Feedback form */}
+      <section id="suggest" className="mt-14 scroll-mt-24" aria-labelledby="suggest-title">
+        <div className="rounded-2xl border border-black/[0.08] bg-white p-5 shadow-sm sm:p-8">
+          <h2 id="suggest-title" className="font-sans text-xl font-bold text-black/85">
+            Spotted a mistake or want to add a game?
+          </h2>
+          <p className="mb-6 mt-1 text-sm text-black/55">
+            Tell us what is wrong or which Godot game is missing. We check every message before changing the table.
+          </p>
+          <GameFeedbackForm />
         </div>
       </section>
 

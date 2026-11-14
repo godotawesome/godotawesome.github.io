@@ -109,16 +109,18 @@ export function StoreBadges({ stores, size = "sm" }: { stores: Game["stores"]; s
 }
 
 function Capsule({ game }: { game: Game }) {
-  if (game.steam_appid) {
+  // `image` comes from the data file: Steam small capsule (wide) or App Store icon (square).
+  // Newer Steam apps use hashed asset paths, so the URL cannot be built from the app ID.
+  if (game.image) {
     return (
       // eslint-disable-next-line @next/next/no-img-element
       <img
-        src={`https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${game.steam_appid}/capsule_sm_120.jpg`}
+        src={game.image}
         alt=""
         loading="lazy"
         width={64}
         height={24}
-        className="h-6 w-16 shrink-0 rounded-sm object-cover"
+        className={`h-6 w-16 shrink-0 rounded-sm ${game.steam_appid ? "object-cover" : "bg-black/[0.04] object-contain"}`}
       />
     );
   }

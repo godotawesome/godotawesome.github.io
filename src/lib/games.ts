@@ -18,6 +18,7 @@ export type Game = {
   id: string;
   name: string;
   steam_appid?: number | null;
+  image?: string; // Steam small capsule or App Store icon URL, refreshed from the APIs
   release_date: string; // YYYY-MM-DD, or YYYY-MM / YYYY when the day is unknown
   status: "released" | "early_access" | "upcoming";
   developers: NamedLink[];

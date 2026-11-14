@@ -5,7 +5,7 @@ description: How GodotAwesome collects and uses data, including Umami, Google An
 
 # Privacy Policy
 
-Last updated: August 6, 2026
+Last updated: November 14, 2026
 
 ## General Information
 
@@ -39,8 +39,18 @@ We do **not** currently show third-party advertisements on this website.
 ### Voluntarily provided
 
 - Information you send by email to our contact addresses below
+- Information you send through the feedback form on our [Games Made with Godot](/games-made-with-godot/) page (see below)
 
 We do **not** operate a comment system and do not collect comment names/emails on-site.
+
+## Feedback Form
+
+The form on the [Games Made with Godot](/games-made-with-godot/) page lets you report wrong information or suggest a game. It collects:
+
+- The topic, game name, store link, Godot proof link and your message
+- Your email address, only if you choose to give it
+
+The form is processed by [Formspree](https://formspree.io/), which stores submissions on servers in the United States and forwards them to us. We use what you send only to check and update the games table and, if you left an email address, to reply to you. We do not use it for marketing. Please do not include personal details that are not needed. To ask us to delete a message you sent, email the privacy address below.
 
 ## How We Use Information
 
@@ -58,6 +68,7 @@ We do **not** operate a comment system and do not collect comment names/emails o
 - [Umami Privacy](https://umami.is/privacy)
 - [Google Analytics / Google Privacy](https://policies.google.com/privacy)
 - [Microsoft Clarity Privacy](https://privacy.microsoft.com/)
+- [Formspree Privacy](https://formspree.io/legal/privacy-policy/)
 
 ## Contact
 

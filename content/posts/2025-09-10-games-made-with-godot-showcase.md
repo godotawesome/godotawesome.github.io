@@ -13,7 +13,7 @@ updated: 2026-10-23
 
 These are 20 of the best-known **games made with Godot Engine**, from Steam hits like Brotato to indie favorites. Each entry lists the developer, the genre and why the game is worth a look.
 
-> **Looking for more?** Our [full list of games made with Godot](/games-made-with-godot/) covers every notable title in one sortable table, with Steam reviews, time to beat and store links. It is updated weekly.
+> **Looking for more?** Our [full list of games made with Godot](/games-made-with-godot/) puts notable titles in one sortable table, with Steam reviews, time to beat and store links.
 
 ## Why Games Made with Godot Matter 🌟
 
