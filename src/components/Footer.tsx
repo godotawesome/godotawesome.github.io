@@ -42,6 +42,9 @@ export function Footer() {
             . All rights reserved.
           </span>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 md:justify-start">
+            <Link href="/games/" className="text-black/70">
+              Games with Godot
+            </Link>
             <Link href="/about/" className="text-black/70">
               About
             </Link>
