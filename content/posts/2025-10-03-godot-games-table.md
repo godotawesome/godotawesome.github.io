@@ -12,6 +12,8 @@ hidden: false
 
 Think **Godot Engine** is just for hobby projects? Think again! 💰 The open-source game engine has powered some of the most commercially successful indie games in recent years, generating **millions in revenue** and proving that you don't need expensive proprietary engines to create hit games.
 
+> **Updated weekly:** the [complete list of games made with Godot](/games-made-with-godot/) has current Steam reviews, estimated revenue and store links for every game in this analysis and more.
+
 ## 🎮 **The Godot Success Story**
 
 From quirky roguelikes to emotional narrative adventures, **Godot-made games** have conquered Steam charts, mobile stores, and players' hearts worldwide. These aren't just passion projects. They're **multi-million dollar success stories** that showcase the engine's incredible potential.

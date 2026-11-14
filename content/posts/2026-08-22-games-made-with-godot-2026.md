@@ -23,6 +23,8 @@ Numbers come from a public Steam tracker pull (peak CCU, rating, follows, price)
 
 If you want franchise-scale context beyond this 2026 filter, read <a href="/slay-the-spire-2-godot-success-story/">Slay the Spire 2 on Godot</a> and the older <a href="/godot-games-table/">commercial Godot games table</a>.
 
+> **All years:** for games from every year, see the sortable [games made with Godot table](/games-made-with-godot/) with Steam reviews, estimated revenue and store links, updated weekly.
+
 ## 2026 Godot games with 1,000+ peak CCU
 
 Thirty titles cleared the bar. Sorted by peak concurrent players. Names open the Steam store page. Five of them also get a closer look under the table.

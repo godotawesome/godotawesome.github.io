@@ -22,10 +22,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/categories/`, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE.url}/tags/`, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE.url}/authors/`, changeFrequency: "weekly", priority: 0.6 },
-    // /games/ joins the sitemap once the mock data is replaced (meta.mock = false).
+    // The games hub joins the sitemap once the mock data is replaced (meta.mock = false).
     ...(getGamesData().meta.mock
       ? []
-      : [{ url: `${SITE.url}/games/`, lastModified: getGamesData().meta.last_checked, changeFrequency: "weekly" as const, priority: 0.9 }]),
+      : [{ url: `${SITE.url}/games-made-with-godot/`, lastModified: getGamesData().meta.last_checked, changeFrequency: "weekly" as const, priority: 1 }]),
     { url: `${SITE.url}/privacy-policy/`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE.url}/cookie-policy/`, changeFrequency: "yearly", priority: 0.3 },
   ];
