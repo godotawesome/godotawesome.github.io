@@ -71,6 +71,10 @@ export function Header({ categories, tags }: HeaderProps) {
               Home
             </Link>
 
+            <Link href="/games/" className="nav-link" onClick={() => setOpen(false)}>
+              Games with Godot
+            </Link>
+
             <div
               className="relative"
               onMouseEnter={() => setCatOpen(true)}
