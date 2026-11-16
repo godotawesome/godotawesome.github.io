@@ -26,7 +26,7 @@ export const metadata = buildMetadata({
 const FAQ = [
   {
     q: "How do you know a game was made with Godot?",
-    a: "Every game in the table has a proof link: the official Godot showcase, a statement or postmortem from the developer, or a press interview. Games without proof are left out.",
+    a: "Every game in the table has a proof link: the official Godot showcase, a statement or postmortem from the developer, or a press interview, or the engine detected in the game files as listed by SteamDB. Games without proof are left out.",
   },
   {
     q: "Where do the review numbers come from?",

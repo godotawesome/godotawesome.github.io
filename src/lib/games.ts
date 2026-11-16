@@ -41,7 +41,7 @@ export type Game = {
   stores: Partial<Record<StoreKey, string>>;
   godot_proof: {
     url: string;
-    type: "official_showcase" | "developer_statement" | "postmortem" | "store_page" | "press";
+    type: "official_showcase" | "developer_statement" | "postmortem" | "store_page" | "press" | "steamdb_tech";
   };
   article?: string; // internal path, e.g. "/brotato-godot-success-story/"
   description: string;

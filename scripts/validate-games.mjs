@@ -5,7 +5,7 @@ import fs from "node:fs";
 const FILE = "content/games/godot-games.json";
 const STORES = ["steam", "epic", "gog", "itch", "xbox", "playstation", "nintendo", "app_store", "google_play"];
 const STATUS = ["released", "early_access", "upcoming"];
-const PROOF = ["official_showcase", "developer_statement", "postmortem", "store_page", "press"];
+const PROOF = ["official_showcase", "developer_statement", "postmortem", "store_page", "press", "steamdb_tech"];
 const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
 
 const errors = [];
