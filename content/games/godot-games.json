@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "mock": false,
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-16",
     "currency": "USD"
   },
   "games": [
@@ -186,6 +186,69 @@
       ]
     },
     {
+      "id": "machine-party",
+      "name": "Machine Party",
+      "steam_appid": 4108000,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/5986ba4057fa210d0f96bd470e41a0dd439ed6fb/capsule_231x87.jpg?t=1793352925",
+      "release_date": "2026-07-30",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Mike Klubnika",
+          "url": "https://store.steampowered.com/search/?developer=Mike%20Klubnika"
+        },
+        {
+          "name": "GDeavid",
+          "url": "https://store.steampowered.com/search/?developer=GDeavid"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Oro Interactive",
+          "url": "https://store.steampowered.com/search/?publisher=Oro%20Interactive"
+        }
+      ],
+      "genres": [
+        "action",
+        "co-op"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 5103,
+        "positive_pct": 86,
+        "url": "https://steamdb.info/app/4108000/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 12600000,
+        "url": "https://app.sensortower.com/vgi/game/machine-party",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/4108000/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/4108000/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A co-op party game collection for friends where every round is a deadly minigame and losing usually means your character dies.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/4108000/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
       "id": "cruelty-squad",
       "name": "Cruelty Squad",
       "steam_appid": 1388770,
@@ -302,6 +365,125 @@
       "sources": [
         "https://store.steampowered.com/app/1637320/",
         "https://godotengine.org/showcase/dome-keeper/"
+      ]
+    },
+    {
+      "id": "the-roottrees-are-dead",
+      "name": "The Roottrees are Dead",
+      "steam_appid": 2754380,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2754380/e352ff8c11e1a18254c62550b1128cb66e437c8e/capsule_231x87.jpg?t=1794329063",
+      "release_date": "2025-01-15",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Evil Trout Inc.",
+          "url": "https://store.steampowered.com/search/?developer=Evil%20Trout%20Inc."
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Evil Trout Inc.",
+          "url": "https://store.steampowered.com/search/?publisher=Evil%20Trout%20Inc."
+        }
+      ],
+      "genres": [
+        "detective",
+        "puzzle"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 10113,
+        "positive_pct": 96,
+        "url": "https://steamdb.info/app/2754380/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 6700000,
+        "url": "https://app.sensortower.com/vgi/game/the-roottrees-are-dead",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2754380/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/2754380/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A genealogy mystery set on a 1998 style internet, where you search old web pages for clues to rebuild the family tree behind a secretive company.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2754380/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "your-only-move-is-hustle",
+      "name": "Your Only Move Is HUSTLE",
+      "steam_appid": 2212330,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2212330/capsule_231x87.jpg?t=1702425086",
+      "release_date": "2023-02-02",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Ivy Sly",
+          "url": "https://store.steampowered.com/search/?developer=Ivy%20Sly"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Ivy Sly",
+          "url": "https://store.steampowered.com/search/?publisher=Ivy%20Sly"
+        }
+      ],
+      "genres": [
+        "turn based",
+        "strategy"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 39771,
+        "positive_pct": 96,
+        "url": "https://steamdb.info/app/2212330/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 5300000,
+        "url": "https://app.sensortower.com/vgi/game/your-only-move-is-hustle",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2212330/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/2212330/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A turn-based fighting game where both players plan each move frame by frame and then watch the fight play out. Online and LAN matches.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2212330/",
+        "https://steamdb.info/tech/Engine/Godot/"
       ]
     },
     {
@@ -666,6 +848,65 @@
       ]
     },
     {
+      "id": "sir-we-have-an-orc-problem",
+      "name": "Sir, We Have an Orc Problem",
+      "steam_appid": 4594150,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594150/6450ed07d4c55cde27a797bca9a43292a3326091/capsule_231x87.jpg?t=1792747497",
+      "release_date": "2026-07-28",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Mumpitz Games",
+          "url": "https://store.steampowered.com/search/?developer=Mumpitz%20Games"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Mumpitz Games",
+          "url": "https://store.steampowered.com/search/?publisher=Mumpitz%20Games"
+        }
+      ],
+      "genres": [
+        "tower defense",
+        "idle"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 4969,
+        "positive_pct": 85,
+        "url": "https://steamdb.info/app/4594150/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 2700000,
+        "url": "https://app.sensortower.com/vgi/game/sir-we-have-an-orc-problem",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/4594150/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/4594150/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "An incremental tower defense game where you hold off huge waves of orcs and spend the rewards on stronger guns, bombs and lasers.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/4594150/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
       "id": "luck-be-a-landlord",
       "name": "Luck be a Landlord",
       "steam_appid": 1404850,
@@ -727,6 +968,236 @@
       "sources": [
         "https://store.steampowered.com/app/1404850/",
         "https://godotengine.org/showcase/luck-be-a-landlord/"
+      ]
+    },
+    {
+      "id": "chillquarium",
+      "name": "Chillquarium",
+      "steam_appid": 2276930,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2276930/9883ab0d3d26d8d0bb55bc0ec0058b1393ed2403/capsule_231x87.jpg?t=1792170494",
+      "release_date": "2023-09-06",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Ben Reber",
+          "url": "https://store.steampowered.com/search/?developer=Ben%20Reber"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Ben Reber",
+          "url": "https://store.steampowered.com/search/?publisher=Ben%20Reber"
+        }
+      ],
+      "genres": [
+        "idle",
+        "cozy"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "reviews": {
+        "total": 7914,
+        "positive_pct": 91,
+        "url": "https://steamdb.info/app/2276930/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 1100000,
+        "url": "https://app.sensortower.com/vgi/game/chillquarium",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2276930/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/2276930/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A relaxing idle game where you buy fish, raise them in real time and sell them to upgrade and decorate your aquarium.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2276930/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "tower-wizard",
+      "name": "Tower Wizard",
+      "steam_appid": 3372980,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3372980/9f2524f672b683dbe2502edb6c1e67839569775d/capsule_231x87.jpg?t=1779365676",
+      "release_date": "2025-06-19",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Barribob",
+          "url": "https://store.steampowered.com/search/?developer=Barribob"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Barribob",
+          "url": "https://store.steampowered.com/search/?publisher=Barribob"
+        }
+      ],
+      "genres": [
+        "idle"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 9031,
+        "positive_pct": 96,
+        "url": "https://steamdb.info/app/3372980/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 1000000,
+        "url": "https://app.sensortower.com/vgi/game/tower-wizard",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3372980/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3372980/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A short incremental game about building up a wizard tower, studying magic and summoning spirits to work for you.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3372980/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "nodebuster",
+      "name": "Nodebuster",
+      "steam_appid": 3107330,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3107330/capsule_231x87.jpg?t=1746551295",
+      "release_date": "2024-08-13",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Goblobin",
+          "url": "https://store.steampowered.com/search/?developer=Goblobin"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Goblobin",
+          "url": "https://store.steampowered.com/search/?publisher=Goblobin"
+        }
+      ],
+      "genres": [
+        "idle"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 13960,
+        "positive_pct": 97,
+        "url": "https://steamdb.info/app/3107330/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 937000,
+        "url": "https://app.sensortower.com/vgi/game/nodebuster",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3107330/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3107330/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A short incremental game about breaking nodes with your cursor and upgrading until you destroy reality.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3107330/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "click-the-button",
+      "name": "Click the Button",
+      "steam_appid": 3946950,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946950/322299ee17e59eafc395a1b9d023612bd7a17f87/capsule_231x87.jpg?t=1788017433",
+      "release_date": "2026-08-26",
+      "status": "released",
+      "developers": [
+        {
+          "name": "LoopCap",
+          "url": "https://store.steampowered.com/search/?developer=LoopCap"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "LoopCap",
+          "url": "https://store.steampowered.com/search/?publisher=LoopCap"
+        }
+      ],
+      "genres": [
+        "idle"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 5323,
+        "positive_pct": 93,
+        "url": "https://steamdb.info/app/3946950/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": 817000,
+        "url": "https://app.sensortower.com/vgi/game/click-the-button",
+        "source": "sensortower"
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3946950/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3946950/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "An incremental game about clicking a button to earn reward chests and upgrading your skills to get more out of each click.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3946950/",
+        "https://steamdb.info/tech/Engine/Godot/"
       ]
     },
     {
@@ -2194,6 +2665,1692 @@
       "sources": [
         "https://itunes.apple.com/lookup?id=1046460939&country=us",
         "https://godotengine.org/showcase/callbreak/"
+      ]
+    },
+    {
+      "id": "word-game",
+      "name": "Word Game",
+      "steam_appid": 1109570,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1109570/capsule_231x87.jpg?t=1775638262",
+      "release_date": "2022-01-21",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Team9",
+          "url": "https://store.steampowered.com/search/?developer=Team9"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Team9",
+          "url": "https://store.steampowered.com/search/?publisher=Team9"
+        },
+        {
+          "name": "indienova",
+          "url": "https://store.steampowered.com/search/?publisher=indienova"
+        }
+      ],
+      "genres": [
+        "puzzle",
+        "word game"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 5961,
+        "positive_pct": 93,
+        "url": "https://steamdb.info/app/1109570/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/1109570/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/1109570/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A puzzle adventure played with text: you control the word \"I\" and delete or move words to change what sentences mean.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1109570/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "legend-creatures",
+      "name": "Legend Creatures(传奇生物)",
+      "steam_appid": 1191840,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1191840/capsule_231x87.jpg?t=1689834992",
+      "release_date": "2020-06-19",
+      "status": "released",
+      "developers": [
+        {
+          "name": "HideChara",
+          "url": "https://store.steampowered.com/search/?developer=HideChara"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "HideChara",
+          "url": "https://store.steampowered.com/search/?publisher=HideChara"
+        }
+      ],
+      "genres": [
+        "auto battler",
+        "roguelike"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 3782,
+        "positive_pct": 89,
+        "url": "https://steamdb.info/app/1191840/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/1191840/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/1191840/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A roguelike auto battler where you collect and evolve magical creatures, each with its own talents and skills.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet. Early access: 2020-03-30.",
+      "sources": [
+        "https://store.steampowered.com/app/1191840/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "virtual-cottage",
+      "name": "Virtual Cottage",
+      "steam_appid": 1369320,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1369320/capsule_231x87.jpg?t=1774604887",
+      "release_date": "2020-10-07",
+      "status": "released",
+      "developers": [
+        {
+          "name": "DU&I",
+          "url": "https://store.steampowered.com/search/?developer=DU%26I"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "DU&I",
+          "url": "https://store.steampowered.com/search/?publisher=DU%26I"
+        }
+      ],
+      "genres": [
+        "cozy",
+        "simulation"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 11132,
+        "positive_pct": 97,
+        "url": "https://steamdb.info/app/1369320/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "free": true,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/1369320/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/1369320/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A free cozy focus app: set yourself a goal and work while a calm cottage scene plays, with no game to distract you.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/1369320/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "unrailed-2-back-on-track",
+      "name": "Unrailed 2: Back on Track",
+      "steam_appid": 2211170,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2211170/e612f86a7477662e947bea4c52990c0c07793d05/capsule_231x87.jpg?t=1790852922",
+      "release_date": "2026-06-11",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Indoor Astronaut",
+          "url": "https://store.steampowered.com/search/?developer=Indoor%20Astronaut"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Indoor Astronaut",
+          "url": "https://store.steampowered.com/search/?publisher=Indoor%20Astronaut"
+        },
+        {
+          "name": "Kepler Ghost",
+          "url": "https://store.steampowered.com/search/?publisher=Kepler%20Ghost"
+        }
+      ],
+      "genres": [
+        "co-op",
+        "action"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "reviews": {
+        "total": 1839,
+        "positive_pct": 88,
+        "url": "https://steamdb.info/app/2211170/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2211170/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/2211170/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A co-op game about laying track in front of a moving train through procedurally generated worlds, with bosses, upgrades and a level editor.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet. Early access: 2024-11-07.",
+      "sources": [
+        "https://store.steampowered.com/app/2211170/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "feed-the-cups",
+      "name": "Feed the Cups",
+      "steam_appid": 2336220,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2336220/cdb2f1429ffa38abe33d1b3be71da1e3e284c81a/capsule_231x87_alt_assets_0.jpg?t=1792743513",
+      "release_date": "2026-10-16",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Vambear Games",
+          "url": "https://store.steampowered.com/search/?developer=Vambear%20Games"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "IndieArk",
+          "url": "https://store.steampowered.com/search/?publisher=IndieArk"
+        }
+      ],
+      "genres": [
+        "co-op",
+        "simulation",
+        "roguelite"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "reviews": {
+        "total": 4853,
+        "positive_pct": 72,
+        "url": "https://steamdb.info/app/2336220/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2336220/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/2336220/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "Run a drink shop with friends online: stock ingredients, take orders, mix drinks and clean up across roguelite runs.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet. Early access: 2024-02-21.",
+      "sources": [
+        "https://store.steampowered.com/app/2336220/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "dungeons-and-degenerate-gamblers",
+      "name": "Dungeons & Degenerate Gamblers",
+      "steam_appid": 2400510,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2400510/capsule_231x87.jpg?t=1793807090",
+      "release_date": "2024-08-08",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Purple Moss Collectors",
+          "url": "https://store.steampowered.com/search/?developer=Purple%20Moss%20Collectors"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Yogscast Games",
+          "url": "https://store.steampowered.com/search/?publisher=Yogscast%20Games"
+        }
+      ],
+      "genres": [
+        "roguelike",
+        "deckbuilder"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 3081,
+        "positive_pct": 81,
+        "url": "https://steamdb.info/app/2400510/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2400510/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/2400510/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A blackjack roguelike where you build a deck of odd cards, from tarot to business cards, and beat gamblers in a seedy tavern.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2400510/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "unnamed-space-idle",
+      "name": "Unnamed Space Idle",
+      "steam_appid": 2471100,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2471100/capsule_231x87.jpg?t=1779836289",
+      "release_date": "2023-07-27",
+      "status": "early_access",
+      "developers": [
+        {
+          "name": "Sylv",
+          "url": "https://store.steampowered.com/search/?developer=Sylv"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Jdog Corp",
+          "url": "https://store.steampowered.com/search/?publisher=Jdog%20Corp"
+        }
+      ],
+      "genres": [
+        "idle",
+        "space"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 4607,
+        "positive_pct": 92,
+        "url": "https://steamdb.info/app/2471100/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "free": true,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2471100/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/2471100/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A long free sci-fi idle game where your ship fights endless alien waves and you unlock new weapons and systems to grow stronger.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2471100/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "ballionaire",
+      "name": "Ballionaire",
+      "steam_appid": 2667120,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2667120/c2e9a5970105d5babc0c0ad6e80f57d533d880d2/capsule_231x87.jpg?t=1792068138",
+      "release_date": "2024-12-10",
+      "status": "released",
+      "developers": [
+        {
+          "name": "newobject",
+          "url": "https://store.steampowered.com/search/?developer=newobject"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Raw Fury",
+          "url": "https://store.steampowered.com/search/?publisher=Raw%20Fury"
+        }
+      ],
+      "genres": [
+        "roguelike"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 2432,
+        "positive_pct": 85,
+        "url": "https://steamdb.info/app/2667120/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2667120/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/2667120/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A physics roguelike where balls drop through a board of triggers and you place pieces to build combos that pay out more money each round.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2667120/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "the-rise-of-the-golden-idol",
+      "name": "The Rise of the Golden Idol",
+      "steam_appid": 2716400,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2716400/6e347e6dc24a715af7e06265d3ee2664e8067aab/capsule_231x87.jpg?t=1782893698",
+      "release_date": "2024-11-12",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Color Gray Games",
+          "url": "https://store.steampowered.com/search/?developer=Color%20Gray%20Games"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Playstack",
+          "url": "https://store.steampowered.com/search/?publisher=Playstack"
+        }
+      ],
+      "genres": [
+        "detective",
+        "puzzle"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "reviews": {
+        "total": 3863,
+        "positive_pct": 92,
+        "url": "https://steamdb.info/app/2716400/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/2716400/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/2716400/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "The standalone sequel to The Case of the Golden Idol: solve 20 cases set in the 1970s by studying frozen scenes and working out who did what.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/2716400/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "i-am-legion-stand-survivors",
+      "name": "I Am Legion: Stand Survivors",
+      "steam_appid": 3109580,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3109580/87d2d2652e97e147ec629e96c1e5eaf51a7f36c1/capsule_231x87.jpg?t=1794484295",
+      "release_date": "2025-03-07",
+      "status": "released",
+      "developers": [
+        {
+          "name": "JA Game Studio",
+          "url": "https://store.steampowered.com/search/?developer=JA%20Game%20Studio"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Gamersky Games",
+          "url": "https://store.steampowered.com/search/?publisher=Gamersky%20Games"
+        }
+      ],
+      "genres": [
+        "survivors-like",
+        "action"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 2474,
+        "positive_pct": 82,
+        "url": "https://steamdb.info/app/3109580/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3109580/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3109580/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A survivors-like action game where you summon fighting spirits, merge and upgrade them, and mine and forge gear between runs.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3109580/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "coal-llc",
+      "name": "Coal LLC",
+      "steam_appid": 3361510,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3361510/9b605f6a40350ecc697eea9c113e554e424536ee/capsule_231x87.jpg?t=1776327387",
+      "release_date": "2025-09-12",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Bye Bye Ocean",
+          "url": "https://store.steampowered.com/search/?developer=Bye%20Bye%20Ocean"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Bye Bye Ocean",
+          "url": "https://store.steampowered.com/search/?publisher=Bye%20Bye%20Ocean"
+        }
+      ],
+      "genres": [
+        "simulation",
+        "mining"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "reviews": {
+        "total": 1397,
+        "positive_pct": 92,
+        "url": "https://steamdb.info/app/3361510/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3361510/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3361510/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A mining game where you meet growing coal quotas with stranger and stranger methods, with a peaceful mode for mining at your own pace.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3361510/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "nine-ball-roulette",
+      "name": "Nine-Ball Roulette",
+      "steam_appid": 3376250,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3376250/ec613fd58d146e679f1368fcbe9ce280a065f404/capsule_231x87.jpg?t=1770639491",
+      "release_date": "2025-12-05",
+      "status": "released",
+      "developers": [
+        {
+          "name": "WaveBox Labs",
+          "url": "https://store.steampowered.com/search/?developer=WaveBox%20Labs"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "WaveBox Labs",
+          "url": "https://store.steampowered.com/search/?publisher=WaveBox%20Labs"
+        }
+      ],
+      "genres": [
+        "action"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 2221,
+        "positive_pct": 88,
+        "url": "https://steamdb.info/app/3376250/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3376250/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3376250/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A multiplayer pool game for up to four players where each shot can knock someone out, roulette style, until one player is left.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet. Early access: 2025-01-14.",
+      "sources": [
+        "https://store.steampowered.com/app/3376250/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "overlooting",
+      "name": "Overlooting",
+      "steam_appid": 3410180,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3410180/7bdf4a8c9ad38df9b43384154da9e2c1c63fc146/capsule_231x87_alt_assets_1.jpg?t=1791486348",
+      "release_date": "2025-09-01",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Posing Possums",
+          "url": "https://store.steampowered.com/search/?developer=Posing%20Possums"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Posing Possums",
+          "url": "https://store.steampowered.com/search/?publisher=Posing%20Possums"
+        }
+      ],
+      "genres": [
+        "roguelike",
+        "inventory"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 1426,
+        "positive_pct": 80,
+        "url": "https://steamdb.info/app/3410180/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3410180/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3410180/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "An inventory management roguelike with a skill tree that changes every run, where combining equipment builds the setup you need to beat bosses.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3410180/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "thats-not-my-neighbor",
+      "name": "That's not my Neighbor",
+      "steam_appid": 3431040,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3431040/8b53f1494a1882c14126069d9080317b26a2cc19/capsule_231x87.jpg?t=1792962424",
+      "release_date": "2025-03-11",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Nachosama Games",
+          "url": "https://store.steampowered.com/search/?developer=Nachosama%20Games"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Nachosama Games",
+          "url": "https://store.steampowered.com/search/?publisher=Nachosama%20Games"
+        }
+      ],
+      "genres": [
+        "horror",
+        "simulation"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 4731,
+        "positive_pct": 88,
+        "url": "https://steamdb.info/app/3431040/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3431040/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3431040/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A horror game set in 1955 where you work as a doorman and check visitors and their papers to keep doppelgangers out of the building.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3431040/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "cornerpond",
+      "name": "Cornerpond",
+      "steam_appid": 3454590,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3454590/2475bf10d56643793415ec8db9d8cb51156ecb98/capsule_231x87.jpg?t=1745247733",
+      "release_date": "2025-04-21",
+      "status": "released",
+      "developers": [
+        {
+          "name": "foolsroom",
+          "url": "https://store.steampowered.com/search/?developer=foolsroom"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "foolsroom",
+          "url": "https://store.steampowered.com/search/?publisher=foolsroom"
+        }
+      ],
+      "genres": [
+        "idle",
+        "cozy"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 2599,
+        "positive_pct": 97,
+        "url": "https://steamdb.info/app/3454590/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3454590/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3454590/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "An idle fishing game that sits in a corner of your screen, letting you catch rare fish and buy upgrades while you do other things.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3454590/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "lucid-blocks",
+      "name": "Lucid Blocks",
+      "steam_appid": 3495730,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495730/4b3e0476f243be234b580b83c4c1bc71bce12807/capsule_231x87.jpg?t=1788791480",
+      "release_date": "2026-03-13",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Lucy B. Locks",
+          "url": "https://store.steampowered.com/search/?developer=Lucy%20B.%20Locks"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Lucy B. Locks",
+          "url": "https://store.steampowered.com/search/?publisher=Lucy%20B.%20Locks"
+        }
+      ],
+      "genres": [
+        "sandbox",
+        "survival",
+        "exploration"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 4946,
+        "positive_pct": 93,
+        "url": "https://steamdb.info/app/3495730/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3495730/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3495730/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A first-person sandbox where you explore, build and survive in a strange dreamlike block world full of odd creatures.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3495730/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "horripilant",
+      "name": "Horripilant",
+      "steam_appid": 3525970,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3525970/e82831e316f57878e0edd22f8731da17f8091f64/capsule_231x87.jpg?t=1781276819",
+      "release_date": "2026-02-20",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Alexandre Declos ",
+          "url": "https://store.steampowered.com/search/?developer=Alexandre%20Declos%20"
+        },
+        {
+          "name": "Pas Game Studio",
+          "url": "https://store.steampowered.com/search/?developer=Pas%20Game%20Studio"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Black Lantern Collective",
+          "url": "https://store.steampowered.com/search/?publisher=Black%20Lantern%20Collective"
+        }
+      ],
+      "genres": [
+        "idle",
+        "horror"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 3172,
+        "positive_pct": 92,
+        "url": "https://steamdb.info/app/3525970/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3525970/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3525970/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A dark idle incremental dungeon crawler set in a forgotten underworld, where you keep growing stronger until you can face a god.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3525970/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "upload-labs",
+      "name": "Upload Labs",
+      "steam_appid": 3606890,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3606890/bceebb215844e200307770eade1517f89eb66356/capsule_231x87.jpg?t=1775915574",
+      "release_date": "2025-10-03",
+      "status": "released",
+      "developers": [
+        {
+          "name": "EnigmaDev Studios",
+          "url": "https://store.steampowered.com/search/?developer=EnigmaDev%20Studios"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "EnigmaDev Studios",
+          "url": "https://store.steampowered.com/search/?publisher=EnigmaDev%20Studios"
+        }
+      ],
+      "genres": [
+        "simulation",
+        "management"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 9000,
+        "positive_pct": 91,
+        "url": "https://steamdb.info/app/3606890/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "free": true,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3606890/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3606890/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A free management game where you build a computer system out of linked nodes that download, process and upload files, then tune it to run faster.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3606890/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "gamblers-table",
+      "name": "Gamblers Table",
+      "steam_appid": 3618390,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3618390/a124031054ec59b4ee9056921cfd77f28b048e03/capsule_231x87.jpg?t=1793358155",
+      "release_date": "2026-01-11",
+      "status": "released",
+      "developers": [
+        {
+          "name": "greenpixels",
+          "url": "https://store.steampowered.com/search/?developer=greenpixels"
+        },
+        {
+          "name": "Bossforge",
+          "url": "https://store.steampowered.com/search/?developer=Bossforge"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "greenpixels",
+          "url": "https://store.steampowered.com/search/?publisher=greenpixels"
+        },
+        {
+          "name": "Bossforge",
+          "url": "https://store.steampowered.com/search/?publisher=Bossforge"
+        }
+      ],
+      "genres": [
+        "idle"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 3159,
+        "positive_pct": 74,
+        "url": "https://steamdb.info/app/3618390/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3618390/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3618390/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "An incremental game about flipping coins for money, buying better coins and hiring helpers that automate the flipping for you.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3618390/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "miscrits-world-of-creatures",
+      "name": "Miscrits: World of Creatures",
+      "steam_appid": 3628960,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3628960/398f9daa1dfa5d790256f85c63e4150aaf11647f/capsule_231x87.jpg?t=1785312801",
+      "release_date": "2025-05-25",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Lightning Ball Studios",
+          "url": "https://store.steampowered.com/search/?developer=Lightning%20Ball%20Studios"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Lightning Ball Studios",
+          "url": "https://store.steampowered.com/search/?publisher=Lightning%20Ball%20Studios"
+        }
+      ],
+      "genres": [
+        "creature collector",
+        "rpg"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 2903,
+        "positive_pct": 91,
+        "url": "https://steamdb.info/app/3628960/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "free": true,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3628960/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3628960/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A free creature collector RPG that revives the Miscrits series: catch hundreds of creatures, evolve them and battle other players online.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3628960/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "the-incident-at-galley-house",
+      "name": "The Incident at Galley House",
+      "steam_appid": 3641000,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3641000/538c5b58f09f992d6f2906bf4f56c577cb9e2978/capsule_231x87.jpg?t=1794329038",
+      "release_date": "2026-07-14",
+      "status": "released",
+      "developers": [
+        {
+          "name": "William Rous",
+          "url": "https://store.steampowered.com/search/?developer=William%20Rous"
+        },
+        {
+          "name": "Evil Trout Inc.",
+          "url": "https://store.steampowered.com/search/?developer=Evil%20Trout%20Inc."
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Evil Trout Inc.",
+          "url": "https://store.steampowered.com/search/?publisher=Evil%20Trout%20Inc."
+        }
+      ],
+      "genres": [
+        "detective",
+        "puzzle"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 4961,
+        "positive_pct": 93,
+        "url": "https://steamdb.info/app/3641000/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3641000/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3641000/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A mystery from the makers of The Roottrees are Dead: use a device that shows echoes of the past to work out what happened at a house in 1936.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3641000/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "a-game-about-feeding-a-black-hole",
+      "name": "A Game About Feeding A Black Hole",
+      "steam_appid": 3694480,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3694480/1f36c4af76ec3bce175e9f2ec8941742e3a9a838/capsule_231x87.jpg?t=1787881131",
+      "release_date": "2025-12-15",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Aarimous",
+          "url": "https://store.steampowered.com/search/?developer=Aarimous"
+        },
+        {
+          "name": "Thornity",
+          "url": "https://store.steampowered.com/search/?developer=Thornity"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Aarimous and Thornity",
+          "url": "https://store.steampowered.com/search/?publisher=Aarimous%20and%20Thornity"
+        }
+      ],
+      "genres": [
+        "idle",
+        "space"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 3611,
+        "positive_pct": 87,
+        "url": "https://steamdb.info/app/3694480/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3694480/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3694480/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A short incremental game where you destroy asteroids, planets and stars to feed their matter to a black hole.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3694480/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "train45",
+      "name": "Train45",
+      "steam_appid": 3711590,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711590/ba866dee75da0e5121e7518c35791bd09f28f2a3/capsule_231x87.jpg?t=1783375187",
+      "release_date": "2026-06-26",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Elniko",
+          "url": "https://store.steampowered.com/search/?developer=Elniko"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Mango Party",
+          "url": "https://store.steampowered.com/search/?publisher=Mango%20Party"
+        },
+        {
+          "name": "Mango Party News",
+          "url": "https://store.steampowered.com/search/?publisher=Mango%20Party%20News"
+        }
+      ],
+      "genres": [
+        "horror"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 4579,
+        "positive_pct": 97,
+        "url": "https://steamdb.info/app/3711590/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/3711590/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/3711590/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A horror game set on an endless train, where you and other trapped passengers spot anomalies to survive a demon.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/3711590/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "project-pitt",
+      "name": "Project P.I.T.T.",
+      "steam_appid": 4026250,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/5f126997a54b8b733bb4d5671229b3d83bb1be7e/capsule_231x87.jpg?t=1790073225",
+      "release_date": "2026-08-19",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Froke",
+          "url": "https://store.steampowered.com/search/?developer=Froke"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Pretty Soon",
+          "url": "https://store.steampowered.com/search/?publisher=Pretty%20Soon"
+        }
+      ],
+      "genres": [
+        "simulation",
+        "sandbox"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 1190,
+        "positive_pct": 78,
+        "url": "https://steamdb.info/app/4026250/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/4026250/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/4026250/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A first-person physics sandbox with a PSX look where you build contraptions to feed rubber ducks to a growing corporate void.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/4026250/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "rock-bottom",
+      "name": "Rock Bottom",
+      "steam_appid": 4297840,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4297840/cc3315431d0be025f5a0b84ff1c41ae933087125/capsule_231x87.jpg?t=1791205447",
+      "release_date": "2026-07-14",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Logan Games",
+          "url": "https://store.steampowered.com/search/?developer=Logan%20Games"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Logan Games",
+          "url": "https://store.steampowered.com/search/?publisher=Logan%20Games"
+        }
+      ],
+      "genres": [
+        "idle",
+        "mining"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 2067,
+        "positive_pct": 94,
+        "url": "https://steamdb.info/app/4297840/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/4297840/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/4297840/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "An incremental mining game where you dig through 8 layers, smelt ore and unlock abilities on the way to the bottom.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/4297840/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "hearth-and-hamlet",
+      "name": "Hearth and Hamlet",
+      "steam_appid": 4315040,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/cef23bc7f825aa8da91b16ea1d57ac1ce677b9ea/capsule_231x87.jpg?t=1794583633",
+      "release_date": "2026-08-19",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Phorust Studios",
+          "url": "https://store.steampowered.com/search/?developer=Phorust%20Studios"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Pythia Games",
+          "url": "https://store.steampowered.com/search/?publisher=Pythia%20Games"
+        },
+        {
+          "name": "Gamersky Games",
+          "url": "https://store.steampowered.com/search/?publisher=Gamersky%20Games"
+        }
+      ],
+      "genres": [
+        "idle",
+        "strategy"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "reviews": {
+        "total": 2391,
+        "positive_pct": 79,
+        "url": "https://steamdb.info/app/4315040/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/4315040/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/4315040/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A medieval incremental city builder: grow a campfire into a kingdom by managing resources, researching technology and passing laws.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/4315040/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "alices-gaze",
+      "name": "Alice's Gaze",
+      "steam_appid": 4529120,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4529120/5ec8aced8e9a5a9a280617a87abdd61587f6820b/capsule_231x87.jpg?t=1790670717",
+      "release_date": "2026-08-28",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Starmoon Cat",
+          "url": "https://store.steampowered.com/search/?developer=Starmoon%20Cat"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Starmoon Cat",
+          "url": "https://store.steampowered.com/search/?publisher=Starmoon%20Cat"
+        }
+      ],
+      "genres": [
+        "idle",
+        "horror"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "reviews": {
+        "total": 1002,
+        "positive_pct": 91,
+        "url": "https://steamdb.info/app/4529120/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/4529120/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/4529120/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A dark fairy tale clicker and idle game where Alice wakes in a strange mansion and restores its rooms one by one to find a way out.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/4529120/",
+        "https://steamdb.info/tech/Engine/Godot/"
+      ]
+    },
+    {
+      "id": "fortune-mill",
+      "name": "Fortune Mill",
+      "steam_appid": 4731620,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731620/baf682fe0acb0b037a0825b85d7b60bb203f76d7/capsule_231x87.jpg?t=1788113305",
+      "release_date": "2026-06-02",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Lavaflame2",
+          "url": "https://store.steampowered.com/search/?developer=Lavaflame2"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Lavaflame2",
+          "url": "https://store.steampowered.com/search/?publisher=Lavaflame2"
+        }
+      ],
+      "genres": [
+        "idle"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "reviews": {
+        "total": 4091,
+        "positive_pct": 81,
+        "url": "https://steamdb.info/app/4731620/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/4731620/"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/4731620/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "An incremental game built from small games of chance like darts, pachinko and scratch cards, where each one boosts the others on the way to one million dollars.",
+      "last_checked": "2026-11-16",
+      "notes": "Godot proof is SteamDB engine detection, not a developer statement. Other stores not checked yet.",
+      "sources": [
+        "https://store.steampowered.com/app/4731620/",
+        "https://steamdb.info/tech/Engine/Godot/"
       ]
     }
   ]

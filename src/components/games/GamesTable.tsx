@@ -71,6 +71,43 @@ function MaybeLink({ href, children, className = "" }: { href?: string; children
   );
 }
 
+const PAGE_SIZE = 50;
+
+// When we have no time to beat, link to an HLTB search instead of copying their data.
+function TimeToBeat({ game: g, className = "" }: { game: Game; className?: string }) {
+  if (g.time_to_beat.hours_min == null) {
+    return (
+      <a
+        href={`https://howlongtobeat.com/?q=${encodeURIComponent(g.name)}`}
+        {...EXT}
+        className="text-xs font-semibold text-primary hover:underline"
+      >
+        Check on HLTB
+      </a>
+    );
+  }
+  return (
+    <MaybeLink href={g.time_to_beat.url} className={className}>
+      {formatHours(g.time_to_beat)}
+    </MaybeLink>
+  );
+}
+
+function ShowMore({ shown, total, onMore }: { shown: number; total: number; onMore: () => void }) {
+  if (shown >= total) return null;
+  return (
+    <div className="mt-4 flex justify-center">
+      <button
+        type="button"
+        onClick={onMore}
+        className="rounded-full border border-primary/30 bg-white px-5 py-2 text-sm font-semibold text-primary shadow-sm transition hover:border-primary hover:bg-primary hover:text-white"
+      >
+        Show {Math.min(PAGE_SIZE, total - shown)} more ({shown} of {total})
+      </button>
+    </div>
+  );
+}
+
 function Names({ list }: { list: NamedLink[] }) {
   if (!list.length) return <span className="text-black/35">N/A</span>;
   return (
@@ -195,6 +232,7 @@ export function GamesTable({ games }: { games: Game[] }) {
   const [store, setStore] = useState<"all" | StoreKey>("all");
   const [sort, setSort] = useState<{ key: SortKey; dir: SortDir }>({ key: "revenue", dir: "desc" });
   const [open, setOpen] = useState<string | null>(null);
+  const [limit, setLimit] = useState(PAGE_SIZE);
 
   const allGenres = useMemo(
     () => Array.from(new Set(games.flatMap((g) => g.genres))).sort(),
@@ -224,6 +262,10 @@ export function GamesTable({ games }: { games: Game[] }) {
       return va < vb ? -dir : va > vb ? dir : 0;
     });
   }, [games, query, status, genre, store, sort]);
+
+  // Filters and sorting run on the full list above; only the rendering is capped.
+  const visible = rows.slice(0, limit);
+  const showMore = () => setLimit((n) => n + PAGE_SIZE);
 
   const onSort = (key: SortKey) =>
     setSort((s) =>
@@ -361,7 +403,7 @@ export function GamesTable({ games }: { games: Game[] }) {
               </tr>
             </thead>
             <tbody>
-              {rows.map((g, i) => {
+              {visible.map((g, i) => {
                 const isOpen = open === g.id;
                 return (
                   <Fragment key={g.id}>
@@ -407,9 +449,7 @@ export function GamesTable({ games }: { games: Game[] }) {
                         </div>
                       </td>
                       <td className="whitespace-nowrap px-3 py-3">
-                        <MaybeLink href={g.time_to_beat.url} className={g.time_to_beat.hours_min == null ? "text-black/35" : "text-black/75"}>
-                          {formatHours(g.time_to_beat)}
-                        </MaybeLink>
+                        <TimeToBeat game={g} className="text-black/75" />
                       </td>
                       <td className="whitespace-nowrap px-3 py-3 text-right font-semibold tabular-nums">
                         <MaybeLink href={g.revenue.url} className={g.revenue.usd == null && !g.revenue.free ? "font-normal text-black/35" : "text-black/85"}>
@@ -450,10 +490,13 @@ export function GamesTable({ games }: { games: Game[] }) {
           {rows.length === 0 && <Empty onReset={reset} />}
         </div>
       </div>
+      <div className="hidden lg:block">
+        <ShowMore shown={visible.length} total={rows.length} onMore={showMore} />
+      </div>
 
       {/* Mobile and tablet cards */}
       <ol className="flex flex-col gap-3 lg:hidden">
-        {rows.map((g, i) => (
+        {visible.map((g, i) => (
           <li key={g.id} className="rounded-xl border border-black/[0.08] bg-white p-4 shadow-sm">
             <div className="flex items-start gap-3">
               <span className="pt-0.5 text-xs tabular-nums text-black/35">{i + 1}</span>
@@ -490,9 +533,7 @@ export function GamesTable({ games }: { games: Game[] }) {
                   <div>
                     <dt className="text-black/40">Time to beat</dt>
                     <dd className="font-semibold">
-                      <MaybeLink href={g.time_to_beat.url} className="text-black/80">
-                        {formatHours(g.time_to_beat)}
-                      </MaybeLink>
+                      <TimeToBeat game={g} className="text-black/80" />
                     </dd>
                   </div>
                 </dl>
@@ -513,6 +554,9 @@ export function GamesTable({ games }: { games: Game[] }) {
           </li>
         ))}
       </ol>
+      <div className="lg:hidden">
+        <ShowMore shown={visible.length} total={rows.length} onMore={showMore} />
+      </div>
       {rows.length === 0 && (
         <div className="lg:hidden">
           <Empty onReset={reset} />
