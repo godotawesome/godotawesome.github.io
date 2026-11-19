@@ -11,7 +11,7 @@ hidden: false
 updated: 2026-11-19
 ---
 
-**The latest stable Godot version is 4.7.2** (released 18 August 2026). **Godot 4.8 is in beta** (beta 4 on 18 November 2026, release candidate expected next) and is not out yet. This page lists every Godot 4 release with its date and support status, and we update it with each new release.
+**The latest stable Godot version is 4.7.2** (released 18 August 2026). **Godot 4.8 is in beta** (beta 4 on 18 November 2026, possibly the last beta) and is not out yet. This page lists every Godot 4 release with its date and support status, and we update it with each new release.
 
 Last checked: 19 November 2026.
 
@@ -124,7 +124,7 @@ Patch releases are meant to be backward compatible. **Minor releases can include
 The latest stable release is Godot 4.7.2 (18 August 2026). Godot 4.8 is in beta.
 
 ### Is Godot 4.8 out?
-Not as stable. The latest build is beta 4 (18 November 2026). The beta 4 post says it may be the last beta and a release candidate is imminent. The release policy estimates a stable release in the last quarter of 2026, with no date announced.
+Not as stable. The latest build is beta 4 (18 November 2026). The beta 4 post says it may be the last beta snapshot of the 4.8 cycle, but it does not give a release candidate or stable date. The release policy estimates a stable release in the last quarter of 2026, with no date announced.
 
 ### Is Godot 4.4 still supported?
 No. According to the release policy, Godot 4.4 and earlier are end of life.
