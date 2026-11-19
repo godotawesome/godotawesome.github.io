@@ -5,7 +5,20 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 14 Nov 2026 09:24:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 07:36:31 GMT</lastBuildDate>
+      <item>
+        <title>GDScript vs C# in Godot 4: Which One Should You Pick in 2026?</title>
+        <description>GDScript or C# for Godot 4? Platform support, speed, setup and the same script in both languages, so you can decide in five minutes. Checked against the official docs.</description>
+        <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/gdscript-vs-csharp-godot/</link>
+        <guid isPermaLink="true">https://godotawesome.com/gdscript-vs-csharp-godot/</guid>
+        <category>GDScript</category>
+        <category>CSharp</category>
+        <category>Godot 4</category>
+        <category>Beginners</category>
+        <category>Programming</category>
+        <category>Tutorials</category>
+      </item>
       <item>
         <title>Godot Web Export (HTML5): Quick Guide for Godot 4</title>
         <description>Export a Godot 4 game to the web: settings, a local test server, the headers threads need, file size tips and a GDScript snippet for browser quirks.</description>
@@ -46,7 +59,7 @@
       </item>
       <item>
         <title>Godot Versions: Latest Stable, Release Dates and Support Status</title>
-        <description>Latest stable Godot is 4.7.2 and 4.8 is in beta 3. Every Godot 4 release with date, support status and what changed, so you know which version to use.</description>
+        <description>Latest stable Godot is 4.7.2 and 4.8 is in beta 4. Every Godot 4 release with date, support status and what changed, so you know which version to use.</description>
         <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
         <link>https://godotawesome.com/godot-versions/</link>
         <guid isPermaLink="true">https://godotawesome.com/godot-versions/</guid>
@@ -97,7 +110,7 @@
       </item>
       <item>
         <title>Godot 4.8 Beta: What's New, Release Date and What Breaks</title>
-        <description>Godot 4.8 beta 3 is out (9 Nov 2026). New editor docks, Trail3D, .NET 10 requirement, breaking changes and the release date status. Read before you upgrade.</description>
+        <description>Godot 4.8 beta 4 is out (18 Nov 2026), and it may be the last beta before the release candidate. New editor docks, Trail3D, .NET 10 requirement, breaking changes and the release date status. Read before you upgrade.</description>
         <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
         <link>https://godotawesome.com/godot-4-8/</link>
         <guid isPermaLink="true">https://godotawesome.com/godot-4-8/</guid>
@@ -119,20 +132,6 @@
         <category>Godot 4</category>
         <category>Tutorial</category>
         <category>Development Tools</category>
-      </item>
-      <item>
-        <title>Ship a Godot iOS Game From an Android Phone (No Mac, No Laptop)</title>
-        <description>Build a Godot game for iOS and upload it to TestFlight using only an Android phone: Termux, the Godot Android editor and the ShipThis CLI.</description>
-        <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/ship-godot-ios-game-from-android-phone/</link>
-        <guid isPermaLink="true">https://godotawesome.com/ship-godot-ios-game-from-android-phone/</guid>
-        <category>iOS</category>
-        <category>Android</category>
-        <category>TestFlight</category>
-        <category>Mobile</category>
-        <category>Godot 4</category>
-        <category>Termux</category>
-        <category>Tutorials</category>
       </item>
   </channel>
 </rss>
