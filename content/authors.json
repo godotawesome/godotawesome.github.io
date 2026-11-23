@@ -37,5 +37,14 @@
     "avatar": "/assets/images/tejesh-vaish.png",
     "web": "https://tejeshvaish.com",
     "description": "Lead Engineer at Lumian.ai and an IIT Kanpur CSE graduate. Works on AI agents and backend systems."
+  },
+  "artcore-editorial": {
+    "order": 4,
+    "name": "ARTCORE Editorial Team",
+    "display_name": "ARTCORE Editorial Team",
+    "type": "Organization",
+    "avatar": "/assets/images/artcore-editorial.png",
+    "web": "https://artcore.gg/",
+    "description": "The editorial team of ARTCORE, a network of gaming clubs in Kazan and Tsaryovo. This guide shares a reproducible collision test for Godot developers."
   }
 }
