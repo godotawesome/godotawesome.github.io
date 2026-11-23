@@ -5,7 +5,7 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 23 Nov 2026 09:17:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 09:23:40 GMT</lastBuildDate>
       <item>
         <title>Which tiles does a Rect2i hitbox cover in Godot 4?</title>
         <description>Find the grid cells under a Godot 4 Rect2i hitbox. Run an integer-coordinate probe and check a crate on a tile edge, across the origin and at zero width.</description>

@@ -6,7 +6,7 @@ categories: [ Development Tools ]
 tags: [MCP, Claude Code, AI Integration, Godot 4, Tutorial]
 image: assets/images/articles/godot-mcp-claude-code.png
 description: "Connect Claude Code to Godot with an MCP server in about 5 minutes. Exact commands for Windows, macOS and Linux, how to verify it, and how to fix common errors."
-featured: true
+featured: false
 hidden: false
 ---
 

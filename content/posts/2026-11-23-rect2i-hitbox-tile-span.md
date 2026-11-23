@@ -6,7 +6,7 @@ categories: [ Tutorials ]
 tags: [GDScript, Godot 4, 2D, Collision]
 image: assets/images/articles/rect2i-hitbox-tile-span.png
 description: "Find the grid cells under a Godot 4 Rect2i hitbox. Run an integer-coordinate probe and check a crate on a tile edge, across the origin and at zero width."
-featured: false
+featured: true
 hidden: false
 ---
 
