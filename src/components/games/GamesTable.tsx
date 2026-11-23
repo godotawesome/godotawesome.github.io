@@ -33,6 +33,7 @@ const STORE_STYLE: Record<StoreKey, string> = {
   nintendo: "bg-[#e60012] text-white hover:bg-[#b8000e]",
   app_store: "bg-[#0d96f6] text-white hover:bg-[#0a78c5]",
   google_play: "bg-[#01875f] text-white hover:bg-[#016a4b]",
+  microsoft_store: "bg-[#0067b8] text-white hover:bg-[#005a9e]",
 };
 
 const EXT = { target: "_blank", rel: "nofollow noopener noreferrer" } as const;

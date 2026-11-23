@@ -10,7 +10,8 @@ export type StoreKey =
   | "playstation"
   | "nintendo"
   | "app_store"
-  | "google_play";
+  | "google_play"
+  | "microsoft_store";
 
 export type NamedLink = { name: string; url?: string };
 
@@ -70,6 +71,7 @@ export const STORE_LABELS: Record<StoreKey, string> = {
   nintendo: "Switch",
   app_store: "App Store",
   google_play: "Google Play",
+  microsoft_store: "Microsoft Store",
 };
 
 export const STORE_ORDER: StoreKey[] = [
@@ -82,6 +84,7 @@ export const STORE_ORDER: StoreKey[] = [
   "nintendo",
   "app_store",
   "google_play",
+  "microsoft_store",
 ];
 
 const MONTHS = [

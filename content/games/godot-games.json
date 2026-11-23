@@ -4352,6 +4352,70 @@
         "https://store.steampowered.com/app/4731620/",
         "https://steamdb.info/tech/Engine/Godot/"
       ]
+    },
+    {
+      "id": "ardhan",
+      "name": "Ardhan",
+      "steam_appid": 5391500,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5391500/28e3ae9b1260e51299e30bc178d7e948a0889d5e/capsule_231x87.jpg?t=1795231176",
+      "release_date": "2026-10-26",
+      "status": "released",
+      "developers": [
+        {
+          "name": "Ștefan Mihai Șerb",
+          "url": "https://store.steampowered.com/search/?developer=%C8%98tefan%20Mihai%20%C8%98erb"
+        }
+      ],
+      "publishers": [
+        {
+          "name": "Ștefan Mihai Șerb",
+          "url": "https://store.steampowered.com/search/?publisher=%C8%98tefan%20Mihai%20%C8%98erb"
+        }
+      ],
+      "genres": [
+        "roguelike",
+        "deckbuilder"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Android"
+      ],
+      "reviews": {
+        "total": 7,
+        "positive_pct": 71,
+        "url": "https://steamdb.info/app/5391500/charts/"
+      },
+      "time_to_beat": {
+        "hours_min": null,
+        "hours_max": null,
+        "url": "",
+        "source": ""
+      },
+      "revenue": {
+        "usd": null,
+        "free": true,
+        "url": "",
+        "source": ""
+      },
+      "stores": {
+        "steam": "https://store.steampowered.com/app/5391500/",
+        "google_play": "https://play.google.com/store/apps/details?id=com.unitechdigital.ardhan",
+        "microsoft_store": "https://apps.microsoft.com/detail/9NHQ8P3417S5"
+      },
+      "godot_proof": {
+        "url": "https://steamdb.info/app/5391500/",
+        "type": "steamdb_tech"
+      },
+      "article": "",
+      "description": "A free solo-made roguelike deckbuilder played on a board where you can see the rival's next moves, with 12 factions and six acts of branching maps.",
+      "last_checked": "2026-11-23",
+      "notes": "Godot proof is SteamDB engine detection (checked by Alihan); the developer also says Godot by email. Added below the 1,000 review bar at Alihan's request after a developer submission on 2026-11-23. iOS and Mac versions announced as coming soon in the press kit.",
+      "sources": [
+        "https://store.steampowered.com/app/5391500/",
+        "https://steamdb.info/app/5391500/",
+        "https://serbstefan-cmyk.github.io/ardhan-support/presskit/?lang=en"
+      ]
     }
   ]
 }
