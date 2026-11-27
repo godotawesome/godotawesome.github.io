@@ -5,7 +5,7 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 27 Nov 2026 07:11:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 07:18:38 GMT</lastBuildDate>
       <item>
         <title>Godot Shader Tutorial for Beginners: 5 Simple 2D Effects (Godot 4)</title>
         <description>Godot shader tutorial for beginners: 5 copy-paste 2D canvas_item shaders (grayscale, hit flash, gradient, ring, dissolve) with GDScript for Godot 4.</description>

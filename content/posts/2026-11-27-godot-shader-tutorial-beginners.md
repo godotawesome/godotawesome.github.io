@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Godot Shader Tutorial for Beginners: 5 Simple 2D Effects (Godot 4)"
-author: alihan98ersoy
+author: godotscribe
 categories: [ Tutorials ]
 tags: [Shaders, GDScript, Godot 4, 2D]
 image: assets/images/articles/godot-shader-tutorial-beginners.png
