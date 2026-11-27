@@ -5,7 +5,19 @@
     <description>Your place for Godot Engine content: tutorials, projects, and community insights for indie developers and open-source creators.</description>
     <link>https://godotawesome.com/</link>
     <atom:link href="https://godotawesome.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 23 Nov 2026 09:23:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 07:11:57 GMT</lastBuildDate>
+      <item>
+        <title>Godot Shader Tutorial for Beginners: 5 Simple 2D Effects (Godot 4)</title>
+        <description>Godot shader tutorial for beginners: 5 copy-paste 2D canvas_item shaders (grayscale, hit flash, gradient, ring, dissolve) with GDScript for Godot 4.</description>
+        <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+        <link>https://godotawesome.com/godot-shader-tutorial-beginners/</link>
+        <guid isPermaLink="true">https://godotawesome.com/godot-shader-tutorial-beginners/</guid>
+        <category>Shaders</category>
+        <category>GDScript</category>
+        <category>Godot 4</category>
+        <category>2D</category>
+        <category>Tutorials</category>
+      </item>
       <item>
         <title>Which tiles does a Rect2i hitbox cover in Godot 4?</title>
         <description>Find the grid cells under a Godot 4 Rect2i hitbox. Run an integer-coordinate probe and check a crate on a tile edge, across the origin and at zero width.</description>
@@ -123,18 +135,6 @@
         <category>Jolt</category>
         <category>GDScript</category>
         <category>Quick Code</category>
-      </item>
-      <item>
-        <title>Write for GodotAwesome: How to Submit a Guest Article</title>
-        <description>Want to write about Godot? Here is how to pitch and submit a guest article to GodotAwesome with a GitHub pull request, plus our writing rules.</description>
-        <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-        <link>https://godotawesome.com/write-for-godotawesome/</link>
-        <guid isPermaLink="true">https://godotawesome.com/write-for-godotawesome/</guid>
-        <category>Contributing</category>
-        <category>Guest Post</category>
-        <category>GitHub</category>
-        <category>Write for Us</category>
-        <category>Community</category>
       </item>
   </channel>
 </rss>
